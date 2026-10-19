@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/coin_slot.gd" id="1"]
+
+[node name="CoinSlot" type="Control"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 0
+script = ExtResource("1")

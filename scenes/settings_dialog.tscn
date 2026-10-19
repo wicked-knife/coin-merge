@@ -439,11 +439,15 @@ text = "返回主页"
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_horizontal = 3
-focus_mode = 0
+focus_mode = 2
 theme_override_colors/font_disabled_color = Color(0.9, 0.91, 0.94, 1)
 theme_override_font_sizes/font_size = 32
 theme_override_styles/disabled = SubResource("Style_retry_disabled")
-disabled = true
+theme_override_styles/normal = SubResource("Style_home")
+theme_override_styles/hover = SubResource("Style_home_hover")
+theme_override_styles/pressed = SubResource("Style_home_pressed")
+theme_override_styles/focus = SubResource("Style_home_focus")
+disabled = false
 text = "重新挑战"
 
 [connection signal="pressed" from="Panel/CloseButton" to="." method="dismiss"]

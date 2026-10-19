@@ -6,6 +6,7 @@ signal vibration_toggled(enabled: bool)
 signal language_selected(locale: String)
 signal feedback_requested
 signal home_requested
+signal retry_requested
 
 @onready var panel: NinePatchRect = $Panel
 @onready var title: Label = $Panel/Title
@@ -19,6 +20,7 @@ signal home_requested
 @onready var message: Label = $Panel/Message
 @onready var game_actions: HBoxContainer = $Panel/GameActions
 @onready var home_button: Button = $Panel/GameActions/HomeButton
+@onready var retry_button: Button = $Panel/GameActions/RetryButton
 
 # 游戏实例在编辑器中也显示 740 高的面板；菜单实例保持默认布局。
 @export var in_game_layout := false
@@ -38,6 +40,7 @@ func _ready() -> void:
 	chinese_button.pressed.connect(_on_language_pressed.bind("zh"))
 	english_button.pressed.connect(_on_language_pressed.bind("en"))
 	_set_game_layout(in_game_layout)
+	retry_button.pressed.connect(_on_retry_pressed)
 
 
 func set_language(locale: String) -> void:
@@ -104,6 +107,7 @@ func _set_focus_cycle() -> void:
 		buttons.append_array([chinese_button, english_button])
 	if game_actions.visible:
 		buttons.append(home_button)
+		buttons.append(retry_button)
 	for index in range(buttons.size()):
 		var button := buttons[index]
 		var previous := button.get_path_to(buttons[posmod(index - 1, buttons.size())])
@@ -122,6 +126,13 @@ func _on_home_pressed() -> void:
 	_home_pending = true
 	home_button.disabled = true
 	home_requested.emit()
+
+
+func _on_retry_pressed() -> void:
+	if not visible or not game_actions.visible or _home_pending:
+		return
+	feedback_requested.emit()
+	retry_requested.emit()
 
 
 func dismiss() -> void:

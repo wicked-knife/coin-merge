@@ -13,3 +13,50 @@ keys,zh,en
 返回主界面,返回主界面,Back to main menu
 返回主页,返回主页,Main menu
 重新挑战,重新挑战,Retry
+发牌,发牌,Deal
+下个目标,下个目标,Next goal
+解锁新槽位,解锁新槽位,Unlock slots
+进入下一关,进入下一关,Next level
+点击解锁,点击解锁,Tap to unlock
+奖励槽位,奖励槽位,Bonus slot
+第 %d 关 · 点击同级硬币进行整理,第 %d 关 · 点击同级硬币进行整理,Level %d · Sort matching coins
+点击硬币，选中顶部连续同级硬币,点击硬币，选中顶部连续同级硬币,Tap to select matching coins at the top
+再点相同硬币的槽位，将它们合在一起,再点相同硬币的槽位，将它们合在一起,Tap a matching stack to move the coins
+10 枚同级硬币，自动合成 2 枚高一级硬币,10 枚同级硬币，自动合成 2 枚高一级硬币,10 matching coins become 2 higher level coins
+点击「发牌」，获得更多硬币,点击「发牌」，获得更多硬币,Tap Deal to get more coins
+继续合成,继续合成,Keep merging
+合成 5 级硬币即可解锁新槽位！,合成 5 级硬币即可解锁新槽位！,Merge a level 5 coin to unlock more slots!
+收集上方五个目标，进入下一关。,收集上方五个目标，进入下一关。,Reach all five goals above to advance.
+知道了,知道了,Got it
+继续,继续,Continue
+关卡完成！,关卡完成！,Level complete!
+合成新硬币！,合成新硬币！,New coin unlocked!
+已进入第 %d 关，继续合成更高等级硬币！,已进入第 %d 关，继续合成更高等级硬币！,Welcome to level %d! Keep merging!
+新槽位已就绪，点击发光的锁开启。,新槽位已就绪，点击发光的锁开启。,Tap a glowing lock to open a new slot.
+新槽位已就绪，点击发光的锁开启,新槽位已就绪，点击发光的锁开启,Tap a glowing lock to open a new slot
+达成上方目标即可解锁新槽位,达成上方目标即可解锁新槽位,Reach the next goal to unlock slots
+只能移到空槽或相同的顶部硬币上,只能移到空槽或相同的顶部硬币上,Move to an empty slot or matching top coin
+%d 连合！,%d 连合！,%d merges!
+槽位已满,槽位已满,Board full
+整理同级硬币释放空间，或重新挑战当前关卡。,整理同级硬币释放空间，或重新挑战当前关卡。,Sort matching coins to free space or retry this level.
+整理（剩余 %d 次）,整理（剩余 %d 次）,Sort (%d left)
+奖励未完成，请稍后再试,奖励未完成，请稍后再试,Reward incomplete. Please try again.
+继续合并相同等级的硬币,继续合并相同等级的硬币,Keep merging coins of the same level
+合成上方的最终目标硬币，进入下一关。,合成上方的最终目标硬币，进入下一关。,Merge the final goal coin above to reach the next level.
+继续合成，挑战更高等级！,继续合成，挑战更高等级！,Keep merging to reach higher levels!
+normal.congrats,恭喜！,Congrats!
+normal.level_up,新硬币！,New Coin!
+normal.level_clear,全部完成！,All Clear!
+normal.combo_2,太棒了！,Great!
+normal.combo_3,厉害！,Amazing!
+normal.combo_4,好极了！,Wonderful!
+normal.combo_5,精彩！,Fantastic!
+normal.combo_6,难以置信！,Incredible!
+normal.combo_7,不可思议！,Unbelievable!
+normal.combo_8,完美！,PERFECT!
+normal.combo_9,传奇！,LEGENDARY!
+normal.guide.tap_select,点击选择。,Tap to select.
+normal.guide.same_type,同类型放一起噢。,Place same types together.
+normal.guide.get_more,获取更多的硬币。,Get more coins.
+normal.guide.keep_merge,继续合成~,Keep merging~
+normal.guide.merge_target,这是本关的合成目标！,This is the merge target!
