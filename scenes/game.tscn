@@ -1,44 +1,980 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=22 format=3]
 
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/BG.png" id="1_background"]
-[ext_resource type="Script" path="res://scripts/game.gd" id="2_script"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_Home.png" id="3_home"]
+[ext_resource type="Script" path="res://scripts/game.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/BG.png" id="2_background"]
+[ext_resource type="PackedScene" path="res://scenes/settings_dialog.tscn" id="3_dialog"]
 [ext_resource type="AudioStream" path="res://assets/rea_original/audio/click.mp3" id="4_click"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png" id="5_settings"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Box2.png" id="6_board"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/BG_Lock.png" id="7_locked_slot"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Icon_Lock.png" id="8_lock"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/BG_Trench.png" id="9_open_slot"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/normal/1.png" id="10_coin"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/big/BigCoin5.png" id="11_target_coin"]
+[ext_resource type="FontFile" path="res://assets/rea_original/fonts/number01/number01.fnt" id="12_numbers"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/TargetBar.png" id="13_target_bar"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/TargetBG_1.png" id="14_future_target"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/TargetBG_2.png" id="15_current_ring"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/TargetBG_4_b515ca35.png" id="16_final_target"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/TargetBG_4.2.png" id="17_crown"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/TargetArrow1.png" id="18_arrow"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_Deal.png" id="19_deal"]
+
+[sub_resource type="SystemFont" id="SystemFont_chinese"]
+font_names = PackedStringArray("Microsoft YaHei", "Noto Sans CJK SC")
+
+[sub_resource type="Theme" id="Theme_game"]
+default_font = SubResource("SystemFont_chinese")
+default_font_size = 28
 
 [node name="Game" type="Control"]
 layout_mode = 3
 anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_right = 1
+anchor_bottom = 1
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("2_script")
+mouse_filter = 2
+theme = SubResource("Theme_game")
+script = ExtResource("1_script")
 
 [node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_right = 1
+anchor_bottom = 1
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-texture = ExtResource("1_background")
+texture = ExtResource("2_background")
 expand_mode = 1
 
-[node name="HomeButton" type="TextureButton" parent="."]
+[node name="Layout" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -375
+offset_top = -667
+offset_right = 375
+offset_bottom = 667
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TopBar" type="Control" parent="Layout"]
 layout_mode = 0
-offset_left = 27.0
-offset_top = 151.5
-offset_right = 113.0
-offset_bottom = 248.5
+offset_left = 36
+offset_top = 42
+offset_right = 714
+offset_bottom = 158
+mouse_filter = 2
+
+[node name="SettingsButton" type="TextureButton" parent="Layout/TopBar"]
+layout_mode = 0
+offset_left = 0
+offset_top = 7
+offset_right = 82
+offset_bottom = 98
+mouse_filter = 0
 focus_mode = 2
 mouse_default_cursor_shape = 2
-tooltip_text = "返回主界面"
-texture_normal = ExtResource("3_home")
+tooltip_text = "设置"
+texture_normal = ExtResource("5_settings")
 ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Progress" type="Control" parent="Layout/TopBar"]
+layout_mode = 0
+offset_left = 109
+offset_top = 12
+offset_right = 569
+offset_bottom = 104
+mouse_filter = 2
+
+[node name="Track" type="NinePatchRect" parent="Layout/TopBar/Progress"]
+layout_mode = 0
+offset_left = 32
+offset_top = 35
+offset_right = 416
+offset_bottom = 49
+mouse_filter = 2
+texture = ExtResource("13_target_bar")
+patch_margin_left = 18
+patch_margin_right = 18
+
+[node name="Target5" type="Control" parent="Layout/TopBar/Progress"]
+layout_mode = 0
+offset_left = 4
+offset_top = 14
+offset_right = 60
+offset_bottom = 70
+mouse_filter = 2
+
+[node name="CurrentRing" type="TextureRect" parent="Layout/TopBar/Progress/Target5"]
+layout_mode = 0
+offset_left = -8
+offset_top = -9
+offset_right = 64
+offset_bottom = 65
+mouse_filter = 2
+texture = ExtResource("15_current_ring")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Coin" type="TextureRect" parent="Layout/TopBar/Progress/Target5"]
+layout_mode = 0
+offset_left = 0
+offset_top = -1
+offset_right = 56
+offset_bottom = 57
+mouse_filter = 2
+texture = ExtResource("11_target_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/TopBar/Progress/Target5"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+text = "5"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+
+[node name="Target6" type="Control" parent="Layout/TopBar/Progress"]
+layout_mode = 0
+offset_left = 100
+offset_top = 14
+offset_right = 156
+offset_bottom = 70
+mouse_filter = 2
+
+[node name="Background" type="TextureRect" parent="Layout/TopBar/Progress/Target6"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+texture = ExtResource("14_future_target")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/TopBar/Progress/Target6"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+text = "6"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(1, 1, 1, 0.8)
+
+[node name="Target7" type="Control" parent="Layout/TopBar/Progress"]
+layout_mode = 0
+offset_left = 196
+offset_top = 14
+offset_right = 252
+offset_bottom = 70
+mouse_filter = 2
+
+[node name="Background" type="TextureRect" parent="Layout/TopBar/Progress/Target7"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+texture = ExtResource("14_future_target")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/TopBar/Progress/Target7"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+text = "7"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(1, 1, 1, 0.8)
+
+[node name="Target9" type="Control" parent="Layout/TopBar/Progress"]
+layout_mode = 0
+offset_left = 292
+offset_top = 14
+offset_right = 348
+offset_bottom = 70
+mouse_filter = 2
+
+[node name="Background" type="TextureRect" parent="Layout/TopBar/Progress/Target9"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+texture = ExtResource("14_future_target")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/TopBar/Progress/Target9"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+text = "9"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(1, 1, 1, 0.8)
+
+[node name="Target10" type="Control" parent="Layout/TopBar/Progress"]
+layout_mode = 0
+offset_left = 388
+offset_top = 14
+offset_right = 444
+offset_bottom = 70
+mouse_filter = 2
+
+[node name="Background" type="TextureRect" parent="Layout/TopBar/Progress/Target10"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+texture = ExtResource("16_final_target")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/TopBar/Progress/Target10"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 56
+offset_bottom = 56
+mouse_filter = 2
+text = "10"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+
+[node name="Crown" type="TextureRect" parent="Layout/TopBar/Progress/Target10"]
+layout_mode = 0
+offset_left = 4
+offset_top = -28
+offset_right = 52
+offset_bottom = 8
+mouse_filter = 2
+texture = ExtResource("17_crown")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Board" type="NinePatchRect" parent="Layout"]
+layout_mode = 0
+offset_left = 55
+offset_top = 205
+offset_right = 695
+offset_bottom = 1135
+mouse_filter = 2
+texture = ExtResource("6_board")
+patch_margin_left = 149
+patch_margin_top = 151
+patch_margin_right = 149
+patch_margin_bottom = 151
+
+[node name="TargetHeader" type="HBoxContainer" parent="Layout/Board"]
+layout_mode = 0
+offset_left = 105
+offset_top = 22
+offset_right = 535
+offset_bottom = 76
+mouse_filter = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Caption" type="Label" parent="Layout/Board/TargetHeader"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.38, 1)
+theme_override_font_sizes/font_size = 25
+text = "下个目标"
+vertical_alignment = 1
+
+[node name="LeftArrow" type="TextureRect" parent="Layout/Board/TargetHeader"]
+custom_minimum_size = Vector2(20, 17)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("18_arrow")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TargetCoin" type="TextureRect" parent="Layout/Board/TargetHeader"]
+custom_minimum_size = Vector2(42, 44)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("11_target_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/TargetHeader/TargetCoin"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1
+anchor_bottom = 1
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 26
+text = "5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightArrow" type="TextureRect" parent="Layout/Board/TargetHeader"]
+custom_minimum_size = Vector2(20, 17)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("18_arrow")
+expand_mode = 1
+stretch_mode = 5
+flip_h = true
+
+[node name="UnlockHint" type="Label" parent="Layout/Board/TargetHeader"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.38, 1)
+theme_override_font_sizes/font_size = 23
+text = "解锁新槽位"
+vertical_alignment = 1
+
+[node name="Slots" type="GridContainer" parent="Layout/Board"]
+layout_mode = 0
+offset_left = 52
+offset_top = 118
+offset_right = 588
+offset_bottom = 846
+mouse_filter = 2
+theme_override_constants/h_separation = 16
+theme_override_constants/v_separation = 28
+columns = 4
+
+[node name="Slot11" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot11"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("7_locked_slot")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LockIcon" type="TextureRect" parent="Layout/Board/Slots/Slot11"]
+layout_mode = 0
+offset_left = 39.5
+offset_top = 93
+offset_right = 82.5
+offset_bottom = 150
+mouse_filter = 2
+texture = ExtResource("8_lock")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot12" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot12"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("7_locked_slot")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LockIcon" type="TextureRect" parent="Layout/Board/Slots/Slot12"]
+layout_mode = 0
+offset_left = 39.5
+offset_top = 93
+offset_right = 82.5
+offset_bottom = 150
+mouse_filter = 2
+texture = ExtResource("8_lock")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot13" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot13"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("7_locked_slot")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LockIcon" type="TextureRect" parent="Layout/Board/Slots/Slot13"]
+layout_mode = 0
+offset_left = 39.5
+offset_top = 93
+offset_right = 82.5
+offset_bottom = 150
+mouse_filter = 2
+texture = ExtResource("8_lock")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot14" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot14"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("7_locked_slot")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LockIcon" type="TextureRect" parent="Layout/Board/Slots/Slot14"]
+layout_mode = 0
+offset_left = 39.5
+offset_top = 93
+offset_right = 82.5
+offset_bottom = 150
+mouse_filter = 2
+texture = ExtResource("8_lock")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot21" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot21"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("9_open_slot")
+expand_mode = 1
 stretch_mode = 0
+
+[node name="Slot22" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot22"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("7_locked_slot")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LockIcon" type="TextureRect" parent="Layout/Board/Slots/Slot22"]
+layout_mode = 0
+offset_left = 39.5
+offset_top = 93
+offset_right = 82.5
+offset_bottom = 150
+mouse_filter = 2
+texture = ExtResource("8_lock")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot23" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot23"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("7_locked_slot")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LockIcon" type="TextureRect" parent="Layout/Board/Slots/Slot23"]
+layout_mode = 0
+offset_left = 39.5
+offset_top = 93
+offset_right = 82.5
+offset_bottom = 150
+mouse_filter = 2
+texture = ExtResource("8_lock")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot24" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot24"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("7_locked_slot")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LockIcon" type="TextureRect" parent="Layout/Board/Slots/Slot24"]
+layout_mode = 0
+offset_left = 39.5
+offset_top = 93
+offset_right = 82.5
+offset_bottom = 150
+mouse_filter = 2
+texture = ExtResource("8_lock")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot31" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot31"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("9_open_slot")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="CoinStack" type="Control" parent="Layout/Board/Slots/Slot31"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 122
+offset_bottom = 224
+mouse_filter = 2
+
+[node name="Coin1" type="TextureRect" parent="Layout/Board/Slots/Slot31/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = -7.1
+offset_right = 110.5
+offset_bottom = 59.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot31/CoinStack/Coin1"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Coin2" type="TextureRect" parent="Layout/Board/Slots/Slot31/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = 11.9
+offset_right = 110.5
+offset_bottom = 78.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot31/CoinStack/Coin2"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Coin3" type="TextureRect" parent="Layout/Board/Slots/Slot31/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = 30.9
+offset_right = 110.5
+offset_bottom = 97.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot31/CoinStack/Coin3"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Coin4" type="TextureRect" parent="Layout/Board/Slots/Slot31/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = 49.9
+offset_right = 110.5
+offset_bottom = 116.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot31/CoinStack/Coin4"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Coin5" type="TextureRect" parent="Layout/Board/Slots/Slot31/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = 68.9
+offset_right = 110.5
+offset_bottom = 135.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot31/CoinStack/Coin5"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Slot32" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot32"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("9_open_slot")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="Slot33" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot33"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("9_open_slot")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="CoinStack" type="Control" parent="Layout/Board/Slots/Slot33"]
+layout_mode = 0
+offset_left = 0
+offset_top = 0
+offset_right = 122
+offset_bottom = 224
+mouse_filter = 2
+
+[node name="Coin1" type="TextureRect" parent="Layout/Board/Slots/Slot33/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = -7.1
+offset_right = 110.5
+offset_bottom = 59.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot33/CoinStack/Coin1"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Coin2" type="TextureRect" parent="Layout/Board/Slots/Slot33/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = 11.9
+offset_right = 110.5
+offset_bottom = 78.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot33/CoinStack/Coin2"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Coin3" type="TextureRect" parent="Layout/Board/Slots/Slot33/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = 30.9
+offset_right = 110.5
+offset_bottom = 97.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot33/CoinStack/Coin3"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Coin4" type="TextureRect" parent="Layout/Board/Slots/Slot33/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = 49.9
+offset_right = 110.5
+offset_bottom = 116.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot33/CoinStack/Coin4"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Coin5" type="TextureRect" parent="Layout/Board/Slots/Slot33/CoinStack"]
+layout_mode = 0
+offset_left = 9.5
+offset_top = 68.9
+offset_right = 110.5
+offset_bottom = 135.9
+mouse_filter = 2
+texture = ExtResource("10_coin")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Number" type="Label" parent="Layout/Board/Slots/Slot33/CoinStack/Coin5"]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 24.5
+offset_right = 100.5
+offset_bottom = 84.5
+mouse_filter = 2
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+scale = Vector2(1, 0.6)
+theme_override_fonts/font = ExtResource("12_numbers")
+theme_override_font_sizes/font_size = 32
+theme_override_colors/font_shadow_color = Color(0.42, 0.22, 0.03, 0.4)
+theme_override_constants/shadow_offset_y = 2
+
+[node name="Slot34" type="Control" parent="Layout/Board/Slots"]
+custom_minimum_size = Vector2(122, 224)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Layout/Board/Slots/Slot34"]
+layout_mode = 0
+offset_left = 4
+offset_top = 19
+offset_right = 118
+offset_bottom = 224
+mouse_filter = 2
+texture = ExtResource("9_open_slot")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="BottomBar" type="CenterContainer" parent="Layout"]
+layout_mode = 0
+offset_left = 0
+offset_top = 1160
+offset_right = 750
+offset_bottom = 1320
+mouse_filter = 2
+
+[node name="DealButton" type="TextureRect" parent="Layout/BottomBar"]
+custom_minimum_size = Vector2(294, 147)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+texture = ExtResource("19_deal")
+expand_mode = 1
+stretch_mode = 5
 
 [node name="ClickSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_click")
 
-[connection signal="pressed" from="HomeButton" to="." method="_on_home_button_pressed"]
+[node name="SettingsDialog" parent="." instance=ExtResource("3_dialog")]
+visible = false
+in_game_layout = true
+
+[node name="Panel" parent="SettingsDialog" index="1"]
+offset_top = -370.0
+offset_bottom = 370.0
+
+[node name="GameActions" parent="SettingsDialog/Panel" index="4"]
+visible = true
+
+[connection signal="pressed" from="Layout/TopBar/SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="closed" from="SettingsDialog" to="." method="_on_dialog_closed"]
+[connection signal="sound_toggled" from="SettingsDialog" to="." method="_on_sound_toggled"]
+[connection signal="vibration_toggled" from="SettingsDialog" to="." method="_on_vibration_toggled"]
+[connection signal="language_selected" from="SettingsDialog" to="." method="_on_language_selected"]
+[connection signal="feedback_requested" from="SettingsDialog" to="." method="_play_click"]
+[connection signal="home_requested" from="SettingsDialog" to="." method="_on_home_requested"]
+
+[editable path="SettingsDialog"]

@@ -5,6 +5,7 @@ signal sound_toggled(enabled: bool)
 signal vibration_toggled(enabled: bool)
 signal language_selected(locale: String)
 signal feedback_requested
+signal home_requested
 
 @onready var panel: NinePatchRect = $Panel
 @onready var title: Label = $Panel/Title
@@ -16,10 +17,16 @@ signal feedback_requested
 @onready var chinese_button: Button = $Panel/Options/LanguageRow/Languages/Chinese
 @onready var english_button: Button = $Panel/Options/LanguageRow/Languages/English
 @onready var message: Label = $Panel/Message
+@onready var game_actions: HBoxContainer = $Panel/GameActions
+@onready var home_button: Button = $Panel/GameActions/HomeButton
+
+# 游戏实例在编辑器中也显示 740 高的面板；菜单实例保持默认布局。
+@export var in_game_layout := false
 
 var _open_tween: Tween
 var _toggle_tweens: Dictionary = {}
 var _close_tween: Tween
+var _home_pending := false
 
 
 func _ready() -> void:
@@ -30,6 +37,7 @@ func _ready() -> void:
 	close_button.mouse_exited.connect(_animate_close.bind(false))
 	chinese_button.pressed.connect(_on_language_pressed.bind("zh"))
 	english_button.pressed.connect(_on_language_pressed.bind("en"))
+	_set_game_layout(in_game_layout)
 
 
 func set_language(locale: String) -> void:
@@ -41,7 +49,10 @@ func _on_language_pressed(locale: String) -> void:
 	language_selected.emit(locale)
 
 
-func open_settings(sound: bool, vibration: bool, supports_vibration: bool) -> void:
+func open_settings(sound: bool, vibration: bool, supports_vibration: bool, in_game: bool = false) -> void:
+	_set_game_layout(in_game)
+	_home_pending = false
+	home_button.disabled = false
 	title.text = "设置"
 	options.show()
 	message.hide()
@@ -54,6 +65,7 @@ func open_settings(sound: bool, vibration: bool, supports_vibration: bool) -> vo
 
 
 func open_notice(text: String) -> void:
+	_set_game_layout(false)
 	title.text = "提示"
 	options.hide()
 	message.text = text
@@ -62,6 +74,7 @@ func open_notice(text: String) -> void:
 
 
 func _show_panel() -> void:
+	_stop_tweens()
 	show()
 	modulate.a = 0.0
 	panel.scale = Vector2(0.9, 0.9)
@@ -69,7 +82,46 @@ func _show_panel() -> void:
 	_open_tween = create_tween().set_parallel(true)
 	_open_tween.tween_property(self, "modulate:a", 1.0, 0.2)
 	_open_tween.tween_property(panel, "scale", Vector2.ONE, 0.2).set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_OUT)
+	_set_focus_cycle()
 	close_button.grab_focus()
+
+
+func _set_game_layout(in_game: bool) -> void:
+	var half_height := 370.0 if in_game else 297.5
+	panel.offset_top = -half_height
+	panel.offset_bottom = half_height
+	panel.pivot_offset = panel.size / 2.0
+	game_actions.visible = in_game
+
+
+# 显式环绕弹窗内可用控件，键盘焦点不会落到后面的主界面。
+func _set_focus_cycle() -> void:
+	var buttons: Array[Control] = [close_button]
+	if options.visible:
+		buttons.append(sound_toggle)
+		if vibration_row.visible:
+			buttons.append(vibration_toggle)
+		buttons.append_array([chinese_button, english_button])
+	if game_actions.visible:
+		buttons.append(home_button)
+	for index in range(buttons.size()):
+		var button := buttons[index]
+		var previous := button.get_path_to(buttons[posmod(index - 1, buttons.size())])
+		var next := button.get_path_to(buttons[(index + 1) % buttons.size()])
+		button.focus_previous = previous
+		button.focus_next = next
+		button.focus_neighbor_top = previous
+		button.focus_neighbor_left = previous
+		button.focus_neighbor_bottom = next
+		button.focus_neighbor_right = next
+
+
+func _on_home_pressed() -> void:
+	if not visible or not game_actions.visible or _home_pending:
+		return
+	_home_pending = true
+	home_button.disabled = true
+	home_requested.emit()
 
 
 func dismiss() -> void:
@@ -77,7 +129,9 @@ func dismiss() -> void:
 		return
 	feedback_requested.emit()
 	_stop_tweens()
-	close_button.release_focus()
+	var focused := get_viewport().gui_get_focus_owner()
+	if focused != null and is_ancestor_of(focused):
+		focused.release_focus()
 	hide()
 	closed.emit()
 

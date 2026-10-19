@@ -1,6 +1,6 @@
 extends Control
 
-const SETTINGS_PATH := "user://settings.cfg"
+const SettingsStore = preload("res://scripts/game_settings.gd")
 
 @export var chinese_logo: Texture2D
 @export var english_logo: Texture2D
@@ -13,11 +13,7 @@ const SETTINGS_PATH := "user://settings.cfg"
 @onready var click_sound: AudioStreamPlayer = $ClickSound
 @onready var settings_dialog = $SettingsDialog
 
-var _settings := ConfigFile.new()
-var _sound_enabled := true
-var _vibration_enabled := true
-var _language := "zh"
-var _vibration_supported := false
+var _settings := SettingsStore.shared()
 var _entry_finished := false
 var _leaving := false
 var _entry_tween: Tween
@@ -26,9 +22,7 @@ var _previous_focus: Control
 
 
 func _ready() -> void:
-	_load_settings()
 	_apply_language()
-	_vibration_supported = _supports_vibration()
 	for button: BaseButton in [start_button, challenge_button, settings_button]:
 		button.button_down.connect(_animate_button.bind(button, true))
 		button.button_up.connect(_animate_button.bind(button, false))
@@ -112,7 +106,7 @@ func _on_settings_button_pressed() -> void:
 	if not _can_interact():
 		return
 	_prepare_dialog()
-	settings_dialog.open_settings(_sound_enabled, _vibration_enabled, _vibration_supported)
+	settings_dialog.open_settings(_settings.sound_enabled, _settings.vibration_enabled, _settings.vibration_supported)
 
 
 func _prepare_dialog() -> void:
@@ -132,69 +126,29 @@ func _on_dialog_closed() -> void:
 
 
 func _play_click() -> void:
-	if _sound_enabled:
+	if _settings.sound_enabled:
 		click_sound.play()
 
 
-# 设置只保存在本机；弹窗负责显示，主界面负责应用和保存。
-func _load_settings() -> void:
-	if _settings.load(SETTINGS_PATH) != OK:
-		_settings.clear()
-	var sound = _settings.get_value("audio", "enabled", true)
-	var vibration = _settings.get_value("vibration", "enabled", true)
-	var language = _settings.get_value("language", "locale", "zh")
-	_sound_enabled = sound if sound is bool else true
-	_vibration_enabled = vibration if vibration is bool else true
-	_language = language if language is String and language in ["zh", "en"] else "zh"
-	AudioServer.set_bus_mute(0, not _sound_enabled)
-
-
 func _on_sound_toggled(enabled: bool) -> void:
-	_sound_enabled = enabled
-	AudioServer.set_bus_mute(0, not enabled)
-	_save_settings()
+	_settings.set_sound(enabled)
 
 
 func _on_vibration_toggled(enabled: bool) -> void:
-	_vibration_enabled = enabled
-	_save_settings()
-	if enabled and _vibration_supported:
-		Input.vibrate_handheld(15)
+	_settings.set_vibration(enabled)
 
 
 func _on_language_selected(locale: String) -> void:
-	if locale not in ["zh", "en"] or locale == _language:
+	if not _settings.set_language(locale):
 		return
-	_language = locale
 	_apply_language()
-	_save_settings()
 	_play_click()
 
 
 func _apply_language() -> void:
 	# Godot 会在语言变化时自动刷新场景中的按钮、Label 和悬停说明。
-	TranslationServer.set_locale(_language)
-	logo.texture = english_logo if _language == "en" else chinese_logo
-	settings_dialog.set_language(_language)
-
-
-func _save_settings() -> void:
-	_settings.set_value("audio", "enabled", _sound_enabled)
-	_settings.set_value("vibration", "enabled", _vibration_enabled)
-	_settings.set_value("language", "locale", _language)
-	if _settings.save(SETTINGS_PATH) != OK:
-		push_warning("无法保存设置，本次运行仍然生效。")
-
-
-func _supports_vibration() -> bool:
-	if OS.has_feature("web"):
-		return JavaScriptBridge.eval("typeof navigator.vibrate === 'function' && navigator.maxTouchPoints > 0") == true
-	if OS.has_feature("android") and Engine.has_singleton("AndroidRuntime"):
-		var context = Engine.get_singleton("AndroidRuntime").getApplicationContext()
-		var vibrator = context.getSystemService("vibrator")
-		return vibrator != null and vibrator.hasVibrator() and context.checkSelfPermission("android.permission.VIBRATE") == 0
-	# 桌面及无法明确查询设备能力的平台隐藏振动选项。
-	return false
+	logo.texture = english_logo if _settings.language == "en" else chinese_logo
+	settings_dialog.set_language(_settings.language)
 
 
 func _exit_tree() -> void:
