@@ -1,0 +1,348 @@
+[gd_scene load_steps=15 format=3]
+
+[ext_resource type="Script" path="res://scripts/settings_dialog.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/PanelBG.png" id="2_panel"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_Quit.png" id="3_close"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Set_broad.png" id="4_off"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Set_broad_2.png" id="5_on"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Set_btn.png" id="6_knob"]
+
+[sub_resource type="SystemFont" id="SystemFont_chinese"]
+font_names = PackedStringArray("Microsoft YaHei")
+
+[sub_resource type="Theme" id="Theme_dialog"]
+default_font = SubResource("SystemFont_chinese")
+default_font_size = 42
+Label/colors/font_color = Color(0.32, 0.31, 0.45, 1)
+
+[sub_resource type="StyleBoxEmpty" id="Style_toggle"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_language"]
+
+[sub_resource type="StyleBoxFlat" id="Style_language"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.84, 0.9, 0.99, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.63, 0.73, 0.91, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_left = 16
+corner_radius_bottom_right = 16
+
+[sub_resource type="StyleBoxFlat" id="Style_language_hover"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.92, 0.95, 1, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.63, 0.73, 0.91, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_left = 16
+corner_radius_bottom_right = 16
+
+[sub_resource type="StyleBoxFlat" id="Style_language_selected"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.25, 0.53, 0.89, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.2, 0.4, 0.74, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_left = 16
+corner_radius_bottom_right = 16
+
+[sub_resource type="StyleBoxFlat" id="Style_language_focus"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_left = 16
+corner_radius_bottom_right = 16
+
+[node name="SettingsDialog" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_dialog")
+script = ExtResource("1_script")
+
+[node name="Shade" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.5882353)
+
+[node name="Panel" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -266.4
+offset_top = -297.5
+offset_right = 266.4
+offset_bottom = 297.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_panel")
+patch_margin_left = 148
+patch_margin_top = 119
+patch_margin_right = 143
+patch_margin_bottom = 119
+
+[node name="Title" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 106.4
+offset_top = 28.0
+offset_right = 426.4
+offset_bottom = 98.0
+theme_override_font_sizes/font_size = 45
+text = "设置"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CloseButton" type="TextureButton" parent="Panel"]
+layout_mode = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -56.0
+offset_top = -12.0
+offset_right = 25.0
+offset_bottom = 69.0
+focus_mode = 2
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("3_close")
+tooltip_text = "关闭"
+
+[node name="Options" type="VBoxContainer" parent="Panel"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 110.0
+offset_right = 478.8
+offset_bottom = 360.0
+theme_override_constants/separation = 48
+
+[node name="SoundRow" type="HBoxContainer" parent="Panel/Options"]
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="Panel/Options/SoundRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 36
+text = "音效"
+vertical_alignment = 1
+
+[node name="Toggle" type="Button" parent="Panel/Options/SoundRow"]
+custom_minimum_size = Vector2(222, 78)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Style_toggle")
+theme_override_styles/hover = SubResource("Style_toggle")
+theme_override_styles/pressed = SubResource("Style_toggle")
+theme_override_styles/focus = SubResource("Style_toggle")
+toggle_mode = true
+button_pressed = true
+tooltip_text = "音效开关"
+
+[node name="Off" type="NinePatchRect" parent="Panel/Options/SoundRow/Toggle"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4_off")
+patch_margin_left = 49
+patch_margin_top = 24
+patch_margin_right = 49
+patch_margin_bottom = 24
+
+[node name="On" type="NinePatchRect" parent="Panel/Options/SoundRow/Toggle"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("5_on")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Knob" type="TextureRect" parent="Panel/Options/SoundRow/Toggle"]
+layout_mode = 0
+offset_left = 159.0
+offset_top = 10.0
+offset_right = 213.0
+offset_bottom = 68.0
+mouse_filter = 2
+texture = ExtResource("6_knob")
+
+[node name="VibrationRow" type="HBoxContainer" parent="Panel/Options"]
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="Panel/Options/VibrationRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 36
+text = "振动"
+vertical_alignment = 1
+
+[node name="Toggle" type="Button" parent="Panel/Options/VibrationRow"]
+custom_minimum_size = Vector2(222, 78)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("Style_toggle")
+theme_override_styles/hover = SubResource("Style_toggle")
+theme_override_styles/pressed = SubResource("Style_toggle")
+theme_override_styles/focus = SubResource("Style_toggle")
+toggle_mode = true
+button_pressed = true
+tooltip_text = "振动开关"
+
+[node name="Off" type="NinePatchRect" parent="Panel/Options/VibrationRow/Toggle"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4_off")
+patch_margin_left = 49
+patch_margin_top = 24
+patch_margin_right = 49
+patch_margin_bottom = 24
+
+[node name="On" type="NinePatchRect" parent="Panel/Options/VibrationRow/Toggle"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("5_on")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Knob" type="TextureRect" parent="Panel/Options/VibrationRow/Toggle"]
+layout_mode = 0
+offset_left = 159.0
+offset_top = 10.0
+offset_right = 213.0
+offset_bottom = 68.0
+mouse_filter = 2
+texture = ExtResource("6_knob")
+
+[node name="LanguageRow" type="HBoxContainer" parent="Panel/Options"]
+custom_minimum_size = Vector2(0, 78)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="Panel/Options/LanguageRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 36
+text = "语言"
+vertical_alignment = 1
+
+[node name="Languages" type="HBoxContainer" parent="Panel/Options/LanguageRow"]
+custom_minimum_size = Vector2(222, 78)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Chinese" type="Button" parent="Panel/Options/LanguageRow/Languages"]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(111, 78)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.32, 0.31, 0.45, 1)
+theme_override_colors/font_hover_color = Color(0.32, 0.31, 0.45, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0.32, 0.31, 0.45, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("Style_language")
+theme_override_styles/hover = SubResource("Style_language_hover")
+theme_override_styles/pressed = SubResource("Style_language_selected")
+theme_override_styles/hover_pressed = SubResource("Style_language_selected")
+theme_override_styles/focus = SubResource("Style_language_focus")
+toggle_mode = true
+button_pressed = true
+button_group = SubResource("ButtonGroup_language")
+text = "中文"
+
+[node name="English" type="Button" parent="Panel/Options/LanguageRow/Languages"]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(111, 78)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_colors/font_color = Color(0.32, 0.31, 0.45, 1)
+theme_override_colors/font_hover_color = Color(0.32, 0.31, 0.45, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0.32, 0.31, 0.45, 1)
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("Style_language")
+theme_override_styles/hover = SubResource("Style_language_hover")
+theme_override_styles/pressed = SubResource("Style_language_selected")
+theme_override_styles/hover_pressed = SubResource("Style_language_selected")
+theme_override_styles/focus = SubResource("Style_language_focus")
+toggle_mode = true
+button_group = SubResource("ButtonGroup_language")
+text = "English"
+
+[node name="Message" type="Label" parent="Panel"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 45.0
+offset_top = 130.0
+offset_right = -45.0
+offset_bottom = -70.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "挑战模式暂未实现"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[connection signal="pressed" from="Panel/CloseButton" to="." method="dismiss"]
+[connection signal="toggled" from="Panel/Options/SoundRow/Toggle" to="." method="_on_sound_toggled"]
+[connection signal="toggled" from="Panel/Options/VibrationRow/Toggle" to="." method="_on_vibration_toggled"]

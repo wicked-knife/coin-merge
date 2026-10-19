@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="coin-merge"
+run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -20,12 +21,22 @@ _mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
 
 [display]
 
+window/size/viewport_width=750
+window/size/viewport_height=1334
+window/size/window_width_override=450
+window/size/window_height_override=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+window/handheld/orientation=1
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg")
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://translations/menu.zh.translation", "res://translations/menu.en.translation")
+locale/fallback="zh"
 
 [physics]
 

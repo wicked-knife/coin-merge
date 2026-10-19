@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/BG.png" id="1_background"]
+[ext_resource type="Script" path="res://scripts/game.gd" id="2_script"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_Home.png" id="3_home"]
+[ext_resource type="AudioStream" path="res://assets/rea_original/audio/click.mp3" id="4_click"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_script")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("1_background")
+expand_mode = 1
+
+[node name="HomeButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 151.5
+offset_right = 113.0
+offset_bottom = 248.5
+focus_mode = 2
+mouse_default_cursor_shape = 2
+tooltip_text = "返回主界面"
+texture_normal = ExtResource("3_home")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="ClickSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_click")
+
+[connection signal="pressed" from="HomeButton" to="." method="_on_home_button_pressed"]
