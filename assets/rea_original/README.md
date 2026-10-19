@@ -12,3 +12,5 @@
 - sprite_manifest.json：图片的原逻辑路径、尺寸、旋转、trim与九宫格参数。
 
 普通贴图中的数字由Label另画；普通小币101×67，大币164×172。来源为Tidy Coins 3D的公开发布构建，文件身份与未知项见获取说明。
+
+当前主界面改用自定义的 `sprites/ui/logo_zh.png`（中文）与 `sprites/ui/logo_en.png`（英文），随语言设置切换。旧的 `sprites/ui/logo.png` 和对应 atlas 运行副本已删除；原始捕获文件保留在 `reference/cocos-published/assets/resources/native/e2/`。原作资源清单记录获取时的文件与来源，不随自定义素材替换而重写。

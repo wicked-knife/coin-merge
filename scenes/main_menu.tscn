@@ -1,8 +1,8 @@
-[gd_scene load_steps=17 format=3]
+[gd_scene load_steps=18 format=3]
 
 [ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_script"]
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/BG.png" id="2_background"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/logo.png" id="3_logo"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/logo_zh.png" id="3_logo_zh"]
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/spine_cloud/could3.png" id="4_cloud_center"]
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/spine_cloud/could2.png" id="5_cloud_right"]
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/spine_cloud/could1.png" id="6_cloud_left"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png" id="9_settings"]
 [ext_resource type="AudioStream" path="res://assets/rea_original/audio/click.mp3" id="10_click"]
 [ext_resource type="PackedScene" path="res://scenes/settings_dialog.tscn" id="11_dialog"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/logo_en.png" id="12_logo_en"]
 
 [sub_resource type="SystemFont" id="SystemFont_chinese"]
 font_names = PackedStringArray("Microsoft YaHei")
@@ -50,6 +51,8 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_menu")
 script = ExtResource("1_script")
+chinese_logo = ExtResource("3_logo_zh")
+english_logo = ExtResource("12_logo_en")
 
 [node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
@@ -112,7 +115,9 @@ offset_bottom = 182.5
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
-texture = ExtResource("3_logo")
+texture = ExtResource("3_logo_zh")
+expand_mode = 1
+stretch_mode = 5
 
 [node name="ChallengeButton" type="Button" parent="."]
 layout_mode = 1

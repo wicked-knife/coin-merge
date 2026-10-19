@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cn4ff6l265ab8"
-path="res://.godot/imported/e204b5c5-b738-48d7-8e0d-1e7ec0c5438f.png-33e9e15c8da52f5e14ff3a51ac7653fe.ctex"
+uid="uid://m5cvc0q7yfkk"
+path="res://.godot/imported/logo_en.png-5c0328cc0b8d472afee1a60dcde8ada4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/rea_original/atlases/e204b5c5-b738-48d7-8e0d-1e7ec0c5438f.png"
-dest_files=["res://.godot/imported/e204b5c5-b738-48d7-8e0d-1e7ec0c5438f.png-33e9e15c8da52f5e14ff3a51ac7653fe.ctex"]
+source_file="res://assets/rea_original/sprites/ui/logo_en.png"
+dest_files=["res://.godot/imported/logo_en.png-5c0328cc0b8d472afee1a60dcde8ada4.ctex"]
 
 [params]
 

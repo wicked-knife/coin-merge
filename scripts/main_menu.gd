@@ -2,6 +2,10 @@ extends Control
 
 const SETTINGS_PATH := "user://settings.cfg"
 
+@export var chinese_logo: Texture2D
+@export var english_logo: Texture2D
+
+@onready var logo: TextureRect = $Logo
 @onready var start_button: Button = $StartButton
 @onready var challenge_button: Button = $ChallengeButton
 @onready var settings_button: TextureButton = $SettingsButton
@@ -170,6 +174,7 @@ func _on_language_selected(locale: String) -> void:
 func _apply_language() -> void:
 	# Godot 会在语言变化时自动刷新场景中的按钮、Label 和悬停说明。
 	TranslationServer.set_locale(_language)
+	logo.texture = english_logo if _language == "en" else chinese_logo
 	settings_dialog.set_language(_language)
 
 
