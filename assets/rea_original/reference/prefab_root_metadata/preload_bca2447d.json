@@ -1,0 +1,50 @@
+{
+  "uuid": "bca2447d-bd7e-438e-a420-dec5035c3021",
+  "bundle": "resources",
+  "config_index": 262,
+  "logical_path": "prefab/preload",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "preload"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "996c343b-a6c2-4d44-b85c-5fc89b77f18a"
+    },
+    {
+      "owner": 0,
+      "property": 1,
+      "uuid": "e670cabe-f486-47cb-87d8-d3ec501274fe"
+    },
+    {
+      "owner": 0,
+      "property": 2,
+      "uuid": "87a2ced2-25da-4893-bdfc-f8605f2318c4"
+    },
+    {
+      "owner": 0,
+      "property": 3,
+      "uuid": "9490f23d-68bd-480a-9fd8-c916854c4df2"
+    },
+    {
+      "owner": 0,
+      "property": 4,
+      "uuid": "182cf81e-9557-4cd0-95a9-309380c9b2c5"
+    },
+    {
+      "owner": 0,
+      "property": 5,
+      "uuid": "b60c325a-2f99-4fc8-be94-934a0d7b07df"
+    },
+    {
+      "owner": 0,
+      "property": 6,
+      "uuid": "f000fc46-202b-4a45-a116-9c0a13dfb6f5"
+    }
+  ],
+  "import_file": "assets/resources/import/bc/bca2447d-bd7e-438e-a420-dec5035c3021.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/bc/bca2447d-bd7e-438e-a420-dec5035c3021.json"
+}

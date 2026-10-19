@@ -1,0 +1,90 @@
+{
+  "uuid": "9bf55842-4243-4bf7-8742-fcb9a47a1463",
+  "bundle": "resources",
+  "config_index": 144,
+  "logical_path": "prefab/prefab/normal/cell-layer",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "cell-layer"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "6a3fdea3-0110-4ad9-a35e-5cc8064f1d47"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "e900bc3d-8c94-4c41-8756-918ea5da3bcc"
+    },
+    {
+      "owner": 0,
+      "property": "_defaultClip",
+      "uuid": "0378f2b0-768b-4c19-9082-101ac7044bfa"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "0378f2b0-768b-4c19-9082-101ac7044bfa"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "e900bc3d-8c94-4c41-8756-918ea5da3bcc"
+    },
+    {
+      "owner": 0,
+      "property": "_defaultClip",
+      "uuid": "0378f2b0-768b-4c19-9082-101ac7044bfa"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "0378f2b0-768b-4c19-9082-101ac7044bfa"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 12,
+      "property": "_spriteFrame",
+      "uuid": "641e2caf-1e8b-4234-9ba9-ec240fd967b9"
+    }
+  ],
+  "import_file": "assets/resources/import/0d/0d7479fd3.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0d/0d7479fd3.json"
+}

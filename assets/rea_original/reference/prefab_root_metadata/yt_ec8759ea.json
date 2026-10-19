@@ -1,0 +1,30 @@
+{
+  "uuid": "ec8759ea-9a28-4f0c-915e-fe91d7ffa47d",
+  "bundle": "resources",
+  "config_index": 311,
+  "logical_path": "prefab/prefab/yt",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "yt"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    }
+  ],
+  "import_file": "assets/resources/import/ec/ec8759ea-9a28-4f0c-915e-fe91d7ffa47d.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/ec/ec8759ea-9a28-4f0c-915e-fe91d7ffa47d.json"
+}

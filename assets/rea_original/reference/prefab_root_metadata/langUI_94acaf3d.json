@@ -1,0 +1,40 @@
+{
+  "uuid": "94acaf3d-baa2-41dd-b2e4-cf1aa19a662b",
+  "bundle": "resources",
+  "config_index": 209,
+  "logical_path": "prefab/panel/langUI",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "langUI"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "e3155073-09e4-48e3-9e61-ca2b77ef0e9d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ef49e8af-209a-48da-a5cd-91f29e3cea1b"
+    }
+  ],
+  "import_file": "assets/resources/import/94/94acaf3d-baa2-41dd-b2e4-cf1aa19a662b.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/94/94acaf3d-baa2-41dd-b2e4-cf1aa19a662b.json"
+}

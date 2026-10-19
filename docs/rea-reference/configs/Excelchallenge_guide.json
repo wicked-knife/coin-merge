@@ -1,0 +1,62 @@
+[
+  {
+    "ID": 1,
+    "place1": 1,
+    "place2": 1,
+    "place3": 0
+  },
+  {
+    "ID": 2,
+    "place1": 1,
+    "place2": 1,
+    "place3": 0
+  },
+  {
+    "ID": 3,
+    "place1": 1,
+    "place2": 1,
+    "place3": 0
+  },
+  {
+    "ID": 4,
+    "place1": 1,
+    "place2": 2,
+    "place3": 0
+  },
+  {
+    "ID": 5,
+    "place1": 1,
+    "place2": 2,
+    "place3": 0
+  },
+  {
+    "ID": 6,
+    "place1": 1,
+    "place2": 2,
+    "place3": 0
+  },
+  {
+    "ID": 7,
+    "place1": 1,
+    "place2": 2,
+    "place3": 0
+  },
+  {
+    "ID": 8,
+    "place1": 2,
+    "place2": 2,
+    "place3": 0
+  },
+  {
+    "ID": 9,
+    "place1": 2,
+    "place2": 2,
+    "place3": 0
+  },
+  {
+    "ID": 10,
+    "place1": 2,
+    "place2": 2,
+    "place3": 0
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "ID": 1,
+    "eggId": 1,
+    "eggName": "圆墩墩",
+    "group": 1,
+    "order": 1,
+    "icon": "PottedPlant/01"
+  },
+  {
+    "ID": 2,
+    "eggId": 2,
+    "eggName": "掌壮壮",
+    "group": 1,
+    "order": 2,
+    "icon": "PottedPlant/02"
+  },
+  {
+    "ID": 3,
+    "eggId": 3,
+    "eggName": "翠多多",
+    "group": 1,
+    "order": 3,
+    "icon": "PottedPlant/03"
+  },
+  {
+    "ID": 4,
+    "eggId": 4,
+    "eggName": "绿满满",
+    "group": 1,
+    "order": 4,
+    "icon": "PottedPlant/04"
+  },
+  {
+    "ID": 5,
+    "eggId": 5,
+    "eggName": "叶弯弯",
+    "group": 1,
+    "order": 5,
+    "icon": "PottedPlant/05"
+  },
+  {
+    "ID": 6,
+    "eggId": 6,
+    "eggName": "碧高高",
+    "group": 1,
+    "order": 6,
+    "icon": "PottedPlant/06"
+  },
+  {
+    "ID": 7,
+    "eggId": 7,
+    "eggName": "粉粉小季",
+    "group": 3,
+    "order": 1,
+    "icon": "LilFlowers/01"
+  },
+  {
+    "ID": 8,
+    "eggId": 8,
+    "eggName": "奶白小雏",
+    "group": 3,
+    "order": 2,
+    "icon": "LilFlowers/02"
+  },
+  {
+    "ID": 9,
+    "eggId": 9,
+    "eggName": "金黄小合",
+    "group": 3,
+    "order": 3,
+    "icon": "LilFlowers/03"
+  },
+  {
+    "ID": 10,
+    "eggId": 10,
+    "eggName": "渐变小郁",
+    "group": 3,
+    "order": 4,
+    "icon": "LilFlowers/04"
+  },
+  {
+    "ID": 11,
+    "eggId": 11,
+    "eggName": "奶油小茶",
+    "group": 3,
+    "order": 5,
+    "icon": "LilFlowers/05"
+  },
+  {
+    "ID": 12,
+    "eggId": 12,
+    "eggName": "向阳小玫",
+    "group": 3,
+    "order": 6,
+    "icon": "LilFlowers/06"
+  },
+  {
+    "ID": 13,
+    "eggId": 13,
+    "eggName": "你好鸭",
+    "group": 4,
+    "order": 1,
+    "icon": "BreadDuck/01"
+  },
+  {
+    "ID": 14,
+    "eggId": 14,
+    "eggName": "啥事鸭",
+    "group": 4,
+    "order": 2,
+    "icon": "BreadDuck/02"
+  },
+  {
+    "ID": 15,
+    "eggId": 15,
+    "eggName": "干嘛鸭",
+    "group": 4,
+    "order": 3,
+    "icon": "BreadDuck/03"
+  },
+  {
+    "ID": 16,
+    "eggId": 16,
+    "eggName": "不要鸭",
+    "group": 4,
+    "order": 4,
+    "icon": "BreadDuck/04"
+  },
+  {
+    "ID": 17,
+    "eggId": 17,
+    "eggName": "桑心鸭",
+    "group": 4,
+    "order": 5,
+    "icon": "BreadDuck/05"
+  },
+  {
+    "ID": 18,
+    "eggId": 18,
+    "eggName": "好气鸭",
+    "group": 4,
+    "order": 6,
+    "icon": "BreadDuck/06"
+  },
+  {
+    "ID": 19,
+    "eggId": 19,
+    "eggName": "芝士呜呜",
+    "group": 2,
+    "order": 1,
+    "icon": "Cookies/01"
+  },
+  {
+    "ID": 20,
+    "eggId": 20,
+    "eggName": "焦糖呜呜",
+    "group": 2,
+    "order": 2,
+    "icon": "Cookies/02"
+  },
+  {
+    "ID": 21,
+    "eggId": 21,
+    "eggName": "黑巧唧唧",
+    "group": 2,
+    "order": 3,
+    "icon": "Cookies/03"
+  },
+  {
+    "ID": 22,
+    "eggId": 22,
+    "eggName": "草莓唧唧",
+    "group": 2,
+    "order": 4,
+    "icon": "Cookies/04"
+  },
+  {
+    "ID": 23,
+    "eggId": 23,
+    "eggName": "曲奇嘤嘤",
+    "group": 2,
+    "order": 5,
+    "icon": "Cookies/05"
+  },
+  {
+    "ID": 24,
+    "eggId": 24,
+    "eggName": "抹茶嘤嘤",
+    "group": 2,
+    "order": 6,
+    "icon": "Cookies/06"
+  },
+  {
+    "ID": 25,
+    "eggId": 25,
+    "eggName": "哈哈哈",
+    "group": 5,
+    "order": 1,
+    "icon": "Festival_Pumpkin/01"
+  },
+  {
+    "ID": 26,
+    "eggId": 26,
+    "eggName": "吼吼吼",
+    "group": 5,
+    "order": 2,
+    "icon": "Festival_Pumpkin/02"
+  },
+  {
+    "ID": 27,
+    "eggId": 27,
+    "eggName": "嘤嘤嘤",
+    "group": 5,
+    "order": 3,
+    "icon": "Festival_Pumpkin/03"
+  },
+  {
+    "ID": 28,
+    "eggId": 28,
+    "eggName": "嗯嗯嗯",
+    "group": 5,
+    "order": 4,
+    "icon": "Festival_Pumpkin/04"
+  },
+  {
+    "ID": 29,
+    "eggId": 29,
+    "eggName": "嘿嘿嘿",
+    "group": 5,
+    "order": 5,
+    "icon": "Festival_Pumpkin/05"
+  },
+  {
+    "ID": 30,
+    "eggId": 30,
+    "eggName": "哼哼哼",
+    "group": 5,
+    "order": 6,
+    "icon": "Festival_Pumpkin/06"
+  },
+  {
+    "ID": 31,
+    "eggId": 31,
+    "eggName": "红菇菇",
+    "group": 6,
+    "order": 1,
+    "icon": "Mushroom/01"
+  },
+  {
+    "ID": 32,
+    "eggId": 32,
+    "eggName": "金菇菇",
+    "group": 6,
+    "order": 2,
+    "icon": "Mushroom/02"
+  },
+  {
+    "ID": 33,
+    "eggId": 33,
+    "eggName": "绿菇菇",
+    "group": 6,
+    "order": 3,
+    "icon": "Mushroom/03"
+  },
+  {
+    "ID": 34,
+    "eggId": 34,
+    "eggName": "蓝菇菇",
+    "group": 6,
+    "order": 4,
+    "icon": "Mushroom/04"
+  },
+  {
+    "ID": 35,
+    "eggId": 35,
+    "eggName": "粉菇菇",
+    "group": 6,
+    "order": 5,
+    "icon": "Mushroom/05"
+  },
+  {
+    "ID": 36,
+    "eggId": 36,
+    "eggName": "紫菇菇",
+    "group": 6,
+    "order": 6,
+    "icon": "Mushroom/06"
+  },
+  {
+    "ID": 37,
+    "eggId": 37,
+    "eggName": "喵小萌",
+    "group": 7,
+    "order": 1,
+    "icon": "BurgerCat/01"
+  },
+  {
+    "ID": 38,
+    "eggId": 38,
+    "eggName": "喵小独",
+    "group": 7,
+    "order": 2,
+    "icon": "BurgerCat/02"
+  },
+  {
+    "ID": 39,
+    "eggId": 39,
+    "eggName": "喵小二",
+    "group": 7,
+    "order": 3,
+    "icon": "BurgerCat/03"
+  },
+  {
+    "ID": 40,
+    "eggId": 40,
+    "eggName": "喵小虎",
+    "group": 7,
+    "order": 4,
+    "icon": "BurgerCat/04"
+  },
+  {
+    "ID": 41,
+    "eggId": 41,
+    "eggName": "喵小花",
+    "group": 7,
+    "order": 5,
+    "icon": "BurgerCat/05"
+  },
+  {
+    "ID": 42,
+    "eggId": 42,
+    "eggName": "喵长老",
+    "group": 7,
+    "order": 6,
+    "icon": "BurgerCat/06"
+  },
+  {
+    "ID": 43,
+    "eggId": 43,
+    "eggName": "卖萌猪",
+    "group": 8,
+    "order": 1,
+    "icon": "PineappleBunPig/01"
+  },
+  {
+    "ID": 44,
+    "eggId": 44,
+    "eggName": "开心猪",
+    "group": 8,
+    "order": 2,
+    "icon": "PineappleBunPig/02"
+  },
+  {
+    "ID": 45,
+    "eggId": 45,
+    "eggName": "瞌睡猪",
+    "group": 8,
+    "order": 3,
+    "icon": "PineappleBunPig/03"
+  },
+  {
+    "ID": 46,
+    "eggId": 46,
+    "eggName": "俏皮猪",
+    "group": 8,
+    "order": 4,
+    "icon": "PineappleBunPig/04"
+  },
+  {
+    "ID": 47,
+    "eggId": 47,
+    "eggName": "奔溃猪",
+    "group": 8,
+    "order": 5,
+    "icon": "PineappleBunPig/05"
+  },
+  {
+    "ID": 48,
+    "eggId": 48,
+    "eggName": "无奈猪",
+    "group": 8,
+    "order": 6,
+    "icon": "PineappleBunPig/06"
+  },
+  {
+    "ID": 49,
+    "eggId": 49,
+    "eggName": "牧牧雪糕",
+    "group": 9,
+    "order": 1,
+    "icon": "DogIcecream/01"
+  },
+  {
+    "ID": 50,
+    "eggId": 50,
+    "eggName": "斑斑雪糕",
+    "group": 9,
+    "order": 2,
+    "icon": "DogIcecream/02"
+  },
+  {
+    "ID": 51,
+    "eggId": 51,
+    "eggName": "哈哈雪糕",
+    "group": 9,
+    "order": 3,
+    "icon": "DogIcecream/03"
+  },
+  {
+    "ID": 52,
+    "eggId": 52,
+    "eggName": "柯柯雪糕",
+    "group": 9,
+    "order": 4,
+    "icon": "DogIcecream/04"
+  },
+  {
+    "ID": 53,
+    "eggId": 53,
+    "eggName": "柴柴雪糕",
+    "group": 9,
+    "order": 5,
+    "icon": "DogIcecream/05"
+  },
+  {
+    "ID": 54,
+    "eggId": 54,
+    "eggName": "巴巴雪糕",
+    "group": 9,
+    "order": 6,
+    "icon": "DogIcecream/06"
+  }
+]

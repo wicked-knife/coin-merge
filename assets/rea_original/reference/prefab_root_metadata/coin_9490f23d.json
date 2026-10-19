@@ -1,0 +1,50 @@
+{
+  "uuid": "9490f23d-68bd-480a-9fd8-c916854c4df2",
+  "bundle": "resources",
+  "config_index": 138,
+  "logical_path": "prefab/prefab/coin",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "coin"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "5db5e064-415e-4907-8f2d-ca6b224c6a32"
+    },
+    {
+      "owner": 0,
+      "property": 1,
+      "uuid": "49849ce4-aa73-48ea-b890-1db62c5ecd91"
+    },
+    {
+      "owner": 3,
+      "property": "_spriteFrame",
+      "uuid": "9556245e-5af2-4228-b397-f98937e85242"
+    },
+    {
+      "owner": 5,
+      "property": "_N$file",
+      "uuid": "e92bb422-06e8-44ce-ace7-98bf00b8dcd5"
+    },
+    {
+      "owner": 6,
+      "property": "_defaultClip",
+      "uuid": "5db5e064-415e-4907-8f2d-ca6b224c6a32"
+    }
+  ],
+  "import_file": "assets/resources/import/03/0384d6f29.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/03/0384d6f29.json"
+}

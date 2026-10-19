@@ -1,0 +1,27 @@
+
+sk_cloud.png
+size: 1024,768
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+could1
+  rotate: false
+  xy: 535, 0
+  size: 489, 347
+  orig: 489, 347
+  offset: 0, 0
+  index: -1
+could2
+  rotate: false
+  xy: 535, 349
+  size: 449, 419
+  orig: 449, 419
+  offset: 0, 0
+  index: -1
+could3
+  rotate: true
+  xy: 0, 18
+  size: 750, 533
+  orig: 750, 533
+  offset: 0, 0
+  index: -1

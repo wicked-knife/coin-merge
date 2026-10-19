@@ -1,0 +1,840 @@
+{
+  "uuid": "0759391a-1169-4f1e-a3dc-f9a79a711aa3",
+  "bundle": "resources",
+  "config_index": 0,
+  "logical_path": "prefab/panel/gameUI",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "gameUI"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ebec3afb-dbe5-4ea4-99af-38858918101e"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "72aa0dea-f610-49c4-9b6f-8fc211d8b038"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "7302d2bc-35cd-4e70-b96f-54f0c8ccc7c2"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ad33cc3d-415f-4648-be4a-b1bc729f0a21"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "c6dfd11e-e45a-4373-b3e2-eb6bc74fd5b3"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "cb00981a-b595-4a4a-99d5-841bbcc60814"
+    },
+    {
+      "owner": 0,
+      "property": "_defaultClip",
+      "uuid": "b67965aa-0979-418e-a503-f8284aa6a71f"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "b67965aa-0979-418e-a503-f8284aa6a71f"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "82aaa18a-a076-41b5-a801-99f21a2b2c80"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "bb0e1bb8-c4c7-40d7-843b-f0b687d9037d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "6ac6861d-aafd-48a8-9003-1d98aae14163"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "f927c233-05df-4fbd-817c-182463bb62d6"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "987ce06d-8273-42b9-b670-1a260f738be3"
+    },
+    {
+      "owner": 0,
+      "property": 1,
+      "uuid": "bf797f24-c485-4ffd-94d6-90ec20b8d6ba"
+    },
+    {
+      "owner": 0,
+      "property": 2,
+      "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec"
+    },
+    {
+      "owner": 0,
+      "property": 3,
+      "uuid": "bb6d0b9f-f998-403f-a6da-b0d0006b65a3"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "82aaa18a-a076-41b5-a801-99f21a2b2c80"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "bb0e1bb8-c4c7-40d7-843b-f0b687d9037d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "6ac6861d-aafd-48a8-9003-1d98aae14163"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "f927c233-05df-4fbd-817c-182463bb62d6"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "987ce06d-8273-42b9-b670-1a260f738be3"
+    },
+    {
+      "owner": 0,
+      "property": 1,
+      "uuid": "bf797f24-c485-4ffd-94d6-90ec20b8d6ba"
+    },
+    {
+      "owner": 0,
+      "property": 2,
+      "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec"
+    },
+    {
+      "owner": 0,
+      "property": 3,
+      "uuid": "bb6d0b9f-f998-403f-a6da-b0d0006b65a3"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "82aaa18a-a076-41b5-a801-99f21a2b2c80"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "bb0e1bb8-c4c7-40d7-843b-f0b687d9037d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "6ac6861d-aafd-48a8-9003-1d98aae14163"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "f927c233-05df-4fbd-817c-182463bb62d6"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "987ce06d-8273-42b9-b670-1a260f738be3"
+    },
+    {
+      "owner": 0,
+      "property": 1,
+      "uuid": "bf797f24-c485-4ffd-94d6-90ec20b8d6ba"
+    },
+    {
+      "owner": 0,
+      "property": 2,
+      "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec"
+    },
+    {
+      "owner": 0,
+      "property": 3,
+      "uuid": "bb6d0b9f-f998-403f-a6da-b0d0006b65a3"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "82aaa18a-a076-41b5-a801-99f21a2b2c80"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "bb0e1bb8-c4c7-40d7-843b-f0b687d9037d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "6ac6861d-aafd-48a8-9003-1d98aae14163"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "f927c233-05df-4fbd-817c-182463bb62d6"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "987ce06d-8273-42b9-b670-1a260f738be3"
+    },
+    {
+      "owner": 0,
+      "property": 1,
+      "uuid": "bf797f24-c485-4ffd-94d6-90ec20b8d6ba"
+    },
+    {
+      "owner": 0,
+      "property": 2,
+      "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec"
+    },
+    {
+      "owner": 0,
+      "property": 3,
+      "uuid": "bb6d0b9f-f998-403f-a6da-b0d0006b65a3"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "67570708-891c-4dcc-9917-ff19f8ea1518"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "b515ca35-e52a-442f-9f71-d2ef1a1bd08d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "d27bfba7-6736-40a5-b9ea-a518defc667a"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "6ac6861d-aafd-48a8-9003-1d98aae14163"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "82aaa18a-a076-41b5-a801-99f21a2b2c80"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "75c6ed60-d3c7-48db-9f7f-55ac7b61cf5d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "fffbb4b0-cb55-47bb-8f44-369df4d07a46"
+    },
+    {
+      "owner": 0,
+      "property": 1,
+      "uuid": "96364277-a99a-4d58-9f1b-5bd8fe908034"
+    },
+    {
+      "owner": 0,
+      "property": 2,
+      "uuid": "08c7d493-6129-45dd-a9d4-deb81cb41e99"
+    },
+    {
+      "owner": 0,
+      "property": 3,
+      "uuid": "98921501-4213-4364-a726-bd675df58ecc"
+    },
+    {
+      "owner": 0,
+      "property": 4,
+      "uuid": "584c3d2b-ee0b-47d0-b830-5cd046e48a1c"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "af5b3c51-a353-40e0-a1db-d28c139ad967"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "2c35d0eb-1bd7-45ec-93e6-aa7341755df8"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "2acdf23c-c837-48af-b147-05abb5a2bd11"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ce1f3ab0-7c26-4bf3-a666-5d9733c51acf"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "2d44a874-4550-4c07-a8c1-4c2c0bcdd517"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "adee73de-4d56-4dac-9665-7f22470fdad1"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "6a5dd450-8500-4f26-8864-8f16f3ea615e"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "feb0d1f8-bb21-465b-bcb8-9029c48d7d21"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "767e128c-26d1-48ef-8520-ddb204808df3"
+    },
+    {
+      "owner": 0,
+      "property": 1,
+      "uuid": "29d0dbf0-0aa2-4287-9f8b-2e30440721b0"
+    },
+    {
+      "owner": 0,
+      "property": 2,
+      "uuid": "9bea1d47-c0ca-4ef4-b03e-3a057767c64e"
+    },
+    {
+      "owner": 0,
+      "property": 3,
+      "uuid": "5e8f4a25-801f-43a5-b17a-26c1a62ee049"
+    },
+    {
+      "owner": 0,
+      "property": 4,
+      "uuid": "7e41ccd7-823e-400a-87f3-6a40cdbd5312"
+    },
+    {
+      "owner": 0,
+      "property": 5,
+      "uuid": "55f16095-b0e4-4bf3-aac9-0acb8433fa9f"
+    },
+    {
+      "owner": 0,
+      "property": 6,
+      "uuid": "1955eb03-fa62-41fb-a54f-e6a055923497"
+    },
+    {
+      "owner": 0,
+      "property": 7,
+      "uuid": "99f8b5d5-16cb-4c6d-9dca-a30cbc72a8c3"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$normalSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$pressedSprite",
+      "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    {
+      "owner": 0,
+      "property": "_N$hoverSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$disabledSprite",
+      "uuid": "29158224-f8dd-4661-a796-1ffab537140e"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$normalSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$pressedSprite",
+      "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    {
+      "owner": 0,
+      "property": "_N$hoverSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$disabledSprite",
+      "uuid": "29158224-f8dd-4661-a796-1ffab537140e"
+    },
+    {
+      "owner": 0,
+      "property": "cellLayerPrefab",
+      "uuid": "9bf55842-4243-4bf7-8742-fcb9a47a1463"
+    },
+    {
+      "owner": 0,
+      "property": "goldPrefab",
+      "uuid": "182cf81e-9557-4cd0-95a9-309380c9b2c5"
+    },
+    {
+      "owner": 0,
+      "property": "bigCoinPrefab",
+      "uuid": "76ca4fe8-a9ab-4d48-ac97-8b7364cd405b"
+    },
+    {
+      "owner": 0,
+      "property": "questionMarkPrefab",
+      "uuid": "f000fc46-202b-4a45-a116-9c0a13dfb6f5"
+    },
+    {
+      "owner": 0,
+      "property": "cellPrefab",
+      "uuid": "2bbe4771-7570-4fbb-a276-ba77fa9b05b5"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 46,
+      "property": "_normalMaterial",
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 46,
+      "property": "_grayMaterial",
+      "uuid": "3a7bb79f-32fd-422e-ada2-96f518fed422"
+    },
+    {
+      "owner": 46,
+      "property": "_N$normalSprite",
+      "uuid": "12ba6e44-65be-4082-920f-bbeaa9d3122d"
+    },
+    {
+      "owner": 48,
+      "property": "_normalMaterial",
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 48,
+      "property": "_grayMaterial",
+      "uuid": "3a7bb79f-32fd-422e-ada2-96f518fed422"
+    },
+    {
+      "owner": 58,
+      "property": "_defaultClip",
+      "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec"
+    },
+    {
+      "owner": 65,
+      "property": "_defaultClip",
+      "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec"
+    },
+    {
+      "owner": 72,
+      "property": "_defaultClip",
+      "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec"
+    },
+    {
+      "owner": 79,
+      "property": "_defaultClip",
+      "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec"
+    },
+    {
+      "owner": 88,
+      "property": "_defaultClip",
+      "uuid": "98921501-4213-4364-a726-bd675df58ecc"
+    },
+    {
+      "owner": 99,
+      "property": "_defaultClip",
+      "uuid": "6a5dd450-8500-4f26-8864-8f16f3ea615e"
+    },
+    {
+      "owner": 100,
+      "property": "_N$normalSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 100,
+      "property": "_N$pressedSprite",
+      "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    {
+      "owner": 100,
+      "property": "_N$hoverSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 100,
+      "property": "_N$disabledSprite",
+      "uuid": "29158224-f8dd-4661-a796-1ffab537140e"
+    },
+    {
+      "owner": 102,
+      "property": "_spriteFrame",
+      "uuid": "767e128c-26d1-48ef-8520-ddb204808df3"
+    },
+    {
+      "owner": 104,
+      "property": "_spriteFrame",
+      "uuid": "767e128c-26d1-48ef-8520-ddb204808df3"
+    },
+    {
+      "owner": 106,
+      "property": "_spriteFrame",
+      "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573"
+    },
+    {
+      "owner": 41,
+      "property": "_defaultClip",
+      "uuid": "feb0d1f8-bb21-465b-bcb8-9029c48d7d21"
+    }
+  ],
+  "import_file": "assets/resources/import/0f/0fb55d1b1.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+}

@@ -1,0 +1,182 @@
+{
+  "uuid": "bb6d0b9f-f998-403f-a6da-b0d0006b65a3",
+  "bundle": "resources",
+  "config_index": 260,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Progress_TargetStandbyGray",
+    "_duration": 0.016666666666666666,
+    "wrapMode": 0,
+    "curveData": [
+      {},
+      "comps",
+      11,
+      [
+        {},
+        "cc.Sprite",
+        11,
+        [
+          {},
+          "spriteFrame",
+          12,
+          [
+            [
+              [
+                {
+                  "frame": 0
+                },
+                "value",
+                6,
+                0
+              ]
+            ],
+            11
+          ]
+        ]
+      ],
+      "paths",
+      11,
+      [
+        {
+          "over": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ]
+            }
+          }
+        },
+        "next",
+        11,
+        [
+          {
+            "comps": {
+              "cc.Sprite": {
+                "spriteFrame": [
+                  {
+                    "frame": 0,
+                    "value": null
+                  }
+                ]
+              }
+            }
+          },
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ],
+              "active": [
+                {
+                  "frame": 0,
+                  "value": false
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.6,
+                    0.6,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "label",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ]
+      ],
+      "props",
+      11,
+      [
+        {},
+        "scale",
+        12,
+        [
+          [
+            [
+              {
+                "frame": 0
+              },
+              "value",
+              8,
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
+          ],
+          11
+        ]
+      ]
+    ]
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": "value",
+      "uuid": "f927c233-05df-4fbd-817c-182463bb62d6"
+    }
+  ],
+  "import_file": "assets/resources/import/0f/0fb55d1b1.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+}

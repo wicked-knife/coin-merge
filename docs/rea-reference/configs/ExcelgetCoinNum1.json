@@ -1,0 +1,22 @@
+[
+  {
+    "ID": 1,
+    "useProbility": 25,
+    "coinNum": 6
+  },
+  {
+    "ID": 2,
+    "useProbility": 30,
+    "coinNum": 5
+  },
+  {
+    "ID": 3,
+    "useProbility": 35,
+    "coinNum": 4
+  },
+  {
+    "ID": 4,
+    "useProbility": 10,
+    "coinNum": 2
+  }
+]

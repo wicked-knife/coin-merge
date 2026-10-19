@@ -1,0 +1,200 @@
+[
+  {
+    "name": "GameConst capacity",
+    "byte_offset": 61073,
+    "matches": 1,
+    "snippet": "n.COIN_PUT_MAX_NUM=10"
+  },
+  {
+    "name": "CellItem state+arrays",
+    "byte_offset": 10717,
+    "matches": 2,
+    "snippet": "this._ownCoins=[],this._awaitCoins=[]"
+  },
+  {
+    "name": "CellItem canMerge",
+    "byte_offset": 13640,
+    "matches": 2,
+    "snippet": "get canMerge(){return!(this._ownCoins.length!=r.GameConst.COIN_PUT_MAX_NUM||!this.isAllCoinSameLv)}"
+  },
+  {
+    "name": "CellItem selection",
+    "byte_offset": 17124,
+    "matches": 1,
+    "snippet": "requireAwait(){if(this._animing)return!1;let e=this._ownCoins.length;"
+  },
+  {
+    "name": "CellItem dest acceptance",
+    "byte_offset": 17507,
+    "matches": 2,
+    "snippet": "requireCanPutTypeAndNum(){let e=r.GameConst.COIN_PUT_MAX_NUM-this._ownCoins.length;"
+  },
+  {
+    "name": "CellItem merge",
+    "byte_offset": 18041,
+    "matches": 1,
+    "snippet": "merge(e){this.stopAwait(),this._animing=!0;let t=this._ownCoins.splice(0,8)"
+  },
+  {
+    "name": "Coin levelup",
+    "byte_offset": 36233,
+    "matches": 1,
+    "snippet": "playTransLv(){this._playTrans(()=>this.setNormalNum(this._num+1,!1))}"
+  },
+  {
+    "name": "CellLayer init 12",
+    "byte_offset": 23022,
+    "matches": 1,
+    "snippet": "for(let n=0;n<12;n++)"
+  },
+  {
+    "name": "CellLayer auto/lose",
+    "byte_offset": 24369,
+    "matches": 1,
+    "snippet": "_freshBtnStates(){this._canMergeItems.length=0"
+  },
+  {
+    "name": "CellLayer move",
+    "byte_offset": 25117,
+    "matches": 1,
+    "snippet": "_onClickItem(e){if(e.state!==g.CellState.CanUsingAd)"
+  },
+  {
+    "name": "CellLayer merge driver",
+    "byte_offset": 27205,
+    "matches": 1,
+    "snippet": "onMerge(){let e=this._canMergeItems.length;"
+  },
+  {
+    "name": "CellLayer unlock",
+    "byte_offset": 24249,
+    "matches": 1,
+    "snippet": "unlockOneCell(){0!==this._lockItems.length"
+  },
+  {
+    "name": "GameUI target",
+    "byte_offset": 83440,
+    "matches": 1,
+    "snippet": "_initShow(){let e=y.DataHelper.getGameData();"
+  },
+  {
+    "name": "GameUI progression",
+    "byte_offset": 86217,
+    "matches": 1,
+    "snippet": "checkUpgrade(e){let t=y.DataHelper.getGameData();"
+  },
+  {
+    "name": "DealCoin distribution",
+    "byte_offset": 52585,
+    "matches": 1,
+    "snippet": "static getDealCoin(e,t){let i=this,"
+  },
+  {
+    "name": "DealCoin choose slots",
+    "byte_offset": 53488,
+    "matches": 1,
+    "snippet": "static getDealCoinByCell(e){let t=e.length,"
+  },
+  {
+    "name": "DealCoin skip slot",
+    "byte_offset": 50759,
+    "matches": 1,
+    "snippet": "static removeRandOne(e){var t=[],i=[];"
+  },
+  {
+    "name": "DealCoin numbers",
+    "byte_offset": 51013,
+    "matches": 1,
+    "snippet": "static getCoinNumbers(e,t){var i=[];"
+  },
+  {
+    "name": "DealCoin level pool",
+    "byte_offset": 51702,
+    "matches": 1,
+    "snippet": "static randNeedNumbers(e,t){var i=l.getCoinMaxNumber();"
+  },
+  {
+    "name": "WarCellItem target",
+    "byte_offset": 198864,
+    "matches": 1,
+    "snippet": "_checkTarget(e=!0){this._targetNum==this._ownCoins[0].num"
+  },
+  {
+    "name": "WarCellLayer swap",
+    "byte_offset": 207507,
+    "matches": 1,
+    "snippet": "_trySwap(e){if(!this._selectItem.isAllCoinsAwaiting"
+  },
+  {
+    "name": "WarGameUI win",
+    "byte_offset": 215383,
+    "matches": 1,
+    "snippet": "_updateProgress(){this.progress.node.active=!0;"
+  },
+  {
+    "name": "WarGameUI init",
+    "byte_offset": 214249,
+    "matches": 1,
+    "snippet": "_initData(e=!1){let t=u.ConfigCollect.Excelchallenge_area1"
+  },
+  {
+    "name": "Create generator",
+    "byte_offset": 40030,
+    "matches": 1,
+    "snippet": "static getInitData(e){(e<0||e>=a.ConfigCollect.Excelchallenge_area1.length)"
+  },
+  {
+    "name": "Normal random init",
+    "byte_offset": 30295,
+    "matches": 1,
+    "snippet": "_initNormalLv(){var e="
+  },
+  {
+    "name": "Normal init state construction",
+    "byte_offset": 31121,
+    "matches": 1,
+    "snippet": "_initLv(e,t){let i="
+  },
+  {
+    "name": "Normal save migration",
+    "byte_offset": 23583,
+    "matches": 1,
+    "snippet": "_migrateLegacyNormalBoard(e){return e.map"
+  },
+  {
+    "name": "Normal shuffle",
+    "byte_offset": 29281,
+    "matches": 1,
+    "snippet": "onShuffle(){let e={},t=[];"
+  },
+  {
+    "name": "Normal reveal",
+    "byte_offset": 16289,
+    "matches": 1,
+    "snippet": "removeCoins(e){let t=this._ownCoins.length"
+  },
+  {
+    "name": "Tutorial state machine",
+    "byte_offset": 65791,
+    "matches": 1,
+    "snippet": "play(){switch(this.node.opacity=0,this._guideIndex)"
+  },
+  {
+    "name": "Cloud save gate",
+    "byte_offset": 157844,
+    "matches": 1,
+    "snippet": "_syncToYouTubeCloud(e=!1){"
+  },
+  {
+    "name": "Challenge menu unlock",
+    "byte_offset": 231512,
+    "matches": 1,
+    "snippet": "i.WarMaxLevel<=a.length&&a[i.WarMaxLevel-1].unlockNumeral<=o"
+  },
+  {
+    "name": "Sprite cycle",
+    "byte_offset": 189412,
+    "matches": 1,
+    "snippet": "e.getCoinSpf=function(e,t){"
+  }
+]

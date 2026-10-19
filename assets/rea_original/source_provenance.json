@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "game": "Tidy Coins 3D",
+  "playable_url": "https://www.youtube.com/playables/UgkxP0bGugMKLTPTbHIMdt6iuUI4QgKUDmek",
+  "base_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/",
+  "prior_rea_capture": "ev_b3d4e6cb0ad72c684bc88c9cec0129764dad821cb11416156cc77507a68397de",
+  "acquisition_method": "Static manifest decoding and direct HTTPS GET; no downloaded script executed.",
+  "configuration_identity": "All three bundle configurations matched the earlier captured SHA-256.",
+  "extraction_method": "Cocos 2.4 compiled array format, original UUID decoding, SpriteFrame rect/rotation/originalSize/offset; PIL lossless PNG export.",
+  "spine_binary_version": "3.8.99",
+  "missing_import_count": 1
+}

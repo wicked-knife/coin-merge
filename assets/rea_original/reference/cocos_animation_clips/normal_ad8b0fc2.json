@@ -1,0 +1,48 @@
+{
+  "uuid": "ad8b0fc2-ec96-4215-ae14-2f2f805ae4a1",
+  "bundle": "resources",
+  "config_index": 237,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "normal",
+    "curveData": {
+      "paths": {
+        "light2": {
+          "props": {
+            "active": [
+              {
+                "frame": 0,
+                "value": false
+              }
+            ]
+          }
+        },
+        "BG_Trench_Merge copy": {
+          "props": {
+            "active": [
+              {
+                "frame": 0,
+                "value": false
+              }
+            ]
+          }
+        },
+        "BG_Trench_Merge": {
+          "props": {
+            "active": [
+              {
+                "frame": 0,
+                "value": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/01/017379dbb.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+}

@@ -1,0 +1,30 @@
+{
+  "uuid": "87a2ced2-25da-4893-bdfc-f8605f2318c4",
+  "bundle": "resources",
+  "config_index": 134,
+  "logical_path": "prefab/prefab/particle/light2",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "light2"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 2,
+      "property": "_file",
+      "uuid": "b2687ac4-099e-403c-a192-ff477686f4f5"
+    },
+    {
+      "owner": 2,
+      "property": "_spriteFrame",
+      "uuid": "576cc266-7d1e-4451-aef6-37e092dbee72"
+    }
+  ],
+  "import_file": "assets/resources/import/0f/0f5c7c6cd.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f5c7c6cd.json"
+}

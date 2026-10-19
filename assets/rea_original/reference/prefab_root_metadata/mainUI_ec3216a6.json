@@ -1,0 +1,200 @@
+{
+  "uuid": "ec3216a6-1c75-46f6-8d21-ae276afbf9d0",
+  "bundle": "resources",
+  "config_index": 301,
+  "logical_path": "prefab/panel/mainUI",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "mainUI"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "e582e535-e503-4b2e-adf5-eba2331b7d61"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "7afd064b-113f-480e-b793-8817d19f63c3"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "2602b354-d20f-4429-9aa3-e13e5feb6a1b"
+    },
+    {
+      "owner": 0,
+      "property": "_normalMaterial",
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_grayMaterial",
+      "uuid": "3a7bb79f-32fd-422e-ada2-96f518fed422"
+    },
+    {
+      "owner": 0,
+      "property": "_N$normalSprite",
+      "uuid": "a4008c4d-264b-4b29-b534-6aaed3c9aaff"
+    },
+    {
+      "owner": 0,
+      "property": "_N$disabledSprite",
+      "uuid": "a4008c4d-264b-4b29-b534-6aaed3c9aaff"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "1077083d-f1c3-4909-bda8-396fc4faceab"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "2d44a874-4550-4c07-a8c1-4c2c0bcdd517"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "1a72606a-aaf4-4691-bce8-97d540d03406"
+    },
+    {
+      "owner": 0,
+      "property": "_N$normalSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$pressedSprite",
+      "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    {
+      "owner": 0,
+      "property": "_N$hoverSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$disabledSprite",
+      "uuid": "29158224-f8dd-4661-a796-1ffab537140e"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ded23f18-a185-4266-81f6-db2de0c266e4"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "d543159b-8a1a-44a4-9981-8445d0eadb78"
+    },
+    {
+      "owner": 0,
+      "property": "_N$normalSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$pressedSprite",
+      "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    {
+      "owner": 0,
+      "property": "_N$hoverSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 0,
+      "property": "_N$disabledSprite",
+      "uuid": "29158224-f8dd-4661-a796-1ffab537140e"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "2ae9be4b-59d7-4214-93c3-08d9e2775eeb"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "2acdf23c-c837-48af-b147-05abb5a2bd11"
+    },
+    {
+      "owner": 0,
+      "property": "_N$normalSprite",
+      "uuid": "1ece44a1-8f25-43ba-a910-920d78e13bbf"
+    },
+    {
+      "owner": 0,
+      "property": "_N$disabledSprite",
+      "uuid": "1ece44a1-8f25-43ba-a910-920d78e13bbf"
+    },
+    {
+      "owner": 18,
+      "property": "_N$skeletonData",
+      "uuid": "a9487906-fba8-4e70-bda3-212668f96218"
+    }
+  ],
+  "import_file": "assets/resources/import/0b/0b530e15c.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+}

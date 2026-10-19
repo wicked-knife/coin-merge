@@ -1,0 +1,30 @@
+{
+  "uuid": "74ba9607-d508-4565-95c3-ad1e7281c77c",
+  "bundle": "resources",
+  "config_index": 179,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Light_Aperture",
+    "_duration": 2.9833333333333334,
+    "wrapMode": 2,
+    "curveData": {
+      "props": {
+        "angle": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 2.9833333333333334,
+            "value": -360
+          }
+        ]
+      }
+    }
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/0f/0f413a63e.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f413a63e.json"
+}

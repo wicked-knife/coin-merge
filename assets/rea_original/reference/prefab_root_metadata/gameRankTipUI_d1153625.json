@@ -1,0 +1,55 @@
+{
+  "uuid": "d1153625-ee5e-40de-a160-01002552c190",
+  "bundle": "resources",
+  "config_index": 253,
+  "logical_path": "prefab/panel/gameRankTipUI",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "gameRankTipUI"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "e3155073-09e4-48e3-9e61-ca2b77ef0e9d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ff524957-91bf-46e0-b057-a403a65575fb"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ebec3afb-dbe5-4ea4-99af-38858918101e"
+    }
+  ],
+  "import_file": "assets/resources/import/07/07c19d1ef.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/07/07c19d1ef.json"
+}

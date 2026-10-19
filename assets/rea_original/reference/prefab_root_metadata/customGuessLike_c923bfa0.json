@@ -1,0 +1,35 @@
+{
+  "uuid": "c923bfa0-fe5e-49b5-91f3-786655f42cb7",
+  "bundle": "resources",
+  "config_index": 275,
+  "logical_path": "customPrefab/customGuessLike",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "customGuessLike"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "a23235d1-15db-4b95-8439-a2e005bfff91"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    }
+  ],
+  "import_file": "assets/resources/import/c9/c923bfa0-fe5e-49b5-91f3-786655f42cb7.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/c9/c923bfa0-fe5e-49b5-91f3-786655f42cb7.json"
+}

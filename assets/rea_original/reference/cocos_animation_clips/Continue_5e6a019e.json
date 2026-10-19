@@ -1,0 +1,34 @@
+{
+  "uuid": "5e6a019e-4c0d-4f8d-83d5-aca5217ae166",
+  "bundle": "resources",
+  "config_index": 155,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Continue",
+    "_duration": 4,
+    "wrapMode": 2,
+    "curveData": {
+      "props": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 255
+          },
+          {
+            "frame": 2,
+            "value": 0
+          },
+          {
+            "frame": 4,
+            "value": 255
+          }
+        ]
+      }
+    }
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/09/09c2bb4cf.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/09/09c2bb4cf.json"
+}

@@ -1,0 +1,140 @@
+{
+  "uuid": "0fe0713d-a05c-4254-9516-29d97a7d0613",
+  "bundle": "resources",
+  "config_index": 3,
+  "logical_path": "prefab/panel/levelFailUI",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "levelFailUI"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ba506381-8770-40bf-92a1-66301de8d2f1"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "e6fc8aa1-5a85-42f7-be6d-cadc364360af"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "8f871776-2783-4f6e-ab1f-914fb14cbf46"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ebec3afb-dbe5-4ea4-99af-38858918101e"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "7302d2bc-35cd-4e70-b96f-54f0c8ccc7c2"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "ad33cc3d-415f-4648-be4a-b1bc729f0a21"
+    },
+    {
+      "owner": 17,
+      "property": "_N$normalSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 17,
+      "property": "_N$pressedSprite",
+      "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    {
+      "owner": 17,
+      "property": "_N$hoverSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 17,
+      "property": "_N$disabledSprite",
+      "uuid": "29158224-f8dd-4661-a796-1ffab537140e"
+    },
+    {
+      "owner": 20,
+      "property": "_N$normalSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 20,
+      "property": "_N$pressedSprite",
+      "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a"
+    },
+    {
+      "owner": 20,
+      "property": "_N$hoverSprite",
+      "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952"
+    },
+    {
+      "owner": 20,
+      "property": "_N$disabledSprite",
+      "uuid": "29158224-f8dd-4661-a796-1ffab537140e"
+    }
+  ],
+  "import_file": "assets/resources/import/0e/0ef0ec78d.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0ef0ec78d.json"
+}

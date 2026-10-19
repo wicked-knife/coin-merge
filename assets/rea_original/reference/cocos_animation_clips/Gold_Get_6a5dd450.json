@@ -1,0 +1,420 @@
+{
+  "uuid": "6a5dd450-8500-4f26-8864-8f16f3ea615e",
+  "bundle": "resources",
+  "config_index": 169,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Gold_Get",
+    "_duration": 0.38333333333333336,
+    "curveData": [
+      {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": [
+                -3,
+                3,
+                0
+              ]
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": [
+                3,
+                -3,
+                0
+              ]
+            },
+            {
+              "frame": 0.1,
+              "value": [
+                -3,
+                2,
+                0
+              ]
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "paths",
+      11,
+      [
+        {
+          "Icon_Coin": {
+            "props": {
+              "position": [
+                {
+                  "frame": 0,
+                  "value": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "frame": 0.03333333333333333,
+                  "value": [
+                    -3,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "frame": 0.06666666666666667,
+                  "value": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "frame": 0.1,
+                  "value": [
+                    -3,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "frame": 0.13333333333333333,
+                  "value": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            }
+          },
+          "Star13": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                },
+                {
+                  "frame": 0.25,
+                  "value": 255
+                },
+                {
+                  "frame": 0.35,
+                  "value": 0
+                }
+              ],
+              "position": [
+                {
+                  "frame": 0,
+                  "value": [
+                    -23.7,
+                    -1.1
+                  ],
+                  "motionPath": []
+                },
+                {
+                  "frame": 0.35,
+                  "value": [
+                    4.8,
+                    1.2
+                  ],
+                  "motionPath": []
+                }
+              ]
+            }
+          },
+          "Star12": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                },
+                {
+                  "frame": 0.25,
+                  "value": 255
+                },
+                {
+                  "frame": 0.35,
+                  "value": 0
+                }
+              ],
+              "position": [
+                {
+                  "frame": 0,
+                  "value": [
+                    -31.6,
+                    -28.6
+                  ],
+                  "motionPath": []
+                },
+                {
+                  "frame": 0.35,
+                  "value": [
+                    -8.1,
+                    -46.7
+                  ],
+                  "motionPath": []
+                }
+              ]
+            }
+          },
+          "Star3": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                },
+                {
+                  "frame": 0.25,
+                  "value": 255
+                },
+                {
+                  "frame": 0.35,
+                  "value": 0
+                }
+              ],
+              "position": [
+                {
+                  "frame": 0,
+                  "value": [
+                    -74.3,
+                    -25.1
+                  ],
+                  "motionPath": []
+                },
+                {
+                  "frame": 0.35,
+                  "value": [
+                    -96.1,
+                    -38.7
+                  ],
+                  "motionPath": []
+                }
+              ]
+            }
+          },
+          "Star11": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                },
+                {
+                  "frame": 0.25,
+                  "value": 255
+                },
+                {
+                  "frame": 0.35,
+                  "value": 0
+                }
+              ],
+              "position": [
+                {
+                  "frame": 0,
+                  "value": [
+                    -82.9,
+                    -3.1
+                  ],
+                  "motionPath": []
+                },
+                {
+                  "frame": 0.35,
+                  "value": [
+                    -111.7,
+                    -6.7
+                  ],
+                  "motionPath": []
+                }
+              ]
+            }
+          },
+          "Star2": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                },
+                {
+                  "frame": 0.25,
+                  "value": 255
+                },
+                {
+                  "frame": 0.35,
+                  "value": 0
+                }
+              ],
+              "position": [
+                {
+                  "frame": 0,
+                  "value": [
+                    -33.4,
+                    24.3
+                  ],
+                  "motionPath": []
+                },
+                {
+                  "frame": 0.25,
+                  "value": [
+                    -14.9,
+                    35.8
+                  ],
+                  "motionPath": []
+                },
+                {
+                  "frame": 0.35,
+                  "value": [
+                    -6,
+                    41.2
+                  ],
+                  "motionPath": []
+                }
+              ]
+            }
+          },
+          "Star9": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                },
+                {
+                  "frame": 0.25,
+                  "value": 255
+                },
+                {
+                  "frame": 0.35,
+                  "value": 0
+                }
+              ],
+              "position": [
+                {
+                  "frame": 0,
+                  "value": [
+                    -70.7,
+                    22.2
+                  ],
+                  "motionPath": []
+                },
+                {
+                  "frame": 0.35,
+                  "value": [
+                    -91,
+                    37.4
+                  ],
+                  "motionPath": []
+                }
+              ]
+            }
+          },
+          "AddText": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ]
+            }
+          },
+          "MinusText": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ]
+            }
+          }
+        },
+        "Icon_CoinCopy2",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                },
+                {
+                  "frame": 0.38333333333333336,
+                  "value": 0
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1.5,
+                    1.5,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 0.38333333333333336
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1.8,
+                    1.8,
+                    1
+                  ]
+                ]
+              ],
+              11,
+              11
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/01/013f37249.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/013f37249.json"
+}

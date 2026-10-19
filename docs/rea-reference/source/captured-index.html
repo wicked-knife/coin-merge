@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- [YouTube] Playables SDK - MUST BE FIRST -->
+  <script src="https://www.youtube.com/game_api/v1" nonce="socTKkJZrWrLWINcZ4b50Q"></script>
+
+    <!-- [YouTube Patch] FINALIZED: SW Unregister + URL Interceptor + Infinity Fix + Canvas Fix -->
+    <script nonce="socTKkJZrWrLWINcZ4b50Q">
+        (function() {
+            // [YouTube] 禁用全屏请求
+            Element.prototype.requestFullscreen = function() { return Promise.resolve(); };
+            if (HTMLElement.prototype.webkitRequestFullScreen) {
+                HTMLElement.prototype.webkitRequestFullScreen = function() {};
+            }
+
+            // 全局错误捕获
+            window.addEventListener('error', function(event) {
+                console.warn('[YouTube Shield] Error:', event.error || event.message);
+                try {
+                    if (typeof ytgame !== 'undefined' && ytgame.health && ytgame.health.logError) {
+                        ytgame.health.logError('[Error] ' + (event.error?.message || event.message || 'Unknown'));
+                    }
+                } catch(e) {}
+            });
+            window.addEventListener('unhandledrejection', function(event) {
+                console.warn('[YouTube Shield] Promise rejection:', event.reason);
+                try {
+                    if (typeof ytgame !== 'undefined' && ytgame.health && ytgame.health.logError) {
+                        ytgame.health.logError('[Rejection] ' + (event.reason?.message || event.reason || 'Unknown'));
+                    }
+                } catch(e) {}
+                event.preventDefault();
+            });
+
+            // WebGL 检测
+            (function() {
+                try {
+                    var testCanvas = document.createElement('canvas');
+                    var gl = testCanvas.getContext('webgl2') || testCanvas.getContext('webgl');
+                    if (!gl) {
+                        console.error('[YouTube Shield] WebGL not available!');
+                    } else {
+                        console.log('[YouTube Shield] WebGL available:', gl.getParameter(gl.VERSION));
+                    }
+                } catch (e) {
+                    console.error('[YouTube Shield] WebGL check failed:', e);
+                }
+            })();
+
+            // WebGL Context Recovery
+            (function() {
+                window.addEventListener('DOMContentLoaded', function() {
+                    var gameCanvas = document.getElementById('GameCanvas');
+                    if (gameCanvas) {
+                        gameCanvas.addEventListener('webglcontextlost', function(e) {
+                            console.error('[YouTube Shield] WebGL context lost!');
+                            e.preventDefault();
+                        });
+                        gameCanvas.addEventListener('webglcontextrestored', function() {
+                            console.log('[YouTube Shield] WebGL context restored!');
+                        });
+                    }
+                });
+            })();
+
+            // [YouTube] localStorage / sessionStorage 内存 Polyfill
+            // YouTube WebView 封锁了 localStorage，需要用内存模拟
+            (function() {
+                function isStorageAvailable(type) {
+                    try {
+                        var s = window[type];
+                        var testKey = '__yt_storage_test__';
+                        s.setItem(testKey, '1');
+                        s.removeItem(testKey);
+                        return true;
+                    } catch (e) {
+                        return false;
+                    }
+                }
+                function createMemoryStorage() {
+                    var data = {};
+                    return {
+                        getItem: function(key) { return data.hasOwnProperty(key) ? data[key] : null; },
+                        setItem: function(key, value) { data[key] = String(value); },
+                        removeItem: function(key) { delete data[key]; },
+                        clear: function() { data = {}; },
+                        get length() { return Object.keys(data).length; },
+                        key: function(i) { var keys = Object.keys(data); return keys[i] || null; }
+                    };
+                }
+                if (!isStorageAvailable('localStorage')) {
+                    console.warn('[YouTube Polyfill] localStorage blocked, using memory polyfill');
+                    try {
+                        Object.defineProperty(window, 'localStorage', {
+                            value: createMemoryStorage(),
+                            writable: false,
+                            configurable: true
+                        });
+                    } catch (e) {
+                        window.localStorage = createMemoryStorage();
+                    }
+                } else {
+                    console.log('[YouTube Shield] LocalStorage available');
+                }
+                if (!isStorageAvailable('sessionStorage')) {
+                    console.warn('[YouTube Polyfill] sessionStorage blocked, using memory polyfill');
+                    try {
+                        Object.defineProperty(window, 'sessionStorage', {
+                            value: createMemoryStorage(),
+                            writable: false,
+                            configurable: true
+                        });
+                    } catch (e) {
+                        window.sessionStorage = createMemoryStorage();
+                    }
+                }
+            })();
+
+            // 引擎初始化超时监控
+            var engineReady = false;
+            setTimeout(function() {
+                if (!engineReady) {
+                    var canvas = document.getElementById('GameCanvas');
+                    console.warn('[YouTube Watchdog] 5s: Engine not ready.', {
+                        ccDefined: typeof cc !== 'undefined',
+                        canvasExists: !!canvas,
+                        canvasSize: canvas ? (canvas.width + 'x' + canvas.height) : 'N/A'
+                    });
+                }
+            }, 5000);
+            setTimeout(function() {
+                if (!engineReady) {
+                    console.error('[YouTube Watchdog] 15s: Engine TIMEOUT!');
+                }
+            }, 15000);
+
+            // Dynamic window.innerWidth/Height Hook
+            (function() {
+                var origWidthDesc = Object.getOwnPropertyDescriptor(window, 'innerWidth');
+                var origHeightDesc = Object.getOwnPropertyDescriptor(window, 'innerHeight');
+                function getOriginalInnerWidth() {
+                    if (origWidthDesc && origWidthDesc.get) return origWidthDesc.get.call(window);
+                    return 0;
+                }
+                function getOriginalInnerHeight() {
+                    if (origHeightDesc && origHeightDesc.get) return origHeightDesc.get.call(window);
+                    return 0;
+                }
+                function getFallbackSize() {
+                    var canvas = document.getElementById('GameCanvas');
+                    if (canvas && canvas.parentElement) {
+                        var rect = canvas.parentElement.getBoundingClientRect();
+                        if (rect.width > 0 && rect.height > 0) {
+                            return { width: Math.round(rect.width), height: Math.round(rect.height) };
+                        }
+                        if (rect.width > 0) {
+                            var w = Math.round(rect.width);
+                            return { width: w, height: Math.round(w * 1334 / 750) };
+                        }
+                    }
+                    return { width: 750, height: 1334 };
+                }
+                Object.defineProperty(window, 'innerWidth', {
+                    get: function() {
+                        var original = getOriginalInnerWidth();
+                        return (original === 0 || original < 50) ? getFallbackSize().width : original;
+                    },
+                    configurable: true, enumerable: true
+                });
+                Object.defineProperty(window, 'innerHeight', {
+                    get: function() {
+                        var original = getOriginalInnerHeight();
+                        return (original === 0 || original < 50) ? getFallbackSize().height : original;
+                    },
+                    configurable: true, enumerable: true
+                });
+            })();
+
+            // 1. Force Unregister Service Worker
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(function(rs) {
+                    for(var i=0; i<rs.length; i++) { rs[i].unregister(); }
+                });
+            }
+
+            // 2. URL Interceptor (Sanitize @, +)
+            function isRelative(u) { return typeof u==='string' && !/^(http:|https:|data:|blob:\/\/)/.test(u); }
+            function sanitize(u) {
+                if(!isRelative(u)) return u;
+                return u.replace(/[@+]/g, '_');
+            }
+
+            var oldFetch = window.fetch;
+            window.fetch = function(i, opt) {
+                try {
+                    if(typeof i === 'string') i = sanitize(i);
+                    else if(i instanceof Request) {
+                        var nu = sanitize(i.url);
+                        if(nu !== i.url) i = new Request(nu, i);
+                    }
+                } catch(e) {}
+                return oldFetch.call(this, i, opt);
+            };
+
+            var oldXHR = XMLHttpRequest.prototype.open;
+            XMLHttpRequest.prototype.open = function(m, u) {
+                var args = Array.prototype.slice.call(arguments);
+                args[1] = sanitize(u);
+                return oldXHR.apply(this, args);
+            };
+
+            var imgSrcDesc = Object.getOwnPropertyDescriptor(HTMLImageElement.prototype, 'src')
+                          || Object.getOwnPropertyDescriptor(Image.prototype, 'src');
+            if (imgSrcDesc && imgSrcDesc.set) {
+                var oldImgSrcSet = imgSrcDesc.set;
+                Object.defineProperty(HTMLImageElement.prototype, 'src', {
+                    get: imgSrcDesc.get,
+                    set: function(v) { oldImgSrcSet.call(this, sanitize(v)); },
+                    enumerable: true, configurable: true
+                });
+            }
+
+            var audioSrcDesc = Object.getOwnPropertyDescriptor(HTMLAudioElement.prototype, 'src');
+            if (audioSrcDesc && audioSrcDesc.set) {
+                var oldAudioSrcSet = audioSrcDesc.set;
+                Object.defineProperty(HTMLAudioElement.prototype, 'src', {
+                    get: audioSrcDesc.get,
+                    set: function(v) { oldAudioSrcSet.call(this, sanitize(v)); },
+                    enumerable: true, configurable: true
+                });
+            }
+            console.log('[YouTube Patch] Interceptors active.');
+
+            // 3. Engine Infinity Fix + Canvas Fix
+            var patchAttempts = 0;
+            var timer = setInterval(function() {
+                patchAttempts++;
+                if(typeof cc !== 'undefined' && cc.view) {
+                    engineReady = true;
+                    clearInterval(timer);
+                    var oldVis = cc.view.getVisibleSize;
+                    cc.view.getVisibleSize = function() {
+                        var s = oldVis.call(this);
+                        if(!s || !Number.isFinite(s.width) || !Number.isFinite(s.height)) {
+                            return cc.view.getDesignResolutionSize();
+                        }
+                        return s;
+                    };
+                    var oldFrame = cc.view.getFrameSize;
+                    cc.view.getFrameSize = function() {
+                        var s = oldFrame.call(this);
+                        if(!s || !Number.isFinite(s.width) || !Number.isFinite(s.height)) {
+                            return { width: window.innerWidth || 720, height: window.innerHeight || 1280 };
+                        }
+                        return s;
+                    };
+
+                    var canvas = document.getElementById('GameCanvas');
+                    if (canvas) {
+                        var hasRealSize = false;
+                        function ensureFrameRefs() {
+                            if (typeof cc === 'undefined' || !cc.game) return false;
+                            if (!cc.game.frame) cc.game.frame = canvas.parentElement || document.body;
+                            if (!cc.game.container) cc.game.container = canvas.parentElement || document.body;
+                            return !!(cc.game.frame && cc.game.container);
+                        }
+                        var fixCanvas = function() {
+                            var w = window.innerWidth || 720;
+                            var h = window.innerHeight || 1280;
+                            var dpr = window.devicePixelRatio || 1;
+                            var ratio = w / h;
+                            var designRatio = 750 / 1334;
+                            var isNarrow = ratio < designRatio;
+                            if (cc.Canvas && cc.Canvas.instance) {
+                                cc.Canvas.instance.fitWidth = isNarrow;
+                                cc.Canvas.instance.fitHeight = !isNarrow;
+                            }
+                            var isRealHeight = (h > 100);
+                            if (!isRealHeight) {
+                                h = Math.round(w * 1334 / 750);
+                            }
+                            canvas.style.width = w + 'px';
+                            canvas.style.height = h + 'px';
+                            var diffW = Math.abs(canvas.width/dpr - w);
+                            var diffH = Math.abs(canvas.height/dpr - h);
+                            var needsForceResize = (isRealHeight && !hasRealSize);
+                            var needsFix = (canvas.height === 0 || canvas.width === 0 || diffW > 50 || diffH > 50 || needsForceResize);
+                            if (needsFix && cc.view && ensureFrameRefs()) {
+                                canvas.width = w * dpr;
+                                canvas.height = h * dpr;
+                                try {
+                                    var policy = isNarrow ? cc.ResolutionPolicy.FIXED_WIDTH : cc.ResolutionPolicy.FIXED_HEIGHT;
+                                    cc.view.setFrameSize(w, h);
+                                    cc.view.setDesignResolutionSize(750, 1334, policy);
+                                } catch(e) {}
+                                if (needsForceResize) hasRealSize = true;
+                            }
+                            if (isRealHeight) hasRealSize = true;
+                        };
+                        var waitForEngine = setInterval(function() {
+                            if (typeof cc !== 'undefined' && cc.director && cc.game && cc.game.frame) {
+                                clearInterval(waitForEngine);
+                                fixCanvas();
+                                setTimeout(fixCanvas, 100);
+                                setTimeout(fixCanvas, 500);
+                                setTimeout(fixCanvas, 1000);
+                                setTimeout(fixCanvas, 2000);
+                                setTimeout(fixCanvas, 3000);
+                            }
+                        }, 50);
+                        setTimeout(function() { clearInterval(waitForEngine); }, 10000);
+                        window.addEventListener('resize', fixCanvas);
+                    }
+                }
+                if (patchAttempts > 2000) clearInterval(timer);
+            }, 5);
+        })();
+    </script>
+    
+  <meta charset="utf-8">
+
+  <title>Tidy Coins 3D</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+  
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content=""/>
+  <meta name="x5-orientation" content="">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style-mobile.css" nonce="socTKkJZrWrLWINcZ4b50Q"/>
+  <link rel="icon" href="favicon.ico"/>
+
+  <script nonce="socTKkJZrWrLWINcZ4b50Q">
+    window.GAME_VERSION = "1.0.0.260719_1811_50b68c2";
+    console.log("[Version Control] Load Game Version: " + window.GAME_VERSION);
+  </script>
+</head>
+<body>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash">
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+
+<script src="src/settings.js" charset="utf-8" nonce="socTKkJZrWrLWINcZ4b50Q"></script>
+
+<script src="main.js" charset="utf-8" nonce="socTKkJZrWrLWINcZ4b50Q"></script>
+
+<script type="text/javascript" nonce="socTKkJZrWrLWINcZ4b50Q">
+(function () {
+    // open web debugger console
+    if (typeof VConsole !== 'undefined') {
+        window.vConsole = new VConsole();
+    }
+
+    var debug = window._CCSettings.debug;
+    // [YouTube] 禁用 Cocos splash 画面
+    // var splash = document.getElementById('splash');
+    // splash.style.display = 'block';
+
+    function loadScript (moduleName, cb) {
+      function scriptLoaded () {
+          document.body.removeChild(domScript);
+          domScript.removeEventListener('load', scriptLoaded, false);
+          cb && cb();
+      };
+      var domScript = document.createElement('script');
+      domScript.async = true;
+      domScript.src = moduleName;
+      domScript.addEventListener('load', scriptLoaded, false);
+      document.body.appendChild(domScript);
+    }
+
+    loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js', function () {
+      if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
+        loadScript(debug ? 'physics.js' : 'physics-min.js', window.boot);
+      }
+      else {
+        window.boot();
+      }
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+{
+  "uuid": "7be73f8a-d343-4736-a671-172a6ef7439c",
+  "bundle": "resources",
+  "config_index": 186,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "WarCoin",
+    "_duration": 1.1666666666666667,
+    "curveData": {
+      "paths": {
+        "LaserLight": {
+          "props": {
+            "position": [
+              {
+                "frame": 0.5,
+                "value": [
+                  -199.9,
+                  -212.5
+                ]
+              },
+              {
+                "frame": 0.75,
+                "value": [
+                  -0.9,
+                  -11.7
+                ]
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": [
+                  168,
+                  140
+                ]
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.5,
+                "value": 80
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 40
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/0f/0f06036bd.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f06036bd.json"
+}

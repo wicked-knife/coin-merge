@@ -1,0 +1,326 @@
+{
+  "uuid": "52cc75bb-6d10-493a-a766-16a16ea08aff",
+  "bundle": "resources",
+  "config_index": 117,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Biggold_Appear",
+    "_duration": 2.1666666666666665,
+    "curveData": [
+      {},
+      "props",
+      11,
+      [
+        {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "scale",
+        12,
+        [
+          [
+            [
+              {
+                "frame": 0
+              },
+              "value",
+              8,
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
+          ],
+          11
+        ]
+      ],
+      "paths",
+      11,
+      [
+        {
+          "Bigcoin/LaserLight": {
+            "props": {
+              "position": [
+                {
+                  "frame": 1,
+                  "value": [
+                    -182.417,
+                    119.181,
+                    0
+                  ]
+                },
+                {
+                  "frame": 1.3333333333333333,
+                  "value": [
+                    12.091888888888889,
+                    -26.163444444444465,
+                    0
+                  ]
+                },
+                {
+                  "frame": 1.6666666666666667,
+                  "value": [
+                    167.699,
+                    -142.439,
+                    0
+                  ]
+                }
+              ],
+              "opacity": [
+                {
+                  "frame": 1,
+                  "value": 50
+                },
+                {
+                  "frame": 1.1666666666666667,
+                  "value": 60
+                },
+                {
+                  "frame": 1.5833333333333333,
+                  "value": 0
+                }
+              ]
+            }
+          }
+        },
+        "Bigcoin",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 0.2833333333333333,
+                  "value": 255
+                }
+              ],
+              "position": [
+                {
+                  "frame": 0,
+                  "value": [
+                    0,
+                    -100,
+                    0
+                  ]
+                },
+                {
+                  "frame": 0.2,
+                  "value": [
+                    0,
+                    10,
+                    0
+                  ]
+                },
+                {
+                  "frame": 0.2833333333333333,
+                  "value": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "frame": 0.6666666666666666,
+                  "value": [
+                    0,
+                    -10,
+                    0
+                  ]
+                },
+                {
+                  "frame": 1.3333333333333333,
+                  "value": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "frame": 2.1666666666666665,
+                  "value": [
+                    0,
+                    -10,
+                    0
+                  ]
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.4,
+                    0.2,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 0.2
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 0.2833333333333333
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11,
+              11,
+              11
+            ]
+          ]
+        ],
+        "Light_Aperture",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 0.3333333333333333,
+                  "value": 0
+                },
+                {
+                  "frame": 0.6,
+                  "value": 255
+                }
+              ],
+              "angle": [
+                {
+                  "frame": 0.6,
+                  "value": 0
+                },
+                {
+                  "frame": 2.1666666666666665,
+                  "value": -360
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.7,
+                    0.7,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 0.3333333333333333
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.7,
+                    0.7,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 0.6
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.9,
+                    0.9,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 0.6333333333333333
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.8,
+                    0.8,
+                    1
+                  ]
+                ]
+              ],
+              11,
+              11,
+              11,
+              11
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/0e/0e33cf65e.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0e33cf65e.json"
+}

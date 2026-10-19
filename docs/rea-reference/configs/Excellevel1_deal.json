@@ -1,0 +1,102 @@
+[
+  {
+    "ID": 1,
+    "placeNum": 1,
+    "place1": 2,
+    "place2": 2,
+    "place3": 2,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 2,
+    "placeNum": 2,
+    "place1": 2,
+    "place2": 2,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 3,
+    "placeNum": 3,
+    "place1": 2,
+    "place2": 2,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 4,
+    "placeNum": 4,
+    "place1": 0,
+    "place2": 2,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 5,
+    "placeNum": 5,
+    "place1": 0,
+    "place2": 0,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 6,
+    "placeNum": 6,
+    "place1": 0,
+    "place2": 0,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 7,
+    "placeNum": 7,
+    "place1": 0,
+    "place2": 0,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 8,
+    "placeNum": 8,
+    "place1": 0,
+    "place2": 0,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 9,
+    "placeNum": 9,
+    "place1": 0,
+    "place2": 0,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  },
+  {
+    "ID": 10,
+    "placeNum": 10,
+    "place1": 0,
+    "place2": 0,
+    "place3": 0,
+    "place4": 0,
+    "place5": 0,
+    "place6": 0
+  }
+]

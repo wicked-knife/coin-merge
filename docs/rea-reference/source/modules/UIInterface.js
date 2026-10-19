@@ -1,0 +1,1 @@
+UIInterface:[function(e,t,i){"use strict";cc._RF.push(t,"6ee30itkw9Czo3GS8kSKPUr","UIInterface"),Object.defineProperty(i,"__esModule",{value:!0}),i.UILayer=void 0,function(e){e[e.Buttom=0]="Buttom",e[e.Middle=1]="Middle",e[e.Top=2]="Top"}(i.UILayer||(i.UILayer={})),cc._RF.pop()},{}],

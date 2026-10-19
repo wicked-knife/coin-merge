@@ -1,0 +1,661 @@
+{
+  "uuid": "fffbb4b0-cb55-47bb-8f44-369df4d07a46",
+  "bundle": "resources",
+  "config_index": 331,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Progress_FinalTargeStandby",
+    "_duration": 6,
+    "wrapMode": 2,
+    "curveData": [
+      {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": null
+              }
+            ]
+          }
+        }
+      },
+      "props",
+      11,
+      [
+        {},
+        "scale",
+        12,
+        [
+          [
+            [
+              {
+                "frame": 0
+              },
+              "value",
+              8,
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
+          ],
+          11
+        ]
+      ],
+      "paths",
+      11,
+      [
+        {
+          "TargetBG_4.1": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ],
+              "scale": []
+            }
+          },
+          "over": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ]
+            }
+          }
+        },
+        "TargetBG_4.2",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ],
+              "y": [
+                {
+                  "frame": 0,
+                  "value": 58
+                },
+                {
+                  "frame": 0.5,
+                  "value": 54
+                },
+                {
+                  "frame": 1,
+                  "value": 58
+                },
+                {
+                  "frame": 1.5,
+                  "value": 62
+                },
+                {
+                  "frame": 2,
+                  "value": 58
+                },
+                {
+                  "frame": 2.5,
+                  "value": 54
+                },
+                {
+                  "frame": 3,
+                  "value": 58
+                },
+                {
+                  "frame": 3.5,
+                  "value": 62
+                },
+                {
+                  "frame": 4,
+                  "value": 58
+                },
+                {
+                  "frame": 4.5,
+                  "value": 54
+                },
+                {
+                  "frame": 5,
+                  "value": 58
+                },
+                {
+                  "frame": 5.5,
+                  "value": 62
+                },
+                {
+                  "frame": 6,
+                  "value": 58
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "next",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 0.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.9,
+                    0.9,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 1
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 1.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1.1,
+                    1.1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 2
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 2.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.9,
+                    0.9,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 3
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 3.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1.1,
+                    1.1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 4
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 4.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.9,
+                    0.9,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 5.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1.1,
+                    1.1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 6
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11
+            ]
+          ],
+          "comps",
+          11,
+          [
+            {},
+            "cc.Sprite",
+            11,
+            [
+              {},
+              "spriteFrame",
+              12,
+              [
+                [
+                  [
+                    {
+                      "frame": 0
+                    },
+                    "value",
+                    6,
+                    0
+                  ]
+                ],
+                11
+              ]
+            ]
+          ]
+        ],
+        "label",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 0.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.9,
+                    0.9,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 1
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 1.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1.1,
+                    1.1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 2
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 2.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.9,
+                    0.9,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 3
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 3.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1.1,
+                    1.1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 4
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 4.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.9,
+                    0.9,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 5.5
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1.1,
+                    1.1,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 6
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11
+            ]
+          ]
+        ],
+        "TargetBG_4",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 30
+                }
+              ],
+              "angle": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 6,
+                  "value": 360
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": "value",
+      "uuid": "82aaa18a-a076-41b5-a801-99f21a2b2c80"
+    }
+  ],
+  "import_file": "assets/resources/import/0f/0fb55d1b1.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+}

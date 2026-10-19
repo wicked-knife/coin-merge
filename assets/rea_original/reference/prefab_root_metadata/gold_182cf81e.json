@@ -1,0 +1,85 @@
+{
+  "uuid": "182cf81e-9557-4cd0-95a9-309380c9b2c5",
+  "bundle": "resources",
+  "config_index": 5,
+  "logical_path": "prefab/prefab/gold",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "gold"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "1918bbcf-7fd5-4f57-a96d-fc716b1a1856"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "517696d2-e802-4beb-945b-ef616d7fbf2e"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "4ccd27f1-8e50-450c-a2fc-de08c15d3e6d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "4ccd27f1-8e50-450c-a2fc-de08c15d3e6d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "517696d2-e802-4beb-945b-ef616d7fbf2e"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "52cc75bb-6d10-493a-a766-16a16ea08aff"
+    },
+    {
+      "owner": 8,
+      "property": "_spriteFrame",
+      "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573"
+    },
+    {
+      "owner": 9,
+      "property": "_defaultClip",
+      "uuid": "52cc75bb-6d10-493a-a766-16a16ea08aff"
+    }
+  ],
+  "import_file": "assets/resources/import/0e/0e33cf65e.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0e33cf65e.json"
+}

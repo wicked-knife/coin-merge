@@ -1,0 +1,14 @@
+{
+  "uuid": "b3e71a90-69d1-42ef-82f7-90038c349b6b",
+  "bundle": "resources",
+  "config_index": 146,
+  "logical_path": "prefab/prefab/war/war-cell-layer",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "war-cell-layer"
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/09/09c2bb4cf.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/09/09c2bb4cf.json"
+}

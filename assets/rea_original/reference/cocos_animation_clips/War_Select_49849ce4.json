@@ -1,0 +1,59 @@
+{
+  "uuid": "49849ce4-aa73-48ea-b890-1db62c5ecd91",
+  "bundle": "resources",
+  "config_index": 106,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "War_Select",
+    "_duration": 1,
+    "wrapMode": 2,
+    "curveData": {
+      "props": {
+        "position": []
+      },
+      "paths": {
+        "icon": {
+          "props": {
+            "y": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.5,
+                "value": -10
+              },
+              {
+                "frame": 1,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "label": {
+          "props": {
+            "y": [
+              {
+                "frame": 0,
+                "value": -6
+              },
+              {
+                "frame": 0.5,
+                "value": -16
+              },
+              {
+                "frame": 1,
+                "value": -6
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/03/0384d6f29.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/03/0384d6f29.json"
+}

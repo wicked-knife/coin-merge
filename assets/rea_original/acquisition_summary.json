@@ -1,0 +1,530 @@
+{
+  "records": 350,
+  "class_counts": {
+    "cc.AnimationClip": 29,
+    "cc.SpriteFrame": 170,
+    "cc.Prefab": 34,
+    "cc.BitmapFont": 1,
+    "cc.Texture2D": 33,
+    "sp.SkeletonData": 1,
+    "cc.ParticleAsset": 1,
+    "cc.JsonAsset": 34,
+    "cc.AudioClip": 27,
+    "cc.SpriteAtlas": 2,
+    "cc.SceneAsset": 1,
+    "cc.EffectAsset": 8,
+    "cc.Material": 9
+  },
+  "native_files": 62,
+  "sprite_pngs": 170,
+  "missing_imports": [
+    {
+      "bundle": "resources",
+      "relative": "assets/resources/import/e3/e3e6c72e-b721-44d4-bc6e-2aff69f45650.json",
+      "indices": [
+        293
+      ],
+      "packed": false
+    }
+  ],
+  "unresolved_exports": [],
+  "native_download_failures": [],
+  "native_exports": [
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/0c65e892-53bd-4fa1-9f16-4a0d2dd6a76a.png",
+      "uuid": "0c65e892-53bd-4fa1-9f16-4a0d2dd6a76a",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/0c/0c65e892-53bd-4fa1-9f16-4a0d2dd6a76a.png",
+      "sha256": "1a7c69eb8c5bf346595a77a0f2cdfe241a41b6bb30b50aaa2f3a3b70ac0070e5",
+      "bytes": 999
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/115970bf0.png",
+      "uuid": "115970bf0",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/11/115970bf0.png",
+      "sha256": "3e6b1050315aa4551a78a93b9941724587b5ee703945e40d55ea3c8796a234dd",
+      "bytes": 31612
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/126fed440.png",
+      "uuid": "126fed440",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/12/126fed440.png",
+      "sha256": "ef5cd3f8ed8f250ab7824f7342912ccdf39d4feae8a6c8527c0223fe329e7b11",
+      "bytes": 15093
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/144861edf.png",
+      "uuid": "144861edf",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/14/144861edf.png",
+      "sha256": "68d748cd6254009dbc8ceea9a095ff910a819c37209646615f71d75357cbdcd3",
+      "bytes": 7358
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/14d977656.png",
+      "uuid": "14d977656",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/14/14d977656.png",
+      "sha256": "730bcf0122db30eadd9928e5f492a06acb6217b4dca6f7f5b0292d7875f4f006",
+      "bytes": 21567
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/14facfbc3.png",
+      "uuid": "14facfbc3",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/14/14facfbc3.png",
+      "sha256": "c3e10fefd20ab886cab040abc9fa9abc5465ac8078de8bfa6298c3ba6c1fd08b",
+      "bytes": 5739
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/153cf6e21.png",
+      "uuid": "153cf6e21",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/15/153cf6e21.png",
+      "sha256": "8e48fcd5632d667556c4b589b649301f1b08cf25e230836341354ce4092d9b91",
+      "bytes": 98344
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/160752c8f.png",
+      "uuid": "160752c8f",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/16/160752c8f.png",
+      "sha256": "a9c701acd932aa7ed28f049b61f8818cb03c98dfa3e1fca45d992c93f4e9f606",
+      "bytes": 60854
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/19dc6463b.png",
+      "uuid": "19dc6463b",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/19/19dc6463b.png",
+      "sha256": "2549e63a913405c48ee5bc0cfb41771630140e39bd649f1b54fd15b476ed8ceb",
+      "bytes": 25334
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/1df2a7b88.png",
+      "uuid": "1df2a7b88",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/1d/1df2a7b88.png",
+      "sha256": "4daa1e10067c5fec4d61995fb910eb4ed954bca6564847bdd5d325b85285ca15",
+      "bytes": 152164
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/27a1b4c1-3428-4a52-b912-1be981ccd16a.png",
+      "uuid": "27a1b4c1-3428-4a52-b912-1be981ccd16a",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/27/27a1b4c1-3428-4a52-b912-1be981ccd16a.png",
+      "sha256": "20a4856435bad8df790fbf1712fdbd331953646b5332eba785d9b83ad3107fb2",
+      "bytes": 19024
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/2a12fadf-2857-4a56-9edc-62d6acb5b34f.png",
+      "uuid": "2a12fadf-2857-4a56-9edc-62d6acb5b34f",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/2a/2a12fadf-2857-4a56-9edc-62d6acb5b34f.png",
+      "sha256": "3332ca542fc5a2b88273f8c276338c63f3f2ed2d73b29a42fef4937c700e1572",
+      "bytes": 1304
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/300cff9e-c5ff-4371-b5be-6b76becb6b85.png",
+      "uuid": "300cff9e-c5ff-4371-b5be-6b76becb6b85",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/30/300cff9e-c5ff-4371-b5be-6b76becb6b85.png",
+      "sha256": "47333e91d6c0bdc62da4ff102713a3dab12e0712665b8d6bed4a630579bb0f53",
+      "bytes": 708
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/417ff6d0-c8c0-406c-a6a6-02eb06db0fbe.png",
+      "uuid": "417ff6d0-c8c0-406c-a6a6-02eb06db0fbe",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/41/417ff6d0-c8c0-406c-a6a6-02eb06db0fbe.png",
+      "sha256": "8867b465dc7f62ac614faf98a99ff387ba3ee0f864dd160760bddfa2bc5e4291",
+      "bytes": 22454
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/5a9527b9-11f9-4895-8d5d-bdec497960ed.png",
+      "uuid": "5a9527b9-11f9-4895-8d5d-bdec497960ed",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/5a/5a9527b9-11f9-4895-8d5d-bdec497960ed.png",
+      "sha256": "fcd79b539a8f138a2bfede6c2ecabcf0f03c0b81eb5b311d75f6a461d8e9739a",
+      "bytes": 616
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/5d35ebc5-8cbe-427e-946c-22200fd3fb3a.png",
+      "uuid": "5d35ebc5-8cbe-427e-946c-22200fd3fb3a",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/5d/5d35ebc5-8cbe-427e-946c-22200fd3fb3a.png",
+      "sha256": "543d634e5d9a8d30bd52ff6b2d54f6aab6c5043f9860b3ecb5716424bad580d5",
+      "bytes": 462
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/71561142-4c83-4933-afca-cb7a17f67053.png",
+      "uuid": "71561142-4c83-4933-afca-cb7a17f67053",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/71/71561142-4c83-4933-afca-cb7a17f67053.png",
+      "sha256": "22c46404b2c7f586431ac035dbd83c53683eb372648abb990ce60916cf5f7c27",
+      "bytes": 997
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/8207c8dd-15e9-4f7e-91b9-23ba88822e93.png",
+      "uuid": "8207c8dd-15e9-4f7e-91b9-23ba88822e93",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/82/8207c8dd-15e9-4f7e-91b9-23ba88822e93.png",
+      "sha256": "f269fe550d8e5f73da29de16ba89e9992741b831938907ba42eaf1b365016e49",
+      "bytes": 257
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/85cd8576-a9ee-42dd-878b-d74650de6abb.png",
+      "uuid": "85cd8576-a9ee-42dd-878b-d74650de6abb",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/85/85cd8576-a9ee-42dd-878b-d74650de6abb.png",
+      "sha256": "b88f05729376b1c2302ddee7e19b2ed523e64eb3d31e5ccf1f495b7f052b804e",
+      "bytes": 677
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/880cb503-c1a8-4101-b459-5df2a67646c2.png",
+      "uuid": "880cb503-c1a8-4101-b459-5df2a67646c2",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/88/880cb503-c1a8-4101-b459-5df2a67646c2.png",
+      "sha256": "38a5016a244cc55c211c2f0c9b72006ea3f4e0bf21b15e252778c1b124253b01",
+      "bytes": 2496
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/93265272-7e14-40cf-a8a2-c43048a12f86.png",
+      "uuid": "93265272-7e14-40cf-a8a2-c43048a12f86",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/93/93265272-7e14-40cf-a8a2-c43048a12f86.png",
+      "sha256": "17ac681801f0f445155242f805c96acada057e0ea5c28c4295170be1caec6a88",
+      "bytes": 418
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/a2088308-34d9-49b3-b831-84e068d99156.png",
+      "uuid": "a2088308-34d9-49b3-b831-84e068d99156",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/a2/a2088308-34d9-49b3-b831-84e068d99156.png",
+      "sha256": "677b3bf5ff6234d0576700382a66bf220bb0d2b42783c174dea1b20ffef6870e",
+      "bytes": 239
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/a83ea9a3-5799-449d-b173-0da6407bb3f6.png",
+      "uuid": "a83ea9a3-5799-449d-b173-0da6407bb3f6",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/a8/a83ea9a3-5799-449d-b173-0da6407bb3f6.png",
+      "sha256": "eeaa4924d50b2718c46aee6901cced26a15ed99df33aad351c26e0e797041aee",
+      "bytes": 18217
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/b43ff3c2-02bb-4874-81f7-f2dea6970f18.png",
+      "uuid": "b43ff3c2-02bb-4874-81f7-f2dea6970f18",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/b4/b43ff3c2-02bb-4874-81f7-f2dea6970f18.png",
+      "sha256": "eaea20a3c781898239dad8588a30b6762437076c64fe465c99f4d2b677801a28",
+      "bytes": 1033
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/b500c549-e361-4e4e-b5a6-29d2f6486ce5.png",
+      "uuid": "b500c549-e361-4e4e-b5a6-29d2f6486ce5",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/b5/b500c549-e361-4e4e-b5a6-29d2f6486ce5.png",
+      "sha256": "6d785f28791ae60369fdce1a31eb846076b5194f827fd465312567efa2ead41a",
+      "bytes": 8804
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/b924942c-aa9e-4f4c-bd37-12e2f75e16a1.png",
+      "uuid": "b924942c-aa9e-4f4c-bd37-12e2f75e16a1",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/b9/b924942c-aa9e-4f4c-bd37-12e2f75e16a1.png",
+      "sha256": "6a1704e685db40e6ba39f5af2d9a06e4a9b52901cb8ec402222df4b14fbbb0d0",
+      "bytes": 1903
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/c1d490cd-820b-49d9-8b68-c4c155df7559.png",
+      "uuid": "c1d490cd-820b-49d9-8b68-c4c155df7559",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/c1/c1d490cd-820b-49d9-8b68-c4c155df7559.png",
+      "sha256": "93332310fa3b6fcd6117c982694384fa565d7a1efe916f9a37b4296a93a5d490",
+      "bytes": 331
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/d0a82d39-bede-46c4-b698-c81ff0dedfff.png",
+      "uuid": "d0a82d39-bede-46c4-b698-c81ff0dedfff",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/d0/d0a82d39-bede-46c4-b698-c81ff0dedfff.png",
+      "sha256": "9b67846689c3746a4788f4cd4b1941f94d5db397c6f09effc4d3869b95fd16d3",
+      "bytes": 510
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/e204b5c5-b738-48d7-8e0d-1e7ec0c5438f.png",
+      "uuid": "e204b5c5-b738-48d7-8e0d-1e7ec0c5438f",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/e2/e204b5c5-b738-48d7-8e0d-1e7ec0c5438f.png",
+      "sha256": "cb81855a14280c7ca57497a03dbdc341ced8be5fd9787b40520bcf809695b614",
+      "bytes": 46269
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/e851e89b-faa2-4484-bea6-5c01dd9f06e2.png",
+      "uuid": "e851e89b-faa2-4484-bea6-5c01dd9f06e2",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/e8/e851e89b-faa2-4484-bea6-5c01dd9f06e2.png",
+      "sha256": "0f7a1e15600dc4a254dfc535cb05dff98579de9239cb803043f774099bdbde6a",
+      "bytes": 1011
+    },
+    {
+      "kind": "sp.SkeletonData",
+      "file": "assets/rea_original/spine/sk_cloud/skeleton.skel",
+      "uuid": "a9487906-fba8-4e70-bda3-212668f96218",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/a9/a9487906-fba8-4e70-bda3-212668f96218.bin",
+      "sha256": "b193ef87dd7ca1df5f8cac2e292f105e462ef8512bc7e83d5a958995e8d38eb7",
+      "bytes": 809
+    },
+    {
+      "kind": "cc.ParticleAsset",
+      "file": "assets/rea_original/particles/atom.plist",
+      "uuid": "b2687ac4-099e-403c-a192-ff477686f4f5",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/b2/b2687ac4-099e-403c-a192-ff477686f4f5.plist",
+      "sha256": "e2626a7340d4fd01dfc78052049856bcbe61a9153693ed00dcfc9921dc6de10a",
+      "bytes": 3479
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/merge.mp3",
+      "uuid": "14d545f4-3329-483b-894e-8b98f1456d3f",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/14/14d545f4-3329-483b-894e-8b98f1456d3f.mp3",
+      "sha256": "2a450dde6da2c45046ce35895a8b8bbc9a1b2c7383bacb43fd4fa2242f94ca3b",
+      "bytes": 22201
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/click.mp3",
+      "uuid": "188eb960-7ea7-40c6-a850-8e3756ba322d",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/18/188eb960-7ea7-40c6-a850-8e3756ba322d.mp3",
+      "sha256": "cd789dfbf1365d0c78dd27541b551be8a00bfbc1a1889e9771eeed150cee022e",
+      "bytes": 5223
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/mj_giveCoin.mp3",
+      "uuid": "193633be-f94a-4433-b688-2b9cdb5f3c04",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/19/193633be-f94a-4433-b688-2b9cdb5f3c04.mp3",
+      "sha256": "6cb583dd6d153cc4750871d6d1c6c7f418fa4d5a6ac8dd4023535e26664912cf",
+      "bytes": 13842
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/getArea.mp3",
+      "uuid": "21bdca81-6bcf-409c-9f02-49c7604f2108",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/21/21bdca81-6bcf-409c-9f02-49c7604f2108.mp3",
+      "sha256": "67001aafcbca66172c0ebf3b36d860cfd29b68e19337b85ca4cae14b7f790f29",
+      "bytes": 114969
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/win.mp3",
+      "uuid": "229929c4-6faf-42f3-87e7-886a58938a6b",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/22/229929c4-6faf-42f3-87e7-886a58938a6b.mp3",
+      "sha256": "35fc3a21bac22feb4ccf38301ff7f32d2f30fa124a17212536141845e08012f0",
+      "bytes": 169628
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/getNewCoin.mp3",
+      "uuid": "24289324-6883-4ba0-b23f-b6f1681c9858",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/24/24289324-6883-4ba0-b23f-b6f1681c9858.mp3",
+      "sha256": "66e643ae5cb855300030592f113f1efa4254955f11501f19134e4d80c615d9d3",
+      "bytes": 6319
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/combo.mp3",
+      "uuid": "3d9e665c-f0e2-4743-afa6-85c8afaa1bbb",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/3d/3d9e665c-f0e2-4743-afa6-85c8afaa1bbb.mp3",
+      "sha256": "774b5a252c819d7931d60c02e1defb04db8a8d890f32472b608d680d2319c0e5",
+      "bytes": 101889
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/giveCoin2.mp3",
+      "uuid": "449f6032-253f-4550-9c29-1ac8ac3ac50d",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/44/449f6032-253f-4550-9c29-1ac8ac3ac50d.mp3",
+      "sha256": "8735d4cb33279d9938ae674bd3d368d93b9718439872b963bd9636fbf8761809",
+      "bytes": 31814
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/get_coin.mp3",
+      "uuid": "5445bd2a-e560-4aab-842d-3a1b42db86bf",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/54/5445bd2a-e560-4aab-842d-3a1b42db86bf.mp3",
+      "sha256": "b73d03e422c830e346ea0018d88d653e3378ad6c3781bc3148baffc86c48666f",
+      "bytes": 51876
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/giveCoin.mp3",
+      "uuid": "60678382-84f0-4fcc-8902-7e7191083419",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/60/60678382-84f0-4fcc-8902-7e7191083419.mp3",
+      "sha256": "e8cc7d2a7855c9646b5727efdee735e90c21f4922480ec246e7b2afb79a08353",
+      "bytes": 30561
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/placeCoin.mp3",
+      "uuid": "61e00a81-4f79-4847-b857-d6aef0d6cc5b",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/61/61e00a81-4f79-4847-b857-d6aef0d6cc5b.mp3",
+      "sha256": "5517da34de1b40b25d751f678cd85fc9a9c952661e86dcdefadbb1fa42178b19",
+      "bytes": 5483
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/chooseCoin.mp3",
+      "uuid": "6237307f-b034-41ff-ae93-b96b01ae5ce0",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/62/6237307f-b034-41ff-ae93-b96b01ae5ce0.mp3",
+      "sha256": "3cd816d0392aa4518d86d8c50f056f74070af9a6e888809197f9bbce47cae8a6",
+      "bytes": 9245
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/toss_coin.mp3",
+      "uuid": "63dc1a9e-456d-4ae5-8696-11ef960c6b58",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/63/63dc1a9e-456d-4ae5-8696-11ef960c6b58.mp3",
+      "sha256": "acfc071e2a8a78c8ffaf2c748d6f06f093534c909d56c6f69824a41500fc11b4",
+      "bytes": 30979
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/renewArea.mp3",
+      "uuid": "7d9b290a-c24d-48e8-a3ed-c5699a6ec135",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/7d/7d9b290a-c24d-48e8-a3ed-c5699a6ec135.mp3",
+      "sha256": "f3c2d0ba8a8b3b890d2dc2c5c806a29c930d022512503d0ed15072b34e9b0bc3",
+      "bytes": 6319
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/unlockArea.mp3",
+      "uuid": "7e87acc3-3364-4ae5-aac2-9cf5919b2551",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/7e/7e87acc3-3364-4ae5-aac2-9cf5919b2551.mp3",
+      "sha256": "728fd4217cddfc128989e89e50f15f4292e49f27ea759bf27ea9bff6b9cc841d",
+      "bytes": 30308
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/resetStart.mp3",
+      "uuid": "88438652-daf7-4663-8b5a-7c949b34d1d9",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/88/88438652-daf7-4663-8b5a-7c949b34d1d9.mp3",
+      "sha256": "a4a6955952be6c44f0cd6f4581ea11eb8779cfe1d4b0050f8eef2d9992fed8af",
+      "bytes": 27217
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/mj_resetStart.mp3",
+      "uuid": "97559d61-c202-43f2-8521-e4887a879341",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/97/97559d61-c202-43f2-8521-e4887a879341.mp3",
+      "sha256": "557074c6afe1e4a61c4f8c1e79e673a18f86967bf850c4da151280ccde80e50c",
+      "bytes": 17186
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/shake.mp3",
+      "uuid": "97790c6b-903f-493f-afc9-12a76a47a13d",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/97/97790c6b-903f-493f-afc9-12a76a47a13d.mp3",
+      "sha256": "581ca89a298d6fc2e7a8c3d1b8b3fe43f4d28a52f50b8116b4a7b8acf76f1a2a",
+      "bytes": 57310
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/tz_full.mp3",
+      "uuid": "a6faae3c-2e99-4ab9-88a2-672472ace849",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/a6/a6faae3c-2e99-4ab9-88a2-672472ace849.mp3",
+      "sha256": "1e91d830a828ceac7e1e6d8ef4015c21b364da924672262e54e99c4348039e81",
+      "bytes": 40821
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/get_button.mp3",
+      "uuid": "aafa4c06-dbbd-4670-ad0e-10b827d64a7d",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/aa/aafa4c06-dbbd-4670-ad0e-10b827d64a7d.mp3",
+      "sha256": "822c9c8115c5983aa3a5b9e050ef31013f849b5da4d91c6e72bb6de20e539755",
+      "bytes": 12170
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/mj_merge.mp3",
+      "uuid": "b6189c5e-42dd-43a8-9809-e2e224fc8fa9",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/b6/b6189c5e-42dd-43a8-9809-e2e224fc8fa9.mp3",
+      "sha256": "2faded25358aec45a23df2ab513c9c43bcd743736f8930eca7b9dbdd1b35ddfe",
+      "bytes": 16350
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/tz_giveCoin.mp3",
+      "uuid": "b8cd3ef3-0223-4008-9d10-d2f5ffe99a86",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/b8/b8cd3ef3-0223-4008-9d10-d2f5ffe99a86.mp3",
+      "sha256": "e8cc7d2a7855c9646b5727efdee735e90c21f4922480ec246e7b2afb79a08353",
+      "bytes": 30561
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/warn.mp3",
+      "uuid": "beb44e1d-38d6-4410-a6ab-953261641def",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/be/beb44e1d-38d6-4410-a6ab-953261641def.mp3",
+      "sha256": "85d039fc9fe0b3d849224c55bc11b955293372917b1dc1e6fc78aa9eccd18742",
+      "bytes": 28282
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/get_egg.mp3",
+      "uuid": "c56bcf06-f5fa-449e-8bf8-81204af1a2d4",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/c5/c56bcf06-f5fa-449e-8bf8-81204af1a2d4.mp3",
+      "sha256": "90398dc0255bbf513440b995d79c3ec83481ed3a78a667267bdd9108cd8884e5",
+      "bytes": 80298
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/mj_placeCoin.mp3",
+      "uuid": "c9763c62-746c-41f7-8f64-1f965ee7a1f5",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/c9/c9763c62-746c-41f7-8f64-1f965ee7a1f5.mp3",
+      "sha256": "09dacd24de6b878230ca005b10b95e4cd8a7054a4fad0cfb7ba88e8dded23b15",
+      "bytes": 4647
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/reset.mp3",
+      "uuid": "d652a57b-16b9-4d62-a2e6-f4709f54e6f3",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/d6/d652a57b-16b9-4d62-a2e6-f4709f54e6f3.mp3",
+      "sha256": "66e643ae5cb855300030592f113f1efa4254955f11501f19134e4d80c615d9d3",
+      "bytes": 6319
+    },
+    {
+      "kind": "cc.AudioClip",
+      "file": "assets/rea_original/audio/merge10.mp3",
+      "uuid": "f693212a-5bdf-42c5-b5fc-21c2941280e5",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/f6/f693212a-5bdf-42c5-b5fc-21c2941280e5.mp3",
+      "sha256": "eb6aecd4df0543c649b5953fb70b37b74b79f9cb578fc5a59642106508693618",
+      "bytes": 56494
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/7ae8697c-bdc7-4612-8d1c-564aca07604c.jpg",
+      "uuid": "7ae8697c-bdc7-4612-8d1c-564aca07604c",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/main/native/7a/7ae8697c-bdc7-4612-8d1c-564aca07604c.jpg",
+      "sha256": "2b4844e197cc40cc754656d6d59cacd35051ce8a5a4eea2afab6f9ccdc0dea25",
+      "bytes": 13010
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/ef58b8bb-e34c-4c36-8bad-205e7d24651b.png",
+      "uuid": "ef58b8bb-e34c-4c36-8bad-205e7d24651b",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/main/native/ef/ef58b8bb-e34c-4c36-8bad-205e7d24651b.png",
+      "sha256": "665eb28b0aef7f361e036cf30d808dce1d774673aaf282b6dd238f3561bb7832",
+      "bytes": 23315
+    },
+    {
+      "kind": "cc.Texture2D",
+      "file": "assets/rea_original/atlases/0275e94c-56a7-410f-bd1a-fc7483f7d14a.png",
+      "uuid": "0275e94c-56a7-410f-bd1a-fc7483f7d14a",
+      "source_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/internal/native/02/0275e94c-56a7-410f-bd1a-fc7483f7d14a.png",
+      "sha256": "83c9b8ce1937570a40bcedde29457a4ab7865ca1db23a46d2d68e6b1949f3c28",
+      "bytes": 82
+    }
+  ]
+}

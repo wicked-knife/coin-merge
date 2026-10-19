@@ -1,0 +1,66 @@
+[
+  {
+    "file": "assets/rea_original/sprites/spine_cloud/could1.png",
+    "name": "could1",
+    "logical_path": "derived/could1",
+    "size": [
+      489,
+      347
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "derivation": "Spine atlas region"
+  },
+  {
+    "file": "assets/rea_original/sprites/spine_cloud/could2.png",
+    "name": "could2",
+    "logical_path": "derived/could2",
+    "size": [
+      449,
+      419
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "derivation": "Spine atlas region"
+  },
+  {
+    "file": "assets/rea_original/sprites/spine_cloud/could3.png",
+    "name": "could3",
+    "logical_path": "derived/could3",
+    "size": [
+      750,
+      533
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "derivation": "Spine atlas region"
+  },
+  {
+    "file": "assets/rea_original/particles/atom.texture.png",
+    "name": "atom.texture",
+    "logical_path": "derived/atom.texture",
+    "size": [
+      31,
+      31
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "derivation": "Plist particle texture"
+  }
+]

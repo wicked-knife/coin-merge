@@ -1,0 +1,228 @@
+{
+  "uuid": "1b717a11-fb48-42c6-bae1-ce77617b7bec",
+  "bundle": "resources",
+  "config_index": 48,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Progress_TargetChange",
+    "_duration": 0.6666666666666666,
+    "curveData": [
+      {},
+      "paths",
+      11,
+      [
+        {
+          "next": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 0.4,
+                  "value": 0
+                },
+                {
+                  "frame": 0.4166666666666667,
+                  "value": 255
+                }
+              ]
+            }
+          }
+        },
+        "over",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "label",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ]
+      ],
+      "props",
+      11,
+      [
+        {},
+        "scale",
+        12,
+        [
+          [
+            [
+              {
+                "frame": 0
+              },
+              "value",
+              8,
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ],
+            [
+              {
+                "frame": 0.08333333333333333
+              },
+              "value",
+              8,
+              [
+                1,
+                1.1,
+                1.1,
+                1
+              ]
+            ],
+            [
+              {
+                "frame": 0.3333333333333333
+              },
+              "value",
+              8,
+              [
+                1,
+                0,
+                0,
+                1
+              ]
+            ],
+            [
+              {
+                "frame": 0.5833333333333334
+              },
+              "value",
+              8,
+              [
+                1,
+                1.1,
+                1.1,
+                1
+              ]
+            ],
+            [
+              {
+                "frame": 0.6666666666666666
+              },
+              "value",
+              8,
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
+          ],
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
+      ],
+      "comps",
+      11,
+      [
+        {},
+        "cc.Sprite",
+        11,
+        [
+          {},
+          "spriteFrame",
+          12,
+          [
+            [
+              [
+                {
+                  "frame": 0
+                },
+                "value",
+                6,
+                0
+              ]
+            ],
+            11
+          ]
+        ]
+      ]
+    ]
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": "value",
+      "uuid": "f927c233-05df-4fbd-817c-182463bb62d6"
+    }
+  ],
+  "import_file": "assets/resources/import/0f/0fb55d1b1.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+}

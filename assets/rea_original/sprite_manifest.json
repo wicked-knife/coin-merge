@@ -1,0 +1,5782 @@
+[
+  {
+    "uuid": "adee73de-4d56-4dac-9665-7f22470fdad1",
+    "name": "Gold_Small",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Gold_Small.png",
+    "size": [
+      55,
+      55
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      193,
+      196,
+      55,
+      55
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/013f37249.json"
+  },
+  {
+    "uuid": "ce1f3ab0-7c26-4bf3-a666-5d9733c51acf",
+    "name": "Btn_Home",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Home.png",
+    "size": [
+      91,
+      101
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      522,
+      894,
+      89,
+      99
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/013f37249.json"
+  },
+  {
+    "uuid": "004c9175-6ec7-4b36-b075-d01942d2a7d1",
+    "name": "Icon_Unlock",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_Unlock.png",
+    "size": [
+      49,
+      57
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      193,
+      133,
+      49,
+      57
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+  },
+  {
+    "uuid": "1440ba59-32cf-491e-aab8-4a8b7bd6b504",
+    "name": "BG_Lock2",
+    "logical_path": "Texture/skin/BG_Lock2",
+    "file": "assets/rea_original/sprites/Texture/skin/BG_Lock2.png",
+    "size": [
+      110,
+      200
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      555,
+      416,
+      110,
+      200
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      24,
+      72,
+      39,
+      69
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+  },
+  {
+    "uuid": "350e31d6-9d93-4c22-9e53-8216190e6a1a",
+    "name": "Icon_ad_2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_ad_2.png",
+    "size": [
+      72,
+      46
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      946,
+      602,
+      70,
+      44
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+  },
+  {
+    "uuid": "35fe78f5-54ec-4f85-a51e-80f8a97a3be6",
+    "name": "BG_Lock2Text",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/BG_Lock2Text.png",
+    "size": [
+      88,
+      34
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      155,
+      257,
+      88,
+      34
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+  },
+  {
+    "uuid": "46801f11-4440-46e7-87a6-af73759f8166",
+    "name": "BG_Trench_Merge",
+    "logical_path": "Texture/skin/BG_Trench_Merge",
+    "file": "assets/rea_original/sprites/Texture/skin/BG_Trench_Merge.png",
+    "size": [
+      132,
+      222
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      3,
+      3,
+      132,
+      222
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+  },
+  {
+    "uuid": "563be043-f37d-47b9-944d-65e2cef752f3",
+    "name": "BG_Lock_AD",
+    "logical_path": "Texture/skin/BG_Lock_AD",
+    "file": "assets/rea_original/sprites/Texture/skin/BG_Lock_AD.png",
+    "size": [
+      112,
+      203
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      394,
+      682,
+      112,
+      203
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+  },
+  {
+    "uuid": "ba6ff07a-911f-4b89-8c25-208f0aeb99aa",
+    "name": "BG_Lock",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/BG_Lock.png",
+    "size": [
+      94,
+      242
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      3,
+      464,
+      94,
+      242
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+  },
+  {
+    "uuid": "1958f444-2b9b-4d26-80e5-b8a1b4cb85df",
+    "name": "Guide_Text6",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Text6.png",
+    "size": [
+      392,
+      102
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      524,
+      3,
+      392,
+      102
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "1d8ed5a2-c635-436b-aafe-46337011f323",
+    "name": "Guide_Hand",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Hand.png",
+    "size": [
+      146,
+      144
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      223,
+      520,
+      146,
+      144
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "201a7e7f-fb1e-4def-94dc-94056c50c5ca",
+    "name": "Guide_Text4",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Text4.png",
+    "size": [
+      300,
+      102
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      3,
+      893,
+      300,
+      102
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "2ae80089-134a-43cc-8e78-1df58890b546",
+    "name": "Guide_Text3",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Text3.png",
+    "size": [
+      496,
+      158
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      3,
+      356,
+      496,
+      158
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "507d7ea4-d9e7-4b8a-b1ce-932c1480fa89",
+    "name": "Guide_Mask3",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Mask3.png",
+    "size": [
+      317,
+      158
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      3,
+      729,
+      317,
+      158
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "582d6a47-b3e3-4f72-8dc7-b5f925396f57",
+    "name": "Guide_Mask4",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Mask4.png",
+    "size": [
+      347,
+      515
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      3,
+      3,
+      347,
+      515
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "71d9aa1c-6c89-4a9c-b9c9-ea9435920fad",
+    "name": "Guide_Mask2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Mask2.png",
+    "size": [
+      124,
+      164
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      373,
+      520,
+      124,
+      164
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "82613299-2173-4051-ac34-85d4fcf985cd",
+    "name": "Guide_Text5",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Text5.png",
+    "size": [
+      214,
+      102
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      309,
+      893,
+      214,
+      102
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "a82d209a-542d-4f6a-a4cf-99339e91c59b",
+    "name": "Guide_Text2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Text2.png",
+    "size": [
+      322,
+      102
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      505,
+      401,
+      322,
+      102
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "c06205d3-fcef-4fe1-b99d-0af7ed9a022d",
+    "name": "Guide_Text1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Text1.png",
+    "size": [
+      214,
+      102
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      3,
+      520,
+      214,
+      102
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "c1fea6d9-1737-478e-8a54-fe5d49baa91c",
+    "name": "Guide_Mask1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Guide_Mask1.png",
+    "size": [
+      146,
+      252
+    ],
+    "texture_uuid": "14d977656",
+    "atlas_file": "assets/rea_original/atlases/14d977656.png",
+    "source_rect": [
+      326,
+      729,
+      146,
+      252
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/022f18b8e.json"
+  },
+  {
+    "uuid": "37603afb-f918-4f25-9dd5-8b1825e33a03",
+    "name": "Flag",
+    "logical_path": "Texture/Challenge/Flag",
+    "file": "assets/rea_original/sprites/Texture/Challenge/Flag.png",
+    "size": [
+      48,
+      60
+    ],
+    "texture_uuid": "14facfbc3",
+    "atlas_file": "assets/rea_original/atlases/14facfbc3.png",
+    "source_rect": [
+      73,
+      437,
+      48,
+      60
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/0233d31ac.json"
+  },
+  {
+    "uuid": "49d06ae4-b247-4b82-94db-026fa23aa045",
+    "name": "BG_Choose",
+    "logical_path": "Texture/Challenge/BG_Choose",
+    "file": "assets/rea_original/sprites/Texture/Challenge/BG_Choose.png",
+    "size": [
+      122,
+      160
+    ],
+    "texture_uuid": "14facfbc3",
+    "atlas_file": "assets/rea_original/atlases/14facfbc3.png",
+    "source_rect": [
+      3,
+      3,
+      122,
+      160
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/0233d31ac.json"
+  },
+  {
+    "uuid": "61352c2e-234d-4002-ae87-2a6aadac6178",
+    "name": "Icon_Time",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_Time.png",
+    "size": [
+      18,
+      21
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      200,
+      389,
+      18,
+      21
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/0233d31ac.json"
+  },
+  {
+    "uuid": "65400e6d-aa01-4912-94a8-f57bca89d9f2",
+    "name": "Icon_spot_1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_spot_1.png",
+    "size": [
+      36,
+      36
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      676,
+      832,
+      34,
+      34
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/0233d31ac.json"
+  },
+  {
+    "uuid": "88ef876e-c131-4c63-a9e3-2f856a6ce00d",
+    "name": "Unlock",
+    "logical_path": "Texture/Challenge/Unlock",
+    "file": "assets/rea_original/sprites/Texture/Challenge/Unlock.png",
+    "size": [
+      49,
+      64
+    ],
+    "texture_uuid": "14facfbc3",
+    "atlas_file": "assets/rea_original/atlases/14facfbc3.png",
+    "source_rect": [
+      3,
+      437,
+      49,
+      64
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/0233d31ac.json"
+  },
+  {
+    "uuid": "8d776c86-4500-4865-98b6-08c2989a8db1",
+    "name": "Bg_Common1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Bg_Common1.png",
+    "size": [
+      118,
+      32
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      155,
+      133,
+      118,
+      32
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/0233d31ac.json"
+  },
+  {
+    "uuid": "ae39e6d0-8a2c-4a2c-bba3-a040f3a9b498",
+    "name": "Icon_spot_2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_spot_2.png",
+    "size": [
+      36,
+      36
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      676,
+      872,
+      34,
+      34
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/0233d31ac.json"
+  },
+  {
+    "uuid": "baabaee0-3d9c-44a7-9719-abff4f008ce5",
+    "name": "LevelBG",
+    "logical_path": "Texture/Challenge/LevelBG",
+    "file": "assets/rea_original/sprites/Texture/Challenge/LevelBG.png",
+    "size": [
+      90,
+      128
+    ],
+    "texture_uuid": "14facfbc3",
+    "atlas_file": "assets/rea_original/atlases/14facfbc3.png",
+    "source_rect": [
+      3,
+      303,
+      90,
+      128
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/0233d31ac.json"
+  },
+  {
+    "uuid": "2d05661a-6f83-4221-beba-38c328293799",
+    "name": "BG_Trench",
+    "logical_path": "Texture/skin/BG_Trench",
+    "file": "assets/rea_original/sprites/Texture/skin/BG_Trench.png",
+    "size": [
+      122,
+      213
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      177,
+      687,
+      120,
+      211
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/02a26ff46.json"
+  },
+  {
+    "uuid": "beaa3944-867e-42aa-b44f-564c9f93898d",
+    "name": "BG_Lock",
+    "logical_path": "Texture/skin/BG_Lock",
+    "file": "assets/rea_original/sprites/Texture/skin/BG_Lock.png",
+    "size": [
+      114,
+      205
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      578,
+      800,
+      112,
+      203
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/02/02a26ff46.json"
+  },
+  {
+    "uuid": "133c436f-13a0-43c3-aae8-4e7e27bc5f55",
+    "name": "BG",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/BG.png",
+    "size": [
+      23,
+      1623
+    ],
+    "texture_uuid": "880cb503-c1a8-4101-b459-5df2a67646c2",
+    "atlas_file": "assets/rea_original/atlases/880cb503-c1a8-4101-b459-5df2a67646c2.png",
+    "source_rect": [
+      0,
+      0,
+      23,
+      1623
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      6,
+      809,
+      6,
+      809
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/03/0361ba5e2.json"
+  },
+  {
+    "uuid": "9556245e-5af2-4228-b397-f98937e85242",
+    "name": "3",
+    "logical_path": "Texture/skin/normal/3",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/3.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      672,
+      605,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/03/0384d6f29.json"
+  },
+  {
+    "uuid": "2735acd7-06da-4796-92ab-58ea3a10d1d1",
+    "name": "ui_collect",
+    "logical_path": "customRes/ui_collect",
+    "file": "assets/rea_original/sprites/customRes/ui_collect.png",
+    "size": [
+      27,
+      27
+    ],
+    "texture_uuid": "5d35ebc5-8cbe-427e-946c-22200fd3fb3a",
+    "atlas_file": "assets/rea_original/atlases/5d35ebc5-8cbe-427e-946c-22200fd3fb3a.png",
+    "source_rect": [
+      0,
+      0,
+      27,
+      27
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/03/03936065f.json"
+  },
+  {
+    "uuid": "dfab58e6-92b3-49f4-88e2-45ab8b15fbfb",
+    "name": "bgTips",
+    "logical_path": "customRes/bgTips",
+    "file": "assets/rea_original/sprites/customRes/bgTips.png",
+    "size": [
+      155,
+      127
+    ],
+    "texture_uuid": "5a9527b9-11f9-4895-8d5d-bdec497960ed",
+    "atlas_file": "assets/rea_original/atlases/5a9527b9-11f9-4895-8d5d-bdec497960ed.png",
+    "source_rect": [
+      0,
+      0,
+      155,
+      127
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      32,
+      46,
+      108,
+      43
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/03/03936065f.json"
+  },
+  {
+    "uuid": "a39d201d-348d-4688-ae79-4e176ac9901f",
+    "name": "BigCoin2",
+    "logical_path": "Texture/skin/big/BigCoin2",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin2.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      406,
+      3,
+      164,
+      169
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      1.5
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/05/05ad1f2b3.json"
+  },
+  {
+    "uuid": "5451f703-df76-4889-b6b0-948106ab55df",
+    "name": "Pieces1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Pieces1.png",
+    "size": [
+      20,
+      28
+    ],
+    "texture_uuid": "c1d490cd-820b-49d9-8b68-c4c155df7559",
+    "atlas_file": "assets/rea_original/atlases/c1d490cd-820b-49d9-8b68-c4c155df7559.png",
+    "source_rect": [
+      0,
+      0,
+      20,
+      28
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/07/070775b95.json"
+  },
+  {
+    "uuid": "c7778557-7ec8-47f1-941e-9031db743dbf",
+    "name": "Pieces2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Pieces2.png",
+    "size": [
+      24,
+      24
+    ],
+    "texture_uuid": "93265272-7e14-40cf-a8a2-c43048a12f86",
+    "atlas_file": "assets/rea_original/atlases/93265272-7e14-40cf-a8a2-c43048a12f86.png",
+    "source_rect": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/07/070775b95.json"
+  },
+  {
+    "uuid": "ff524957-91bf-46e0-b057-a403a65575fb",
+    "name": "infoTip",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/infoTip.png",
+    "size": [
+      457,
+      403
+    ],
+    "texture_uuid": "115970bf0",
+    "atlas_file": "assets/rea_original/atlases/115970bf0.png",
+    "source_rect": [
+      3,
+      3,
+      457,
+      403
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/07/07c19d1ef.json"
+  },
+  {
+    "uuid": "f575b584-2939-4603-baaa-caa649e9810e",
+    "name": "number01",
+    "logical_path": "Texture/skin/number01",
+    "file": "assets/rea_original/sprites/Texture/skin/number01.png",
+    "size": [
+      238,
+      92
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      343,
+      919,
+      232,
+      87
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      -1,
+      0.5
+    ],
+    "restored_trim_origin": [
+      2,
+      2
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/07/07d85c894.json"
+  },
+  {
+    "uuid": "792cf4ac-ed10-4221-a2dc-b5ad1ee08489",
+    "name": "Icon_QuestionMark",
+    "logical_path": "Texture/skin/Icon_QuestionMark",
+    "file": "assets/rea_original/sprites/Texture/skin/Icon_QuestionMark.png",
+    "size": [
+      40,
+      53
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      178,
+      141,
+      40,
+      53
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/07/07dd75794.json"
+  },
+  {
+    "uuid": "41f23d47-f6c2-44b0-86b2-5fa4989bf0dc",
+    "name": "ProcessBG",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/ProcessBG.png",
+    "size": [
+      124,
+      64
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      155,
+      3,
+      124,
+      64
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/09/09c2bb4cf.json"
+  },
+  {
+    "uuid": "78098259-ac03-4652-874c-197d448ae6bd",
+    "name": "CoinBg",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/CoinBg.png",
+    "size": [
+      172,
+      83
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      328,
+      782,
+      172,
+      83
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      52,
+      0,
+      52,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/09/09c2bb4cf.json"
+  },
+  {
+    "uuid": "3d364d1d-72fe-461a-83c0-de3481a68373",
+    "name": "panel_bg_1",
+    "logical_path": "customRes/panel_bg_1",
+    "file": "assets/rea_original/sprites/customRes/panel_bg_1.png",
+    "size": [
+      318,
+      258
+    ],
+    "texture_uuid": "2a12fadf-2857-4a56-9edc-62d6acb5b34f",
+    "atlas_file": "assets/rea_original/atlases/2a12fadf-2857-4a56-9edc-62d6acb5b34f.png",
+    "source_rect": [
+      0,
+      0,
+      318,
+      258
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      85,
+      69,
+      81,
+      69
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0a/0a8580a85.json"
+  },
+  {
+    "uuid": "09efe3fe-90f5-4ce2-85c4-9480913cc603",
+    "name": "icon_lang",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/icon_lang.png",
+    "size": [
+      133,
+      133
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      137,
+      479,
+      133,
+      133
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0a/0a9850dbb.json"
+  },
+  {
+    "uuid": "9adbce88-7cf2-424d-bd29-60dae8b31341",
+    "name": "Set_broad",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Set_broad.png",
+    "size": [
+      129,
+      78
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      536,
+      670,
+      127,
+      76
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      49,
+      24,
+      49,
+      24
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0a/0a9850dbb.json"
+  },
+  {
+    "uuid": "a453b40a-fc02-4c03-8f9d-445f8a738b21",
+    "name": "Set_broad_2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Set_broad_2.png",
+    "size": [
+      128,
+      78
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      536,
+      752,
+      126,
+      76
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0a/0a9850dbb.json"
+  },
+  {
+    "uuid": "a715368e-69e7-4031-bd3b-547c2e381ab5",
+    "name": "Set_btn",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Set_btn.png",
+    "size": [
+      54,
+      58
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      627,
+      912,
+      52,
+      56
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0a/0a9850dbb.json"
+  },
+  {
+    "uuid": "7f6a9c12-3a85-423b-a888-1cedbe2abd5d",
+    "name": "Icon_crown_2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_crown_2.png",
+    "size": [
+      91,
+      75
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      883,
+      901,
+      89,
+      73
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0a/0a9b9a6eb.json"
+  },
+  {
+    "uuid": "6d5d99ed-7b51-4a3d-967b-ab435b05839a",
+    "name": "tips",
+    "logical_path": "customRes/tips",
+    "file": "assets/rea_original/sprites/customRes/tips.png",
+    "size": [
+      48,
+      56
+    ],
+    "texture_uuid": "8207c8dd-15e9-4f7e-91b9-23ba88822e93",
+    "atlas_file": "assets/rea_original/atlases/8207c8dd-15e9-4f7e-91b9-23ba88822e93.png",
+    "source_rect": [
+      0,
+      0,
+      48,
+      56
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      15,
+      15,
+      15,
+      20
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b06a5735.json"
+  },
+  {
+    "uuid": "1077083d-f1c3-4909-bda8-396fc4faceab",
+    "name": "Btn_AddtoDesk",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_AddtoDesk.png",
+    "size": [
+      86,
+      123
+    ],
+    "texture_uuid": "144861edf",
+    "atlas_file": "assets/rea_original/atlases/144861edf.png",
+    "source_rect": [
+      152,
+      397,
+      84,
+      122
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      -0.5
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+  },
+  {
+    "uuid": "1a72606a-aaf4-4691-bce8-97d540d03406",
+    "name": "Btn_CapsuleToys",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_CapsuleToys.png",
+    "size": [
+      126,
+      143
+    ],
+    "texture_uuid": "144861edf",
+    "atlas_file": "assets/rea_original/atlases/144861edf.png",
+    "source_rect": [
+      3,
+      397,
+      126,
+      143
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+  },
+  {
+    "uuid": "1ece44a1-8f25-43ba-a910-920d78e13bbf",
+    "name": "Btn_Setting",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Setting.png",
+    "size": [
+      80,
+      86
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      166,
+      297,
+      80,
+      86
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+  },
+  {
+    "uuid": "2602b354-d20f-4429-9aa3-e13e5feb6a1b",
+    "name": "Btn_Begin_38px",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Begin_38px.png",
+    "size": [
+      162,
+      171
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      717,
+      769,
+      160,
+      169
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      57,
+      57,
+      57,
+      57
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+  },
+  {
+    "uuid": "2ae9be4b-59d7-4214-93c3-08d9e2775eeb",
+    "name": "Btn_War_24px",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_War_24px.png",
+    "size": [
+      158,
+      130
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      3,
+      479,
+      156,
+      128
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      57,
+      0,
+      89,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+  },
+  {
+    "uuid": "a4008c4d-264b-4b29-b534-6aaed3c9aaff",
+    "name": "Btn_Begin",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Begin.png",
+    "size": [
+      388,
+      159
+    ],
+    "texture_uuid": "144861edf",
+    "atlas_file": "assets/rea_original/atlases/144861edf.png",
+    "source_rect": [
+      3,
+      3,
+      388,
+      159
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+  },
+  {
+    "uuid": "d543159b-8a1a-44a4-9981-8445d0eadb78",
+    "name": "Btn_Begin_24px",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Begin_24px.png",
+    "size": [
+      127,
+      130
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      276,
+      479,
+      127,
+      130
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+  },
+  {
+    "uuid": "ded23f18-a185-4266-81f6-db2de0c266e4",
+    "name": "btn_score",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/btn_score.png",
+    "size": [
+      62,
+      52
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      608,
+      834,
+      62,
+      52
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json"
+  },
+  {
+    "uuid": "29158224-f8dd-4661-a796-1ffab537140e",
+    "name": "default_btn_disabled",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/default_btn_disabled.png",
+    "size": [
+      40,
+      40
+    ],
+    "texture_uuid": "71561142-4c83-4933-afca-cb7a17f67053",
+    "atlas_file": "assets/rea_original/atlases/71561142-4c83-4933-afca-cb7a17f67053.png",
+    "source_rect": [
+      0,
+      0,
+      40,
+      40
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0c/0c339d10f.json"
+  },
+  {
+    "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a",
+    "name": "default_btn_pressed",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/default_btn_pressed.png",
+    "size": [
+      40,
+      40
+    ],
+    "texture_uuid": "b43ff3c2-02bb-4874-81f7-f2dea6970f18",
+    "atlas_file": "assets/rea_original/atlases/b43ff3c2-02bb-4874-81f7-f2dea6970f18.png",
+    "source_rect": [
+      0,
+      0,
+      40,
+      40
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0c/0c339d10f.json"
+  },
+  {
+    "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952",
+    "name": "default_btn_normal",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/default_btn_normal.png",
+    "size": [
+      40,
+      40
+    ],
+    "texture_uuid": "e851e89b-faa2-4484-bea6-5c01dd9f06e2",
+    "atlas_file": "assets/rea_original/atlases/e851e89b-faa2-4484-bea6-5c01dd9f06e2.png",
+    "source_rect": [
+      0,
+      0,
+      40,
+      40
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0c/0c339d10f.json"
+  },
+  {
+    "uuid": "108d1a3b-a541-4cb2-acd5-3e2d41f7a5db",
+    "name": "Choose_FriendCircle_2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Choose_FriendCircle_2.png",
+    "size": [
+      170,
+      79
+    ],
+    "texture_uuid": "115970bf0",
+    "atlas_file": "assets/rea_original/atlases/115970bf0.png",
+    "source_rect": [
+      237,
+      736,
+      170,
+      79
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      50,
+      50,
+      50,
+      29
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0c/0c8177410.json"
+  },
+  {
+    "uuid": "9d50c43e-5a10-4bde-b8fd-207856a07ea0",
+    "name": "Choose_FriendCircle",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Choose_FriendCircle.png",
+    "size": [
+      168,
+      80
+    ],
+    "texture_uuid": "115970bf0",
+    "atlas_file": "assets/rea_original/atlases/115970bf0.png",
+    "source_rect": [
+      413,
+      736,
+      168,
+      80
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      65,
+      38,
+      65,
+      32
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0c/0c8177410.json"
+  },
+  {
+    "uuid": "bba72431-e92a-4edd-8684-611944da2723",
+    "name": "score_bg",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/score_bg.png",
+    "size": [
+      545,
+      228
+    ],
+    "texture_uuid": "115970bf0",
+    "atlas_file": "assets/rea_original/atlases/115970bf0.png",
+    "source_rect": [
+      3,
+      412,
+      545,
+      228
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0c/0c8177410.json"
+  },
+  {
+    "uuid": "e93919a3-b0b8-4162-a9a0-836adc3ae262",
+    "name": "score_bg_2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/score_bg_2.png",
+    "size": [
+      318,
+      258
+    ],
+    "texture_uuid": "115970bf0",
+    "atlas_file": "assets/rea_original/atlases/115970bf0.png",
+    "source_rect": [
+      237,
+      412,
+      318,
+      258
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      64,
+      64,
+      64,
+      64
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0c/0c8177410.json"
+  },
+  {
+    "uuid": "6a3fdea3-0110-4ad9-a35e-5cc8064f1d47",
+    "name": "Box2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Box2.png",
+    "size": [
+      321,
+      330
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      3,
+      644,
+      319,
+      328
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      149,
+      151,
+      149,
+      151
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0d/0d7479fd3.json"
+  },
+  {
+    "uuid": "95a253f3-8b7f-4a7e-9c05-50abcbb04e1f",
+    "name": "TargetArrow",
+    "logical_path": "Texture/skin/TargetArrow",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetArrow.png",
+    "size": [
+      20,
+      17
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      177,
+      347,
+      20,
+      17
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0d/0d7479fd3.json"
+  },
+  {
+    "uuid": "d97ecbbd-4da1-44ee-8886-be2e87d6f898",
+    "name": "TargetArrow2",
+    "logical_path": "Texture/skin/TargetArrow2",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetArrow2.png",
+    "size": [
+      20,
+      17
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      177,
+      370,
+      20,
+      17
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0d/0d7479fd3.json"
+  },
+  {
+    "uuid": "e900bc3d-8c94-4c41-8756-918ea5da3bcc",
+    "name": "TargetArrow1",
+    "logical_path": "Texture/skin/TargetArrow1",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetArrow1.png",
+    "size": [
+      20,
+      17
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      177,
+      393,
+      20,
+      17
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0d/0d7479fd3.json"
+  },
+  {
+    "uuid": "1918bbcf-7fd5-4f57-a96d-fc716b1a1856",
+    "name": "Light_Aperture",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Light_Aperture.png",
+    "size": [
+      346,
+      346
+    ],
+    "texture_uuid": "19dc6463b",
+    "atlas_file": "assets/rea_original/atlases/19dc6463b.png",
+    "source_rect": [
+      3,
+      3,
+      345,
+      345
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      -0.5,
+      -0.5
+    ],
+    "restored_trim_origin": [
+      0,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0e33cf65e.json"
+  },
+  {
+    "uuid": "517696d2-e802-4beb-945b-ef616d7fbf2e",
+    "name": "Gold_Big",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Gold_Big.png",
+    "size": [
+      157,
+      157
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      3,
+      301,
+      157,
+      157
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0e33cf65e.json"
+  },
+  {
+    "uuid": "2acdf23c-c837-48af-b147-05abb5a2bd11",
+    "name": "Btn_Setting",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png",
+    "size": [
+      91,
+      101
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      417,
+      894,
+      89,
+      99
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0e7b1e8ce.json"
+  },
+  {
+    "uuid": "2d44a874-4550-4c07-a8c1-4c2c0bcdd517",
+    "name": "NewEgg",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/NewEgg.png",
+    "size": [
+      28,
+      28
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      166,
+      389,
+      28,
+      28
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0e7b1e8ce.json"
+  },
+  {
+    "uuid": "8f871776-2783-4f6e-ab1f-914fb14cbf46",
+    "name": "fail_banner",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/fail_banner.png",
+    "size": [
+      718,
+      234
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      3,
+      3,
+      716,
+      232
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0ef0ec78d.json"
+  },
+  {
+    "uuid": "0e75e75c-bbe2-440c-b877-6fb96faf4f40",
+    "name": "Tick",
+    "logical_path": "Texture/skin/Tick",
+    "file": "assets/rea_original/sprites/Texture/skin/Tick.png",
+    "size": [
+      73,
+      57
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      860,
+      776,
+      73,
+      57
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f06036bd.json"
+  },
+  {
+    "uuid": "4bccc415-bff3-4b18-8f4a-644e87d7967e",
+    "name": "Bg_Mask",
+    "logical_path": "Texture/skin/Bg_Mask",
+    "file": "assets/rea_original/sprites/Texture/skin/Bg_Mask.png",
+    "size": [
+      32,
+      32
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      178,
+      254,
+      32,
+      32
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f06036bd.json"
+  },
+  {
+    "uuid": "72a85ec7-55d4-4873-b056-9fc34c7db5c0",
+    "name": "CoinMask",
+    "logical_path": "Texture/skin/CoinMask",
+    "file": "assets/rea_original/sprites/Texture/skin/CoinMask.png",
+    "size": [
+      100,
+      229
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      343,
+      813,
+      100,
+      229
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      50,
+      22,
+      50,
+      22
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f06036bd.json"
+  },
+  {
+    "uuid": "8fe2cb45-1aac-4f33-96be-2cbf8ad0db0c",
+    "name": "ColorArrow",
+    "logical_path": "Texture/skin/ColorArrow",
+    "file": "assets/rea_original/sprites/Texture/skin/ColorArrow.png",
+    "size": [
+      32,
+      21
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      177,
+      320,
+      32,
+      21
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f06036bd.json"
+  },
+  {
+    "uuid": "471c623e-f326-4073-b594-855839657d68",
+    "name": "Win_aperture",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Win_aperture.png",
+    "size": [
+      217,
+      217
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      725,
+      423,
+      215,
+      215
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f413a63e.json"
+  },
+  {
+    "uuid": "60de72a5-99e8-4d97-a7f6-86d88cc4e077",
+    "name": "Icon_crown",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_crown.png",
+    "size": [
+      281,
+      187
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      409,
+      479,
+      279,
+      185
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f413a63e.json"
+  },
+  {
+    "uuid": "94713ed3-53fc-4066-bc5e-aabab918d1db",
+    "name": "Win_victor",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Win_victor.png",
+    "size": [
+      718,
+      234
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      3,
+      241,
+      716,
+      232
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f413a63e.json"
+  },
+  {
+    "uuid": "472df5d3-35e7-4184-9e6c-7f41bee65ee3",
+    "name": "atom",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/atom.png",
+    "size": [
+      31,
+      31
+    ],
+    "texture_uuid": "d0a82d39-bede-46c4-b698-c81ff0dedfff",
+    "atlas_file": "assets/rea_original/atlases/d0a82d39-bede-46c4-b698-c81ff0dedfff.png",
+    "source_rect": [
+      0,
+      0,
+      31,
+      31
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f5c7c6cd.json"
+  },
+  {
+    "uuid": "12ba6e44-65be-4082-920f-bbeaa9d3122d",
+    "name": "Btn_Deal",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Deal.png",
+    "size": [
+      294,
+      147
+    ],
+    "texture_uuid": "126fed440",
+    "atlas_file": "assets/rea_original/atlases/126fed440.png",
+    "source_rect": [
+      3,
+      3,
+      292,
+      146
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      -0.5
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "1955eb03-fa62-41fb-a54f-e6a055923497",
+    "name": "Combo7",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Combo7.png",
+    "size": [
+      699,
+      125
+    ],
+    "texture_uuid": "160752c8f",
+    "atlas_file": "assets/rea_original/atlases/160752c8f.png",
+    "source_rect": [
+      3,
+      199,
+      699,
+      125
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "29d0dbf0-0aa2-4287-9f8b-2e30440721b0",
+    "name": "Combo2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Combo2.png",
+    "size": [
+      513,
+      102
+    ],
+    "texture_uuid": "160752c8f",
+    "atlas_file": "assets/rea_original/atlases/160752c8f.png",
+    "source_rect": [
+      3,
+      3,
+      513,
+      102
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "2c35d0eb-1bd7-45ec-93e6-aa7341755df8",
+    "name": "wx_collect",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/wx_collect.png",
+    "size": [
+      401,
+      368
+    ],
+    "texture_uuid": "27a1b4c1-3428-4a52-b912-1be981ccd16a",
+    "atlas_file": "assets/rea_original/atlases/27a1b4c1-3428-4a52-b912-1be981ccd16a.png",
+    "source_rect": [
+      0,
+      0,
+      401,
+      368
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "55f16095-b0e4-4bf3-aac9-0acb8433fa9f",
+    "name": "Combo6",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Combo6.png",
+    "size": [
+      575,
+      106
+    ],
+    "texture_uuid": "160752c8f",
+    "atlas_file": "assets/rea_original/atlases/160752c8f.png",
+    "source_rect": [
+      456,
+      339,
+      575,
+      106
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "5e8f4a25-801f-43a5-b17a-26c1a62ee049",
+    "name": "Combo4",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Combo4.png",
+    "size": [
+      626,
+      103
+    ],
+    "texture_uuid": "160752c8f",
+    "atlas_file": "assets/rea_original/atlases/160752c8f.png",
+    "source_rect": [
+      134,
+      339,
+      626,
+      103
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "67570708-891c-4dcc-9917-ff19f8ea1518",
+    "name": "TargetBG_4",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/TargetBG_4.png",
+    "size": [
+      113,
+      112
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      417,
+      776,
+      113,
+      112
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "6ac6861d-aafd-48a8-9003-1d98aae14163",
+    "name": "TargetBG_5",
+    "logical_path": "Texture/skin/TargetBG_5",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_5.png",
+    "size": [
+      56,
+      56
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      874,
+      855,
+      56,
+      56
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "75c6ed60-d3c7-48db-9f7f-55ac7b61cf5d",
+    "name": "TargetBG_4",
+    "logical_path": "Texture/skin/TargetBG_4.1",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_4.1.png",
+    "size": [
+      68,
+      69
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      800,
+      892,
+      68,
+      69
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "767e128c-26d1-48ef-8520-ddb204808df3",
+    "name": "Combo1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Combo1.png",
+    "size": [
+      507,
+      83
+    ],
+    "texture_uuid": "160752c8f",
+    "atlas_file": "assets/rea_original/atlases/160752c8f.png",
+    "source_rect": [
+      3,
+      111,
+      507,
+      82
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      -0.5
+    ],
+    "restored_trim_origin": [
+      0,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "7e41ccd7-823e-400a-87f3-6a40cdbd5312",
+    "name": "Combo5",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Combo5.png",
+    "size": [
+      614,
+      104
+    ],
+    "texture_uuid": "160752c8f",
+    "atlas_file": "assets/rea_original/atlases/160752c8f.png",
+    "source_rect": [
+      243,
+      339,
+      614,
+      104
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "82aaa18a-a076-41b5-a801-99f21a2b2c80",
+    "name": "TargetBG_2",
+    "logical_path": "Texture/skin/TargetBG_2",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_2.png",
+    "size": [
+      72,
+      74
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      907,
+      435,
+      71,
+      73
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0.5,
+      -0.5
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "99f8b5d5-16cb-4c6d-9dca-a30cbc72a8c3",
+    "name": "Combo8",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Combo8.png",
+    "size": [
+      424,
+      134
+    ],
+    "texture_uuid": "160752c8f",
+    "atlas_file": "assets/rea_original/atlases/160752c8f.png",
+    "source_rect": [
+      134,
+      199,
+      424,
+      134
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "9bea1d47-c0ca-4ef4-b03e-3a057767c64e",
+    "name": "Combo3",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Combo3.png",
+    "size": [
+      578,
+      97
+    ],
+    "texture_uuid": "160752c8f",
+    "atlas_file": "assets/rea_original/atlases/160752c8f.png",
+    "source_rect": [
+      353,
+      339,
+      578,
+      97
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "af5b3c51-a353-40e0-a1db-d28c139ad967",
+    "name": "my_collect",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/my_collect.png",
+    "size": [
+      401,
+      368
+    ],
+    "texture_uuid": "417ff6d0-c8c0-406c-a6a6-02eb06db0fbe",
+    "atlas_file": "assets/rea_original/atlases/417ff6d0-c8c0-406c-a6a6-02eb06db0fbe.png",
+    "source_rect": [
+      0,
+      0,
+      401,
+      368
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "b515ca35-e52a-442f-9f71-d2ef1a1bd08d",
+    "name": "TargetBG_4",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/TargetBG_4_b515ca35.png",
+    "size": [
+      77,
+      77
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      328,
+      615,
+      75,
+      75
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "c6dfd11e-e45a-4373-b3e2-eb6bc74fd5b3",
+    "name": "TargetBar",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/TargetBar.png",
+    "size": [
+      50,
+      28
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      885,
+      644,
+      50,
+      28
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      18,
+      0,
+      18,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "cb00981a-b595-4a4a-99d5-841bbcc60814",
+    "name": "TargetArrow1_1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/TargetArrow1_1.png",
+    "size": [
+      22,
+      19
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      972,
+      3,
+      20,
+      17
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "d27bfba7-6736-40a5-b9ea-a518defc667a",
+    "name": "TargetBG_4",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/TargetBG_4_d27bfba7.png",
+    "size": [
+      68,
+      54
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      536,
+      834,
+      66,
+      52
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "f927c233-05df-4fbd-817c-182463bb62d6",
+    "name": "TargetBG_1",
+    "logical_path": "Texture/skin/TargetBG_1",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_1.png",
+    "size": [
+      56,
+      56
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      923,
+      734,
+      56,
+      56
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+  },
+  {
+    "uuid": "00bb9180-635c-4fb6-8310-7abf6f291d3f",
+    "name": "BigCoin4",
+    "logical_path": "Texture/skin/big/BigCoin4",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin4.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      231,
+      3,
+      164,
+      169
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      1.5
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/00/00bb9180-635c-4fb6-8310-7abf6f291d3f.json"
+  },
+  {
+    "uuid": "04963025-d4d1-4554-8dbd-e6c70d303408",
+    "name": "BigCoin16",
+    "logical_path": "Texture/skin/big/BigCoin16",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin16.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      581,
+      3,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/04/04963025-d4d1-4554-8dbd-e6c70d303408.json"
+  },
+  {
+    "uuid": "06097529-0879-4b0c-a403-f2e9f3ec90b1",
+    "name": "8",
+    "logical_path": "Texture/skin/normal/8",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/8.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      929,
+      3,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/06/06097529-0879-4b0c-a403-f2e9f3ec90b1.json"
+  },
+  {
+    "uuid": "131f8d09-fa52-4749-9e4c-41aef8135836",
+    "name": "2",
+    "logical_path": "Texture/skin/normal/2",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/2.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      929,
+      110,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/13/131f8d09-fa52-4749-9e4c-41aef8135836.json"
+  },
+  {
+    "uuid": "146a2f2d-2e96-447f-b304-16800f59919d",
+    "name": "BigCoin8",
+    "logical_path": "Texture/skin/big/BigCoin8",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin8.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      755,
+      3,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/14/146a2f2d-2e96-447f-b304-16800f59919d.json"
+  },
+  {
+    "uuid": "14aab4ec-9c46-451d-9457-d9c04439c056",
+    "name": "TargetBG_6",
+    "logical_path": "Texture/skin/TargetBG_6",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_6.png",
+    "size": [
+      57,
+      59
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      895,
+      669,
+      57,
+      59
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/14/14aab4ec-9c46-451d-9457-d9c04439c056.json"
+  },
+  {
+    "uuid": "1b12cda4-7ff8-46c2-92de-3626f3d11534",
+    "name": "BigCoin13",
+    "logical_path": "Texture/skin/big/BigCoin13",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin13.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      224,
+      173,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/1b/1b12cda4-7ff8-46c2-92de-3626f3d11534.json"
+  },
+  {
+    "uuid": "1cebeec1-8dbb-4b26-a942-f2a213141a3f",
+    "name": "War8",
+    "logical_path": "Texture/skin/war/War8",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War8.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      920,
+      328,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/1c/1cebeec1-8dbb-4b26-a942-f2a213141a3f.json"
+  },
+  {
+    "uuid": "1d465183-1f84-4c4f-b513-b880cc88df34",
+    "name": "11",
+    "logical_path": "Texture/skin/normal/11",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/11.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      481,
+      343,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/1d/1d465183-1f84-4c4f-b513-b880cc88df34.json"
+  },
+  {
+    "uuid": "23b9ec26-e751-4631-8a91-e5c3f6afb1b7",
+    "name": "BigCoin7",
+    "logical_path": "Texture/skin/big/BigCoin7",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin7.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      3,
+      821,
+      164,
+      167
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      1.5
+    ],
+    "restored_trim_origin": [
+      0,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/23/23b9ec26-e751-4631-8a91-e5c3f6afb1b7.json"
+  },
+  {
+    "uuid": "27f73fb2-b374-4485-bc4a-4e9468a141fc",
+    "name": "BigCoin12",
+    "logical_path": "Texture/skin/big/BigCoin12",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin12.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      3,
+      311,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/27/27f73fb2-b374-4485-bc4a-4e9468a141fc.json"
+  },
+  {
+    "uuid": "2b029f9b-7485-45de-8693-c774c9f6c631",
+    "name": "BigCoin15",
+    "logical_path": "Texture/skin/big/BigCoin15",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin15.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      398,
+      173,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/2b/2b029f9b-7485-45de-8693-c774c9f6c631.json"
+  },
+  {
+    "uuid": "2d286699-c2e1-4149-8d2e-1cd34b97e431",
+    "name": "4",
+    "logical_path": "Texture/skin/normal/4",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/4.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      351,
+      609,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/2d/2d286699-c2e1-4149-8d2e-1cd34b97e431.json"
+  },
+  {
+    "uuid": "3332a879-7e0f-4b13-8f04-8fa8b08fd7c9",
+    "name": "War6",
+    "logical_path": "Texture/skin/war/War6",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War6.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      458,
+      609,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/33/3332a879-7e0f-4b13-8f04-8fa8b08fd7c9.json"
+  },
+  {
+    "uuid": "353c8065-4fd4-45ef-9234-a9edceec2cf7",
+    "name": "Btn_yellow_25px",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_yellow_25px.png",
+    "size": [
+      107,
+      100
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      885,
+      678,
+      105,
+      98
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      49,
+      47,
+      49,
+      47
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/35/353c8065-4fd4-45ef-9234-a9edceec2cf7.json"
+  },
+  {
+    "uuid": "3720db8d-53be-4513-a24a-b1cee1aa6af3",
+    "name": "1",
+    "logical_path": "Texture/skin/normal/1",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/1.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      581,
+      918,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/37/3720db8d-53be-4513-a24a-b1cee1aa6af3.json"
+  },
+  {
+    "uuid": "3cbc3bfa-9b27-47f6-8494-8ff4b34385fe",
+    "name": "War1",
+    "logical_path": "Texture/skin/war/War1",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War1.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      654,
+      918,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/3c/3cbc3bfa-9b27-47f6-8494-8ff4b34385fe.json"
+  },
+  {
+    "uuid": "42246cba-2565-449e-8023-6326e5f58a3a",
+    "name": "War2",
+    "logical_path": "Texture/skin/war/War2",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War2.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      727,
+      918,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/42/42246cba-2565-449e-8023-6326e5f58a3a.json"
+  },
+  {
+    "uuid": "44e6dae9-0967-49de-b32c-359c1ec48ca2",
+    "name": "BigCoin3",
+    "logical_path": "Texture/skin/big/BigCoin3",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin3.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      173,
+      821,
+      164,
+      167
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      1.5
+    ],
+    "restored_trim_origin": [
+      0,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/44/44e6dae9-0967-49de-b32c-359c1ec48ca2.json"
+  },
+  {
+    "uuid": "4ccd27f1-8e50-450c-a2fc-de08c15d3e6d",
+    "name": "LaserLight",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/LaserLight.png",
+    "size": [
+      122,
+      180
+    ],
+    "texture_uuid": "b500c549-e361-4e4e-b5a6-29d2f6486ce5",
+    "atlas_file": "assets/rea_original/atlases/b500c549-e361-4e4e-b5a6-29d2f6486ce5.png",
+    "source_rect": [
+      11,
+      0,
+      101,
+      180
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0.5,
+      0
+    ],
+    "restored_trim_origin": [
+      11,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/4c/4ccd27f1-8e50-450c-a2fc-de08c15d3e6d.json"
+  },
+  {
+    "uuid": "4e0a30fd-01d3-44d3-b534-7d368b86fa2a",
+    "name": "War9",
+    "logical_path": "Texture/skin/war/War9",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War9.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      588,
+      343,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/4e/4e0a30fd-01d3-44d3-b534-7d368b86fa2a.json"
+  },
+  {
+    "uuid": "576cc266-7d1e-4451-aef6-37e092dbee72",
+    "name": "Light1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Light1.png",
+    "size": [
+      24,
+      24
+    ],
+    "texture_uuid": "300cff9e-c5ff-4371-b5be-6b76becb6b85",
+    "atlas_file": "assets/rea_original/atlases/300cff9e-c5ff-4371-b5be-6b76becb6b85.png",
+    "source_rect": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/57/576cc266-7d1e-4451-aef6-37e092dbee72.json"
+  },
+  {
+    "uuid": "582f3141-986b-4b0b-b18d-9600a8d958c7",
+    "name": "icon_point",
+    "logical_path": "customRes/icon_point",
+    "file": "assets/rea_original/sprites/customRes/icon_point.png",
+    "size": [
+      40,
+      40
+    ],
+    "texture_uuid": "85cd8576-a9ee-42dd-878b-d74650de6abb",
+    "atlas_file": "assets/rea_original/atlases/85cd8576-a9ee-42dd-878b-d74650de6abb.png",
+    "source_rect": [
+      2,
+      3,
+      36,
+      36
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      -1
+    ],
+    "restored_trim_origin": [
+      2,
+      3
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/58/582f3141-986b-4b0b-b18d-9600a8d958c7.json"
+  },
+  {
+    "uuid": "5fe7f126-cb7b-46e4-bf41-af323400c7a7",
+    "name": "War7",
+    "logical_path": "Texture/skin/war/War7",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War7.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      695,
+      343,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/5f/5fe7f126-cb7b-46e4-bf41-af323400c7a7.json"
+  },
+  {
+    "uuid": "641e2caf-1e8b-4234-9ba9-ec240fd967b9",
+    "name": "BigCoin1",
+    "logical_path": "Texture/skin/big/BigCoin1",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin1.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      3,
+      141,
+      164,
+      169
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      1.5
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/64/641e2caf-1e8b-4234-9ba9-ec240fd967b9.json"
+  },
+  {
+    "uuid": "72aa0dea-f610-49c4-9b6f-8fc211d8b038",
+    "name": "Btn_green_25px",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_green_25px.png",
+    "size": [
+      113,
+      107
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      883,
+      782,
+      113,
+      107
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/72/72aa0dea-f610-49c4-9b6f-8fc211d8b038.json"
+  },
+  {
+    "uuid": "7302d2bc-35cd-4e70-b96f-54f0c8ccc7c2",
+    "name": "Icon_ad_1",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_ad_1.png",
+    "size": [
+      73,
+      46
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      946,
+      525,
+      71,
+      44
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/73/7302d2bc-35cd-4e70-b96f-54f0c8ccc7c2.json"
+  },
+  {
+    "uuid": "735ea3c1-118a-497b-b3d0-9d2a5dee0cce",
+    "name": "War5",
+    "logical_path": "Texture/skin/war/War5",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War5.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      555,
+      532,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/73/735ea3c1-118a-497b-b3d0-9d2a5dee0cce.json"
+  },
+  {
+    "uuid": "737dcb97-30a7-430b-901f-6765ac9b9f6f",
+    "name": "Partten",
+    "logical_path": "Texture/Challenge/Partten",
+    "file": "assets/rea_original/sprites/Texture/Challenge/Partten.png",
+    "size": [
+      90,
+      128
+    ],
+    "texture_uuid": "14facfbc3",
+    "atlas_file": "assets/rea_original/atlases/14facfbc3.png",
+    "source_rect": [
+      3,
+      169,
+      90,
+      128
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/73/737dcb97-30a7-430b-901f-6765ac9b9f6f.json"
+  },
+  {
+    "uuid": "768c2678-c187-4772-820f-bd1a33c17061",
+    "name": "BigCoin11",
+    "logical_path": "Texture/skin/big/BigCoin11",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin11.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      572,
+      173,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/76/768c2678-c187-4772-820f-bd1a33c17061.json"
+  },
+  {
+    "uuid": "79f00f1d-da68-4c79-b25e-c932a48a99b7",
+    "name": "16",
+    "logical_path": "Texture/skin/normal/16",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/16.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      565,
+      605,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/79/79f00f1d-da68-4c79-b25e-c932a48a99b7.json"
+  },
+  {
+    "uuid": "7e1cb5e1-faaf-47d4-a1d6-a55ab37c0fba",
+    "name": "War4",
+    "logical_path": "Texture/skin/war/War4",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War4.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      662,
+      532,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/7e/7e1cb5e1-faaf-47d4-a1d6-a55ab37c0fba.json"
+  },
+  {
+    "uuid": "844f61a9-3ec6-44c5-82b8-2048f99519a6",
+    "name": "BigCoin5",
+    "logical_path": "Texture/skin/big/BigCoin5",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin5.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      746,
+      173,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/84/844f61a9-3ec6-44c5-82b8-2048f99519a6.json"
+  },
+  {
+    "uuid": "873fdd2e-d683-4bd7-a03c-a51b0d5f5a20",
+    "name": "War11",
+    "logical_path": "Texture/skin/war/War11",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War11.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      761,
+      416,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/87/873fdd2e-d683-4bd7-a03c-a51b0d5f5a20.json"
+  },
+  {
+    "uuid": "87bbad24-0072-44fb-ba98-62beee514735",
+    "name": "BigCoin10",
+    "logical_path": "Texture/skin/big/BigCoin10",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin10.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      215,
+      343,
+      164,
+      168
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/87/87bbad24-0072-44fb-ba98-62beee514735.json"
+  },
+  {
+    "uuid": "8b4e9a92-0be0-447c-a920-0327c3217304",
+    "name": "War3",
+    "logical_path": "Texture/skin/war/War3",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War3.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      802,
+      343,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/8b/8b4e9a92-0be0-447c-a920-0327c3217304.json"
+  },
+  {
+    "uuid": "93b3c9dd-4ba1-4196-9d3b-8c360ee81ee3",
+    "name": "5",
+    "logical_path": "Texture/skin/normal/5",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/5.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      603,
+      678,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/93/93b3c9dd-4ba1-4196-9d3b-8c360ee81ee3.json"
+  },
+  {
+    "uuid": "9c2e07fc-35ae-41c8-99fd-09f1ca3a3535",
+    "name": "13",
+    "logical_path": "Texture/skin/normal/13",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/13.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      769,
+      523,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/9c/9c2e07fc-35ae-41c8-99fd-09f1ca3a3535.json"
+  },
+  {
+    "uuid": "a23235d1-15db-4b95-8439-a2e005bfff91",
+    "name": "default_sprite_splash",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/default_sprite_splash.png",
+    "size": [
+      2,
+      2
+    ],
+    "texture_uuid": "0275e94c-56a7-410f-bd1a-fc7483f7d14a",
+    "atlas_file": "assets/rea_original/atlases/0275e94c-56a7-410f-bd1a-fc7483f7d14a.png",
+    "source_rect": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/a2/a23235d1-15db-4b95-8439-a2e005bfff91.json"
+  },
+  {
+    "uuid": "ad33cc3d-415f-4648-be4a-b1bc729f0a21",
+    "name": "Btn_Ad_broad",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Ad_broad.png",
+    "size": [
+      225,
+      96
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      725,
+      323,
+      223,
+      94
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/ad/ad33cc3d-415f-4648-be4a-b1bc729f0a21.json"
+  },
+  {
+    "uuid": "b680122c-1525-4657-9a5c-92401c9f59f8",
+    "name": "War10",
+    "logical_path": "Texture/skin/war/War10",
+    "file": "assets/rea_original/sprites/Texture/skin/war/War10.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      834,
+      416,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/b6/b680122c-1525-4657-9a5c-92401c9f59f8.json"
+  },
+  {
+    "uuid": "ba506381-8770-40bf-92a1-66301de8d2f1",
+    "name": "PanelBG_2",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/PanelBG_2.png",
+    "size": [
+      187,
+      121
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      694,
+      644,
+      185,
+      119
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      70,
+      0,
+      70,
+      105
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/ba/ba506381-8770-40bf-92a1-66301de8d2f1.json"
+  },
+  {
+    "uuid": "bb0e1bb8-c4c7-40d7-843b-f0b687d9037d",
+    "name": "TargetBG_5_FinishIcon",
+    "logical_path": "Texture/skin/TargetBG_5_FinishIcon",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_5_FinishIcon.png",
+    "size": [
+      32,
+      22
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      178,
+      292,
+      32,
+      22
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/bb/bb0e1bb8-c4c7-40d7-843b-f0b687d9037d.json"
+  },
+  {
+    "uuid": "bb42cd92-2f1c-4cc1-9bde-55bba9601a03",
+    "name": "12",
+    "logical_path": "Texture/skin/normal/12",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/12.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      676,
+      678,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/bb/bb42cd92-2f1c-4cc1-9bde-55bba9601a03.json"
+  },
+  {
+    "uuid": "be933c67-45f5-450d-b4f8-6749d6fd9e84",
+    "name": "15",
+    "logical_path": "Texture/skin/normal/15",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/15.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      749,
+      678,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/be/be933c67-45f5-450d-b4f8-6749d6fd9e84.json"
+  },
+  {
+    "uuid": "c06108a3-9547-48c8-902d-f42989b08935",
+    "name": "BigCoin10-(2)",
+    "logical_path": "Texture/skin/big/BigCoin10-(2)",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin10-(2).png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      3,
+      481,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/c0/c06108a3-9547-48c8-902d-f42989b08935.json"
+  },
+  {
+    "uuid": "c5675162-7bc1-4e0d-976d-af9625ccc68b",
+    "name": "TargetBG_4",
+    "logical_path": "Texture/skin/TargetBG_4.4",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_4.4.png",
+    "size": [
+      90,
+      81
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      385,
+      343,
+      90,
+      81
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/c5/c5675162-7bc1-4e0d-976d-af9625ccc68b.json"
+  },
+  {
+    "uuid": "cba2005a-ceac-4d7a-bba0-b520ee71d6b4",
+    "name": "14",
+    "logical_path": "Texture/skin/normal/14",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/14.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      779,
+      596,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/cb/cba2005a-ceac-4d7a-bba0-b520ee71d6b4.json"
+  },
+  {
+    "uuid": "cdfe6fac-50cd-4f41-9bea-2fc2bd8f24ba",
+    "name": "BigCoin6",
+    "logical_path": "Texture/skin/big/BigCoin6",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin6.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      385,
+      435,
+      164,
+      168
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/cd/cdfe6fac-50cd-4f41-9bea-2fc2bd8f24ba.json"
+  },
+  {
+    "uuid": "d9e94dd4-6e06-41a3-8d23-9d1141dd45ff",
+    "name": "TargetBG_4",
+    "logical_path": "Texture/skin/TargetBG_4",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_4.png",
+    "size": [
+      68,
+      105
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      920,
+      217,
+      68,
+      105
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/d9/d9e94dd4-6e06-41a3-8d23-9d1141dd45ff.json"
+  },
+  {
+    "uuid": "e001a1e6-607e-4716-8d14-d6bb78c0bb74",
+    "name": "10",
+    "logical_path": "Texture/skin/normal/10",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/10.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      876,
+      523,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/e0/e001a1e6-607e-4716-8d14-d6bb78c0bb74.json"
+  },
+  {
+    "uuid": "e0d509d9-27cb-4a53-8cad-384d7cc28bab",
+    "name": "icon_arrowWhite",
+    "logical_path": "customRes/icon_arrowWhite",
+    "file": "assets/rea_original/sprites/customRes/icon_arrowWhite.png",
+    "size": [
+      39,
+      32
+    ],
+    "texture_uuid": "0c65e892-53bd-4fa1-9f16-4a0d2dd6a76a",
+    "atlas_file": "assets/rea_original/atlases/0c65e892-53bd-4fa1-9f16-4a0d2dd6a76a.png",
+    "source_rect": [
+      0,
+      0,
+      39,
+      32
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/e0/e0d509d9-27cb-4a53-8cad-384d7cc28bab.json"
+  },
+  {
+    "uuid": "e3155073-09e4-48e3-9e61-ca2b77ef0e9d",
+    "name": "PanelBG",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/PanelBG.png",
+    "size": [
+      316,
+      243
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      725,
+      3,
+      314,
+      241
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      148,
+      119,
+      143,
+      119
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/e3/e3155073-09e4-48e3-9e61-ca2b77ef0e9d.json"
+  },
+  {
+    "uuid": "e582e535-e503-4b2e-adf5-eba2331b7d61",
+    "name": "logo",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/logo.png",
+    "size": [
+      400,
+      365
+    ],
+    "texture_uuid": "e204b5c5-b738-48d7-8e0d-1e7ec0c5438f",
+    "atlas_file": "assets/rea_original/atlases/e204b5c5-b738-48d7-8e0d-1e7ec0c5438f.png",
+    "source_rect": [
+      0,
+      0,
+      399,
+      365
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      -0.5,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/e5/e582e535-e503-4b2e-adf5-eba2331b7d61.json"
+  },
+  {
+    "uuid": "e6fc8aa1-5a85-42f7-be6d-cadc364360af",
+    "name": "line",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/line.png",
+    "size": [
+      490,
+      10
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      972,
+      29,
+      490,
+      10
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/e6/e6fc8aa1-5a85-42f7-be6d-cadc364360af.json"
+  },
+  {
+    "uuid": "ebec3afb-dbe5-4ea4-99af-38858918101e",
+    "name": "Btn_blue_25px",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_blue_25px.png",
+    "size": [
+      117,
+      100
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      413,
+      670,
+      117,
+      100
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      57,
+      49,
+      57,
+      49
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/eb/ebec3afb-dbe5-4ea4-99af-38858918101e.json"
+  },
+  {
+    "uuid": "ed4472ef-0ff8-4ceb-9733-2c8bd3e8f9c6",
+    "name": "Icon_Lock",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Icon_Lock.png",
+    "size": [
+      43,
+      57
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      668,
+      769,
+      43,
+      57
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/ed/ed4472ef-0ff8-4ceb-9733-2c8bd3e8f9c6.json"
+  },
+  {
+    "uuid": "ef49e8af-209a-48da-a5cd-91f29e3cea1b",
+    "name": "Btn_Quit",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Btn_Quit.png",
+    "size": [
+      81,
+      81
+    ],
+    "texture_uuid": "153cf6e21",
+    "atlas_file": "assets/rea_original/atlases/153cf6e21.png",
+    "source_rect": [
+      328,
+      696,
+      79,
+      79
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      1,
+      1
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/ef/ef49e8af-209a-48da-a5cd-91f29e3cea1b.json"
+  },
+  {
+    "uuid": "f0052db7-eef3-4228-b4ea-5dd25026fa04",
+    "name": "6",
+    "logical_path": "Texture/skin/normal/6",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/6.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      787,
+      785,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/f0/f0052db7-eef3-4228-b4ea-5dd25026fa04.json"
+  },
+  {
+    "uuid": "f026292d-8fe5-4d8d-9ac5-523ff6d468b6",
+    "name": "BigNum10",
+    "logical_path": "Texture/skin/BigNum10",
+    "file": "assets/rea_original/sprites/Texture/skin/BigNum10.png",
+    "size": [
+      62,
+      49
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      800,
+      967,
+      62,
+      49
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/f0/f026292d-8fe5-4d8d-9ac5-523ff6d468b6.json"
+  },
+  {
+    "uuid": "f573d675-49a7-4653-8194-cae28350f593",
+    "name": "BigCoin14",
+    "logical_path": "Texture/skin/big/BigCoin14",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin14.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      177,
+      517,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/f5/f573d675-49a7-4653-8194-cae28350f593.json"
+  },
+  {
+    "uuid": "f5fecaa8-9b52-4d74-957d-315b62ffc59d",
+    "name": "7",
+    "logical_path": "Texture/skin/normal/7",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/7.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      822,
+      669,
+      101,
+      67
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/f5/f5fecaa8-9b52-4d74-957d-315b62ffc59d.json"
+  },
+  {
+    "uuid": "f637e658-2a3d-4b4a-a00d-b53b9141a2f9",
+    "name": "panel_bg_2",
+    "logical_path": "customRes/panel_bg_2",
+    "file": "assets/rea_original/sprites/customRes/panel_bg_2.png",
+    "size": [
+      174,
+      181
+    ],
+    "texture_uuid": "b924942c-aa9e-4f4c-bd37-12e2f75e16a1",
+    "atlas_file": "assets/rea_original/atlases/b924942c-aa9e-4f4c-bd37-12e2f75e16a1.png",
+    "source_rect": [
+      0,
+      0,
+      174,
+      181
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      86,
+      91,
+      88,
+      90
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/f6/f637e658-2a3d-4b4a-a00d-b53b9141a2f9.json"
+  },
+  {
+    "uuid": "f81c092b-bfa3-4041-989a-a879f5920ef7",
+    "name": "TargetBG_4",
+    "logical_path": "Texture/skin/TargetBG_4.2",
+    "file": "assets/rea_original/sprites/Texture/skin/TargetBG_4.2.png",
+    "size": [
+      48,
+      36
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      178,
+      200,
+      48,
+      36
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/f8/f81c092b-bfa3-4041-989a-a879f5920ef7.json"
+  },
+  {
+    "uuid": "faeb2f91-8794-4517-aeea-afc87b6b30c2",
+    "name": "BigCoin9",
+    "logical_path": "Texture/skin/big/BigCoin9",
+    "file": "assets/rea_original/sprites/Texture/skin/big/BigCoin9.png",
+    "size": [
+      164,
+      172
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      3,
+      651,
+      164,
+      168
+    ],
+    "rotated_in_atlas": true,
+    "original_offset": [
+      0,
+      2
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/fa/faeb2f91-8794-4517-aeea-afc87b6b30c2.json"
+  },
+  {
+    "uuid": "fd132950-429f-45ff-ac90-a39a6c5fa13f",
+    "name": "9",
+    "logical_path": "Texture/skin/normal/9",
+    "file": "assets/rea_original/sprites/Texture/skin/normal/9.png",
+    "size": [
+      101,
+      67
+    ],
+    "texture_uuid": "1df2a7b88",
+    "atlas_file": "assets/rea_original/atlases/1df2a7b88.png",
+    "source_rect": [
+      886,
+      596,
+      101,
+      67
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/fd/fd132950-429f-45ff-ac90-a39a6c5fa13f.json"
+  },
+  {
+    "uuid": "fd995df3-5d66-43c7-9f4e-f4a0cd3c7573",
+    "name": "Light3",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/Light3.png",
+    "size": [
+      24,
+      24
+    ],
+    "texture_uuid": "a2088308-34d9-49b3-b831-84e068d99156",
+    "atlas_file": "assets/rea_original/atlases/a2088308-34d9-49b3-b831-84e068d99156.png",
+    "source_rect": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/fd/fd995df3-5d66-43c7-9f4e-f4a0cd3c7573.json"
+  },
+  {
+    "uuid": "43805562-c238-4370-bbd8-13c3ce80c991",
+    "name": "logo_pupu",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/logo_pupu.png",
+    "size": [
+      381,
+      253
+    ],
+    "texture_uuid": "ef58b8bb-e34c-4c36-8bad-205e7d24651b",
+    "atlas_file": "assets/rea_original/atlases/ef58b8bb-e34c-4c36-8bad-205e7d24651b.png",
+    "source_rect": [
+      6,
+      2,
+      368,
+      244
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      -0.5,
+      2.5
+    ],
+    "restored_trim_origin": [
+      6,
+      2
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/main/import/08/08cf365c8.json"
+  },
+  {
+    "uuid": "8af331e2-cb7b-4bde-bc93-0ff56918d6e9",
+    "name": "pupu_bg",
+    "logical_path": null,
+    "file": "assets/rea_original/sprites/ui/pupu_bg.png",
+    "size": [
+      1336,
+      1336
+    ],
+    "texture_uuid": "7ae8697c-bdc7-4612-8d1c-564aca07604c",
+    "atlas_file": "assets/rea_original/atlases/7ae8697c-bdc7-4612-8d1c-564aca07604c.jpg",
+    "source_rect": [
+      0,
+      0,
+      1336,
+      1336
+    ],
+    "rotated_in_atlas": false,
+    "original_offset": [
+      0,
+      0
+    ],
+    "restored_trim_origin": [
+      0,
+      0
+    ],
+    "cap_insets_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source_import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/main/import/08/08cf365c8.json"
+  }
+]

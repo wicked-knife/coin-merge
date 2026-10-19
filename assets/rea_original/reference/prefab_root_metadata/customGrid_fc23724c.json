@@ -1,0 +1,40 @@
+{
+  "uuid": "fc23724c-2f64-477b-ab8a-ce455086d04b",
+  "bundle": "resources",
+  "config_index": 304,
+  "logical_path": "customPrefab/customGrid",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "customGrid"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "6d5d99ed-7b51-4a3d-967b-ab435b05839a"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "582f3141-986b-4b0b-b18d-9600a8d958c7"
+    }
+  ],
+  "import_file": "assets/resources/import/0b/0b06a5735.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b06a5735.json"
+}

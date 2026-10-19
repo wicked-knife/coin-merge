@@ -1,0 +1,31 @@
+{
+  "uuid": "a9487906-fba8-4e70-bda3-212668f96218",
+  "bundle": "resources",
+  "config_index": 233,
+  "logical_path": null,
+  "class": "sp.SkeletonData",
+  "attributes": {
+    "_name": "sk_cloud",
+    "_native": ".bin",
+    "_atlasText": "\nsk_cloud.png\nsize: 1024,768\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ncould1\n  rotate: false\n  xy: 535, 0\n  size: 489, 347\n  orig: 489, 347\n  offset: 0, 0\n  index: -1\ncould2\n  rotate: false\n  xy: 535, 349\n  size: 449, 419\n  orig: 449, 419\n  offset: 0, 0\n  index: -1\ncould3\n  rotate: true\n  xy: 0, 18\n  size: 750, 533\n  orig: 750, 533\n  offset: 0, 0\n  index: -1\n",
+    "textureNames": [
+      "sk_cloud.png"
+    ],
+    "textures": [
+      0
+    ]
+  },
+  "native": true,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "a83ea9a3-5799-449d-b173-0da6407bb3f6"
+    }
+  ],
+  "import_file": "assets/resources/import/0b/0b530e15c.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0b/0b530e15c.json",
+  "native_relative": "assets/resources/native/a9/a9487906-fba8-4e70-bda3-212668f96218.bin",
+  "native_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/native/a9/a9487906-fba8-4e70-bda3-212668f96218.bin",
+  "exported_native": "assets/rea_original/spine/sk_cloud/skeleton.skel"
+}

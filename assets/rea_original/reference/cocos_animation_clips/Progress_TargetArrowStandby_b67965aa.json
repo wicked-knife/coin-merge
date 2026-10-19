@@ -1,0 +1,34 @@
+{
+  "uuid": "b67965aa-0979-418e-a503-f8284aa6a71f",
+  "bundle": "resources",
+  "config_index": 247,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Progress_TargetArrowStandby",
+    "_duration": 0.9833333333333333,
+    "wrapMode": 2,
+    "curveData": {
+      "props": {
+        "x": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 0.5,
+            "value": 4
+          },
+          {
+            "frame": 0.9833333333333333,
+            "value": 0
+          }
+        ]
+      }
+    }
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/0f/0fb55d1b1.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+}

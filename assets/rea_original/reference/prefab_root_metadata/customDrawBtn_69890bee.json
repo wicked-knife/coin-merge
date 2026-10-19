@@ -1,0 +1,45 @@
+{
+  "uuid": "69890bee-9f57-4db8-b1b7-e0e956777bac",
+  "bundle": "resources",
+  "config_index": 167,
+  "logical_path": "customPrefab/customDrawBtn",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "customDrawBtn"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "a23235d1-15db-4b95-8439-a2e005bfff91"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "e0d509d9-27cb-4a53-8cad-384d7cc28bab"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "582f3141-986b-4b0b-b18d-9600a8d958c7"
+    }
+  ],
+  "import_file": "assets/resources/import/69/69890bee-9f57-4db8-b1b7-e0e956777bac.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/69/69890bee-9f57-4db8-b1b7-e0e956777bac.json"
+}

@@ -1,0 +1,6 @@
+{
+  "result": {
+    "type": "string",
+    "value": "{\"engine\":\"2.4.13\",\"scene\":\"main\",\"cells\":[{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[]},{\"node\":\"cell-item\",\"coins\":[{\"num\":2,\"unknown\":false},{\"num\":2,\"unknown\":false}]}]}"
+  }
+}

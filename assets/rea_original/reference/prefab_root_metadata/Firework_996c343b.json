@@ -1,0 +1,35 @@
+{
+  "uuid": "996c343b-a6c2-4d44-b85c-5fc89b77f18a",
+  "bundle": "resources",
+  "config_index": 142,
+  "logical_path": "prefab/prefab/particle/Firework",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "Firework"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 3,
+      "property": "_spriteFrame",
+      "uuid": "5451f703-df76-4889-b6b0-948106ab55df"
+    },
+    {
+      "owner": 5,
+      "property": "_spriteFrame",
+      "uuid": "c7778557-7ec8-47f1-941e-9031db743dbf"
+    }
+  ],
+  "import_file": "assets/resources/import/07/070775b95.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/07/070775b95.json"
+}

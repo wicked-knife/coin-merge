@@ -1,0 +1,29 @@
+[
+  {
+    "name": "could1",
+    "rotate": "false",
+    "xy": "535, 0",
+    "size": "489, 347",
+    "orig": "489, 347",
+    "offset": "0, 0",
+    "index": "-1"
+  },
+  {
+    "name": "could2",
+    "rotate": "false",
+    "xy": "535, 349",
+    "size": "449, 419",
+    "orig": "449, 419",
+    "offset": "0, 0",
+    "index": "-1"
+  },
+  {
+    "name": "could3",
+    "rotate": "true",
+    "xy": "0, 18",
+    "size": "750, 533",
+    "orig": "750, 533",
+    "offset": "0, 0",
+    "index": "-1"
+  }
+]

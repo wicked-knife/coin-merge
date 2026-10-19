@@ -1,0 +1,25 @@
+{
+  "uuid": "a304f79b-2100-4b74-85be-be45c2ce093d",
+  "bundle": "resources",
+  "config_index": 224,
+  "logical_path": "prefab/uimask",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "uimask"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "a23235d1-15db-4b95-8439-a2e005bfff91"
+    }
+  ],
+  "import_file": "assets/resources/import/a3/a304f79b-2100-4b74-85be-be45c2ce093d.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/a3/a304f79b-2100-4b74-85be-be45c2ce093d.json"
+}

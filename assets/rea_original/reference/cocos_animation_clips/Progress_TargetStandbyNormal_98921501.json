@@ -1,0 +1,398 @@
+{
+  "uuid": "98921501-4213-4364-a726-bd675df58ecc",
+  "bundle": "resources",
+  "config_index": 214,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Progress_TargetStandbyNormal",
+    "_duration": 6.016666666666667,
+    "wrapMode": 2,
+    "curveData": [
+      {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": null
+              }
+            ]
+          }
+        }
+      },
+      "paths",
+      11,
+      [
+        {
+          "over": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ]
+            }
+          }
+        },
+        "next",
+        11,
+        [
+          {
+            "comps": {
+              "cc.Sprite": {
+                "spriteFrame": [
+                  {
+                    "frame": 0,
+                    "value": null
+                  }
+                ]
+              }
+            }
+          },
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ],
+              "active": [
+                {
+                  "frame": 0,
+                  "value": false
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.6,
+                    0.6,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "label",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "TargetBG_4",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "angle": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 0.016666666666666666,
+                  "value": 63.35166624973758
+                },
+                {
+                  "frame": 6,
+                  "value": 360
+                }
+              ],
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 30
+                }
+              ],
+              "active": [
+                {
+                  "frame": 0,
+                  "value": true
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "TargetBG_4.2",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "y": [
+                {
+                  "frame": 0,
+                  "value": 58
+                },
+                {
+                  "frame": 0.5,
+                  "value": 54
+                },
+                {
+                  "frame": 1,
+                  "value": 58
+                },
+                {
+                  "frame": 1.5,
+                  "value": 62
+                },
+                {
+                  "frame": 2,
+                  "value": 58
+                },
+                {
+                  "frame": 2.5,
+                  "value": 54
+                },
+                {
+                  "frame": 3,
+                  "value": 58
+                },
+                {
+                  "frame": 3.5,
+                  "value": 62
+                },
+                {
+                  "frame": 4,
+                  "value": 58
+                },
+                {
+                  "frame": 4.516666666666667,
+                  "value": 54
+                },
+                {
+                  "frame": 5.016666666666667,
+                  "value": 58
+                },
+                {
+                  "frame": 5.516666666666667,
+                  "value": 62
+                },
+                {
+                  "frame": 6.016666666666667,
+                  "value": 58
+                }
+              ],
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "TargetBG_4.1",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "TargetBG_4.4",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.6,
+                    0.6,
+                    1
+                  ]
+                ],
+                [
+                  {
+                    "frame": 2.7666666666666666
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    0.6,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11,
+              11
+            ]
+          ]
+        ]
+      ],
+      "props",
+      11,
+      [
+        {},
+        "scale",
+        12,
+        [
+          [
+            [
+              {
+                "frame": 0
+              },
+              "value",
+              8,
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
+          ],
+          11
+        ]
+      ]
+    ]
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/0f/0fb55d1b1.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+}

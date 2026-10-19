@@ -1,0 +1,25 @@
+{
+  "uuid": "f000fc46-202b-4a45-a116-9c0a13dfb6f5",
+  "bundle": "resources",
+  "config_index": 297,
+  "logical_path": "prefab/prefab/question",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "question"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "792cf4ac-ed10-4221-a2dc-b5ad1ee08489"
+    }
+  ],
+  "import_file": "assets/resources/import/07/07dd75794.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/07/07dd75794.json"
+}

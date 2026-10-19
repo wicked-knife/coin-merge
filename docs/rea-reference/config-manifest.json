@@ -1,0 +1,202 @@
+[
+  {
+    "table": "Excelarea_color1",
+    "normalized_file": "configs/Excelarea_color1.json",
+    "rows": 208,
+    "raw_file": "raw-configs/request-45-1982f49c-2aa7-48fa-a903-cfbcf3f91f29.json",
+    "original_capture_path": "work\\tidy-configs\\request-45-1982f49c-2aa7-48fa-a903-cfbcf3f91f29.json",
+    "file": "request-45-1982f49c-2aa7-48fa-a903-cfbcf3f91f29.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/19/1982f49c-2aa7-48fa-a903-cfbcf3f91f29.json",
+    "sha256": "7a7a431fbb89d60b718b1a776863c899da2cb856f0d38f704cef59fa5ade9428"
+  },
+  {
+    "table": "Excelchallenge_area1",
+    "normalized_file": "configs/Excelchallenge_area1.json",
+    "rows": 100,
+    "raw_file": "raw-configs/request-51-e60dc87a-a41f-46fe-a446-d22bac8ae93e.json",
+    "original_capture_path": "work\\tidy-configs\\request-51-e60dc87a-a41f-46fe-a446-d22bac8ae93e.json",
+    "file": "request-51-e60dc87a-a41f-46fe-a446-d22bac8ae93e.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/e6/e60dc87a-a41f-46fe-a446-d22bac8ae93e.json",
+    "sha256": "5649835a831badea34f7ab5d268634108dbbabb6660538d667f596ab59e65faf"
+  },
+  {
+    "table": "Excelchallenge_deal1",
+    "normalized_file": "configs/Excelchallenge_deal1.json",
+    "rows": 5,
+    "raw_file": "raw-configs/request-46-1f276066-acc9-40fe-afc4-273590a1f78f.json",
+    "original_capture_path": "work\\tidy-configs\\request-46-1f276066-acc9-40fe-afc4-273590a1f78f.json",
+    "file": "request-46-1f276066-acc9-40fe-afc4-273590a1f78f.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/1f/1f276066-acc9-40fe-afc4-273590a1f78f.json",
+    "sha256": "bf40c208e8161bfd59cacb5201c9e7e45ed256fcc78f182a7eca63390bf6ec1f"
+  },
+  {
+    "table": "Excelchallenge_guide",
+    "normalized_file": "configs/Excelchallenge_guide.json",
+    "rows": 10,
+    "raw_file": "raw-configs/request-61-4d386163-9e49-47de-ac47-f68c500285ea.json",
+    "original_capture_path": "work\\tidy-configs\\request-61-4d386163-9e49-47de-ac47-f68c500285ea.json",
+    "file": "request-61-4d386163-9e49-47de-ac47-f68c500285ea.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/4d/4d386163-9e49-47de-ac47-f68c500285ea.json",
+    "sha256": "8daf2cf43363ff23671b9f28bf0aa1027071fb82dba24d9e6526ba4c79046fa8"
+  },
+  {
+    "table": "ExcelgetCoinNum",
+    "normalized_file": "configs/ExcelgetCoinNum.json",
+    "rows": 4,
+    "raw_file": "raw-configs/request-52-e35e5613-e96a-4855-9065-2d6011036aff.json",
+    "original_capture_path": "work\\tidy-configs\\request-52-e35e5613-e96a-4855-9065-2d6011036aff.json",
+    "file": "request-52-e35e5613-e96a-4855-9065-2d6011036aff.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/e3/e35e5613-e96a-4855-9065-2d6011036aff.json",
+    "sha256": "8ba53632267e700bc3ff809ba0325ee4a1903269a980ef0fa016801b1ea94384"
+  },
+  {
+    "table": "ExcelgetCoinNum1",
+    "normalized_file": "configs/ExcelgetCoinNum1.json",
+    "rows": 4,
+    "raw_file": "raw-configs/request-53-c6a493de-9f8d-4c0e-b1ad-20d20aacaf03.json",
+    "original_capture_path": "work\\tidy-configs\\request-53-c6a493de-9f8d-4c0e-b1ad-20d20aacaf03.json",
+    "file": "request-53-c6a493de-9f8d-4c0e-b1ad-20d20aacaf03.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/c6/c6a493de-9f8d-4c0e-b1ad-20d20aacaf03.json",
+    "sha256": "8b1477e2d0d001dce0fb91bb29b10635bc69e3b6d85049ae6325af2d049cac4a"
+  },
+  {
+    "table": "ExcelgetCoinNum2",
+    "normalized_file": "configs/ExcelgetCoinNum2.json",
+    "rows": 4,
+    "raw_file": "raw-configs/request-50-f4da8e1b-e81b-4a44-bf20-ace6ad125c06.json",
+    "original_capture_path": "work\\tidy-configs\\request-50-f4da8e1b-e81b-4a44-bf20-ace6ad125c06.json",
+    "file": "request-50-f4da8e1b-e81b-4a44-bf20-ace6ad125c06.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/f4/f4da8e1b-e81b-4a44-bf20-ace6ad125c06.json",
+    "sha256": "11d49bdfc87a7636b2832a13b0ac2d040a9e2494ad43a72ff40091077edea4a2"
+  },
+  {
+    "table": "ExcelgetCoinNum3",
+    "normalized_file": "configs/ExcelgetCoinNum3.json",
+    "rows": 5,
+    "raw_file": "raw-configs/request-54-a943ea5e-bf6a-467d-a68e-197c21965cc5.json",
+    "original_capture_path": "work\\tidy-configs\\request-54-a943ea5e-bf6a-467d-a68e-197c21965cc5.json",
+    "file": "request-54-a943ea5e-bf6a-467d-a68e-197c21965cc5.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/a9/a943ea5e-bf6a-467d-a68e-197c21965cc5.json",
+    "sha256": "f304d7d3e747f609d79d6d62314bc9d4d33042bc280fc949e54c8e8d6204eb63"
+  },
+  {
+    "table": "ExcelgetCoinNum4",
+    "normalized_file": "configs/ExcelgetCoinNum4.json",
+    "rows": 5,
+    "raw_file": "raw-configs/request-48-3a1ca3e8-9c90-46f2-83d8-1dc7135bf45c.json",
+    "original_capture_path": "work\\tidy-configs\\request-48-3a1ca3e8-9c90-46f2-83d8-1dc7135bf45c.json",
+    "file": "request-48-3a1ca3e8-9c90-46f2-83d8-1dc7135bf45c.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/3a/3a1ca3e8-9c90-46f2-83d8-1dc7135bf45c.json",
+    "sha256": "7fe952ae0229f93a0438976a93c00c50905bfa5605cdf78f0c103d6a47bc29d1"
+  },
+  {
+    "table": "ExcelgroupType",
+    "normalized_file": "configs/ExcelgroupType.json",
+    "rows": 3,
+    "raw_file": "raw-configs/request-62-4ae899ac-5ea2-4d4c-87ab-c84b785e8a4e.json",
+    "original_capture_path": "work\\tidy-configs\\request-62-4ae899ac-5ea2-4d4c-87ab-c84b785e8a4e.json",
+    "file": "request-62-4ae899ac-5ea2-4d4c-87ab-c84b785e8a4e.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/4a/4ae899ac-5ea2-4d4c-87ab-c84b785e8a4e.json",
+    "sha256": "323755f6aa8e8902d57735b7e90ec695e06bf51e6ca64f60bdc103f5cf0fa385"
+  },
+  {
+    "table": "ExcelgroupType1",
+    "normalized_file": "configs/ExcelgroupType1.json",
+    "rows": 4,
+    "raw_file": "raw-configs/request-47-3740a3f9-7e5d-4077-b90c-87bd0492b163.json",
+    "original_capture_path": "work\\tidy-configs\\request-47-3740a3f9-7e5d-4077-b90c-87bd0492b163.json",
+    "file": "request-47-3740a3f9-7e5d-4077-b90c-87bd0492b163.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/37/3740a3f9-7e5d-4077-b90c-87bd0492b163.json",
+    "sha256": "9871f793536d8184a1471ab3b1f715706d5ce6b85a234efe0317bbdc6e47290c"
+  },
+  {
+    "table": "ExcelgroupType2",
+    "normalized_file": "configs/ExcelgroupType2.json",
+    "rows": 5,
+    "raw_file": "raw-configs/request-57-76347e66-5589-42c4-a3b2-270c3abe30cc.json",
+    "original_capture_path": "work\\tidy-configs\\request-57-76347e66-5589-42c4-a3b2-270c3abe30cc.json",
+    "file": "request-57-76347e66-5589-42c4-a3b2-270c3abe30cc.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/76/76347e66-5589-42c4-a3b2-270c3abe30cc.json",
+    "sha256": "87c509e971d4719cb5e07b35f2e9f4add9709134a7da74373d75b2ce4ed206c1"
+  },
+  {
+    "table": "ExcelgroupType3",
+    "normalized_file": "configs/ExcelgroupType3.json",
+    "rows": 6,
+    "raw_file": "raw-configs/request-63-410852b9-632b-4e77-8acd-d8b2cf674b5b.json",
+    "original_capture_path": "work\\tidy-configs\\request-63-410852b9-632b-4e77-8acd-d8b2cf674b5b.json",
+    "file": "request-63-410852b9-632b-4e77-8acd-d8b2cf674b5b.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/41/410852b9-632b-4e77-8acd-d8b2cf674b5b.json",
+    "sha256": "eff155d1ce8cd9c201cc18154bfd9872a2bf411eca89f742c5dd3ef73d34ff5d"
+  },
+  {
+    "table": "ExcelgroupType4",
+    "normalized_file": "configs/ExcelgroupType4.json",
+    "rows": 6,
+    "raw_file": "raw-configs/request-56-83af299f-d69e-4bbb-ace1-96f2f94d58d1.json",
+    "original_capture_path": "work\\tidy-configs\\request-56-83af299f-d69e-4bbb-ace1-96f2f94d58d1.json",
+    "file": "request-56-83af299f-d69e-4bbb-ace1-96f2f94d58d1.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/83/83af299f-d69e-4bbb-ace1-96f2f94d58d1.json",
+    "sha256": "30d92c3cc3a283adb80b710376eb2ef8d0eeaff20483ffe912517d6be558573f"
+  },
+  {
+    "table": "Excelkeyvalue",
+    "normalized_file": "configs/Excelkeyvalue.json",
+    "rows": 1,
+    "raw_file": "raw-configs/request-49-3b6ac34c-37eb-4bfd-b0e9-9dd24c999107.json",
+    "original_capture_path": "work\\tidy-configs\\request-49-3b6ac34c-37eb-4bfd-b0e9-9dd24c999107.json",
+    "file": "request-49-3b6ac34c-37eb-4bfd-b0e9-9dd24c999107.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/3b/3b6ac34c-37eb-4bfd-b0e9-9dd24c999107.json",
+    "sha256": "75bf5432f6ac31fa8012f80d47dcbbbc4d8995deacc8c1641314bd11fce811ef"
+  },
+  {
+    "table": "Excellevel1",
+    "normalized_file": "configs/Excellevel1.json",
+    "rows": 10,
+    "raw_file": "raw-configs/request-44-18cf6f40-61b2-4942-8ae5-719be3b1073c.json",
+    "original_capture_path": "work\\tidy-configs\\request-44-18cf6f40-61b2-4942-8ae5-719be3b1073c.json",
+    "file": "request-44-18cf6f40-61b2-4942-8ae5-719be3b1073c.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/18/18cf6f40-61b2-4942-8ae5-719be3b1073c.json",
+    "sha256": "19bc47532681cf43d5cbb0e046aee07a3f99690960de66bb71ab7e9676e42d2f"
+  },
+  {
+    "table": "Excellevel1_deal",
+    "normalized_file": "configs/Excellevel1_deal.json",
+    "rows": 10,
+    "raw_file": "raw-configs/request-58-6fbcc1d3-d3e2-4cd8-b342-666b1777ee4f.json",
+    "original_capture_path": "work\\tidy-configs\\request-58-6fbcc1d3-d3e2-4cd8-b342-666b1777ee4f.json",
+    "file": "request-58-6fbcc1d3-d3e2-4cd8-b342-666b1777ee4f.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/6f/6fbcc1d3-d3e2-4cd8-b342-666b1777ee4f.json",
+    "sha256": "64f1a4fa7016451b6d72b42f06e710ef01d2f1459fccdcf437ac3136c6507dc6"
+  },
+  {
+    "table": "Excelskin_egg",
+    "normalized_file": "configs/Excelskin_egg.json",
+    "rows": 54,
+    "raw_file": "raw-configs/request-55-9e01ca8d-3c44-4baa-8c56-b7de13ee1450.json",
+    "original_capture_path": "work\\tidy-configs\\request-55-9e01ca8d-3c44-4baa-8c56-b7de13ee1450.json",
+    "file": "request-55-9e01ca8d-3c44-4baa-8c56-b7de13ee1450.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/9e/9e01ca8d-3c44-4baa-8c56-b7de13ee1450.json",
+    "sha256": "1c90dd411659742dea5795a8341e05345a5471f6d3253fb002c9d2f657a0fd02"
+  },
+  {
+    "table": "Excelskin_group",
+    "normalized_file": "configs/Excelskin_group.json",
+    "rows": 9,
+    "raw_file": "raw-configs/request-59-516e8bc0-9588-4732-a026-d27b90980b4f.json",
+    "original_capture_path": "work\\tidy-configs\\request-59-516e8bc0-9588-4732-a026-d27b90980b4f.json",
+    "file": "request-59-516e8bc0-9588-4732-a026-d27b90980b4f.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/51/516e8bc0-9588-4732-a026-d27b90980b4f.json",
+    "sha256": "44604a05f1f977878a43fd4fabc13eb977fff0aebd8d8be7ae5fc9fe3809756d"
+  },
+  {
+    "table": "Exceltheme",
+    "normalized_file": "configs/Exceltheme.json",
+    "rows": 4,
+    "raw_file": "raw-configs/request-60-4e02a3e7-f81b-4f1d-bb33-6de95291c557.json",
+    "original_capture_path": "work\\tidy-configs\\request-60-4e02a3e7-f81b-4f1d-bb33-6de95291c557.json",
+    "file": "request-60-4e02a3e7-f81b-4f1d-bb33-6de95291c557.json",
+    "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/4e/4e02a3e7-f81b-4f1d-bb33-6de95291c557.json",
+    "sha256": "82297e1321f3bd6ac9aa1094225267ed44bbf2e6ff19df25f82015094d365220"
+  }
+]

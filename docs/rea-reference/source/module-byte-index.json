@@ -1,0 +1,347 @@
+[
+  {
+    "module": "ADCollect",
+    "byte": 608,
+    "size": 1876
+  },
+  {
+    "module": "Analytics",
+    "byte": 2484,
+    "size": 1080
+  },
+  {
+    "module": "AssetHelper",
+    "byte": 3564,
+    "size": 968
+  },
+  {
+    "module": "AudioCollect",
+    "byte": 4532,
+    "size": 1058
+  },
+  {
+    "module": "AudioManager",
+    "byte": 5590,
+    "size": 2898
+  },
+  {
+    "module": "AutoRecoveryParticle",
+    "byte": 8488,
+    "size": 1222
+  },
+  {
+    "module": "CellItem",
+    "byte": 9710,
+    "size": 10637
+  },
+  {
+    "module": "CellLayer",
+    "byte": 20347,
+    "size": 12609
+  },
+  {
+    "module": "CheckData",
+    "byte": 32956,
+    "size": 596
+  },
+  {
+    "module": "Coin",
+    "byte": 33552,
+    "size": 3813
+  },
+  {
+    "module": "ConfigCollect",
+    "byte": 37365,
+    "size": 1930
+  },
+  {
+    "module": "Const",
+    "byte": 39295,
+    "size": 227
+  },
+  {
+    "module": "Create",
+    "byte": 39522,
+    "size": 3439
+  },
+  {
+    "module": "DataCenter",
+    "byte": 42961,
+    "size": 2917
+  },
+  {
+    "module": "DataHelper",
+    "byte": 45878,
+    "size": 769
+  },
+  {
+    "module": "DataModule",
+    "byte": 46647,
+    "size": 1805
+  },
+  {
+    "module": "DataProxy",
+    "byte": 48452,
+    "size": 1988
+  },
+  {
+    "module": "DealCoin",
+    "byte": 50440,
+    "size": 4000
+  },
+  {
+    "module": "Firework",
+    "byte": 54440,
+    "size": 1584
+  },
+  {
+    "module": "GameBigCoin",
+    "byte": 56024,
+    "size": 1989
+  },
+  {
+    "module": "GameCombo",
+    "byte": 58013,
+    "size": 2327
+  },
+  {
+    "module": "GameConst",
+    "byte": 60340,
+    "size": 1067
+  },
+  {
+    "module": "GameData",
+    "byte": 61407,
+    "size": 1006
+  },
+  {
+    "module": "GameEvent",
+    "byte": 62413,
+    "size": 353
+  },
+  {
+    "module": "GameGold",
+    "byte": 62766,
+    "size": 1368
+  },
+  {
+    "module": "GameGuide",
+    "byte": 64134,
+    "size": 5826
+  },
+  {
+    "module": "GamePools",
+    "byte": 69960,
+    "size": 538
+  },
+  {
+    "module": "GameProgressEndItem",
+    "byte": 70498,
+    "size": 2193
+  },
+  {
+    "module": "GameProgressItem",
+    "byte": 72691,
+    "size": 2406
+  },
+  {
+    "module": "GameProgress",
+    "byte": 75097,
+    "size": 1910
+  },
+  {
+    "module": "GameRankUI",
+    "byte": 77007,
+    "size": 1316
+  },
+  {
+    "module": "GameTarget",
+    "byte": 78323,
+    "size": 1297
+  },
+  {
+    "module": "GameUI",
+    "byte": 79620,
+    "size": 14112
+  },
+  {
+    "module": "I18nLabel",
+    "byte": 93732,
+    "size": 1456
+  },
+  {
+    "module": "I18nManager",
+    "byte": 95188,
+    "size": 4654
+  },
+  {
+    "module": "LangUI",
+    "byte": 99842,
+    "size": 2933
+  },
+  {
+    "module": "LevelFailUI",
+    "byte": 102775,
+    "size": 4811
+  },
+  {
+    "module": "ListItem",
+    "byte": 107586,
+    "size": 3299
+  },
+  {
+    "module": "List",
+    "byte": 110885,
+    "size": 33773
+  },
+  {
+    "module": "LoadingUI",
+    "byte": 144658,
+    "size": 2754
+  },
+  {
+    "module": "MainUI",
+    "byte": 147412,
+    "size": 3467
+  },
+  {
+    "module": "Main",
+    "byte": 150879,
+    "size": 14901
+  },
+  {
+    "module": "MathTools",
+    "byte": 165780,
+    "size": 3487
+  },
+  {
+    "module": "PageViewIndicator",
+    "byte": 169267,
+    "size": 1769
+  },
+  {
+    "module": "Pools",
+    "byte": 171036,
+    "size": 953
+  },
+  {
+    "module": "Preload",
+    "byte": 171989,
+    "size": 940
+  },
+  {
+    "module": "PromiseParallel",
+    "byte": 172929,
+    "size": 806
+  },
+  {
+    "module": "SDKTools",
+    "byte": 173735,
+    "size": 2277
+  },
+  {
+    "module": "SdkCollect",
+    "byte": 176012,
+    "size": 414
+  },
+  {
+    "module": "SettingData",
+    "byte": 176426,
+    "size": 540
+  },
+  {
+    "module": "SettingUI",
+    "byte": 176966,
+    "size": 5722
+  },
+  {
+    "module": "Time",
+    "byte": 182688,
+    "size": 321
+  },
+  {
+    "module": "TopBar",
+    "byte": 183009,
+    "size": 736
+  },
+  {
+    "module": "UIBase",
+    "byte": 183745,
+    "size": 5332
+  },
+  {
+    "module": "UIHelper",
+    "byte": 189077,
+    "size": 814
+  },
+  {
+    "module": "UIInterface",
+    "byte": 189891,
+    "size": 284
+  },
+  {
+    "module": "UIManager",
+    "byte": 190175,
+    "size": 4567
+  },
+  {
+    "module": "WarCellItem",
+    "byte": 194742,
+    "size": 8381
+  },
+  {
+    "module": "WarCellLayer",
+    "byte": 203123,
+    "size": 5736
+  },
+  {
+    "module": "WarGameUI",
+    "byte": 208859,
+    "size": 11401
+  },
+  {
+    "module": "WarLevelItem",
+    "byte": 220260,
+    "size": 2944
+  },
+  {
+    "module": "WarRecordUI",
+    "byte": 223204,
+    "size": 1300
+  },
+  {
+    "module": "WarSucUI",
+    "byte": 224504,
+    "size": 2060
+  },
+  {
+    "module": "WarTipsUI",
+    "byte": 226564,
+    "size": 2700
+  },
+  {
+    "module": "WarUI",
+    "byte": 229264,
+    "size": 5031
+  },
+  {
+    "module": "WxHelper",
+    "byte": 234295,
+    "size": 2629
+  },
+  {
+    "module": "YouTubeAdapter",
+    "byte": 236924,
+    "size": 2264
+  },
+  {
+    "module": "shareTools",
+    "byte": 239188,
+    "size": 400
+  },
+  {
+    "module": "warProgress",
+    "byte": 239588,
+    "size": 1729
+  }
+]

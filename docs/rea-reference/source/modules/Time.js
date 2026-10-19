@@ -1,0 +1,1 @@
+Time:[function(e,t,i){"use strict";cc._RF.push(t,"3eb9dUSfkBGSL/1CTR2bmZR","Time"),Object.defineProperty(i,"__esModule",{value:!0}),i.Time=void 0,function(e){var t=!0,i=0,o=0;e.now=function(){return t&&(t=!1,i=Date.now()/1e3+o,setTimeout(()=>t=!0)),i},e.setOffest=function(e){o=e}}(i.Time||(i.Time={})),cc._RF.pop()},{}],

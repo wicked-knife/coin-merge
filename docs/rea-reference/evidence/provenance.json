@@ -1,0 +1,16 @@
+{
+  "analysis_date": "2026-10-19",
+  "game": "Tidy Coins 3D",
+  "bundle_sha256": "36dbde0e3c574aa866b28a0724fd6858b4aba84ddcd62504855bbfeabe6b7599",
+  "bundle_bytes": 241317,
+  "uncompressed_evidence_sha256": "bbfd08d440245819a4645ae2f99e62c588acd1a34b7b172c650d56d9a87ab8f1",
+  "configuration_tables": 20,
+  "challenge_levels": 100,
+  "source_note": "Published snapshots retained for analysis. No original project recovery claimed.",
+  "documentation_differences_from_earlier_summary": [
+    "Non-tutorial init drops isUn when mapping CoinNeedData to numbers.",
+    "WarGameUI passes config column,row; WarCellLayer uses second as horizontal count.",
+    "Challenge grey generation appends a weighted 1..5 known group after 3 unknown coins, not always one known coin.",
+    "Challenge reward-slot allocation is not established by the normal generation path."
+  ]
+}

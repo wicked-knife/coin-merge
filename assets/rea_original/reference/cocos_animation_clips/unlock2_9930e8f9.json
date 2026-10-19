@@ -1,0 +1,71 @@
+{
+  "uuid": "9930e8f9-aac7-4e3f-8d59-f3fe0e570ec2",
+  "bundle": "resources",
+  "config_index": 215,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "unlock2",
+    "_duration": 0.5833333333333334,
+    "curveData": {
+      "paths": {
+        "Lock2/Icon_Lock": {
+          "props": {
+            "angle": [
+              {
+                "frame": 0,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "LaserLight": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  167.699,
+                  -142.439,
+                  0
+                ]
+              }
+            ],
+            "opacity": []
+          }
+        },
+        "Lock2": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "curve": "quadOut",
+                "value": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": [
+                  0,
+                  225,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "props": {
+        "scale": [],
+        "opacity": []
+      }
+    }
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/01/017379dbb.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+}

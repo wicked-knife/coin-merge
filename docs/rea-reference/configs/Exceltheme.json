@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 1,
+    "name": "coin",
+    "use": 1,
+    "label": "金币",
+    "needGold": 0
+  },
+  {
+    "ID": 2,
+    "name": "mahjong",
+    "use": 1,
+    "label": "麻将-筒",
+    "needGold": 20
+  },
+  {
+    "ID": 3,
+    "name": "mahjong",
+    "use": 1,
+    "label": "麻将-条",
+    "needGold": 30
+  },
+  {
+    "ID": 4,
+    "name": "mahjong",
+    "use": 1,
+    "label": "麻将-万",
+    "needGold": 40
+  }
+]

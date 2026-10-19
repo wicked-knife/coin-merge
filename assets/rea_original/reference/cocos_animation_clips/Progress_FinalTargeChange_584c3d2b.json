@@ -1,0 +1,244 @@
+{
+  "uuid": "584c3d2b-ee0b-47d0-b830-5cd046e48a1c",
+  "bundle": "resources",
+  "config_index": 153,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "Progress_FinalTargeChange",
+    "_duration": 0.016666666666666666,
+    "curveData": [
+      {},
+      "props",
+      11,
+      [
+        {},
+        "scale",
+        12,
+        [
+          [
+            [
+              {
+                "frame": 0
+              },
+              "value",
+              8,
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
+          ],
+          11
+        ]
+      ],
+      "comps",
+      11,
+      [
+        {},
+        "cc.Sprite",
+        11,
+        [
+          {},
+          "spriteFrame",
+          12,
+          [
+            [
+              [
+                {
+                  "frame": 0
+                },
+                "value",
+                6,
+                0
+              ]
+            ],
+            11
+          ]
+        ]
+      ],
+      "paths",
+      11,
+      [
+        {
+          "over": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ]
+            }
+          }
+        },
+        "TargetBG_4.2",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ],
+              "y": [
+                {
+                  "frame": 0,
+                  "value": 58
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "TargetBG_4.1",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "next",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ],
+        "label",
+        11,
+        [
+          {},
+          "props",
+          11,
+          [
+            {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                }
+              ]
+            },
+            "scale",
+            12,
+            [
+              [
+                [
+                  {
+                    "frame": 0
+                  },
+                  "value",
+                  8,
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              11
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": "value",
+      "uuid": "75c6ed60-d3c7-48db-9f7f-55ac7b61cf5d"
+    }
+  ],
+  "import_file": "assets/resources/import/0f/0fb55d1b1.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0fb55d1b1.json"
+}

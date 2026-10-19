@@ -1,0 +1,117 @@
+{
+  "uuid": "931250b7-280e-4048-99cb-299d473801ac",
+  "bundle": "resources",
+  "config_index": 205,
+  "logical_path": null,
+  "class": "cc.AnimationClip",
+  "attributes": {
+    "_name": "unlock1",
+    "_duration": 2.5,
+    "wrapMode": 2,
+    "curveData": {
+      "paths": {
+        "Lock2": {
+          "props": {
+            "angle": [],
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        "Lock2/Icon_Lock": {
+          "props": {
+            "angle": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 0
+              },
+              {
+                "frame": 0.3,
+                "value": 15
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": -15
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": 10
+              },
+              {
+                "frame": 0.7,
+                "value": -10
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": 0
+              },
+              {
+                "frame": 2.5,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "LaserLight": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  -182.417,
+                  119.181,
+                  0
+                ]
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": [
+                  12.091888888888889,
+                  -26.163444444444465,
+                  0
+                ]
+              },
+              {
+                "frame": 0.75,
+                "value": [
+                  167.699,
+                  -142.439,
+                  0
+                ]
+              },
+              {
+                "frame": 2.5,
+                "value": [
+                  167.699,
+                  -142.439,
+                  0
+                ]
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 40
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "native": false,
+  "dependencies": [],
+  "import_file": "assets/resources/import/01/017379dbb.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/01/017379dbb.json"
+}

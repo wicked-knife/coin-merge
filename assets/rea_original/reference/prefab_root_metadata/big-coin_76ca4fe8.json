@@ -1,0 +1,85 @@
+{
+  "uuid": "76ca4fe8-a9ab-4d48-ac97-8b7364cd405b",
+  "bundle": "resources",
+  "config_index": 127,
+  "logical_path": "prefab/prefab/normal/big-coin",
+  "class": "cc.Prefab",
+  "attributes": {
+    "_name": "big-coin"
+  },
+  "native": false,
+  "dependencies": [
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "4ccd27f1-8e50-450c-a2fc-de08c15d3e6d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "4ccd27f1-8e50-450c-a2fc-de08c15d3e6d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 0,
+      "property": "_spriteFrame",
+      "uuid": "641e2caf-1e8b-4234-9ba9-ec240fd967b9"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "0c1736ae-603e-4a7d-aada-6ca45f244f7d"
+    },
+    {
+      "owner": 0,
+      "property": 0,
+      "uuid": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    {
+      "owner": 5,
+      "property": "_spriteFrame",
+      "uuid": "641e2caf-1e8b-4234-9ba9-ec240fd967b9"
+    },
+    {
+      "owner": 7,
+      "property": "_N$file",
+      "uuid": "e92bb422-06e8-44ce-ace7-98bf00b8dcd5"
+    },
+    {
+      "owner": 9,
+      "property": "_defaultClip",
+      "uuid": "0c1736ae-603e-4a7d-aada-6ca45f244f7d"
+    },
+    {
+      "owner": 11,
+      "property": "_spriteFrame",
+      "uuid": "576cc266-7d1e-4451-aef6-37e092dbee72"
+    }
+  ],
+  "import_file": "assets/resources/import/0e/0e9a58c3e.json",
+  "import_url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0e/0e9a58c3e.json"
+}
