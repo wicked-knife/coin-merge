@@ -2,6 +2,7 @@ extends Control
 
 const DialogStyle = preload("res://scripts/dialog_style.gd")
 const Languages = preload("res://scripts/localization.gd")
+const ACTION_FONT_SIZE := 36
 
 signal closed
 signal sound_toggled(enabled: bool)
@@ -36,8 +37,8 @@ var language_dialog: Control
 
 func _ready() -> void:
 	DialogStyle.title(title)
-	DialogStyle.apply_button(home_button, "yellow")
-	DialogStyle.apply_button(retry_button)
+	DialogStyle.apply_button(home_button, "yellow", ACTION_FONT_SIZE)
+	DialogStyle.apply_button(retry_button, "blue", ACTION_FONT_SIZE)
 	panel.pivot_offset = panel.size / 2.0
 	close_button.pivot_offset = close_button.size / 2.0
 	close_button.button_down.connect(_animate_close.bind(true))
@@ -59,8 +60,8 @@ func set_language(locale: String) -> void:
 	language_button.text = Languages.native_name(locale)
 	language_button.text_direction = Control.TEXT_DIRECTION_RTL if Languages.normalize(locale) == "ar" else Control.TEXT_DIRECTION_LTR
 	DialogStyle.fit_button_text(language_button, 26)
-	DialogStyle.fit_button_text(home_button)
-	DialogStyle.fit_button_text(retry_button)
+	DialogStyle.fit_button_text(home_button, ACTION_FONT_SIZE)
+	DialogStyle.fit_button_text(retry_button, ACTION_FONT_SIZE)
 
 
 func _on_language_pressed(locale: String) -> void:
@@ -116,6 +117,7 @@ func _show_panel() -> void:
 	language_dialog.hide()
 	DialogStyle.refresh_text(self)
 	set_language(TranslationServer.get_locale())
+	_layout_game_actions()
 	modulate.a = 0.0
 	panel.scale = Vector2(0.9, 0.9)
 	close_button.scale = Vector2.ONE
@@ -133,6 +135,19 @@ func _set_game_layout(in_game: bool) -> void:
 	panel.pivot_offset = panel.size / 2.0
 	options.add_theme_constant_override("separation", 20 if in_game else 42)
 	game_actions.visible = in_game
+
+
+func _layout_game_actions() -> void:
+	if not game_actions.visible:
+		return
+	# Resolve the action area after fonts and the taller panel are in place.
+	# Explicit top offsets also keep Web's initial container sizing inside the card.
+	var height := game_actions.get_combined_minimum_size().y
+	game_actions.set_anchors_and_offsets_preset(Control.PRESET_TOP_WIDE)
+	game_actions.offset_left = 45.0
+	game_actions.offset_right = -45.0
+	game_actions.offset_top = panel.size.y - 64.0 - height
+	game_actions.offset_bottom = panel.size.y - 64.0
 
 
 # 显式环绕弹窗内可用控件，键盘焦点不会落到后面的主界面。

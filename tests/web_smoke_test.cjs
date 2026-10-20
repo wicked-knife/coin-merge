@@ -118,6 +118,14 @@ async function runProfile(browser, name, options) {
     await click(375, 1234);
     normal = await waitSave(page, 'normal_game.json', (save) => save.guide_step === -1, 'tutorial completes');
     await capture('normal');
+    await click(77, 94);
+    await capture('normal-settings');
+    await page.setViewportSize({ width: options.viewport.width, height: options.viewport.height - 184 });
+    await page.waitForTimeout(400);
+    await capture('normal-settings-compact');
+    await page.setViewportSize(options.viewport);
+    await page.waitForTimeout(400);
+    await page.keyboard.press('Escape');
 
     // Reload the page, resume the actual persisted board, then deal again. A
     // fresh tutorial would reject this action, so a changed save proves resume.
@@ -142,6 +150,9 @@ async function runProfile(browser, name, options) {
     const challenge = await waitSave(page, 'challenge_game.json', (save) => save.cells.length === 30 && !save.tutorial, 'challenge tutorial enters the first level');
     assert.equal(challenge.level, 1);
     await capture('challenge');
+    await click(77, 94);
+    await capture('challenge-settings');
+    await page.keyboard.press('Escape');
     await page.setViewportSize({ width: options.viewport.width, height: options.viewport.height - 80 });
     await page.waitForTimeout(400);
     await capture('resized');

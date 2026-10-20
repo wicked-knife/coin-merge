@@ -3,7 +3,8 @@ const Ceramic = preload("res://scripts/ceramic_skin.gd")
 const Motion = preload("res://scripts/normal_motion.gd")
 const Slot = preload("res://scripts/coin_slot.gd")
 const ROOT := Ceramic.SPRITES
-const NUMBERS = Ceramic.FONT
+# Numerals do not need the multilingual fallbacks, whose line height exceeds the circle.
+const NUMBERS = Ceramic.FONT.base_font
 const NAMES := ["Target5", "Target6", "Target7", "Target9", "Target10"]
 var targets: Array[Control] = []
 var host: Control
@@ -41,10 +42,12 @@ func setup(parent: Control) -> void:
 		_tex(target, "Over", "Texture/skin/TargetBG_5.png", Vector2.ZERO, Vector2(56, 56))
 		var label := Label.new()
 		label.name = "Number"
+		label.position = Vector2(0, -2)
 		label.size = Vector2(56, 56)
 		label.pivot_offset = label.size / 2.0
 		label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+		label.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
 		label.add_theme_font_override("font", NUMBERS)
 		label.add_theme_color_override("font_color", Ceramic.INK)
 		label.add_theme_font_size_override("font_size", 32)
