@@ -41,7 +41,11 @@ func _run() -> void:
 		var face := coin.get_image().get_pixel(50, 24)
 		var expected: Color = Slot.COLORS[number]
 		expect(maxf(absf(face.r - expected.r), maxf(absf(face.g - expected.g), absf(face.b - expected.b))) < 0.12, "coin face matches target color %d" % number)
-	var font_chars := Ceramic.FONT.get_supported_chars()
+	var font_chars := Ceramic.FONT.base_font.get_supported_chars()
+	expect(not Ceramic.FONT.base_font.allow_system_fallback, "base font does not depend on OS fallback")
+	for fallback: FontFile in Ceramic.FONT.fallbacks:
+		font_chars += fallback.get_supported_chars()
+		expect(not fallback.allow_system_fallback, "bundled fallback does not depend on OS fallback")
 	var csv := FileAccess.open("res://translations/menu.csv", FileAccess.READ)
 	var missing := ""
 	while not csv.eof_reached():
@@ -51,7 +55,6 @@ func _run() -> void:
 				if character.unicode_at(0) >= 32 and character not in font_chars and character not in missing:
 					missing += character
 	expect(missing.is_empty(), "bundled font covers translation text: " + missing)
-	expect(not Ceramic.FONT.allow_system_fallback, "font does not depend on OS fallback")
 	if visual and DisplayServer.get_name() != "headless":
 		await _capture_menus()
 		await _capture_palette()
@@ -69,7 +72,7 @@ func _capture_menus() -> void:
 	var previous := Settings.shared()
 	var locale := TranslationServer.get_locale()
 	Settings._shared = TemporarySettings.new()
-	for language in ["zh", "en"]:
+	for language in ["zh_CN", "en_US"]:
 		Settings._shared.language = language
 		TranslationServer.set_locale(language)
 		var menu := preload("res://scenes/main_menu.tscn").instantiate()

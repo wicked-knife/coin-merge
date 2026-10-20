@@ -1,14 +1,71 @@
 {
-  "source_urls": {
-    "font": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
-    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt"
-  },
-  "license": "SIL Open Font License 1.1",
-  "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
-  "subset_sha256": "a37f25c3600369b5be7eeba8922e73cd711d23fa5d042746380ec1eb04ab1fdb",
-  "font_weight": 650,
-  "family": "Coin Merge UI",
-  "unicode_count": 457,
-  "requested_missing_symbols": [],
-  "bytes": 110080
+  "fonts": [
+    {
+      "family": "CoinMergeUI",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "font_weight": 650,
+      "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "subset_sha256": "ccd8b177ee152bc0afb9c3a4f9df9ac5d835ac175c016c645c953713ac80dae3",
+      "unicode_count": 719,
+      "bytes": 276952
+    },
+    {
+      "family": "CoinMergeLatin",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/NotoSans%5Bwdth,wght%5D.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "font_weight": 650,
+      "source_sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "subset_sha256": "ae7856923f0e90fd65529e928a46fb4230de270fe5ac2b0526253cf599b273c9",
+      "unicode_count": 168,
+      "bytes": 37984
+    },
+    {
+      "family": "CoinMergeJapanese",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "font_weight": 650,
+      "source_sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+      "subset_sha256": "140e61e891701e560839f275557dda8e4263c48808021c450fd5178dabfdee08",
+      "unicode_count": 631,
+      "bytes": 253648
+    },
+    {
+      "family": "CoinMergeKorean",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "font_weight": 650,
+      "source_sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+      "subset_sha256": "6600cb7d2319d962f9d3dd62003197ef50acfe5533665ce543530ee3bf3035b4",
+      "unicode_count": 780,
+      "bytes": 270096
+    },
+    {
+      "family": "CoinMergeTraditional",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/NotoSansTC%5Bwght%5D.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "font_weight": 650,
+      "source_sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+      "subset_sha256": "c09b87e0b0fc3570615c3176912e7c77925a1fed313965ac0996d6291fb82b22",
+      "unicode_count": 630,
+      "bytes": 251164
+    },
+    {
+      "family": "CoinMergeArabic",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/NotoSansArabic%5Bwdth,wght%5D.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansarabic/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "font_weight": 650,
+      "source_sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "subset_sha256": "949a92bef29d190316b4d4e564dd0288b0c8260f2abb99636e110578fd8e7401",
+      "unicode_count": 155,
+      "bytes": 31456
+    }
+  ],
+  "missing_visible_glyphs": []
 }

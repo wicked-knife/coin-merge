@@ -28,6 +28,8 @@ var _light: Control
 var _selected_count := 0
 var _selection_tween: Tween
 var _light_tween: Tween
+var _tooltip_count := 0
+var _tooltip_target := 0
 
 
 func _ready() -> void:
@@ -95,10 +97,21 @@ func render(cell: Dictionary) -> void:
 	if cell.target > 0:
 		arrow.modulate = COLORS[cell.target]
 	tick.visible = complete
-	tooltip_text = tr("challenge.slot") % [index + 1, cell.coins.size()]
-	if cell.target > 0:
-		tooltip_text += " · " + tr("challenge.target") % cell.target
+	_tooltip_count = cell.coins.size()
+	_tooltip_target = cell.target
+	_refresh_tooltip()
 	focus_mode = Control.FOCUS_NONE if complete else Control.FOCUS_ALL
+
+
+func _refresh_tooltip() -> void:
+	tooltip_text = tr("challenge.slot") % [index + 1, _tooltip_count]
+	if _tooltip_target > 0:
+		tooltip_text += " · " + tr("challenge.target") % _tooltip_target
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_node_ready():
+		_refresh_tooltip()
 
 
 func select_coins(count: int) -> void:

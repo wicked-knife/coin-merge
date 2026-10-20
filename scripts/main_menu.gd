@@ -22,6 +22,8 @@ var _previous_focus: Control
 
 
 func _ready() -> void:
+	layout_direction = Control.LAYOUT_DIRECTION_LTR
+	_settings.initialize_language(get_tree())
 	_apply_language()
 	for button: BaseButton in [start_button, challenge_button, settings_button]:
 		button.button_down.connect(_animate_button.bind(button, true))
@@ -149,8 +151,14 @@ func _on_language_selected(locale: String) -> void:
 
 func _apply_language() -> void:
 	# Godot 会在语言变化时自动刷新场景中的按钮、Label 和悬停说明。
-	logo.texture = english_logo if _settings.language == "en" else chinese_logo
+	logo.texture = chinese_logo if SettingsStore.Localization.is_chinese(TranslationServer.get_locale()) else english_logo
 	settings_dialog.set_language(_settings.language)
+	preload("res://scripts/dialog_style.gd").refresh_text(self)
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_node_ready():
+		_apply_language()
 
 
 func _exit_tree() -> void:

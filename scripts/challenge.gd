@@ -81,6 +81,8 @@ func _build_interface() -> void:
 	layout.add_child(texture(preload(UI_ROOT + "ui/CoinBg.png"), Vector2(235, 58.5), Vector2(280, 71)))
 	_title = label("", Vector2(254, 64), Vector2(125, 56), 34)
 	_timer_label = label("00:00", Vector2(379, 64), Vector2(121, 56), 34)
+	_timer_label.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+	_timer_label.text_direction = Control.TEXT_DIRECTION_LTR
 	_title.add_theme_color_override("font_color", Ceramic.INK)
 	_timer_label.add_theme_color_override("font_color", Ceramic.INK)
 	layout.add_child(_title)
@@ -326,19 +328,19 @@ func _check_win() -> void:
 func _open_success(result: Dictionary) -> void:
 	var note := ""
 	if result.first:
-		note = tr("challenge.first_reward")
+		note = "challenge.first_reward"
 	elif result.record:
-		note = tr("challenge.new_record")
+		note = "challenge.new_record"
 	_can_next = result.first and Rules.is_unlocked(game.level + 1, highest_coin)
-	var actions: Array = [{"id": "next", "label": tr("challenge.next"), "tone": "yellow"}] if _can_next else [{"id": "levels", "label": tr("challenge.back"), "tone": "yellow"}]
-	_dialog.open(tr("challenge.complete"), "", actions, 0, {
+	var actions: Array = [{"id": "next", "label": "challenge.next", "tone": "yellow"}] if _can_next else [{"id": "levels", "label": "challenge.back", "tone": "yellow"}]
+	_dialog.open("challenge.complete", "", actions, 0, {
 		"close_action": "levels",
-		"result": {"time": Rules.format_result_time(result.time), "best": Rules.format_result_time(result.best)},
+		"result": {"time": result.time, "best": result.best},
 		"note": note,
 		"reward": result.first,
 		"secondary_actions": [
-			{"id": "share", "label": tr("challenge.share")},
-			{"id": "share", "label": tr("challenge.video_share")},
+			{"id": "share", "label": "challenge.share"},
+			{"id": "share", "label": "challenge.video_share"},
 		],
 	})
 	_share_buttons = _dialog.secondary_buttons.duplicate()
@@ -352,10 +354,10 @@ func _open_record() -> void:
 		return
 	_sound("click")
 	_share_buttons.clear()
-	_dialog.open(tr("challenge.record"), "", [
-		{"id": "retry", "label": tr("challenge.replay"), "tone": "yellow"},
-		{"id": "close_record", "label": tr("challenge.dismiss")},
-	], 0, {"close_action": "close_record", "record_time": Rules.format_result_time(game.best_times[str(_display_level)])})
+	_dialog.open("challenge.record", "", [
+		{"id": "retry", "label": "challenge.replay", "tone": "yellow"},
+		{"id": "close_record", "label": "challenge.dismiss"},
+	], 0, {"close_action": "close_record", "record_seconds": game.best_times[str(_display_level)]})
 	_refresh_actions()
 
 
@@ -448,6 +450,8 @@ func _refresh_language() -> void:
 		_progress_label.text = "%d / %d" % [game.completed_count(), game.target_count()]
 	_hint.visible = game.tutorial and not _record_mode
 	_hint.text = tr("challenge.tutorial_hint").replace("\\n", "\n")
+	DialogStyle.refresh_text(_hint)
+	DialogStyle.fit_wrapped_label(_hint, Vector2(650, 220), 26)
 	if game.tutorial and not _record_mode:
 		_timer_label.text = "00:00"
 
@@ -470,6 +474,7 @@ func _unhandled_key_input(event: InputEvent) -> void:
 
 
 func _notification(what: int) -> void:
+	super._notification(what)
 	if what in [NOTIFICATION_WM_CLOSE_REQUEST, NOTIFICATION_APPLICATION_PAUSED]:
 		_save()
 

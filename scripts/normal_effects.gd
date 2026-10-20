@@ -25,7 +25,7 @@ static func combo(parent: Control, count: int) -> void:
 	label.pivot_offset = label.size / 2.0
 	label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-	label.text = TranslationServer.translate("normal.combo_%d" % mini(count, 9))
+	label.text = "normal.combo_%d" % mini(count, 9)
 	label.add_theme_font_size_override("font_size", 60 + 4 * mini(count - 2, 6))
 	label.add_theme_font_override("font", Ceramic.FONT)
 	label.add_theme_color_override("font_color", Color("f5e3ac"))

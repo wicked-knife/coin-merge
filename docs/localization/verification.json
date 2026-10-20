@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-20",
+  "engine": "Godot 4.7.2 / Compatibility",
+  "host_language": "Mock SDK and production polling; live YouTube host not verified",
+  "tests": [
+    {
+      "name": "import",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--editor",
+        "--import"
+      ],
+      "exit_code": 0,
+      "seconds": 6.62,
+      "summary": [],
+      "status": "passed"
+    },
+    {
+      "name": "normal-rules",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        "res://tests/normal_game_test.gd"
+      ],
+      "exit_code": 0,
+      "seconds": 0.42,
+      "summary": [
+        "NORMAL RULES: 3474 checks, 0 failures"
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "challenge-rules",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--headless",
+        "--path",
+        ".",
+        "--script",
+        "res://tests/challenge_game_test.gd"
+      ],
+      "exit_code": 0,
+      "seconds": 3.09,
+      "summary": [
+        "CHALLENGE RULES: 2802 checks, 0 failures"
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "platform",
+      "command": [
+        "node",
+        "--test",
+        "tests/language_platform_test.cjs",
+        "tests/challenge_platform_test.cjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.22,
+      "summary": [
+        "ℹ tests 14",
+        "ℹ pass 14",
+        "ℹ fail 0"
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "normal-flow",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--path",
+        ".",
+        "--rendering-method",
+        "gl_compatibility",
+        "--script",
+        "res://tests/game_flow_test.gd",
+        "--",
+        "--visual"
+      ],
+      "exit_code": 0,
+      "seconds": 32.36,
+      "summary": [
+        "NORMAL GAME FLOW: 189 checks, 0 failures"
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "challenge-flow",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--path",
+        ".",
+        "--rendering-method",
+        "gl_compatibility",
+        "--script",
+        "res://tests/challenge_flow_test.gd",
+        "--",
+        "--visual"
+      ],
+      "exit_code": 1,
+      "seconds": 45.94,
+      "summary": [
+        "CHALLENGE FLOW: 87 checks, 1 failures"
+      ],
+      "status": "known_baseline_failure"
+    },
+    {
+      "name": "settings-input",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--path",
+        ".",
+        "--rendering-method",
+        "gl_compatibility",
+        "--script",
+        "res://tests/challenge_settings_input_test.gd",
+        "--",
+        "--narrow"
+      ],
+      "exit_code": 0,
+      "seconds": 17.11,
+      "summary": [
+        "CHALLENGE SETTINGS INPUT: 57 checks, 0 failures"
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "localization",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--path",
+        ".",
+        "--rendering-method",
+        "gl_compatibility",
+        "--script",
+        "res://tests/localization_test.gd",
+        "--",
+        "--visual",
+        "--narrow"
+      ],
+      "exit_code": 0,
+      "seconds": 26.87,
+      "summary": [
+        "LOCALIZATION: 21412 checks, 0 failures"
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "fonts",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--path",
+        ".",
+        "--rendering-method",
+        "gl_compatibility",
+        "--script",
+        "res://tests/ceramic_skin_test.gd",
+        "--"
+      ],
+      "exit_code": 0,
+      "seconds": 1.22,
+      "summary": [
+        "CERAMIC ASSETS: 113 checks, 0 failures"
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "assets",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "tools/audit_image_usage.py",
+        "--output",
+        "docs/localization/assets.json",
+        "--check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.92,
+      "summary": [],
+      "status": "passed"
+    }
+  ],
+  "screenshots": 102,
+  "post_change_verification": {
+    "name": "localization-persistence",
+    "command": [
+      "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+      "--headless",
+      "--path",
+      ".",
+      "--script",
+      "res://tests/localization_test.gd"
+    ],
+    "exit_code": 0,
+    "summary": "LOCALIZATION: 21313 checks, 0 failures",
+    "status": "passed"
+  },
+  "follow_up_verification": [
+    {
+      "name": "modal-layer",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--path",
+        ".",
+        "--rendering-method",
+        "gl_compatibility",
+        "--script",
+        "res://tests/localization_test.gd",
+        "--",
+        "--visual",
+        "--narrow"
+      ],
+      "exit_code": 0,
+      "summary": "LOCALIZATION: 21425 checks, 0 failures",
+      "status": "passed"
+    },
+    {
+      "name": "settings-layer-input",
+      "command": [
+        "D:/godot/Godot_v4.7.2-stable_win64_console.exe",
+        "--path",
+        ".",
+        "--rendering-method",
+        "gl_compatibility",
+        "--script",
+        "res://tests/challenge_settings_input_test.gd",
+        "--",
+        "--narrow"
+      ],
+      "exit_code": 0,
+      "summary": "CHALLENGE SETTINGS INPUT: 57 checks, 0 failures",
+      "status": "passed"
+    }
+  ]
+}

@@ -13,6 +13,8 @@ var _leaving := false
 
 
 func _ready() -> void:
+	layout_direction = Control.LAYOUT_DIRECTION_LTR
+	_settings.initialize_language(get_tree())
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
 	theme = Theme.new()
 	theme.default_font = Ceramic.FONT
@@ -37,7 +39,6 @@ func _ready() -> void:
 	settings_dialog.vibration_toggled.connect(_settings.set_vibration)
 	settings_dialog.language_selected.connect(_change_language)
 	settings_dialog.feedback_requested.connect(_sound.bind("click"))
-	settings_dialog.z_index = 30
 
 
 func _fit_layout() -> void:
@@ -100,13 +101,18 @@ func settings_button(callback: Callable) -> TextureButton:
 
 
 func _change_language(locale: String) -> void:
-	if _settings.set_language(locale):
-		settings_dialog.set_language(locale)
-		_refresh_language()
+	_settings.set_language(locale)
+	_sound("click")
 
 
 func _refresh_language() -> void:
 	pass
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_node_ready():
+		_refresh_language()
+		DialogStyle.refresh_text(self)
 
 
 func _sound(sound_name: String) -> void:

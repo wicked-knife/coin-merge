@@ -58,18 +58,31 @@ func focus(step: int, rect: Rect2, message: String, active: bool) -> void:
 	_shade.material.set_shader_parameter("hole_rect", Vector4(_hole.position.x / size.x, _hole.position.y / size.y, _hole.size.x / size.x, _hole.size.y / size.y))
 	var mask: Texture2D = load(ROOT + ("Guide_Mask3.png" if step in [3, 10] else ("Guide_Mask2.png" if step == 9 else "Guide_Mask1.png")))
 	_shade.material.set_shader_parameter("hole_mask", mask)
-	label.text = tr(message)
+	label.text = message
+	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	label.custom_minimum_size.x = 360
+	bubble.size.x = 390
 	bubble.visible = step not in [5, 6, 7, 10]
-	bubble.reset_size()
-	bubble.position = Vector2(clampf(_hole.get_center().x - bubble.size.x / 2.0, 15, size.x - bubble.size.x - 15), _hole.position.y - bubble.size.y - 25)
-	if step == 9:
-		bubble.position.y = _hole.end.y + 35
-		bubble.position.x = clampf(_hole.get_center().x - bubble.size.x + 30, 15, size.x - bubble.size.x - 15)
+	_refresh_bubble()
 	hand.visible = step != 9
 	hand.position = _hole.get_center() + Vector2(20, 12)
 	if _hand_tween:
 		_hand_tween.kill()
 	_hand_tween = Motion.play(self, "GuideHand", {"": hand})
+
+
+func _refresh_bubble() -> void:
+	bubble.reset_size()
+	bubble.position = Vector2(clampf(_hole.get_center().x - bubble.size.x / 2.0, 15, size.x - bubble.size.x - 15), _hole.position.y - bubble.size.y - 25)
+	if _step == 9:
+		bubble.position.y = _hole.end.y + 35
+		bubble.position.x = clampf(_hole.get_center().x - bubble.size.x + 30, 15, size.x - bubble.size.x - 15)
+	label.text_direction = preload("res://scripts/localization.gd").text_direction()
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_node_ready():
+		call_deferred("_refresh_bubble")
 
 
 func _gui_input(event: InputEvent) -> void:

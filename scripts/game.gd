@@ -56,6 +56,8 @@ var _old_board: Control
 
 
 func _ready() -> void:
+	layout_direction = Control.LAYOUT_DIRECTION_LTR
+	_settings.initialize_language(get_tree())
 	settings_dialog.set_language(_settings.language)
 	settings_button.pivot_offset = settings_button.size / 2.0
 	settings_button.button_down.connect(_animate_settings_button.bind(true))
@@ -119,7 +121,7 @@ func _refresh_progress() -> void:
 	target_coin.get_node("Number").text = str(targets[current])
 	$Layout/Board/TargetHeader/UnlockHint.text = "进入下一关" if current == 4 else "解锁新槽位"
 	if game.guide_step == -1:
-		hint.text = _toast_message if not _toast_message.is_empty() else tr("第 %d 关 · 点击同级硬币进行整理") % game.level
+		hint.text = tr(_toast_message) if not _toast_message.is_empty() else tr("第 %d 关 · 点击同级硬币进行整理") % game.level
 
 
 func _start_decorations() -> void:
@@ -427,7 +429,7 @@ func _show_failure() -> void:
 	_cancel_selection()
 	var actions: Array = []
 	if game.shuffle_left > 0:
-		actions.append({"id": "rescue", "label": "洗牌", "note": tr("本局剩余%d次") % game.shuffle_left, "primary": true})
+		actions.append({"id": "rescue", "label": "洗牌", "note_key": "本局剩余%d次", "note_args": [game.shuffle_left], "primary": true})
 	actions.append({"id": "retry", "label": "重新开始"})
 	_dialog.open("槽位已满", "整理同级硬币释放空间，或重新挑战当前关卡。", actions, game.targets()[game.stage()])
 	_refresh_actions()
@@ -561,8 +563,8 @@ func _on_tutorial_activated(step: int) -> void:
 
 func _toast(message: String) -> void:
 	_toast_generation += 1
-	_toast_message = tr(message)
-	hint.text = _toast_message
+	_toast_message = message
+	hint.text = tr(message)
 	if _toast_tween:
 		_toast_tween.kill()
 	_toast_tween = create_tween()
@@ -610,9 +612,6 @@ func _on_settings_button_pressed() -> void:
 	if not _can_interact():
 		return
 	_play_click()
-	_cancel_selection()
-	if game.guide_step in [1, 5, 7]:
-		game.guide_step -= 1
 	if _button_tween:
 		_button_tween.kill()
 	settings_button.scale = Vector2.ONE
@@ -636,11 +635,8 @@ func _on_vibration_toggled(enabled: bool) -> void:
 
 
 func _on_language_selected(locale: String) -> void:
-	if _settings.set_language(locale):
-		settings_dialog.set_language(_settings.language)
-		_render_all()
-		_update_tutorial()
-		_play_click()
+	_settings.set_language(locale)
+	_play_click()
 
 
 func _play_click() -> void:
@@ -700,6 +696,10 @@ func _unhandled_key_input(event: InputEvent) -> void:
 
 
 func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_node_ready():
+		if game.guide_step == -1:
+			hint.text = tr(_toast_message) if not _toast_message.is_empty() else tr("第 %d 关 · 点击同级硬币进行整理") % game.level
+		preload("res://scripts/dialog_style.gd").refresh_text(self)
 	if what in [NOTIFICATION_WM_CLOSE_REQUEST, NOTIFICATION_APPLICATION_PAUSED]:
 		_save_board()
 

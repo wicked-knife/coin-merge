@@ -37,7 +37,7 @@ func _text(message: String, y: float, font_size: int, color: Color) -> void:
 	var label := Label.new()
 	label.position = Vector2(20, y)
 	label.size = Vector2(710, 100)
-	label.text = tr(message)
+	label.text = message
 	label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART

@@ -40,6 +40,8 @@ var _cover: Control
 var _cover_clip: Control
 var opening := false
 var challenge := false
+var _tooltip_state := -1
+var _tooltip_count := 0
 
 
 func _ready() -> void:
@@ -151,7 +153,9 @@ func render(cell: Dictionary, selected: int = 0, guided: bool = false, merge_rea
 	_caption.visible = not _caption.text.is_empty()
 	_highlight.visible = guided or selected > 0
 	set_merge_ready(open and merge_ready)
-	tooltip_text = "槽位 %d · %d/10" % [index + 1, cell.coins.size()] if open else (tr("奖励槽位") if state == Rules.CellState.REWARD else _caption.text)
+	_tooltip_state = state
+	_tooltip_count = cell.coins.size()
+	_refresh_tooltip()
 	for offset in range(cell.coins.size()):
 		var boundary: bool = cell.coins[offset].hidden and offset + 1 < cell.coins.size() and not cell.coins[offset + 1].hidden
 		var view := make_coin(cell.coins[offset], boundary, challenge)
@@ -160,6 +164,18 @@ func render(cell: Dictionary, selected: int = 0, guided: bool = false, merge_rea
 		coin_views.append(view)
 	if selected > 0:
 		select_coins(selected, false)
+
+
+func _refresh_tooltip() -> void:
+	if _tooltip_state in [Rules.CellState.NORMAL, Rules.CellState.USING_AD]:
+		tooltip_text = tr("challenge.slot") % [index + 1, _tooltip_count]
+	else:
+		tooltip_text = tr("奖励槽位") if _tooltip_state == Rules.CellState.REWARD else tr(_caption.text)
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_node_ready():
+		_refresh_tooltip()
 
 
 func select_coins(count: int, animate: bool = true) -> void:

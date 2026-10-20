@@ -1,6 +1,7 @@
 extends Control
 
 const DialogStyle = preload("res://scripts/dialog_style.gd")
+const Languages = preload("res://scripts/localization.gd")
 
 signal closed
 signal sound_toggled(enabled: bool)
@@ -17,8 +18,7 @@ signal retry_requested
 @onready var sound_toggle: Button = $Panel/Options/SoundRow/Toggle
 @onready var vibration_row: HBoxContainer = $Panel/Options/VibrationRow
 @onready var vibration_toggle: Button = $Panel/Options/VibrationRow/Toggle
-@onready var chinese_button: Button = $Panel/Options/LanguageRow/Languages/Chinese
-@onready var english_button: Button = $Panel/Options/LanguageRow/Languages/English
+@onready var language_button: Button = $Panel/Options/LanguageRow/CurrentLanguage
 @onready var message: Label = $Panel/Message
 @onready var game_actions: VBoxContainer = $Panel/GameActions
 @onready var home_button: Button = $Panel/GameActions/HomeButton
@@ -31,6 +31,7 @@ var _open_tween: Tween
 var _toggle_tweens: Dictionary = {}
 var _close_tween: Tween
 var _home_pending := false
+var language_dialog: Control
 
 
 func _ready() -> void:
@@ -42,21 +43,43 @@ func _ready() -> void:
 	close_button.button_down.connect(_animate_close.bind(true))
 	close_button.button_up.connect(_animate_close.bind(false))
 	close_button.mouse_exited.connect(_animate_close.bind(false))
-	chinese_button.pressed.connect(_on_language_pressed.bind("zh"))
-	english_button.pressed.connect(_on_language_pressed.bind("en"))
+	layout_direction = Control.LAYOUT_DIRECTION_LTR
+	language_dialog = preload("res://scripts/language_dialog.gd").new()
+	language_dialog.name = "LanguageDialog"
+	add_child(language_dialog)
+	language_dialog.selected.connect(_on_language_pressed)
+	language_dialog.closed.connect(_close_language_picker)
+	language_button.pressed.connect(open_language_picker)
+	DialogStyle.apply_button(language_button, "blue", 26)
 	_set_game_layout(in_game_layout)
 	retry_button.pressed.connect(_on_retry_pressed)
 
 
 func set_language(locale: String) -> void:
-	chinese_button.set_pressed_no_signal(locale == "zh")
-	english_button.set_pressed_no_signal(locale == "en")
+	language_button.text = Languages.native_name(locale)
+	language_button.text_direction = Control.TEXT_DIRECTION_RTL if Languages.normalize(locale) == "ar" else Control.TEXT_DIRECTION_LTR
+	DialogStyle.fit_button_text(language_button, 26)
 	DialogStyle.fit_button_text(home_button)
 	DialogStyle.fit_button_text(retry_button)
 
 
 func _on_language_pressed(locale: String) -> void:
 	language_selected.emit(locale)
+	set_language(TranslationServer.get_locale())
+	language_dialog.dismiss()
+
+
+func open_language_picker() -> void:
+	if not visible:
+		return
+	feedback_requested.emit()
+	panel.hide()
+	language_dialog.open(TranslationServer.get_locale())
+
+
+func _close_language_picker() -> void:
+	panel.show()
+	language_button.grab_focus()
 
 
 func open_settings(sound: bool, vibration: bool, supports_vibration: bool, in_game: bool = false) -> void:
@@ -89,6 +112,10 @@ func _show_panel() -> void:
 	# Challenge boards are created after this dialog and would intercept its clicks.
 	get_parent().move_child(self, get_parent().get_child_count() - 1)
 	show()
+	panel.show()
+	language_dialog.hide()
+	DialogStyle.refresh_text(self)
+	set_language(TranslationServer.get_locale())
 	modulate.a = 0.0
 	panel.scale = Vector2(0.9, 0.9)
 	close_button.scale = Vector2.ONE
@@ -115,20 +142,11 @@ func _set_focus_cycle() -> void:
 		buttons.append(sound_toggle)
 		if vibration_row.visible:
 			buttons.append(vibration_toggle)
-		buttons.append_array([chinese_button, english_button])
+		buttons.append(language_button)
 	if game_actions.visible:
 		buttons.append(home_button)
 		buttons.append(retry_button)
-	for index in range(buttons.size()):
-		var button := buttons[index]
-		var previous := button.get_path_to(buttons[posmod(index - 1, buttons.size())])
-		var next := button.get_path_to(buttons[(index + 1) % buttons.size()])
-		button.focus_previous = previous
-		button.focus_next = next
-		button.focus_neighbor_top = previous
-		button.focus_neighbor_left = previous
-		button.focus_neighbor_bottom = next
-		button.focus_neighbor_right = next
+	DialogStyle.focus_cycle(buttons)
 
 
 func _on_home_pressed() -> void:
@@ -151,6 +169,8 @@ func dismiss() -> void:
 		return
 	feedback_requested.emit()
 	_stop_tweens()
+	language_dialog.hide()
+	panel.show()
 	var focused := get_viewport().gui_get_focus_owner()
 	if focused != null and is_ancestor_of(focused):
 		focused.release_focus()
@@ -161,7 +181,16 @@ func dismiss() -> void:
 func _unhandled_key_input(event: InputEvent) -> void:
 	if visible and event.is_action_pressed("ui_cancel"):
 		get_viewport().set_input_as_handled()
-		dismiss()
+		if language_dialog.visible:
+			language_dialog.dismiss()
+		else:
+			dismiss()
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_node_ready():
+		DialogStyle.refresh_text(panel)
+		set_language(TranslationServer.get_locale())
 
 
 func _on_sound_toggled(enabled: bool) -> void:

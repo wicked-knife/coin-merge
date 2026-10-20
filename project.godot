@@ -35,8 +35,8 @@ enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg")
 
 [internationalization]
 
-locale/translations=PackedStringArray("res://translations/menu.zh.translation", "res://translations/menu.en.translation")
-locale/fallback="zh"
+locale/translations=PackedStringArray("res://translations/menu.en_US.translation", "res://translations/menu.ru.translation", "res://translations/menu.ko_KR.translation", "res://translations/menu.ja.translation", "res://translations/menu.id.translation", "res://translations/menu.fr.translation", "res://translations/menu.es.translation", "res://translations/menu.pt.translation", "res://translations/menu.ar.translation", "res://translations/menu.zh_CN.translation", "res://translations/menu.zh_TW.translation")
+locale/fallback="en_US"
 
 [physics]
 

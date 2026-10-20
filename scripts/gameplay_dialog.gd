@@ -23,6 +23,8 @@ var _result_time: Label
 var _result_best: Label
 var _reward_icon: TextureRect
 var _tween: Tween
+var _source_actions: Array = []
+var _presentation: Dictionary = {}
 
 
 func _ready() -> void:
@@ -96,6 +98,8 @@ func _build_result_summary() -> void:
 	_result_caption.text = "challenge.your_time"
 	_summary.add_child(_result_caption)
 	_result_time = _label(Vector2(12, 56), Vector2(458, 78), 48)
+	_result_time.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+	_result_time.text_direction = Control.TEXT_DIRECTION_LTR
 	_result_time.clip_text = true
 	_summary.add_child(_result_time)
 	_result_best = _label(Vector2(12, 145), Vector2(458, 44), 28)
@@ -124,6 +128,8 @@ func _label(at: Vector2, dimensions: Vector2, font_size: int) -> Label:
 
 
 func open(title: String, body: String, actions: Array, coin_level: int = 0, presentation: Dictionary = {}) -> void:
+	_source_actions = actions.duplicate(true)
+	_presentation = presentation.duplicate(true)
 	_title.text = title
 	Style.title(_title)
 	_body.text = body
@@ -131,7 +137,7 @@ func open(title: String, body: String, actions: Array, coin_level: int = 0, pres
 	_close.visible = not _close_action.is_empty()
 	var result: Dictionary = presentation.get("result", {})
 	var record_time: String = presentation.get("record_time", "")
-	_summary.visible = not result.is_empty() or not record_time.is_empty()
+	_summary.visible = not result.is_empty() or not record_time.is_empty() or presentation.has("record_seconds")
 	_body.visible = not _summary.visible
 	_note_row.position.y = 368 if _summary.visible else 382
 	_action_note.text = presentation.get("note", actions[0].get("note", "") if not actions.is_empty() else "")
@@ -140,11 +146,11 @@ func open(title: String, body: String, actions: Array, coin_level: int = 0, pres
 	Style.fit_label(_action_note, 442 if _reward_icon.visible else 494, 28)
 	if not result.is_empty():
 		_result_caption.text = "challenge.your_time"
-		_result_time.text = result.time
-		_result_best.text = tr("challenge.best") % result.best
-	elif not record_time.is_empty():
+		_result_time.text = _format_time(result.time)
+		_result_best.text = tr("challenge.best") % _format_time(result.best)
+	elif not record_time.is_empty() or presentation.has("record_seconds"):
 		_result_caption.text = "challenge.best_label"
-		_result_time.text = record_time
+		_result_time.text = _format_time(presentation.record_seconds) if presentation.has("record_seconds") else record_time
 		_result_best.text = "challenge.record_hint"
 	Style.fit_label(_result_time, 450, 48)
 	Style.fit_label(_result_best, 450, 28)
@@ -171,6 +177,7 @@ func open(title: String, body: String, actions: Array, coin_level: int = 0, pres
 		_secondary.add_child(button)
 		Style.fit_button_text(button, 32)
 		secondary_buttons.append(button)
+	_refresh_language()
 	var buttons: Array = _actions.get_children() + _secondary.get_children()
 	if _close.visible:
 		buttons.append(_close)
@@ -194,12 +201,52 @@ func open(title: String, body: String, actions: Array, coin_level: int = 0, pres
 
 func _make_button(action: Dictionary, dimensions: Vector2, font_size: int) -> Button:
 	var button := Button.new()
-	button.text = action.label
+	button.text = tr(action.label)
 	button.custom_minimum_size = dimensions
 	button.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	Style.apply_button(button, action.get("tone", "rescue" if action.get("primary", false) else "blue"), font_size)
 	button.pressed.connect(func() -> void: action_requested.emit(action.id))
 	return button
+
+
+func _format_time(value: Variant) -> String:
+	return preload("res://scripts/challenge_game.gd").format_result_time(float(value)) if value is int or value is float else str(value)
+
+
+func _best_time(value: Variant) -> String:
+	var formatted := _format_time(value)
+	# Isolate the compact numeric duration inside an RTL sentence.
+	if TranslationServer.get_locale() == "ar":
+		formatted = "\u2066" + formatted + "\u2069"
+	return tr("challenge.best") % formatted
+
+
+func _refresh_language() -> void:
+	for index in range(_source_actions.size()):
+		_actions.get_child(index).text = tr(_source_actions[index].label)
+	var secondary: Array = _presentation.get("secondary_actions", [])
+	for index in range(secondary.size()):
+		_secondary.get_child(index).text = tr(secondary[index].label)
+	var note: Dictionary = _presentation if _presentation.has("note") or _presentation.has("note_key") else (_source_actions[0] if not _source_actions.is_empty() else {})
+	if note.has("note_key"):
+		_action_note.text = tr(note.note_key) % note.get("note_args", [])
+	else:
+		_action_note.text = note.get("note", "")
+	_action_note.visible = not _action_note.text.is_empty()
+	var result: Dictionary = _presentation.get("result", {})
+	if not result.is_empty():
+		_result_time.text = _format_time(result.time)
+		_result_best.text = _best_time(result.best)
+	elif _presentation.has("record_seconds"):
+		_result_time.text = _format_time(_presentation.record_seconds)
+	Style.refresh_text(self)
+	if not _summary.visible:
+		Style.fit_wrapped_label(_body, Vector2(494, 106 if _coin.visible else 210), 32)
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_TRANSLATION_CHANGED and is_node_ready():
+		_refresh_language()
 
 
 func _unhandled_key_input(event: InputEvent) -> void:

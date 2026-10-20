@@ -21,7 +21,6 @@ var _page_tween: Tween
 var _indicators: Array[TextureRect] = []
 var _unlock_dialog: Control
 var _unlock_message: Label
-var _unlock_suffix: Label
 var _unlock_number: Label
 var _unlock_coin: TextureRect
 var _locked_level := 0
@@ -62,7 +61,7 @@ func _ready() -> void:
 	close.ignore_texture_size = true
 	close.stretch_mode = TextureButton.STRETCH_KEEP_ASPECT_CENTERED
 	close.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
-	close.tooltip_text = tr("返回主页")
+	close.tooltip_text = "返回主页"
 	close.pressed.connect(_go_to.bind("res://scenes/main_menu.tscn"))
 	layout.add_child(close)
 	_card_layer = Control.new()
@@ -113,7 +112,7 @@ func _refresh_page() -> void:
 
 func _update_pagination() -> void:
 	cards.assign(_page_cards[page])
-	_page_label.text = tr("challenge.swipe_hint")
+	_page_label.text = "challenge.swipe_hint"
 	for index in range(_indicators.size()):
 		_indicators[index].texture = preload(UI_ROOT + "ui/Icon_spot_1.png") if index == page else preload(UI_ROOT + "ui/Icon_spot_2.png")
 		for card: Button in _page_cards[index]:
@@ -143,7 +142,7 @@ func _build_page(parent: Control, page_index: int) -> Array[Button]:
 				card.add_child(texture(preload(UI_ROOT + "ui/Icon_Lock.png"), Vector2(23.5, 35.5), Vector2(43, 57)))
 			"play":
 				card.add_child(texture(preload(CHALLENGE_ROOT + "Unlock.png"), Vector2(20.5, 3.178), Vector2(49, 64)))
-				var ready_label := label(tr("challenge.available"), Vector2(-3, 86), Vector2(96, 50.4), 24)
+				var ready_label := label("challenge.available", Vector2(-3, 86), Vector2(96, 50.4), 24)
 				ready_label.add_theme_color_override("font_color", Color("8b789f"))
 				card.add_child(ready_label)
 			"doing":
@@ -153,19 +152,27 @@ func _build_page(parent: Control, page_index: int) -> Array[Button]:
 				# UIHelper.getChallengeSpf ignores the level-specific icon config.
 				card.add_child(texture(preload(CHALLENGE_ROOT + "Partten.png"), Vector2(0, 0.5), Vector2(90, 127)))
 			"wait":
-				var wait_label := label(tr("challenge.wait"), Vector2(-24, 18.8), Vector2(138, 90.4), 28)
+				var wait_label := label("challenge.wait", Vector2(-24, 18.8), Vector2(138, 90.4), 28)
 				wait_label.add_theme_color_override("font_color", Color("8b789f"))
 				card.add_child(wait_label)
 		var title := label(tr("challenge.menu_level") % number, Vector2(-25, 133.723), Vector2(140, 31.5), 25)
+		title.name = "LevelTitle"
 		card.add_child(title)
-		var description := tr("challenge." + state)
-		if state == "locked":
-			description = tr("challenge.unlock") % Rules.config(number).unlock
-		elif state == "complete":
-			description = tr("challenge.best_short") % Rules.format_time(game.best_times[str(number)])
-		card.tooltip_text = title.text + " · " + description
+		_refresh_card_language(card, number, state)
 		result.append(card)
+	DialogStyle.refresh_text(parent)
 	return result
+
+
+func _refresh_card_language(card: Button, number: int, state: String) -> void:
+	var title: Label = card.get_node("LevelTitle")
+	title.text = tr("challenge.menu_level") % number
+	var description := tr("challenge." + state)
+	if state == "locked":
+		description = tr("challenge.unlock") % Rules.config(number).unlock
+	elif state == "complete":
+		description = tr("challenge.best_short") % Rules.format_time(game.best_times[str(number)])
+	card.tooltip_text = title.text + " · " + description
 
 
 func _change_page(direction: int) -> void:
@@ -224,17 +231,16 @@ func _build_unlock_dialog() -> void:
 	close.name = "Close"
 	close.position = Vector2(530, 28)
 	panel.add_child(close)
-	var row := HBoxContainer.new()
-	row.position = Vector2(30, 222)
-	row.size = Vector2(526, 100)
-	row.alignment = BoxContainer.ALIGNMENT_CENTER
-	row.add_theme_constant_override("separation", 22)
+	var row := Control.new()
+	row.position = Vector2(30, 166)
+	row.size = Vector2(526, 200)
 	row.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	panel.add_child(row)
-	_unlock_message = label("challenge.unlock_prefix", Vector2.ZERO, Vector2.ZERO, 40)
+	_unlock_message = label("", Vector2.ZERO, Vector2(526, 108), 30)
+	_unlock_message.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	_unlock_message.add_theme_color_override("font_color", DialogStyle.BODY_COLOR)
 	row.add_child(_unlock_message)
-	_unlock_coin = texture(preload(UI_ROOT + "Texture/skin/big/BigCoin1.png"), Vector2.ZERO, Vector2(52, 55))
+	_unlock_coin = texture(preload(UI_ROOT + "Texture/skin/big/BigCoin1.png"), Vector2(237, 124), Vector2(52, 55))
 	_unlock_coin.custom_minimum_size = Vector2(52, 55)
 	_unlock_coin.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	row.add_child(_unlock_coin)
@@ -242,9 +248,6 @@ func _build_unlock_dialog() -> void:
 	_unlock_number.add_theme_font_override("font", Ceramic.FONT)
 	_unlock_number.add_theme_color_override("font_color", Ceramic.INK)
 	_unlock_coin.add_child(_unlock_number)
-	_unlock_suffix = label("challenge.unlock_suffix", Vector2.ZERO, Vector2.ZERO, 40)
-	_unlock_suffix.add_theme_color_override("font_color", DialogStyle.BODY_COLOR)
-	row.add_child(_unlock_suffix)
 	var dismiss := button("challenge.unlock_dismiss", Vector2(133, 420), Vector2(320, 132), _dismiss_unlock)
 	dismiss.name = "Dismiss"
 	DialogStyle.apply_button(dismiss, "yellow", 42)
@@ -266,9 +269,6 @@ func _build_unlock_dialog() -> void:
 
 
 func _refresh_unlock_text() -> void:
-	var font_size := 40 if _settings.language == "zh" else 30
-	_unlock_message.add_theme_font_size_override("font_size", font_size)
-	_unlock_suffix.add_theme_font_size_override("font_size", font_size)
 	DialogStyle.fit_button_text(_unlock_dialog.get_node("Panel/Dismiss"), 42)
 	DialogStyle.fit_button_text(_unlock_dialog.get_node("Panel/Merge"), 40)
 
@@ -278,6 +278,8 @@ func _refresh_unlock_dialog() -> void:
 	if _locked_level <= 0:
 		return
 	var required: int = Rules.config(_locked_level).unlock
+	_unlock_message.text = tr("challenge.unlock_body") % required
+	DialogStyle.fit_wrapped_label(_unlock_message, Vector2(526, 108), 30)
 	_unlock_number.text = str(required)
 	_unlock_coin.texture = load(UI_ROOT + "Texture/skin/big/BigCoin%d.png" % (posmod(required - 1, 15) + 1))
 	_unlock_coin.tooltip_text = tr("challenge.unlock_body") % required
@@ -299,8 +301,11 @@ func _open_settings() -> void:
 
 
 func _refresh_language() -> void:
-	page = 0
-	_refresh_page()
+	for page_cards: Array in _page_cards:
+		for card: Button in page_cards:
+			var number := int(card.name.trim_prefix("Level"))
+			var state := "wait" if number > Rules.Data.LEVELS.size() else game.status(number, highest_coin)
+			_refresh_card_language(card, number, state)
 	_refresh_unlock_dialog()
 
 
@@ -393,6 +398,7 @@ func _finish_swipe(at: Vector2, canceled: bool) -> void:
 
 
 func _notification(what: int) -> void:
+	super._notification(what)
 	if what in [NOTIFICATION_APPLICATION_FOCUS_OUT, NOTIFICATION_APPLICATION_PAUSED] and _swipe_active:
 		_swipe_active = false
 		_settle_page(page)

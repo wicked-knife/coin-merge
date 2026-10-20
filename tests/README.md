@@ -72,3 +72,19 @@ node --test tests/challenge_platform_test.cjs
 ```
 
 本轮实施与已知边界见 `docs/挑战模式_差异实施记录_2026-10-19.md`。此前 REA 取证目录和生成对照探针保留为历史证据；其中的手写 JS 本地生成器描述的是修正前版本，不能拿其结果冒充当前 GDScript 运行结果。
+
+## 多语言专项（11种语言）
+
+支持英语、俄语、韩语、日语、印尼语、法语、西班牙语、葡萄牙语、阿拉伯语、简体和繁体中文。设置优先；无设置时查询 YouTube 语言，2 秒超时或独立运行回退英语。旧 `zh`/`en` 自动兼容。详细实现和验收边界见 [多语言实施与验证](../docs/多语言实施与验证_2026-10-20.md)。
+
+```powershell
+& 'D:/godot/Godot_v4.7.2-stable_win64_console.exe' --headless --path . --script res://tests/localization_test.gd
+& 'D:/godot/Godot_v4.7.2-stable_win64_console.exe' --path . --rendering-method gl_compatibility --script res://tests/localization_test.gd -- --visual --narrow
+node --test tests/language_platform_test.cjs tests/challenge_platform_test.cjs
+```
+
+专项覆盖全部译文、格式参数、换行、原生语言名称与字形、禁用系统字体回退、缺资源回退、旧设置迁移、保存重载、宿主检测单次调用、手动选择与异步返回竞态、生产轮询超时，以及真实鼠标/触摸选择、拖动滚动、焦点环绕和 Esc 返回。对菜单、普通教程/选中币/救援、挑战选关/锁关/教程/正式盘/完成关纪录/结果，检查语言即时刷新和状态保持。使用独立测试设置与存档，不覆盖玩家偏好和进度。
+
+`--visual --narrow` 以 390×844 窗口生成全部语种界面截图，保存在忽略提交的 `previews/localization/`。同时比较选中硬币堆显示/隐藏时弹窗覆盖区域的像素，确认普通和挑战模式的设置、语言弹窗均盖住悬浮硬币；关闭设置后保留选中硬币和教程步骤。这些截图由 Godot Compatibility 实际渲染；YouTube 桥接测试使用模拟 SDK，不代表真实宿主已验收。
+
+翻译表是运行时来源。`python -X utf8 tools/build_translations.py` 复用原作取证文案并补齐本项目新增文案；`python -X utf8 tools/build_ceramic_font.py` 重建六组 Noto 字体子集和回退资源。工具需要参考资料或下载缓存，导出游戏仅依赖 `translations/` 和 `assets/reskin/ceramic/fonts/`。

@@ -1,0 +1,12 @@
+[gd_resource type="FontVariation" load_steps=7 format=3]
+
+[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeUI.ttf" id="0"]
+[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeLatin.ttf" id="1"]
+[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeJapanese.ttf" id="2"]
+[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeKorean.ttf" id="3"]
+[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeTraditional.ttf" id="4"]
+[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeArabic.ttf" id="5"]
+
+[resource]
+base_font = ExtResource("0")
+fallbacks = Array[Font]([ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")])

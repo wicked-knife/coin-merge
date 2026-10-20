@@ -3,7 +3,7 @@ extends RefCounted
 const ROOT := "res://assets/reskin/ceramic/"
 const SPRITES := ROOT + "sprites/"
 const UI := SPRITES + "ui/"
-const FONT_PATH := ROOT + "fonts/CoinMergeUI.ttf"
+const FONT_PATH := ROOT + "fonts/CoinMergeUI.tres"
 const FONT = preload(FONT_PATH)
 const INK := Color("394b4d")
 const CREAM := Color("f5f0e5")

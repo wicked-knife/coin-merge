@@ -85,9 +85,9 @@ func _test_settings(mode: String, touch: bool) -> void:
 	scene.save_path = SAVE
 	scene.normal_save_path = NORMAL_SAVE
 	scene._settings = TemporarySettings.new()
-	scene._settings.language = "zh"
+	scene._settings.set_language("zh_CN")
 	scene._settings.sound_enabled = false
-	TranslationServer.set_locale("zh")
+	TranslationServer.set_locale("zh_CN")
 	root.add_child(scene)
 	await process_frame
 	await process_frame
@@ -98,12 +98,12 @@ func _test_settings(mode: String, touch: bool) -> void:
 	await _click(scene._settings_button, touch)
 	await create_timer(0.25).timeout
 	expect(dialog.visible, context + ": settings open through the gear button")
-	await _click(dialog.english_button, touch)
-	if scene._settings.language != "en" and not touch:
+	await _choose_language(dialog, "en_US", touch)
+	if scene._settings.language != "en_US" and not touch:
 		var hovered := root.gui_get_hovered_control()
 		print("Blocked English button by: ", hovered.get_path() if hovered else "none")
-	expect(scene._settings.language == "en" and TranslationServer.get_locale().begins_with("en"), context + ": English button changes the locale")
-	expect(scene._title.text == "Level%d" % number and dialog.english_button.button_pressed, context + ": gameplay and selection update to English")
+	expect(scene._settings.language == "en_US" and TranslationServer.get_locale().begins_with("en"), context + ": English button changes the locale")
+	expect(scene._title.text == "Level%d" % number and dialog.language_dialog.buttons.en_US.button_pressed, context + ": gameplay and selection update to English")
 	expect(dialog.visible and scene.game.cells == board and scene._selected == selected, context + ": language change preserves the open modal and board")
 	await _click(dialog.close_button, touch)
 	expect(not dialog.visible and not scene._settings_button.disabled, context + ": X closes settings and restores the gear")
@@ -111,10 +111,20 @@ func _test_settings(mode: String, touch: bool) -> void:
 		dialog.dismiss()
 	await _click(scene._settings_button, touch)
 	await create_timer(0.25).timeout
-	await _click(dialog.chinese_button, touch)
-	expect(scene._settings.language == "zh" and TranslationServer.get_locale().begins_with("zh") and scene._title.text == "关卡%d" % number, context + ": Chinese button restores Chinese gameplay")
+	await _choose_language(dialog, "zh_CN", touch)
+	expect(scene._settings.language == "zh_CN" and TranslationServer.get_locale().begins_with("zh") and scene._title.text == "关卡%d" % number, context + ": Chinese button restores Chinese gameplay")
 	await _click(dialog.close_button, touch)
 	expect(not dialog.visible and not scene._settings_button.disabled, context + ": X closes settings again after changing back")
 	scene.queue_free()
 	await process_frame
 	await process_frame
+
+
+func _choose_language(dialog: Control, locale: String, touch: bool) -> void:
+	await _click(dialog.language_button, touch)
+	var button: Button = dialog.language_dialog.buttons[locale]
+	button.grab_focus()
+	dialog.language_dialog.scroll.ensure_control_visible(button)
+	await process_frame
+	await process_frame
+	await _click(button, touch)

@@ -189,21 +189,26 @@ func finish() -> Dictionary:
 static func format_time(seconds: float) -> String:
 	var total := maxi(0, floori(seconds))
 	if total >= 86400:
-		return "%d%s" % [total / 86400, TranslationServer.translate("time.day")]
+		return _time_part(total / 86400, "time.day")
 	if total >= 3600:
-		return "%d%s" % [total / 3600, TranslationServer.translate("time.hour")]
+		return _time_part(total / 3600, "time.hour")
 	return "%02d:%02d" % [total / 60, total % 60]
 
 
 static func format_result_time(seconds: float) -> String:
 	var total := maxi(0, floori(seconds))
 	if total >= 86400:
-		return "%d%s%d%s" % [total / 86400, TranslationServer.translate("time.day"), (total / 3600) % 24, TranslationServer.translate("time.hour")]
+		return _time_part(total / 86400, "time.day") + _time_part((total / 3600) % 24, "time.hour")
 	if total >= 3600:
-		return "%d%s%d%s" % [total / 3600, TranslationServer.translate("time.hour"), (total / 60) % 60, TranslationServer.translate("time.min")]
+		return _time_part(total / 3600, "time.hour") + _time_part((total / 60) % 60, "time.min")
 	if total >= 60:
-		return "%d%s%d%s" % [total / 60, TranslationServer.translate("time.min"), total % 60, TranslationServer.translate("time.sec")]
-	return "%d%s" % [total, TranslationServer.translate("time.sec")]
+		return _time_part(total / 60, "time.min") + _time_part(total % 60, "time.sec")
+	return _time_part(total, "time.sec")
+
+
+static func _time_part(amount: int, key: String) -> String:
+	var text := "%d%s" % [amount, TranslationServer.translate(key)]
+	return "\u2066" + text + "\u2069" if TranslationServer.get_locale() == "ar" else text
 
 
 static func completed_cells(number: int) -> Array:

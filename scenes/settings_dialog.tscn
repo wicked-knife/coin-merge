@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3]
+[gd_scene load_steps=22 format=3]
 
 [ext_resource type="Script" path="res://scripts/settings_dialog.gd" id="1_script"]
 [ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/PanelBG.png" id="2_panel"]
@@ -9,7 +9,7 @@
 [ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/Btn_blue_25px.png" id="7_action"]
 [ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/Btn_yellow_25px.png" id="8_home"]
 [ext_resource type="Script" path="res://scripts/modal_shade.gd" id="9_shade"]
-[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeUI.ttf" id="ceramic_font"]
+[ext_resource type="FontVariation" path="res://assets/reskin/ceramic/fonts/CoinMergeUI.tres" id="ceramic_font"]
 
 [sub_resource type="StyleBoxTexture" id="Style_home"]
 content_margin_left = 12.0
@@ -125,63 +125,8 @@ Label/colors/font_color = Color(0.224, 0.294, 0.302, 1)
 
 [sub_resource type="StyleBoxEmpty" id="Style_toggle"]
 
-[sub_resource type="ButtonGroup" id="ButtonGroup_language"]
-
-[sub_resource type="StyleBoxFlat" id="Style_language"]
-content_margin_left = 8.0
-content_margin_right = 8.0
-bg_color = Color(0.92, 0.9, 0.84, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-border_color = Color(0.66, 0.72, 0.66, 1)
-corner_radius_top_left = 16
-corner_radius_top_right = 16
-corner_radius_bottom_left = 16
-corner_radius_bottom_right = 16
-
-[sub_resource type="StyleBoxFlat" id="Style_language_hover"]
-content_margin_left = 8.0
-content_margin_right = 8.0
-bg_color = Color(0.96, 0.95, 0.91, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-border_color = Color(0.66, 0.72, 0.66, 1)
-corner_radius_top_left = 16
-corner_radius_top_right = 16
-corner_radius_bottom_left = 16
-corner_radius_bottom_right = 16
-
-[sub_resource type="StyleBoxFlat" id="Style_language_selected"]
-content_margin_left = 8.0
-content_margin_right = 8.0
-bg_color = Color(0.67, 0.8, 0.74, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-border_color = Color(0.4, 0.57, 0.5, 1)
-corner_radius_top_left = 16
-corner_radius_top_right = 16
-corner_radius_bottom_left = 16
-corner_radius_bottom_right = 16
-
-[sub_resource type="StyleBoxFlat" id="Style_language_focus"]
-bg_color = Color(0, 0, 0, 0)
-border_width_left = 3
-border_width_top = 3
-border_width_right = 3
-border_width_bottom = 3
-border_color = Color(1, 1, 1, 1)
-corner_radius_top_left = 16
-corner_radius_top_right = 16
-corner_radius_bottom_left = 16
-corner_radius_bottom_right = 16
-
 [node name="SettingsDialog" type="Control"]
+z_index = 30
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -389,52 +334,11 @@ theme_override_font_sizes/font_size = 36
 text = "语言"
 vertical_alignment = 1
 
-[node name="Languages" type="HBoxContainer" parent="Panel/Options/LanguageRow"]
+[node name="CurrentLanguage" type="Button" parent="Panel/Options/LanguageRow"]
+auto_translate_mode = 2
 custom_minimum_size = Vector2(222, 78)
 layout_mode = 2
-theme_override_constants/separation = 0
-
-[node name="Chinese" type="Button" parent="Panel/Options/LanguageRow/Languages"]
-auto_translate_mode = 2
-custom_minimum_size = Vector2(111, 78)
-layout_mode = 2
-size_flags_horizontal = 3
 mouse_default_cursor_shape = 2
-theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_colors/font_hover_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_colors/font_pressed_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_colors/font_hover_pressed_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_colors/font_focus_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_font_sizes/font_size = 26
-theme_override_styles/normal = SubResource("Style_language")
-theme_override_styles/hover = SubResource("Style_language_hover")
-theme_override_styles/pressed = SubResource("Style_language_selected")
-theme_override_styles/hover_pressed = SubResource("Style_language_selected")
-theme_override_styles/focus = SubResource("Style_language_focus")
-toggle_mode = true
-button_pressed = true
-button_group = SubResource("ButtonGroup_language")
-text = "中文"
-
-[node name="English" type="Button" parent="Panel/Options/LanguageRow/Languages"]
-auto_translate_mode = 2
-custom_minimum_size = Vector2(111, 78)
-layout_mode = 2
-size_flags_horizontal = 3
-mouse_default_cursor_shape = 2
-theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_colors/font_hover_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_colors/font_pressed_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_colors/font_hover_pressed_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_colors/font_focus_color = Color(0.224, 0.294, 0.302, 1)
-theme_override_font_sizes/font_size = 26
-theme_override_styles/normal = SubResource("Style_language")
-theme_override_styles/hover = SubResource("Style_language_hover")
-theme_override_styles/pressed = SubResource("Style_language_selected")
-theme_override_styles/hover_pressed = SubResource("Style_language_selected")
-theme_override_styles/focus = SubResource("Style_language_focus")
-toggle_mode = true
-button_group = SubResource("ButtonGroup_language")
 text = "English"
 
 [node name="Message" type="Label" parent="Panel"]
@@ -449,7 +353,7 @@ offset_right = -45.0
 offset_bottom = -70.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "挑战模式暂未实现"
+text = ""
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3

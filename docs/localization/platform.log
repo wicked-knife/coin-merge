@@ -1,0 +1,22 @@
+✔ missing window or SDK safely reports unavailable (2.8887ms)
+✔ outside Playables or without the actual SDK method reports unavailable (9.3021ms)
+✔ success calls the SDK with no placement argument and preserves its receiver (7.5872ms)
+✔ synchronous SDK errors are logged and do not block future requests (2.9282ms)
+✔ rejected SDK promises are logged and do not block future requests (2.4819ms)
+✔ overlapping requests share one in-flight operation and unlock after settlement (3.4236ms)
+✔ a successful request permits a later request (1.8917ms)
+✔ throwing health logger is swallowed and placement remains data (2.1523ms)
+✔ missing host, standalone and absent methods report unavailable (8.7859ms)
+✔ host method retains receiver, has no arguments and handles promises (7.9472ms)
+✔ synchronous return values and non-string results are safe (7.4479ms)
+✔ sync errors and rejected promises settle with English fallback input (3.6819ms)
+✔ pending and delayed SDK results expose state without blocking (2.5771ms)
+✔ host content is returned as data (1.9127ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 141.334
