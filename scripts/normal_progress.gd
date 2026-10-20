@@ -1,8 +1,9 @@
 extends RefCounted
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 const Motion = preload("res://scripts/normal_motion.gd")
 const Slot = preload("res://scripts/coin_slot.gd")
-const ROOT := "res://assets/rea_original/sprites/"
-const NUMBERS = preload("res://assets/rea_original/fonts/number01/number01.fnt")
+const ROOT := Ceramic.SPRITES
+const NUMBERS = Ceramic.FONT
 const NAMES := ["Target5", "Target6", "Target7", "Target9", "Target10"]
 var targets: Array[Control] = []
 var host: Control
@@ -45,6 +46,7 @@ func setup(parent: Control) -> void:
 		label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 		label.add_theme_font_override("font", NUMBERS)
+		label.add_theme_color_override("font_color", Ceramic.INK)
 		label.add_theme_font_size_override("font_size", 32)
 		label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		target.add_child(label)

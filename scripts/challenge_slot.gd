@@ -1,15 +1,14 @@
 extends Control
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 ## Coordinates from the published war-cell-item prefab.
 
 signal pressed(index: int)
 const CoinVisual = preload("res://scripts/coin_visual.gd")
 const FX = preload("res://scripts/normal_effects.gd")
 const ParticleView = preload("res://scripts/normal_particles.gd")
-const ROOT := "res://assets/rea_original/sprites/"
+const ROOT := Ceramic.SPRITES
 const COIN_ORIGIN := Vector2(54, -39)
-const COLORS := [Color.WHITE, Color("ffee5f"), Color("fd736d"), Color("ffb7a2"),
-	Color("64a4fd"), Color("7deaf5"), Color("8d61e9"), Color("d0f37f"),
-	Color("ffac56"), Color("cb9770"), Color("5bbb57"), Color("5a87e6")]
+const COLORS := Ceramic.CHALLENGE_COLORS
 # 0f06036bd.json, prefab 5, Light_Warcoin ParticleSystem (node 16).
 const WAR_PARTICLES := {"texture": "ui/Light1.png", "_dstBlendFactor": 1,
 	"totalParticles": 500, "duration": 0.1, "emissionRate": 500, "life": 0.3,

@@ -1,8 +1,9 @@
 extends RefCounted
-## Original-art dialog proportions: sprite borders and text padding are independent.
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
+## Ceramic borders and text padding are independent.
 
-const UI := "res://assets/rea_original/sprites/ui/"
-const BODY_COLOR := Color("638fc3")
+const UI := Ceramic.UI
+const BODY_COLOR := Ceramic.INK
 const BUTTONS := {
 	"blue": preload(UI + "Btn_blue_25px.png"),
 	"yellow": preload(UI + "Btn_yellow_25px.png"),
@@ -12,18 +13,19 @@ const BUTTONS := {
 
 
 static func apply_button(button: Button, tone: String = "blue", font_size: int = 40) -> void:
+	button.add_theme_font_override("font", Ceramic.FONT)
 	button.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
 	for state in ["font_color", "font_hover_color", "font_pressed_color", "font_hover_pressed_color", "font_focus_color"]:
-		button.add_theme_color_override(state, Color.WHITE)
-	button.add_theme_color_override("font_disabled_color", Color("e1e6ef"))
+		button.add_theme_color_override(state, Ceramic.INK)
+	button.add_theme_color_override("font_disabled_color", Color("777c76"))
 	for state in ["normal", "hover", "pressed", "hover_pressed", "disabled"]:
 		var style := StyleBoxTexture.new()
 		style.texture = BUTTONS.get(tone, BUTTONS.blue)
 		if tone != "rescue":
-			style.texture_margin_left = 49
-			style.texture_margin_right = 49
-			style.texture_margin_top = 47
-			style.texture_margin_bottom = 47
+			style.texture_margin_left = Ceramic.BUTTON_MARGIN
+			style.texture_margin_right = Ceramic.BUTTON_MARGIN
+			style.texture_margin_top = Ceramic.BUTTON_MARGIN
+			style.texture_margin_bottom = Ceramic.BUTTON_MARGIN
 		style.content_margin_left = 22
 		style.content_margin_right = 22
 		var pressed: bool = state in ["pressed", "hover_pressed"]
@@ -60,16 +62,16 @@ static func panel(dimensions: Vector2) -> NinePatchRect:
 	var view := NinePatchRect.new()
 	view.texture = preload(UI + "PanelBG.png")
 	view.size = dimensions
-	view.patch_margin_left = 148
-	view.patch_margin_top = 119
-	view.patch_margin_right = 143
-	view.patch_margin_bottom = 119
+	view.patch_margin_left = Ceramic.PANEL_MARGIN
+	view.patch_margin_top = Ceramic.PANEL_MARGIN
+	view.patch_margin_right = Ceramic.PANEL_MARGIN
+	view.patch_margin_bottom = Ceramic.PANEL_MARGIN
 	return view
 
 
 static func title(view: Label) -> void:
 	view.clip_text = true
-	view.add_theme_color_override("font_color", Color.WHITE)
+	view.add_theme_color_override("font_color", Ceramic.INK)
 	fit_label(view, 370, 45)
 
 

@@ -1,33 +1,27 @@
-[gd_scene load_steps=24 format=3]
+[gd_scene load_steps=19 format=3]
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_script"]
 [ext_resource type="PackedScene" path="res://scenes/coin_slot.tscn" id="20_slot"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/BG.png" id="2_background"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/BG.png" id="2_background"]
 [ext_resource type="PackedScene" path="res://scenes/settings_dialog.tscn" id="3_dialog"]
 [ext_resource type="AudioStream" path="res://assets/rea_original/audio/click.mp3" id="4_click"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png" id="5_settings"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Box2.png" id="6_board"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/BG_Lock.png" id="7_locked_slot"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Icon_Lock.png" id="8_lock"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/BG_Trench.png" id="9_open_slot"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/normal/1.png" id="10_coin"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/big/BigCoin5.png" id="11_target_coin"]
-[ext_resource type="FontFile" path="res://assets/rea_original/fonts/number01/number01.fnt" id="12_numbers"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/TargetBar.png" id="13_target_bar"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/TargetBG_1.png" id="14_future_target"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/TargetBG_2.png" id="15_current_ring"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/TargetBG_4_b515ca35.png" id="16_final_target"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/TargetBG_4_d27bfba7.png" id="17_crown"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/Texture/skin/TargetArrow1.png" id="18_arrow"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_Deal.png" id="19_deal"]
-[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/TargetBG_4.png" id="21_sunlight"]
-
-[sub_resource type="SystemFont" id="SystemFont_chinese"]
-font_names = PackedStringArray("Microsoft YaHei", "Noto Sans CJK SC")
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/Btn_Setting_2acdf23c.png" id="5_settings"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/Box2.png" id="6_board"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin5.png" id="11_target_coin"]
+[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeUI.ttf" id="12_numbers"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/TargetBar.png" id="13_target_bar"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/Texture/skin/TargetBG_1.png" id="14_future_target"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/Texture/skin/TargetBG_2.png" id="15_current_ring"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/TargetBG_4_b515ca35.png" id="16_final_target"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/TargetBG_4_d27bfba7.png" id="17_crown"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/Texture/skin/TargetArrow1.png" id="18_arrow"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/Btn_Deal.png" id="19_deal"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/TargetBG_4.png" id="21_sunlight"]
 
 [sub_resource type="Theme" id="Theme_game"]
-default_font = SubResource("SystemFont_chinese")
+default_font = ExtResource("12_numbers")
 default_font_size = 28
+Label/colors/font_color = Color(0.224, 0.294, 0.302, 1)
 
 [node name="Game" type="Control"]
 layout_mode = 3
@@ -104,8 +98,8 @@ offset_right = 416
 offset_bottom = 49
 mouse_filter = 2
 texture = ExtResource("13_target_bar")
-patch_margin_left = 18
-patch_margin_right = 18
+patch_margin_left = 24
+patch_margin_right = 24
 
 [node name="Target5" type="Control" parent="Layout/TopBar/Progress"]
 layout_mode = 0
@@ -181,7 +175,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 theme_override_fonts/font = ExtResource("12_numbers")
 theme_override_font_sizes/font_size = 32
-theme_override_colors/font_color = Color(1, 1, 1, 0.8)
+theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
 
 [node name="Target7" type="Control" parent="Layout/TopBar/Progress"]
 layout_mode = 0
@@ -214,7 +208,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 theme_override_fonts/font = ExtResource("12_numbers")
 theme_override_font_sizes/font_size = 32
-theme_override_colors/font_color = Color(1, 1, 1, 0.8)
+theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
 
 [node name="Target9" type="Control" parent="Layout/TopBar/Progress"]
 layout_mode = 0
@@ -247,7 +241,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 theme_override_fonts/font = ExtResource("12_numbers")
 theme_override_font_sizes/font_size = 32
-theme_override_colors/font_color = Color(1, 1, 1, 0.8)
+theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
 
 [node name="Target10" type="Control" parent="Layout/TopBar/Progress"]
 layout_mode = 0
@@ -312,10 +306,10 @@ offset_right = 695
 offset_bottom = 1135
 mouse_filter = 2
 texture = ExtResource("6_board")
-patch_margin_left = 149
-patch_margin_top = 151
-patch_margin_right = 149
-patch_margin_bottom = 151
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
 
 [node name="TargetHeader" type="HBoxContainer" parent="Layout/Board"]
 layout_mode = 0
@@ -330,7 +324,7 @@ alignment = 1
 [node name="Caption" type="Label" parent="Layout/Board/TargetHeader"]
 layout_mode = 2
 mouse_filter = 2
-theme_override_colors/font_color = Color(1, 0.9, 0.38, 1)
+theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
 theme_override_font_sizes/font_size = 25
 text = "下个目标"
 vertical_alignment = 1
@@ -392,7 +386,7 @@ flip_h = true
 [node name="UnlockHint" type="Label" parent="Layout/Board/TargetHeader"]
 layout_mode = 2
 mouse_filter = 2
-theme_override_colors/font_color = Color(1, 0.9, 0.38, 1)
+theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
 theme_override_font_sizes/font_size = 23
 text = "解锁新槽位"
 vertical_alignment = 1
@@ -464,6 +458,19 @@ stretch_mode = 5
 mouse_default_cursor_shape = 2
 tooltip_text = "发牌"
 
+[node name="Caption" type="Label" parent="Layout/BottomBar/DealButton"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+text = "发牌"
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_font_sizes/font_size = 42
+
 [node name="Effects" type="Control" parent="Layout"]
 layout_mode = 0
 mouse_filter = 2
@@ -479,7 +486,7 @@ mouse_filter = 2
 horizontal_alignment = 1
 vertical_alignment = 1
 theme_override_font_sizes/font_size = 23
-theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
 
 [node name="ClickSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_click")

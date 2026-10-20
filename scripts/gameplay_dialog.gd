@@ -1,4 +1,5 @@
 extends Control
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 ## Shared dialogs for rescue, challenge results and records.
 
 signal action_requested(action: String)
@@ -50,8 +51,8 @@ func _ready() -> void:
 	_coin.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	_panel.add_child(_coin)
 	_number = _label(Vector2.ZERO, _coin.size, 42)
-	_number.add_theme_color_override("font_color", Color.WHITE)
-	_number.add_theme_font_override("font", preload("res://assets/rea_original/fonts/number01/number01.fnt"))
+	_number.add_theme_color_override("font_color", Ceramic.INK)
+	_number.add_theme_font_override("font", Ceramic.FONT)
 	_coin.add_child(_number)
 	_body = _label(Vector2(46, 270), Vector2(494, 106), 32)
 	_body.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
@@ -101,7 +102,7 @@ func _build_result_summary() -> void:
 	_result_best.clip_text = true
 	_summary.add_child(_result_best)
 	_reward_icon = TextureRect.new()
-	_reward_icon.texture = preload("res://assets/rea_original/sprites/ui/Gold_Small.png")
+	_reward_icon.texture = preload(Ceramic.UI + "Gold_Small.png")
 	_reward_icon.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	_reward_icon.custom_minimum_size = Vector2(40, 40)
 	_reward_icon.size_flags_vertical = Control.SIZE_SHRINK_CENTER
@@ -149,7 +150,7 @@ func open(title: String, body: String, actions: Array, coin_level: int = 0, pres
 	Style.fit_label(_result_best, 450, 28)
 	_coin.visible = coin_level > 0
 	if coin_level > 0:
-		_coin.texture = load("res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png" % (posmod(coin_level - 1, 15) + 1))
+		_coin.texture = load(Ceramic.SPRITES + "Texture/skin/big/BigCoin%d.png" % (posmod(coin_level - 1, 15) + 1))
 		_number.text = str(coin_level)
 	_body.position.y = 270 if coin_level > 0 else 154
 	_body.size.y = 106 if coin_level > 0 else 210

@@ -1,24 +1,24 @@
 [gd_scene format=3 uid="uid://dll0gbnaox4ju"]
 
 [ext_resource type="Script" uid="uid://41juoaa541ah" path="res://scripts/main_menu.gd" id="1_script"]
-[ext_resource type="Texture2D" uid="uid://bkkm2w6bu1gnd" path="res://assets/rea_original/sprites/ui/BG.png" id="2_background"]
-[ext_resource type="Texture2D" uid="uid://dw8tneic3path" path="res://assets/rea_original/sprites/ui/logo_zh.png" id="3_logo_zh"]
-[ext_resource type="Texture2D" uid="uid://bcfh6vtgqhcw7" path="res://assets/rea_original/sprites/spine_cloud/could3.png" id="4_cloud_center"]
-[ext_resource type="Texture2D" uid="uid://7o3waq0dd6di" path="res://assets/rea_original/sprites/spine_cloud/could2.png" id="5_cloud_right"]
-[ext_resource type="Texture2D" uid="uid://bb6njgnybcw04" path="res://assets/rea_original/sprites/spine_cloud/could1.png" id="6_cloud_left"]
-[ext_resource type="Texture2D" uid="uid://kel1ppmfeo7c" path="res://assets/rea_original/sprites/ui/Btn_Begin_38px.png" id="7_start"]
-[ext_resource type="Texture2D" uid="uid://bniirbabrm4uc" path="res://assets/rea_original/sprites/ui/Btn_War_24px.png" id="8_challenge"]
-[ext_resource type="Texture2D" uid="uid://wprmxgigqt1i" path="res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png" id="9_settings"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/BG.png" id="2_background"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/logo_zh.png" id="3_logo_zh"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/spine_cloud/could3.png" id="4_cloud_center"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/spine_cloud/could2.png" id="5_cloud_right"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/spine_cloud/could1.png" id="6_cloud_left"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/Btn_Begin_38px.png" id="7_start"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/Btn_War_24px.png" id="8_challenge"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/Btn_Setting_2acdf23c.png" id="9_settings"]
 [ext_resource type="AudioStream" uid="uid://bdsyghu3dsivd" path="res://assets/rea_original/audio/click.mp3" id="10_click"]
 [ext_resource type="PackedScene" path="res://scenes/settings_dialog.tscn" id="11_dialog"]
-[ext_resource type="Texture2D" uid="uid://m5cvc0q7yfkk" path="res://assets/rea_original/sprites/ui/logo_en.png" id="12_logo_en"]
+[ext_resource type="Texture2D" path="res://assets/reskin/ceramic/sprites/ui/logo_en.png" id="12_logo_en"]
 
-[sub_resource type="SystemFont" id="SystemFont_chinese"]
-font_names = PackedStringArray("Microsoft YaHei")
+[ext_resource type="FontFile" path="res://assets/reskin/ceramic/fonts/CoinMergeUI.ttf" id="ceramic_font"]
 
 [sub_resource type="Theme" id="Theme_menu"]
-default_font = SubResource("SystemFont_chinese")
+default_font = ExtResource("ceramic_font")
 default_font_size = 45
+Label/colors/font_color = Color(0.224, 0.294, 0.302, 1)
 
 [sub_resource type="StyleBoxTexture" id="Style_challenge"]
 content_margin_left = 24.0
@@ -26,8 +26,8 @@ content_margin_top = 12.0
 content_margin_right = 24.0
 content_margin_bottom = 24.0
 texture = ExtResource("8_challenge")
-texture_margin_left = 57.0
-texture_margin_right = 89.0
+texture_margin_left = 24
+texture_margin_right = 24
 
 [sub_resource type="StyleBoxEmpty" id="Style_focus"]
 
@@ -37,10 +37,10 @@ content_margin_top = 12.0
 content_margin_right = 24.0
 content_margin_bottom = 24.0
 texture = ExtResource("7_start")
-texture_margin_left = 57.0
-texture_margin_top = 57.0
-texture_margin_right = 57.0
-texture_margin_bottom = 57.0
+texture_margin_left = 24
+texture_margin_top = 24
+texture_margin_right = 24
+texture_margin_bottom = 24
 
 [node name="MainMenu" type="Control" unique_id=392116677]
 layout_mode = 3
@@ -135,10 +135,10 @@ offset_bottom = -331.754
 grow_horizontal = 2
 grow_vertical = 2
 mouse_default_cursor_shape = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
-theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
-theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
+theme_override_colors/font_focus_color = Color(0.224, 0.294, 0.302, 1)
+theme_override_colors/font_pressed_color = Color(0.224, 0.294, 0.302, 1)
+theme_override_colors/font_hover_color = Color(0.224, 0.294, 0.302, 1)
 theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
 theme_override_styles/normal = SubResource("Style_challenge")
 theme_override_styles/pressed = SubResource("Style_challenge")
@@ -161,10 +161,10 @@ offset_bottom = -136.804
 grow_horizontal = 2
 grow_vertical = 2
 mouse_default_cursor_shape = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
-theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
-theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.224, 0.294, 0.302, 1)
+theme_override_colors/font_focus_color = Color(0.224, 0.294, 0.302, 1)
+theme_override_colors/font_pressed_color = Color(0.224, 0.294, 0.302, 1)
+theme_override_colors/font_hover_color = Color(0.224, 0.294, 0.302, 1)
 theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("Style_start")

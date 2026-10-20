@@ -1,9 +1,10 @@
 extends Control
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 ## Shared presentation and settings for challenge selection and play.
 
 const SettingsStore = preload("res://scripts/game_settings.gd")
 const DialogStyle = preload("res://scripts/dialog_style.gd")
-const UI_ROOT := "res://assets/rea_original/sprites/"
+const UI_ROOT := Ceramic.SPRITES
 var layout: Control
 var settings_dialog
 var _settings := SettingsStore.shared()
@@ -13,10 +14,9 @@ var _leaving := false
 
 func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
-	var font := SystemFont.new()
-	font.font_names = PackedStringArray(["Microsoft YaHei", "Noto Sans CJK SC"])
 	theme = Theme.new()
-	theme.default_font = font
+	theme.default_font = Ceramic.FONT
+	theme.set_color("font_color", "Label", Ceramic.INK)
 	theme.default_font_size = 28
 	var background := texture(preload(UI_ROOT + "ui/BG.png"), Vector2.ZERO, size)
 	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -65,13 +65,13 @@ func label(text: String, at: Vector2, dimensions: Vector2, font_size: int = 28) 
 	view.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	view.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	view.add_theme_font_size_override("font_size", font_size)
-	view.add_theme_color_override("font_color", Color("514a71"))
+	view.add_theme_color_override("font_color", Ceramic.INK)
 	return view
 
 
 func brighten(view: Label) -> void:
-	view.add_theme_color_override("font_color", Color.WHITE)
-	view.add_theme_color_override("font_shadow_color", Color(0.1, 0.25, 0.45, 0.45))
+	view.add_theme_color_override("font_color", Ceramic.INK)
+	view.add_theme_color_override("font_shadow_color", Color.TRANSPARENT)
 	view.add_theme_constant_override("shadow_offset_y", 2)
 
 

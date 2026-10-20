@@ -1,0 +1,3686 @@
+{
+  "generated_at": "2026-10-20T07:27:26.797808+00:00",
+  "image_count": 103,
+  "source_files": [
+    "addons/godot_ai/runtime/game_helper.gd",
+    "addons/godot_ai/runtime/game_logger.gd",
+    "addons/godot_ai/utils/error_codes.gd",
+    "addons/godot_ai/utils/log_backtrace.gd",
+    "addons/godot_ai/utils/screenshot_encode.gd",
+    "project.godot",
+    "scenes/challenge.tscn",
+    "scenes/challenge_menu.tscn",
+    "scenes/coin_slot.tscn",
+    "scenes/game.tscn",
+    "scenes/main_menu.tscn",
+    "scenes/settings_dialog.tscn",
+    "scripts/ceramic_skin.gd",
+    "scripts/challenge.gd",
+    "scripts/challenge_data.gd",
+    "scripts/challenge_game.gd",
+    "scripts/challenge_menu.gd",
+    "scripts/challenge_platform.gd",
+    "scripts/challenge_screen.gd",
+    "scripts/challenge_slot.gd",
+    "scripts/coin_slot.gd",
+    "scripts/coin_visual.gd",
+    "scripts/dialog_style.gd",
+    "scripts/game.gd",
+    "scripts/game_settings.gd",
+    "scripts/gameplay_dialog.gd",
+    "scripts/main_menu.gd",
+    "scripts/modal_shade.gd",
+    "scripts/normal_congrats.gd",
+    "scripts/normal_effects.gd",
+    "scripts/normal_game.gd",
+    "scripts/normal_motion.gd",
+    "scripts/normal_motion_data.gd",
+    "scripts/normal_particle_data.gd",
+    "scripts/normal_particles.gd",
+    "scripts/normal_progress.gd",
+    "scripts/normal_tutorial.gd",
+    "scripts/settings_dialog.gd",
+    "shaders/challenge_coin_light.gdshader",
+    "shaders/tutorial_mask.gdshader",
+    "shaders/unlock_shimmer.gdshader"
+  ],
+  "images": [
+    {
+      "path": "assets/reskin/ceramic/app-icon.png",
+      "sha256": "1155b18efdbe7af533ca5b06fb260b4a6d2f529a7903177039f1c4515200368e",
+      "bytes": 31635,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "project.godot",
+          "line": 16,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/app-icon.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/particles/atom.texture.png",
+      "sha256": "c73250005d5feda2def659cdb72c797c90aeb6945bde139ce8c1673f78103c63",
+      "bytes": 651,
+      "size": [
+        31,
+        31
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        30,
+        30
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 106,
+          "kind": "direct",
+          "expression": "../particles/atom.texture.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/Challenge/BG_Choose.png",
+      "sha256": "55967b86fcd40e4ced262d38db0ab52294de34fcd825ac52db7068b8450dcb10",
+      "bytes": 2242,
+      "size": [
+        122,
+        160
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        122,
+        160
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 150,
+          "kind": "direct",
+          "expression": "BG_Choose.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/Challenge/Flag.png",
+      "sha256": "f8c7a27257822e1f4387ac073f13be94a47e42c9dbf32c57691271bc502abd18",
+      "bytes": 1221,
+      "size": [
+        48,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        6,
+        5,
+        44,
+        56
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 151,
+          "kind": "direct",
+          "expression": "Flag.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/Challenge/LevelBG.png",
+      "sha256": "f77b737c391ad6a760c2b6cfa2e83f8938838ca97d99f1e9ac302ffacee0f31e",
+      "bytes": 9101,
+      "size": [
+        90,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        89,
+        127
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 140,
+          "kind": "direct",
+          "expression": "LevelBG.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/Challenge/Partten.png",
+      "sha256": "3a8961e18336f99510518de10db2f6c285a42a093fc76408a6f205f9f9e7d10d",
+      "bytes": 10856,
+      "size": [
+        90,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        89,
+        127
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 154,
+          "kind": "direct",
+          "expression": "Partten.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/Challenge/Unlock.png",
+      "sha256": "b594a0c306dd4cbb97824b03940dd5130d823d5294e4fc00f8c4749ae4169cf5",
+      "bytes": 2063,
+      "size": [
+        49,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        7,
+        0,
+        46,
+        62
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 145,
+          "kind": "direct",
+          "expression": "Unlock.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/BG_Lock.png",
+      "sha256": "c46aa1af3df8675dfa10fded46a3e87184c077aa1afbddb187941c4a87d95fcb",
+      "bytes": 20565,
+      "size": [
+        114,
+        205
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        113,
+        204
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 14,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Lock.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/BG_Lock2.png",
+      "sha256": "554f79bbcb5bfe807eb432f5671b118dbdd9331fce99a844299162c009483a5a",
+      "bytes": 19974,
+      "size": [
+        110,
+        200
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        109,
+        199
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 15,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Lock2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/BG_Lock_AD.png",
+      "sha256": "9cc08f670333a3f20c12d0c4f536a85ee931c5ca736280ba1bca6aeab34722e7",
+      "bytes": 20787,
+      "size": [
+        112,
+        203
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        111,
+        202
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 17,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Lock_AD.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/BG_Trench.png",
+      "sha256": "e86ded444716230f037c71ff49cd52e95f6cf8e702594e43ac79b6d7afaa70d4",
+      "bytes": 23755,
+      "size": [
+        122,
+        213
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        121,
+        212
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 38,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Trench.png"
+        },
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 12,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Trench.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/BG_Trench_Merge.png",
+      "sha256": "f58f2242bfc2f5f5f498e2b703c743bdbb46e2a9ab67f3214758b0da4761dd77",
+      "bytes": 2709,
+      "size": [
+        132,
+        222
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        132,
+        222
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 13,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Trench_Merge.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/Bg_Mask.png",
+      "sha256": "686ee0895880c251b887d9793efe58e293d93ba3d5ae8a3b76cd1815e750d6ab",
+      "bytes": 105,
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge.gd",
+          "line": 76,
+          "kind": "direct",
+          "expression": "Texture/skin/Bg_Mask.png"
+        },
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 44,
+          "kind": "direct",
+          "expression": "Texture/skin/Bg_Mask.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/CoinMask.png",
+      "sha256": "43e90672e86bbd906edca460e139227cd8ca095f38279c2425ef895470631f6c",
+      "bytes": 1890,
+      "size": [
+        100,
+        229
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        100,
+        229
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 182,
+          "kind": "direct",
+          "expression": "Texture/skin/CoinMask.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/ColorArrow.png",
+      "sha256": "5ddbfed148b08f56847e85bd370f20f0b88f2776ce5ccde3542b0206532bd699",
+      "bytes": 400,
+      "size": [
+        32,
+        21
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        21
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 48,
+          "kind": "direct",
+          "expression": "Texture/skin/ColorArrow.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/Icon_QuestionMark.png",
+      "sha256": "e3c8c8d88911e2cb5a1733c59050b7ca2801f3fe17db1f4a1b61be15e3b94613",
+      "bytes": 1711,
+      "size": [
+        40,
+        53
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        7,
+        3,
+        33,
+        48
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 45,
+          "kind": "direct",
+          "expression": "Texture/skin/Icon_QuestionMark.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/TargetArrow1.png",
+      "sha256": "a7fb9e28c2a4913f1bf53d80b1565e9d8ba25d7f56c5085a2a9d817baa509509",
+      "bytes": 585,
+      "size": [
+        20,
+        17
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        20,
+        17
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 17,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/Texture/skin/TargetArrow1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/TargetBG_1.png",
+      "sha256": "acdbb204ab9d8d3538d11c9b9aa3445301348aae714a150374f3c0f2d43eae05",
+      "bytes": 2651,
+      "size": [
+        56,
+        56
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        56,
+        56
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 13,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/Texture/skin/TargetBG_1.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 32,
+          "kind": "direct",
+          "expression": "Texture/skin/TargetBG_1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/TargetBG_2.png",
+      "sha256": "d4328f02668341040c6981efe965629d0e092aeb9483133ed04f72e0ddbd3772",
+      "bytes": 3647,
+      "size": [
+        72,
+        74
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        72,
+        74
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 14,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/Texture/skin/TargetBG_2.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 39,
+          "kind": "direct",
+          "expression": "Texture/skin/TargetBG_2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/TargetBG_5.png",
+      "sha256": "0faadec90609b3f3ff2547f9449506e36077d822863f518bd3c0ac05215e5a51",
+      "bytes": 3895,
+      "size": [
+        56,
+        56
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        56,
+        56
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 41,
+          "kind": "direct",
+          "expression": "Texture/skin/TargetBG_5.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/Tick.png",
+      "sha256": "a71e136dfb4ad40b114461ff5621f752ecaaf76b3c5453bccb02533608327423",
+      "bytes": 1598,
+      "size": [
+        73,
+        57
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        7,
+        6,
+        67,
+        50
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 50,
+          "kind": "direct",
+          "expression": "Texture/skin/Tick.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin1.png",
+      "sha256": "9616fd299a01ddeefeed963a7c78d920d6c10d32005f65e0517fd589a5b3f6b5",
+      "bytes": 24700,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 237,
+          "kind": "direct",
+          "expression": "Texture/skin/big/BigCoin1.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin10.png",
+      "sha256": "e732ae568dc35c88ca796a4bef24c1072b934d4cffda214ac62ec64395774f80",
+      "bytes": 24105,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin11.png",
+      "sha256": "0c92290575254c342ab172493e115cf626cc0491e84ad517510f0cbf4128e52a",
+      "bytes": 24339,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin12.png",
+      "sha256": "8b9576d378440cbec7bf9d15eb12021aab3bde8c655e9028e04128e5457e379a",
+      "bytes": 25176,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin13.png",
+      "sha256": "30959c3b08f80f2427b992358845ccb018f5aa6414c3ea27e3638b3cef71cd0e",
+      "bytes": 24484,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin14.png",
+      "sha256": "e2519724090a509436a474c0de5a678de88829906f4cac66635c31ac5fdf95fc",
+      "bytes": 24258,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin15.png",
+      "sha256": "251c89d1cf5d62458793b5eb22c9869076ce43d63f60a4f328671b042b050004",
+      "bytes": 23674,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin2.png",
+      "sha256": "efc15d6d8a7a1aad0847865b81264a1802cd2577fd1e67b4f57054b4c1ea5c6a",
+      "bytes": 24341,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin3.png",
+      "sha256": "6e56461109e832ac2e1e3bc49526d1a79f7725f795a509eeaebca90556a9ff5d",
+      "bytes": 24773,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin4.png",
+      "sha256": "37d8792affa7a7ba09de33a13330d46f296b26fe9713d5af5935fc6e292ec7d1",
+      "bytes": 24961,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin5.png",
+      "sha256": "ac429809eafb4b09bc06bb71e6faf9e5f40839984d7ff18a860640fe3fd9fce5",
+      "bytes": 23596,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 10,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin5.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 40,
+          "kind": "direct",
+          "expression": "Texture/skin/big/BigCoin5.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin6.png",
+      "sha256": "19da47fe68004ef8f3023c75cc48b7ff10c0d21d882b2a6ad18f6b2984d0f34f",
+      "bytes": 25028,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin7.png",
+      "sha256": "396574fde0cf9a56dbe049294ade30e8d1fb74b19fd300afde6b3057a527e71a",
+      "bytes": 23322,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin8.png",
+      "sha256": "08b86fa884cc2666c1a15d78bcbbf047cd4f5e3462ec87cb5a1a525a5a2c2de7",
+      "bytes": 24815,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin9.png",
+      "sha256": "c3569a8c765761e3822f960da24d9a235205fe14fd10417927294e8b838c2995",
+      "bytes": 22971,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        5,
+        163,
+        167
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 138,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 153,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 43,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 77,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/1.png",
+      "sha256": "955100f43bfc051b9dc9db5ca89cf296360ea329d6c7cf2ffe80404dcffd0615",
+      "bytes": 7515,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/10.png",
+      "sha256": "bfcb9cb51c43bfc2073fe753c09444812d3848962273be68175f2d9b67bb6e89",
+      "bytes": 7341,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/11.png",
+      "sha256": "421ffcc537a6ca57869c9b1ba5100e342da0bb8e622379afe8b3acb07bd92a67",
+      "bytes": 7595,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/12.png",
+      "sha256": "376b636a09689ffe2e798a0a8f081d298c04993a9ace848be1f2274d68132960",
+      "bytes": 7658,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/13.png",
+      "sha256": "61b7258153240a741b068d09d4d2535135cb1846114af7a6c1dfd644ace58f9c",
+      "bytes": 7837,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/14.png",
+      "sha256": "8b4c6d3288414c9b45352790b1e6ffd45a11699e04bdf37713be2486c0079462",
+      "bytes": 7896,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/15.png",
+      "sha256": "cd11372980c06803339faf0357b70dc53d7b7961e224963b7ac33b2983d01142",
+      "bytes": 7741,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/16.png",
+      "sha256": "a2ac6961abb7d61f1346a95de5aef811920d495737a6225569f991c2b41fe96b",
+      "bytes": 7640,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/2.png",
+      "sha256": "5505f88cd9ef98da942f1751c326b843bbc9a9b3ac9499f062311ca0177650cf",
+      "bytes": 7277,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/3.png",
+      "sha256": "3e3771214a6ff3851348dbf6fa2caeab9779207b4041558e39013acf6428ff5c",
+      "bytes": 7563,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/4.png",
+      "sha256": "a3f4d624993c7919f9bbc4ecf75a822f598fd7d24b706307930530974eca450e",
+      "bytes": 7521,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/5.png",
+      "sha256": "4b4fbddaafc30a09c72a3b20e3036deb0838c06ddea5273afd5d621d5cd2e168",
+      "bytes": 7805,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/6.png",
+      "sha256": "a89da713034e26fc69fa86210c155e4ce1ecbd847a14d441ca8e8e38faf1d45c",
+      "bytes": 7670,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/7.png",
+      "sha256": "ae1c9badec10cdf7c926a97dd0ff0acfc0cb854e4a9d7519fcb208f154749196",
+      "bytes": 7698,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/8.png",
+      "sha256": "07b00211adaa5980a514f9bd59342c58b904ef085f1c78f17972e5e4dfafd0b4",
+      "bytes": 7690,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/normal/9.png",
+      "sha256": "02b4d800ed38d0cf45479bc3b8a6e98193ada136dd5a6bdd05c467a01aad30d2",
+      "bytes": 7461,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War1.png",
+      "sha256": "955100f43bfc051b9dc9db5ca89cf296360ea329d6c7cf2ffe80404dcffd0615",
+      "bytes": 7515,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War10.png",
+      "sha256": "bfcb9cb51c43bfc2073fe753c09444812d3848962273be68175f2d9b67bb6e89",
+      "bytes": 7341,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War11.png",
+      "sha256": "421ffcc537a6ca57869c9b1ba5100e342da0bb8e622379afe8b3acb07bd92a67",
+      "bytes": 7595,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War2.png",
+      "sha256": "5505f88cd9ef98da942f1751c326b843bbc9a9b3ac9499f062311ca0177650cf",
+      "bytes": 7277,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War3.png",
+      "sha256": "3e3771214a6ff3851348dbf6fa2caeab9779207b4041558e39013acf6428ff5c",
+      "bytes": 7563,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War4.png",
+      "sha256": "a3f4d624993c7919f9bbc4ecf75a822f598fd7d24b706307930530974eca450e",
+      "bytes": 7521,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War5.png",
+      "sha256": "4b4fbddaafc30a09c72a3b20e3036deb0838c06ddea5273afd5d621d5cd2e168",
+      "bytes": 7805,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War6.png",
+      "sha256": "a89da713034e26fc69fa86210c155e4ce1ecbd847a14d441ca8e8e38faf1d45c",
+      "bytes": 7670,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War7.png",
+      "sha256": "ae1c9badec10cdf7c926a97dd0ff0acfc0cb854e4a9d7519fcb208f154749196",
+      "bytes": 7698,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War8.png",
+      "sha256": "07b00211adaa5980a514f9bd59342c58b904ef085f1c78f17972e5e4dfafd0b4",
+      "bytes": 7690,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/Texture/skin/war/War9.png",
+      "sha256": "02b4d800ed38d0cf45479bc3b8a6e98193ada136dd5a6bdd05c467a01aad30d2",
+      "bytes": 7461,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 53,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/spine_cloud/could1.png",
+      "sha256": "18614a91e7e3ed85404e8c9b90cc7bf282f9bf4f40ee015b511d9b0fd12b2ba2",
+      "bytes": 173989,
+      "size": [
+        489,
+        347
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        488,
+        346
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 8,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/spine_cloud/could1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/spine_cloud/could2.png",
+      "sha256": "28894f070bc7948ad2048e49373dacee8d9f391bc56d3449cafa2cb31bdd830b",
+      "bytes": 190131,
+      "size": [
+        449,
+        419
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        448,
+        418
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 7,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/spine_cloud/could2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/spine_cloud/could3.png",
+      "sha256": "ed0c9790a7e291f5966dac0d03f159cae107590d19ae70f7fbbf5262f9c3ec4a",
+      "bytes": 417235,
+      "size": [
+        750,
+        533
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        749,
+        532
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 6,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/spine_cloud/could3.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/BG.png",
+      "sha256": "452c9de9fd6bb7cb16db4433b134b0f82c8089886b078d1107d671223af7e0a6",
+      "bytes": 28830,
+      "size": [
+        23,
+        1623
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        23,
+        1623
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 5,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/BG.png"
+        },
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 4,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/BG.png"
+        },
+        {
+          "source": "scripts/challenge_screen.gd",
+          "line": 21,
+          "kind": "direct",
+          "expression": "ui/BG.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Box2.png",
+      "sha256": "d4338dddfabdba89e8af910056740eefca77e5e3cb634cdf0c5bc998b980543a",
+      "bytes": 119442,
+      "size": [
+        321,
+        330
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        320,
+        329
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 9,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Box2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_Ad_broad.png",
+      "sha256": "845ce4ef10a7bcee2ab9de22d38479dfc6ba4a42318f9a8320fd3611d07b95ff",
+      "bytes": 18287,
+      "size": [
+        225,
+        96
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        224,
+        95
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 11,
+          "kind": "direct",
+          "expression": "Btn_Ad_broad.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_Begin_38px.png",
+      "sha256": "9f10a20417737e3255f5825d61f5db7b026fc6d201887a3e51f9287ec23056e9",
+      "bytes": 22182,
+      "size": [
+        162,
+        171
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        161,
+        170
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 9,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Btn_Begin_38px.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_Deal.png",
+      "sha256": "264c07fc8b243e3c6d5f40dd358497766351c3963b65bf41e5b70d9656227495",
+      "bytes": 29469,
+      "size": [
+        294,
+        147
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        293,
+        146
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 18,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Btn_Deal.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_Quit.png",
+      "sha256": "0fb28d270e2bddd495021599d13f59382002e6b321725648f2dd7ddb6372a228",
+      "bytes": 4331,
+      "size": [
+        81,
+        81
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        81,
+        81
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 5,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Btn_Quit.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 61,
+          "kind": "direct",
+          "expression": "ui/Btn_Quit.png"
+        },
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 89,
+          "kind": "direct",
+          "expression": "Btn_Quit.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_Setting_2acdf23c.png",
+      "sha256": "e08ca168a1b18423ee835e992309614b220fa4e6d5f27291d75df9f973eb45ba",
+      "bytes": 7307,
+      "size": [
+        91,
+        101
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        91,
+        101
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 8,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Btn_Setting_2acdf23c.png"
+        },
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 11,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Btn_Setting_2acdf23c.png"
+        },
+        {
+          "source": "scripts/challenge_screen.gd",
+          "line": 92,
+          "kind": "direct",
+          "expression": "ui/Btn_Setting_2acdf23c.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_War_24px.png",
+      "sha256": "5107f3a3f399837204fec53f15e48d254e4e9f4a721690603fb54447723217af",
+      "bytes": 16850,
+      "size": [
+        158,
+        130
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        157,
+        129
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 10,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Btn_War_24px.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_blue_25px.png",
+      "sha256": "5e5c31da5baf11ed80a88d87546848faced101f2524245198ba24f318ace98f4",
+      "bytes": 10409,
+      "size": [
+        117,
+        100
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        116,
+        99
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 9,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Btn_blue_25px.png"
+        },
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 8,
+          "kind": "direct",
+          "expression": "Btn_blue_25px.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_green_25px.png",
+      "sha256": "2dd40b977ffca37dcf74b17a5749530da41e4edaa74a9e33bc24375b46273572",
+      "bytes": 9020,
+      "size": [
+        113,
+        107
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        112,
+        106
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 10,
+          "kind": "direct",
+          "expression": "Btn_green_25px.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Btn_yellow_25px.png",
+      "sha256": "6c0b8f2994f30bdf93057bcf33251e84ecd19f93188a394a9de19419e2d68a39",
+      "bytes": 9457,
+      "size": [
+        107,
+        100
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        106,
+        99
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 10,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Btn_yellow_25px.png"
+        },
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 9,
+          "kind": "direct",
+          "expression": "Btn_yellow_25px.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/CoinBg.png",
+      "sha256": "b2db9caa5eb00cfd696f766c70d31b7ae146effe3b8703365e1256c24245f5d8",
+      "bytes": 4547,
+      "size": [
+        172,
+        83
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        172,
+        83
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge.gd",
+          "line": 81,
+          "kind": "direct",
+          "expression": "ui/CoinBg.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Gold_Small.png",
+      "sha256": "6d741d7348ad162d8b71f846842d8a308e734f76cfd3a5df244b1725cc6394b8",
+      "bytes": 4185,
+      "size": [
+        55,
+        55
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        54,
+        54
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 105,
+          "kind": "direct",
+          "expression": "Gold_Small.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Guide_Hand.png",
+      "sha256": "c8b133287f0e9481b1d0222faca8944c9692309663821612eb12cf3654613184",
+      "bytes": 21354,
+      "size": [
+        146,
+        144
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        14,
+        1,
+        131,
+        143
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_tutorial.gd",
+          "line": 43,
+          "kind": "direct",
+          "expression": "Guide_Hand.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Guide_Mask1.png",
+      "sha256": "aeb0591e054fd04b45711b61f520aa6f09549e6f57c4530b7d197b39003c5825",
+      "bytes": 1104,
+      "size": [
+        146,
+        252
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        146,
+        252
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_tutorial.gd",
+          "line": 59,
+          "kind": "direct",
+          "expression": "Guide_Mask1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Guide_Mask2.png",
+      "sha256": "81c442635752942bbf3c004774c6bcfdff35d14752ef6d31e18cdbf5b2486c20",
+      "bytes": 859,
+      "size": [
+        124,
+        164
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        124,
+        164
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_tutorial.gd",
+          "line": 59,
+          "kind": "direct",
+          "expression": "Guide_Mask2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Guide_Mask3.png",
+      "sha256": "4f5ba04ff1313ab0358fbbaf8f379e37be83e15d6b19d69238869f232f4c80ed",
+      "bytes": 1121,
+      "size": [
+        317,
+        158
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        317,
+        158
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_tutorial.gd",
+          "line": 59,
+          "kind": "direct",
+          "expression": "Guide_Mask3.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Icon_Lock.png",
+      "sha256": "7d686c8f4df1262dfe7bbdc064005a2254abe2920bfd4cecb6786d7d63894e1a",
+      "bytes": 1579,
+      "size": [
+        43,
+        57
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        6,
+        2,
+        37,
+        55
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 143,
+          "kind": "direct",
+          "expression": "ui/Icon_Lock.png"
+        },
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 18,
+          "kind": "direct",
+          "expression": "ui/Icon_Lock.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Icon_Unlock.png",
+      "sha256": "386bf8a49c97ad50c309c98fd454da67b2dc33fc0547a6c5fa1fdf573bb1cae8",
+      "bytes": 1913,
+      "size": [
+        49,
+        57
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        7,
+        0,
+        46,
+        55
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 19,
+          "kind": "direct",
+          "expression": "ui/Icon_Unlock.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Icon_ad_2.png",
+      "sha256": "d75fb9b5c1b7fd82503b044af4237f9b04c1cf3a5bfb284767bdb61228f3b854",
+      "bytes": 1909,
+      "size": [
+        72,
+        46
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        3,
+        4,
+        69,
+        42
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 20,
+          "kind": "direct",
+          "expression": "ui/Icon_ad_2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Icon_spot_1.png",
+      "sha256": "3c819642b297686979c308a2dcde4b9b5f210becc86429dd051434d15a2caef6",
+      "bytes": 1329,
+      "size": [
+        36,
+        36
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        36,
+        36
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 118,
+          "kind": "direct",
+          "expression": "ui/Icon_spot_1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Icon_spot_2.png",
+      "sha256": "7f3fd45f6685ec8fc72437a76d4662fff2f99763ea5908b24cdf20de51e6e463",
+      "bytes": 1580,
+      "size": [
+        36,
+        36
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        36,
+        36
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 83,
+          "kind": "direct",
+          "expression": "ui/Icon_spot_2.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 118,
+          "kind": "direct",
+          "expression": "ui/Icon_spot_2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/LaserLight.png",
+      "sha256": "542c97a19670c7979a3f57d0cd7cef434276b9ea1b949231cf558e73e311943e",
+      "bytes": 3551,
+      "size": [
+        122,
+        180
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        24,
+        0,
+        98,
+        180
+      ],
+      "alpha_range": [
+        0,
+        253
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 185,
+          "kind": "direct",
+          "expression": "ui/LaserLight.png"
+        },
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 56,
+          "kind": "direct",
+          "expression": "ui/LaserLight.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 75,
+          "kind": "direct",
+          "expression": "ui/LaserLight.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Light1.png",
+      "sha256": "92441641737a492ab903bbee7b466f6189bf1b08705851f7b763d5632965eab8",
+      "bytes": 457,
+      "size": [
+        24,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        23,
+        23
+      ],
+      "alpha_range": [
+        0,
+        226
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 13,
+          "kind": "direct",
+          "expression": "ui/Light1.png"
+        },
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 53,
+          "kind": "direct",
+          "expression": "ui/Light1.png"
+        },
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 257,
+          "kind": "direct",
+          "expression": "ui/Light1.png"
+        },
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 307,
+          "kind": "direct",
+          "expression": "ui/Light1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/PanelBG.png",
+      "sha256": "aaa60d94e052f068496cfb6b95cf6e6caaf5f48e9eed1a72cf50017421d3f232",
+      "bytes": 85809,
+      "size": [
+        316,
+        243
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        315,
+        242
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 4,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/PanelBG.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 46,
+          "kind": "direct",
+          "expression": "ui/PanelBG.png"
+        },
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 63,
+          "kind": "direct",
+          "expression": "PanelBG.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Pieces1.png",
+      "sha256": "049153e4026c8d12cdcf4d892bca7b2597786a0c4a36f7e064aa4c78b30a2754",
+      "bytes": 524,
+      "size": [
+        20,
+        28
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        20,
+        28
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 160,
+          "kind": "direct",
+          "expression": "ui/Pieces1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Pieces2.png",
+      "sha256": "7a4d8b1446dc8a6d8d83cb004bfa06f3a17c2a4d0b621899143f673984ee62d7",
+      "bytes": 510,
+      "size": [
+        24,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 212,
+          "kind": "direct",
+          "expression": "ui/Pieces2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/ProcessBG.png",
+      "sha256": "1d2b53797e6e9ee3919aa8b6facd203e50fc50283b0eaf6ae3fe2de37b01c633",
+      "bytes": 2800,
+      "size": [
+        124,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        124,
+        64
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge.gd",
+          "line": 88,
+          "kind": "direct",
+          "expression": "ui/ProcessBG.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Set_broad.png",
+      "sha256": "e90a5ab27e6aa474ea219fd49f7848363ad2137eed414d6573b16fa6c79d45c3",
+      "bytes": 3642,
+      "size": [
+        129,
+        78
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        129,
+        78
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 6,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Set_broad.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Set_broad_2.png",
+      "sha256": "d7098cb1773024099a4bea951afcd0797bfdeec489dd0dc6c09476cc6f3f7ced",
+      "bytes": 3551,
+      "size": [
+        128,
+        78
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        128,
+        78
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 7,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Set_broad_2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/Set_btn.png",
+      "sha256": "f74be510e925f3f7a53154731936e5206b0f45279a1ab520f84a28276a386b0f",
+      "bytes": 2351,
+      "size": [
+        54,
+        58
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        54,
+        58
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 8,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/Set_btn.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/TargetBG_4.png",
+      "sha256": "c96506c625859e295be090f2b74e971c633f4b0055e1ec8b90b408acc70aa93b",
+      "bytes": 5770,
+      "size": [
+        113,
+        112
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        3,
+        3,
+        110,
+        109
+      ],
+      "alpha_range": [
+        0,
+        221
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 19,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/TargetBG_4.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 31,
+          "kind": "direct",
+          "expression": "ui/TargetBG_4.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/TargetBG_4_b515ca35.png",
+      "sha256": "7900a7ff565c7fd605667238fd42e3a4539606608a6a8d096796bea529c30447",
+      "bytes": 3995,
+      "size": [
+        77,
+        77
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        77,
+        77
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 15,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/TargetBG_4_b515ca35.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 32,
+          "kind": "direct",
+          "expression": "ui/TargetBG_4_b515ca35.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/TargetBG_4_d27bfba7.png",
+      "sha256": "3b6b598f5c01f2d2e337aae3aa63f7000f16909aa6369af9d7fe894cf5603443",
+      "bytes": 2213,
+      "size": [
+        68,
+        54
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        5,
+        2,
+        63,
+        48
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 16,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/TargetBG_4_d27bfba7.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 54,
+          "kind": "direct",
+          "expression": "ui/TargetBG_4_d27bfba7.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/TargetBar.png",
+      "sha256": "e9a9a4ce8be16c3a6cc72214d01eb0b36f583d593960f37da65dd0d7e5fd9a25",
+      "bytes": 1076,
+      "size": [
+        50,
+        28
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        50,
+        28
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 12,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/TargetBar.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/logo_en.png",
+      "sha256": "2a8f7dce8fa10032f0cef401a9f00ea9c117193c098c2ee3fda7635e11ccc7d5",
+      "bytes": 162232,
+      "size": [
+        1286,
+        1223
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        265,
+        91,
+        1028,
+        923
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 14,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/logo_en.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/reskin/ceramic/sprites/ui/logo_zh.png",
+      "sha256": "6e18c9ef1e7b8878048d946d23b496b50786bd2f103db1116d4e3337b5a94f89",
+      "bytes": 154308,
+      "size": [
+        1402,
+        1122
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        149,
+        79,
+        1240,
+        790
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 5,
+          "kind": "direct",
+          "expression": "res://assets/reskin/ceramic/sprites/ui/logo_zh.png"
+        }
+      ],
+      "runtime_used": true
+    }
+  ],
+  "unresolved": [],
+  "fonts": [
+    {
+      "path": "assets/reskin/ceramic/fonts/CoinMergeUI.ttf",
+      "references": [
+        "scenes/game.tscn:11",
+        "scenes/main_menu.tscn:16",
+        "scenes/settings_dialog.tscn:12"
+      ]
+    }
+  ],
+  "system_font_sources": [],
+  "retained_original_audio": [
+    {
+      "name": "chooseCoin",
+      "path": "assets/rea_original/audio/chooseCoin.mp3",
+      "references": [
+        "scripts/challenge.gd:213",
+        "scripts/challenge.gd:220",
+        "scripts/game.gd:171",
+        "scripts/game.gd:181"
+      ]
+    },
+    {
+      "name": "click",
+      "path": "assets/rea_original/audio/click.mp3",
+      "references": [
+        "scenes/game.tscn:7",
+        "scenes/main_menu.tscn:12",
+        "scripts/challenge.gd:353",
+        "scripts/challenge.gd:365",
+        "scripts/challenge.gd:422",
+        "scripts/challenge_menu.gd:181",
+        "scripts/challenge_menu.gd:197",
+        "scripts/challenge_menu.gd:287",
+        "scripts/challenge_menu.gd:297",
+        "scripts/challenge_screen.gd:39",
+        "scripts/challenge_screen.gd:130",
+        "scripts/game.gd:647"
+      ]
+    },
+    {
+      "name": "combo",
+      "path": "assets/rea_original/audio/combo.mp3",
+      "references": [
+        "scripts/game.gd:363"
+      ]
+    },
+    {
+      "name": "getArea",
+      "path": "assets/rea_original/audio/getArea.mp3",
+      "references": [
+        "scripts/game.gd:400"
+      ]
+    },
+    {
+      "name": "get_coin",
+      "path": "assets/rea_original/audio/get_coin.mp3",
+      "references": [
+        "scripts/challenge.gd:310"
+      ]
+    },
+    {
+      "name": "giveCoin",
+      "path": "assets/rea_original/audio/giveCoin.mp3",
+      "references": [
+        "scripts/game.gd:253"
+      ]
+    },
+    {
+      "name": "giveCoin2",
+      "path": "assets/rea_original/audio/giveCoin2.mp3",
+      "references": [
+        "scripts/challenge.gd:174"
+      ]
+    },
+    {
+      "name": "merge",
+      "path": "assets/rea_original/audio/merge.mp3",
+      "references": [
+        "scripts/game.gd:334"
+      ]
+    },
+    {
+      "name": "placeCoin",
+      "path": "assets/rea_original/audio/placeCoin.mp3",
+      "references": [
+        "scripts/challenge.gd:294",
+        "scripts/game.gd:232"
+      ]
+    },
+    {
+      "name": "resetStart",
+      "path": "assets/rea_original/audio/resetStart.mp3",
+      "references": [
+        "scripts/game.gd:458"
+      ]
+    },
+    {
+      "name": "tz_full",
+      "path": "assets/rea_original/audio/tz_full.mp3",
+      "references": [
+        "scripts/challenge.gd:274"
+      ]
+    },
+    {
+      "name": "unlockArea",
+      "path": "assets/rea_original/audio/unlockArea.mp3",
+      "references": [
+        "scripts/game.gd:351"
+      ]
+    },
+    {
+      "name": "warn",
+      "path": "assets/rea_original/audio/warn.mp3",
+      "references": [
+        "scripts/challenge.gd:241",
+        "scripts/game.gd:204"
+      ]
+    },
+    {
+      "name": "win",
+      "path": "assets/rea_original/audio/win.mp3",
+      "references": [
+        "scripts/game.gd:348"
+      ]
+    }
+  ]
+}

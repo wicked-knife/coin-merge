@@ -1,4 +1,6 @@
 extends Node2D
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
+const ROOT := Ceramic.SPRITES
 ## Cocos gravity emitter port: per-particle lifespan/size/color variation and rate.
 ## Keeping this simulation avoids losing Cocos' >100% lifespan variation in Godot.
 var config: Dictionary
@@ -13,7 +15,7 @@ var _gravity := Vector2.ZERO
 func configure(data: Dictionary, loop: bool) -> void:
 	config = data
 	continuous = loop
-	texture = load("res://assets/rea_original/sprites/" + config.texture)
+	texture = load(ROOT + config.texture)
 	var g: Array = config.get("gravity", [0, 0, 0])
 	_gravity = Vector2(g[1], -g[2])
 	var blend := CanvasItemMaterial.new()

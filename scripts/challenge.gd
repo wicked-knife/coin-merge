@@ -81,8 +81,8 @@ func _build_interface() -> void:
 	layout.add_child(texture(preload(UI_ROOT + "ui/CoinBg.png"), Vector2(235, 58.5), Vector2(280, 71)))
 	_title = label("", Vector2(254, 64), Vector2(125, 56), 34)
 	_timer_label = label("00:00", Vector2(379, 64), Vector2(121, 56), 34)
-	_title.add_theme_color_override("font_color", Color.WHITE)
-	_timer_label.add_theme_color_override("font_color", Color.WHITE)
+	_title.add_theme_color_override("font_color", Ceramic.INK)
+	_timer_label.add_theme_color_override("font_color", Ceramic.INK)
 	layout.add_child(_title)
 	layout.add_child(_timer_label)
 	layout.add_child(texture(preload(UI_ROOT + "ui/ProcessBG.png"), Vector2(600, 1246), Vector2(124, 64)))
@@ -438,6 +438,7 @@ func _home() -> void:
 
 func _refresh_language() -> void:
 	_title.text = tr("challenge.hud_level") % _display_level
+	DialogStyle.fit_label(_title, 125, 34)
 	if _record_mode:
 		_timer_label.text = Rules.format_time(game.best_times[str(_display_level)])
 	if _record_mode:

@@ -1,4 +1,5 @@
 extends Control
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 signal dismissed
 const FX = preload("res://scripts/normal_effects.gd")
 var _tween: Tween
@@ -43,10 +44,7 @@ func _text(message: String, y: float, font_size: int, color: Color) -> void:
 	label.add_theme_font_size_override("font_size", font_size)
 	label.add_theme_color_override("font_color", color)
 	if font_size == 48:
-		var font := SystemFont.new()
-		font.font_names = PackedStringArray(["Microsoft YaHei", "Arial"])
-		font.font_weight = 700
-		label.add_theme_font_override("font", font)
+		label.add_theme_font_override("font", Ceramic.FONT)
 	label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(label)
 

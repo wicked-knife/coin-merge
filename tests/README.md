@@ -1,5 +1,18 @@
 # 普通模式验证
 
+## 陶瓷图片与字体换皮
+
+运行资源位于 `assets/reskin/ceramic/`，来源、逐项映射、许可证、原资源摘要与截图见 [换皮清单](../docs/实际引用图片与换皮清单.md)。图片和字体已替换，14 种原作音效仍需授权或重制。原图片与字体保留为历史证据并由 `.gdignore` 排除。
+
+```powershell
+python -X utf8 tools/audit_image_usage.py --output docs/reskin/after.json --check
+& 'D:/godot/Godot_v4.7.2-stable_win64_console.exe' --path . --rendering-method gl_compatibility --script res://tests/ceramic_skin_test.gd -- --visual
+```
+
+专项检查覆盖 42 张动态币图的加载与尺寸、11 组币面与箭头配色、所有翻译字符和禁用系统字体回退。`--visual` 另保存中英菜单、设置与配色图到 `docs/reskin/after/`，使用临时设置对象，不保存玩家偏好。现有挑战流程的锁关关闭检查仍有 1 项基线失败，换皮没有新增失败。
+
+## 普通模式规则与流程
+
 在项目根目录使用 Godot 4.7（Windows 使用带 `_console.exe` 的命令）运行：
 
 ```powershell

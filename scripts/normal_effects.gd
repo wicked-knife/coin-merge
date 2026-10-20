@@ -1,10 +1,11 @@
 extends RefCounted
-## Native Godot emitters using the captured textures and motion parameters.
-const ROOT := "res://assets/rea_original/sprites/"
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
+## Original ceramic textures with the existing emitter and motion parameters.
+const ROOT := Ceramic.SPRITES
 const ParticleView = preload("res://scripts/normal_particles.gd")
 const ParticleData = preload("res://scripts/normal_particle_data.gd")
 const Motion = preload("res://scripts/normal_motion.gd")
-const NUMBERS = preload("res://assets/rea_original/fonts/number01/number01.fnt")
+const NUMBERS = Ceramic.FONT
 
 
 static func particles(parent: Node, at: Vector2, kind: String = "reveal", continuous: bool = false, variant: int = 0) -> Node2D:
@@ -26,13 +27,9 @@ static func combo(parent: Control, count: int) -> void:
 	label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	label.text = TranslationServer.translate("normal.combo_%d" % mini(count, 9))
 	label.add_theme_font_size_override("font_size", 60 + 4 * mini(count - 2, 6))
-	var font := SystemFont.new()
-	font.font_names = PackedStringArray(["Microsoft YaHei", "Arial"])
-	font.font_weight = 700
-	font.font_italic = true
-	label.add_theme_font_override("font", font)
-	label.add_theme_color_override("font_color", Color("ffc832"))
-	label.add_theme_color_override("font_outline_color", Color("c86400"))
+	label.add_theme_font_override("font", Ceramic.FONT)
+	label.add_theme_color_override("font_color", Color("f5e3ac"))
+	label.add_theme_color_override("font_outline_color", Ceramic.INK)
 	label.add_theme_constant_override("outline_size", 6)
 	label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	parent.add_child(label)
@@ -55,6 +52,7 @@ static func big_coin(parent: Node, value: int, dimensions: Vector2 = Vector2(200
 	label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	label.add_theme_font_override("font", NUMBERS)
+	label.add_theme_color_override("font_color", Ceramic.INK)
 	label.add_theme_font_size_override("font_size", int(dimensions.x * 0.5))
 	label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	coin.add_child(label)

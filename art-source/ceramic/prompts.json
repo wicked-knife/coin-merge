@@ -1,0 +1,88 @@
+{
+  "model": "gpt-image-2.5",
+  "mode": "CLI",
+  "input_images": [],
+  "jobs": [
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. A single thick circular ivory ceramic token, smooth blank inset face bordered by one soft rounded lip. Viewed from above at 32 degrees, horizontal elliptical face, visible front thickness; silhouette width to height about 1.55. Absolutely no holes, letters or separate stand. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "coin-angle.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. A wide blank rounded rectangular ivory ceramic plaque, directly front-on, width to height 1.30. Broad smooth empty inner area with a subtle recessed rim and gently rounded corners, no header, no markings. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "panel.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. A single round ivory ceramic token, viewed exactly front-on, circular silhouette, smooth blank inset face and a restrained rounded ceramic rim, no decoration in the center. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "coin-front.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. An empty softly textured warm cream ceramic work surface filling the entire image edge to edge. Very subtle sand and ivory gradient with almost invisible speckles. Uniform diffuse lighting. No objects, no frame, no seam, no horizon. This is an opaque background texture, NOT a magenta cutout. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "background.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. A square ivory ceramic sorting tray viewed directly front-on, low rounded raised rim at the perimeter only, large smooth flat empty inner space, no internal subdivisions and no objects. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "tray.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. A single narrow tall recessed ceramic groove, directly front-on, width to height 0.57, rounded rectangular outer outline, soft concave inner surface, continuous shallow rim, no internal lines or objects. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "slot.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. A single blank horizontal pill shaped ceramic button, width to height 2.3, exactly front-on. Rounded ivory ceramic body with a softly beveled perimeter, broad plain empty face, no symbols and no text. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "button.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. A single blank vertical rounded rectangular ceramic tile, width to height 0.70. Exactly front-on, softly beveled perimeter, wide empty ivory face, no patterns or symbols. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "card.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. One puffy asymmetrical ivory cloud sculpted from smooth matte white ceramic, three rounded lobes of different sizes and a soft gently curved flat base, horizontal silhouette, no face or marks. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "cloud.png"
+    },
+    {
+      "model": "gpt-image-2.5",
+      "prompt": "Original art for an independent ceramic coin sorting game. Soft matte ivory porcelain, handcrafted restrained design, subtle clay texture, rounded bevels, warm diffuse upper-left lighting, orthographic product render, crisp silhouette, no text, no letters, no numbers, no branding, no watermark. One friendly minimal ivory cartoon hand pointer sculpture, index finger pointing diagonally to the upper left, thumb visible, three other fingers curled naturally, simplified mitten-like proportions, soft ceramic material, no sleeve or other objects. One isolated object centered, fully inside frame with generous empty margin. Background must be perfectly flat solid bright magenta RGB 255 0 255, no gradient, no ground plane, no cast shadow outside the object, no other objects. The object itself contains no magenta or pink. ",
+      "size": "1024x1024",
+      "quality": "medium",
+      "n": 1,
+      "out": "hand.png"
+    }
+  ],
+  "max_concurrency": 2
+}

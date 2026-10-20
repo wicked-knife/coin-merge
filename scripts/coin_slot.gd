@@ -1,5 +1,6 @@
 class_name CoinSlot
 extends Control
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 
 signal pressed(index: int)
 
@@ -7,7 +8,7 @@ const Rules = preload("res://scripts/normal_game.gd")
 const CoinVisual = preload("res://scripts/coin_visual.gd")
 const Motion = preload("res://scripts/normal_motion.gd")
 const FX = preload("res://scripts/normal_effects.gd")
-const ROOT := "res://assets/rea_original/sprites/"
+const ROOT := Ceramic.SPRITES
 const OPEN = preload(ROOT + "Texture/skin/BG_Trench.png")
 const MERGE_HIGHLIGHT = preload(ROOT + "Texture/skin/BG_Trench_Merge.png")
 const LOCKED = preload(ROOT + "Texture/skin/BG_Lock.png")

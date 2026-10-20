@@ -1,0 +1,5933 @@
+[
+  {
+    "original": "assets/rea_original/fonts/number01/number01.png",
+    "original_sha256": "c78c7fb8b0351176217cbcd3fff4645f0ebe5ed233b6b68c9d52b62ead068208",
+    "replacement": null,
+    "method": "removed: TTF",
+    "status": "removed",
+    "purpose": "旧数字位图字体页；经 number01.fnt 间接引用",
+    "old_size": [
+      238,
+      92
+    ],
+    "old_alpha_bbox": [
+      2,
+      2,
+      234,
+      89
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 59.02,
+      "semi_percent": 8.04,
+      "magenta_pixels": 0
+    },
+    "new_alpha": null,
+    "references": [
+      {
+        "source": "assets/rea_original/fonts/number01/number01.fnt",
+        "line": 3,
+        "kind": "font-page",
+        "expression": "number01.png"
+      }
+    ],
+    "replacement_reachable": false
+  },
+  {
+    "original": "assets/rea_original/particles/atom.texture.png",
+    "original_sha256": "439648466918f220deb47dddc124f5c4c066b2b52b83a8bd9808ec7cb44d7046",
+    "replacement": "assets/reskin/ceramic/particles/atom.texture.png",
+    "method": "geometry gradient",
+    "sha256": "c73250005d5feda2def659cdb72c797c90aeb6945bde139ce8c1673f78103c63",
+    "size": [
+      31,
+      31
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      30,
+      30
+    ],
+    "status": "replaced",
+    "purpose": "粒子微光点（相对 ../particles 动态加载）",
+    "old_size": [
+      31,
+      31
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      31,
+      31
+    ],
+    "old_alpha_range": [
+      0,
+      250
+    ],
+    "old_alpha": {
+      "transparent_percent": 26.64,
+      "semi_percent": 73.36,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 29.14,
+      "semi_percent": 70.76,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/normal_particle_data.gd",
+        "line": 106,
+        "kind": "direct",
+        "expression": "../particles/atom.texture.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/Challenge/BG_Choose.png",
+    "original_sha256": "1878fc6f71ddde5040483f88007587838f60bf2821dfb096a15474b331db951b",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/Challenge/BG_Choose.png",
+    "method": "geometry",
+    "sha256": "55967b86fcd40e4ced262d38db0ab52294de34fcd825ac52db7068b8450dcb10",
+    "size": [
+      122,
+      160
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      122,
+      160
+    ],
+    "status": "replaced",
+    "purpose": "当前挑战卡片选中边框",
+    "old_size": [
+      122,
+      160
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      122,
+      160
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 59.02,
+      "semi_percent": 15.98,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 84.06,
+      "semi_percent": 13.14,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 150,
+        "kind": "direct",
+        "expression": "BG_Choose.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/Challenge/Flag.png",
+    "original_sha256": "4adeb8995176f4d444ffe4707bb7972db28f676070eea2f1f28433e20f8ec9e5",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/Challenge/Flag.png",
+    "method": "geometry",
+    "sha256": "f8c7a27257822e1f4387ac073f13be94a47e42c9dbf32c57691271bc502abd18",
+    "size": [
+      48,
+      60
+    ],
+    "alpha_bbox": [
+      6,
+      5,
+      44,
+      56
+    ],
+    "status": "replaced",
+    "purpose": "当前挑战卡片标志",
+    "old_size": [
+      48,
+      60
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      48,
+      60
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 46.39,
+      "semi_percent": 3.47,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 72.53,
+      "semi_percent": 14.83,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 151,
+        "kind": "direct",
+        "expression": "Flag.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/Challenge/LevelBG.png",
+    "original_sha256": "6f7884133d4230dc72aa450883ceebcbec8eafcc79c8f8bd0aa0900b8250d6b2",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/Challenge/LevelBG.png",
+    "method": "card + geometry",
+    "sha256": "f77b737c391ad6a760c2b6cfa2e83f8938838ca97d99f1e9ac302ffacee0f31e",
+    "size": [
+      90,
+      128
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      89,
+      127
+    ],
+    "status": "replaced",
+    "purpose": "挑战关卡卡片底板",
+    "old_size": [
+      90,
+      128
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      90,
+      128
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 0.8,
+      "semi_percent": 0.61,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 4.44,
+      "semi_percent": 5.85,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 140,
+        "kind": "direct",
+        "expression": "LevelBG.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/Challenge/Partten.png",
+    "original_sha256": "eb667b769af7a9176d2227456901ce74a483f027815f7cfe41f33f5d2d9a902d",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/Challenge/Partten.png",
+    "method": "card + geometry",
+    "sha256": "3a8961e18336f99510518de10db2f6c285a42a093fc76408a6f205f9f9e7d10d",
+    "size": [
+      90,
+      128
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      89,
+      127
+    ],
+    "status": "replaced",
+    "purpose": "已完成挑战卡片",
+    "old_size": [
+      90,
+      128
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      90,
+      128
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 0.8,
+      "semi_percent": 3.75,
+      "magenta_pixels": 944
+    },
+    "new_alpha": {
+      "transparent_percent": 4.44,
+      "semi_percent": 5.85,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 154,
+        "kind": "direct",
+        "expression": "Partten.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/Challenge/Unlock.png",
+    "original_sha256": "9248bb7b4d80d31039180e92a4da2b2b7158c9dc081b4c4ca43c7402cadf5788",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/Challenge/Unlock.png",
+    "method": "geometry",
+    "sha256": "b594a0c306dd4cbb97824b03940dd5130d823d5294e4fc00f8c4749ae4169cf5",
+    "size": [
+      49,
+      64
+    ],
+    "alpha_bbox": [
+      7,
+      0,
+      46,
+      62
+    ],
+    "status": "replaced",
+    "purpose": "可挑战卡片标志",
+    "old_size": [
+      49,
+      64
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      49,
+      64
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 22.1,
+      "semi_percent": 8.2,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 54.82,
+      "semi_percent": 19.1,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 145,
+        "kind": "direct",
+        "expression": "Unlock.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/BG_Lock.png",
+    "original_sha256": "c476ba2aef258b75f1ab57ab9198ec0534d5637b74d977d51f521b054732204b",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/BG_Lock.png",
+    "method": "slot",
+    "sha256": "c46aa1af3df8675dfa10fded46a3e87184c077aa1afbddb187941c4a87d95fcb",
+    "size": [
+      114,
+      205
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      113,
+      204
+    ],
+    "status": "replaced",
+    "purpose": "锁定槽底板",
+    "old_size": [
+      114,
+      205
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      113,
+      204
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 3.08,
+      "semi_percent": 3.23,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 3.99,
+      "semi_percent": 4.75,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 10,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/BG_Lock.png"
+      },
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 13,
+        "kind": "direct",
+        "expression": "Texture/skin/BG_Lock.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/BG_Lock2.png",
+    "original_sha256": "e10e54255d86856ae754faffa8bd3b9cb9f5213bb075c9890663b0b5e2411f03",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/BG_Lock2.png",
+    "method": "slot",
+    "sha256": "554f79bbcb5bfe807eb432f5671b118dbdd9331fce99a844299162c009483a5a",
+    "size": [
+      110,
+      200
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      109,
+      199
+    ],
+    "status": "replaced",
+    "purpose": "可解锁槽 / 扫光底板",
+    "old_size": [
+      110,
+      200
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      110,
+      200
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 0.42,
+      "semi_percent": 0.25,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 4.09,
+      "semi_percent": 4.82,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 14,
+        "kind": "direct",
+        "expression": "Texture/skin/BG_Lock2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/BG_Lock_AD.png",
+    "original_sha256": "474f4011ba867c534ff2ec536e6cd3456fcab40c0e225447a9011c544f57391a",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/BG_Lock_AD.png",
+    "method": "slot",
+    "sha256": "9cc08f670333a3f20c12d0c4f536a85ee931c5ca736280ba1bca6aeab34722e7",
+    "size": [
+      112,
+      203
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      111,
+      202
+    ],
+    "status": "replaced",
+    "purpose": "奖励槽底板",
+    "old_size": [
+      112,
+      203
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      112,
+      203
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 0.38,
+      "semi_percent": 3.2,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 4.06,
+      "semi_percent": 4.75,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 16,
+        "kind": "direct",
+        "expression": "Texture/skin/BG_Lock_AD.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/BG_Trench.png",
+    "original_sha256": "16d3f22833b1f0454e22470b8679ed8321af198f308ac26712c43aad1ae9707a",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/BG_Trench.png",
+    "method": "slot",
+    "sha256": "e86ded444716230f037c71ff49cd52e95f6cf8e702594e43ac79b6d7afaa70d4",
+    "size": [
+      122,
+      213
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      121,
+      212
+    ],
+    "status": "replaced",
+    "purpose": "开放槽底板",
+    "old_size": [
+      122,
+      213
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      121,
+      212
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 3.28,
+      "semi_percent": 20.59,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 3.87,
+      "semi_percent": 4.58,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 12,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/BG_Trench.png"
+      },
+      {
+        "source": "scripts/challenge_slot.gd",
+        "line": 39,
+        "kind": "direct",
+        "expression": "Texture/skin/BG_Trench.png"
+      },
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 11,
+        "kind": "direct",
+        "expression": "Texture/skin/BG_Trench.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/BG_Trench_Merge.png",
+    "original_sha256": "0db84d5c04ccd468ed087e841a992416f9a8b1b473e94002334805762b7e8e8e",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/BG_Trench_Merge.png",
+    "method": "geometry",
+    "sha256": "f58f2242bfc2f5f5f498e2b703c743bdbb46e2a9ab67f3214758b0da4761dd77",
+    "size": [
+      132,
+      222
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      132,
+      222
+    ],
+    "status": "replaced",
+    "purpose": "可合并描边与光效",
+    "old_size": [
+      132,
+      222
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      132,
+      222
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 75.62,
+      "semi_percent": 11.91,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 86.53,
+      "semi_percent": 11.12,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 12,
+        "kind": "direct",
+        "expression": "Texture/skin/BG_Trench_Merge.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/Bg_Mask.png",
+    "original_sha256": "3d7f11992d7ba9f3d41efb6508cc0c0a79aee97beec90f8e677b733d8ec58e00",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/Bg_Mask.png",
+    "method": "geometry",
+    "sha256": "686ee0895880c251b887d9793efe58e293d93ba3d5ae8a3b76cd1815e750d6ab",
+    "size": [
+      32,
+      32
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "status": "replaced",
+    "purpose": "挑战棋盘背景 / 槽底遮挡",
+    "old_size": [
+      32,
+      32
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "old_alpha_range": [
+      248,
+      248
+    ],
+    "old_alpha": {
+      "transparent_percent": 0.0,
+      "semi_percent": 100.0,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 0.0,
+      "semi_percent": 0.0,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge.gd",
+        "line": 76,
+        "kind": "direct",
+        "expression": "Texture/skin/Bg_Mask.png"
+      },
+      {
+        "source": "scripts/challenge_slot.gd",
+        "line": 45,
+        "kind": "direct",
+        "expression": "Texture/skin/Bg_Mask.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/CoinMask.png",
+    "original_sha256": "160f5960018beb9632c31374fec82aa857cde51405b910fa04b1aaa0851c4761",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/CoinMask.png",
+    "method": "geometry",
+    "sha256": "43e90672e86bbd906edca460e139227cd8ca095f38279c2425ef895470631f6c",
+    "size": [
+      100,
+      229
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      100,
+      229
+    ],
+    "status": "replaced",
+    "purpose": "挑战币扫光的 alpha 蒙版",
+    "old_size": [
+      100,
+      229
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      100,
+      229
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 4.58,
+      "semi_percent": 1.1,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 3.42,
+      "semi_percent": 7.71,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_slot.gd",
+        "line": 183,
+        "kind": "direct",
+        "expression": "Texture/skin/CoinMask.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/ColorArrow.png",
+    "original_sha256": "ff973489e5a0bc21315cabd04e80f1e4797c607b8520c825c6604f59a1860e3d",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/ColorArrow.png",
+    "method": "geometry",
+    "sha256": "5ddbfed148b08f56847e85bd370f20f0b88f2776ce5ccde3542b0206532bd699",
+    "size": [
+      32,
+      21
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      32,
+      21
+    ],
+    "status": "replaced",
+    "purpose": "可调色挑战目标箭头（白色源图）",
+    "old_size": [
+      32,
+      21
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      32,
+      21
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 35.71,
+      "semi_percent": 9.52,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 46.88,
+      "semi_percent": 30.8,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_slot.gd",
+        "line": 49,
+        "kind": "direct",
+        "expression": "Texture/skin/ColorArrow.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/Icon_QuestionMark.png",
+    "original_sha256": "e805ed1fb902ab0e49c456cb929e9b997fca9171bf4513a19b959d92a286ddc5",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/Icon_QuestionMark.png",
+    "method": "geometry + OFL font",
+    "sha256": "e3c8c8d88911e2cb5a1733c59050b7ca2801f3fe17db1f4a1b61be15e3b94613",
+    "size": [
+      40,
+      53
+    ],
+    "alpha_bbox": [
+      7,
+      3,
+      33,
+      48
+    ],
+    "status": "replaced",
+    "purpose": "隐藏币问号",
+    "old_size": [
+      40,
+      53
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      40,
+      53
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 30.9,
+      "semi_percent": 29.62,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 76.23,
+      "semi_percent": 17.55,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 43,
+        "kind": "direct",
+        "expression": "Texture/skin/Icon_QuestionMark.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/TargetArrow1.png",
+    "original_sha256": "b9422c1447c49819c1e9af2c340cf9ed2401c3bb13684a0b7a17d72b20798020",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/TargetArrow1.png",
+    "method": "geometry",
+    "sha256": "a7fb9e28c2a4913f1bf53d80b1565e9d8ba25d7f56c5085a2a9d817baa509509",
+    "size": [
+      20,
+      17
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      20,
+      17
+    ],
+    "status": "replaced",
+    "purpose": "普通目标指示箭头",
+    "old_size": [
+      20,
+      17
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      20,
+      17
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 36.47,
+      "semi_percent": 28.24,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 43.53,
+      "semi_percent": 38.82,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 21,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/TargetArrow1.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/TargetBG_1.png",
+    "original_sha256": "7dfe1f5c02965196cf0babd6cf2d60435b78d9c961d9918e139538f147ad80f0",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/TargetBG_1.png",
+    "method": "geometry",
+    "sha256": "acdbb204ab9d8d3538d11c9b9aa3445301348aae714a150374f3c0f2d43eae05",
+    "size": [
+      56,
+      56
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      56,
+      56
+    ],
+    "status": "replaced",
+    "purpose": "未到达的目标底板",
+    "old_size": [
+      56,
+      56
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      56,
+      56
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 19.39,
+      "semi_percent": 6.38,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.23,
+      "semi_percent": 16.2,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 17,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/TargetBG_1.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 31,
+        "kind": "direct",
+        "expression": "Texture/skin/TargetBG_1.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/TargetBG_2.png",
+    "original_sha256": "d298489420f0e1b18db9c08fdae08e5b0efa6368365b0207700f200f99c3ff00",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/TargetBG_2.png",
+    "method": "geometry",
+    "sha256": "d4328f02668341040c6981efe965629d0e092aeb9483133ed04f72e0ddbd3772",
+    "size": [
+      72,
+      74
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      72,
+      74
+    ],
+    "status": "replaced",
+    "purpose": "当前目标圆环",
+    "old_size": [
+      72,
+      74
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      72,
+      74
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.42,
+      "semi_percent": 3.42,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 75.83,
+      "semi_percent": 18.92,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 18,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/TargetBG_2.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 38,
+        "kind": "direct",
+        "expression": "Texture/skin/TargetBG_2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/TargetBG_5.png",
+    "original_sha256": "052221064f28e94d0ee792fd6a5db906779d8d9f34afd6742a8f1f66c8b0031d",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/TargetBG_5.png",
+    "method": "geometry",
+    "sha256": "0faadec90609b3f3ff2547f9449506e36077d822863f518bd3c0ac05215e5a51",
+    "size": [
+      56,
+      56
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      56,
+      56
+    ],
+    "status": "replaced",
+    "purpose": "已完成目标标记",
+    "old_size": [
+      56,
+      56
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      56,
+      56
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 19.39,
+      "semi_percent": 5.48,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.01,
+      "semi_percent": 16.14,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 40,
+        "kind": "direct",
+        "expression": "Texture/skin/TargetBG_5.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/Tick.png",
+    "original_sha256": "b824f26c5cf9a0bf57637ec72c493acdf08f3f13ec54a4cd9dcf9e1992a4b6dd",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/Tick.png",
+    "method": "geometry",
+    "sha256": "a71e136dfb4ad40b114461ff5621f752ecaaf76b3c5453bccb02533608327423",
+    "size": [
+      73,
+      57
+    ],
+    "alpha_bbox": [
+      7,
+      6,
+      67,
+      50
+    ],
+    "status": "replaced",
+    "purpose": "挑战整槽完成勾",
+    "old_size": [
+      73,
+      57
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      73,
+      57
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 58.16,
+      "semi_percent": 16.39,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 80.82,
+      "semi_percent": 10.38,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_slot.gd",
+        "line": 51,
+        "kind": "direct",
+        "expression": "Texture/skin/Tick.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin1.png",
+    "original_sha256": "f60ac7f1ec272feb1074257804b9c94551362ef9aed4cc14e85d2fd12998937a",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin1.png",
+    "method": "coin-front",
+    "sha256": "9616fd299a01ddeefeed963a7c78d920d6c10d32005f65e0517fd589a5b3f6b5",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      169
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 20.68,
+      "semi_percent": 4.46,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 237,
+        "kind": "direct",
+        "expression": "Texture/skin/big/BigCoin1.png"
+      },
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin10.png",
+    "original_sha256": "97f1c051f6db689a86ab8e7dffcee80836ea73ee98aa8003950b049e1b4aa0b6",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin10.png",
+    "method": "coin-front",
+    "sha256": "e732ae568dc35c88ca796a4bef24c1072b934d4cffda214ac62ec64395774f80",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.11,
+      "semi_percent": 2.36,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin11.png",
+    "original_sha256": "a5de64fae431e76398f53ae50ce377b7fd943bd34f3dfc72e207b67df1a7ff3d",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin11.png",
+    "method": "coin-front",
+    "sha256": "0c92290575254c342ab172493e115cf626cc0491e84ad517510f0cbf4128e52a",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.12,
+      "semi_percent": 4.56,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin12.png",
+    "original_sha256": "031e365a95fabcb896c4e39d8a0edcb2be412fea08b29582fe167fb30e23ac49",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin12.png",
+    "method": "coin-front",
+    "sha256": "8b9576d378440cbec7bf9d15eb12021aab3bde8c655e9028e04128e5457e379a",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.15,
+      "semi_percent": 9.37,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin13.png",
+    "original_sha256": "aa1d9566557cc88a037701ba0b540dc90d0606cdf81ad546818fbc3b63686efb",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin13.png",
+    "method": "coin-front",
+    "sha256": "30959c3b08f80f2427b992358845ccb018f5aa6414c3ea27e3638b3cef71cd0e",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.09,
+      "semi_percent": 4.78,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin14.png",
+    "original_sha256": "2afc5222cd42fa4bf811f57ea0e90e8fbc06641833847970f3de57ee146dd6f9",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin14.png",
+    "method": "coin-front",
+    "sha256": "e2519724090a509436a474c0de5a678de88829906f4cac66635c31ac5fdf95fc",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.14,
+      "semi_percent": 4.09,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin15.png",
+    "original_sha256": "513798ada25791685d30e3b60ce9c00a6d6de49ae90f7f23a4ea4a3783a207ce",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin15.png",
+    "method": "coin-front",
+    "sha256": "251c89d1cf5d62458793b5eb22c9869076ce43d63f60a4f328671b042b050004",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.17,
+      "semi_percent": 4.1,
+      "magenta_pixels": 21952
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin2.png",
+    "original_sha256": "1c3bf129e22bbb488f4a96e9e893853666a0d203255b722e2f0ea578fa3bb761",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin2.png",
+    "method": "coin-front",
+    "sha256": "efc15d6d8a7a1aad0847865b81264a1802cd2577fd1e67b4f57054b4c1ea5c6a",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      169
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 20.72,
+      "semi_percent": 4.74,
+      "magenta_pixels": 53
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin3.png",
+    "original_sha256": "0e164d101e03e7a8401ca9cb8f595ee8c64ef6bb65b31679d7bd027c6c5f00f5",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin3.png",
+    "method": "coin-front",
+    "sha256": "6e56461109e832ac2e1e3bc49526d1a79f7725f795a509eeaebca90556a9ff5d",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      1,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.81,
+      "semi_percent": 4.64,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin4.png",
+    "original_sha256": "38f0ba54bf833cf0faef4ed8d31cfb0910c6a86292fbd6e6bbc6c19dad787921",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin4.png",
+    "method": "coin-front",
+    "sha256": "37d8792affa7a7ba09de33a13330d46f296b26fe9713d5af5935fc6e292ec7d1",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      169
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 20.68,
+      "semi_percent": 4.14,
+      "magenta_pixels": 15131
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin5.png",
+    "original_sha256": "f9ce7039871fa4ad8adff323aae2d1a1d7725b16e0d543a45f5abe2c9e5a0076",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin5.png",
+    "method": "coin-front",
+    "sha256": "ac429809eafb4b09bc06bb71e6faf9e5f40839984d7ff18a860640fe3fd9fce5",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.14,
+      "semi_percent": 5.09,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 14,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin5.png"
+      },
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 39,
+        "kind": "direct",
+        "expression": "Texture/skin/big/BigCoin5.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin6.png",
+    "original_sha256": "18340a7722e826619da9e2bb18db3791b74b78e6e3870a254875d5f30c30d50f",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin6.png",
+    "method": "coin-front",
+    "sha256": "19da47fe68004ef8f3023c75cc48b7ff10c0d21d882b2a6ad18f6b2984d0f34f",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.16,
+      "semi_percent": 4.48,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin7.png",
+    "original_sha256": "81610c865e484483695374f4ecd8fd4b1cb19ae4d42a3c1ba88316c295d52be6",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin7.png",
+    "method": "coin-front",
+    "sha256": "396574fde0cf9a56dbe049294ade30e8d1fb74b19fd300afde6b3057a527e71a",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      1,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.79,
+      "semi_percent": 3.76,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin8.png",
+    "original_sha256": "6250964b864eaa427f722807ee9d410467f8d9cddc936baa1f8e3e3232b82395",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin8.png",
+    "method": "coin-front",
+    "sha256": "08b86fa884cc2666c1a15d78bcbbf047cd4f5e3462ec87cb5a1a525a5a2c2de7",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.14,
+      "semi_percent": 2.42,
+      "magenta_pixels": 35
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/big/BigCoin9.png",
+    "original_sha256": "be45c351efdafd559893d923d39c5ca353a06cbf177a7baa2b7f78f40d7c4a13",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/big/BigCoin9.png",
+    "method": "coin-front",
+    "sha256": "c3569a8c765761e3822f960da24d9a235205fe14fd10417927294e8b838c2995",
+    "size": [
+      164,
+      172
+    ],
+    "alpha_bbox": [
+      1,
+      5,
+      163,
+      167
+    ],
+    "status": "replaced",
+    "purpose": "目标 / 奖励 / 升级大币；动态 BigCoin1–BigCoin15",
+    "old_size": [
+      164,
+      172
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      164,
+      168
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.19,
+      "semi_percent": 4.35,
+      "magenta_pixels": 21936
+    },
+    "new_alpha": {
+      "transparent_percent": 24.72,
+      "semi_percent": 5.04,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 282,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/game.gd",
+        "line": 136,
+        "kind": "dynamic",
+        "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 152,
+        "kind": "dynamic",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 46,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 75,
+        "kind": "dynamic",
+        "expression": "Texture/skin/big/BigCoin%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/1.png",
+    "original_sha256": "87fd39aa8c4cf5ba6b77132013b5bb2701b725d90ccd67c0182c9a2c5cbd2401",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/1.png",
+    "method": "coin-angle",
+    "sha256": "955100f43bfc051b9dc9db5ca89cf296360ea329d6c7cf2ffe80404dcffd0615",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.38,
+      "semi_percent": 8.45,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 13,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/Texture/skin/normal/1.png"
+      },
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/10.png",
+    "original_sha256": "2201c0da7c7ac6ab846a6ed325de3a6be443c1fd60f3a4361f14d8aa0750c74a",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/10.png",
+    "method": "coin-angle",
+    "sha256": "bfcb9cb51c43bfc2073fe753c09444812d3848962273be68175f2d9b67bb6e89",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.38,
+      "semi_percent": 8.38,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/11.png",
+    "original_sha256": "518e3be7f5797c12ef94ede6330d225b1b4a7a151720cded54b8f8d6f2c09dca",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/11.png",
+    "method": "coin-angle",
+    "sha256": "421ffcc537a6ca57869c9b1ba5100e342da0bb8e622379afe8b3acb07bd92a67",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.4,
+      "semi_percent": 12.12,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/12.png",
+    "original_sha256": "743808e5a9165ca8bab0e852c03846d6f11ceca87d713aa3e0e13f560e6b6ce5",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/12.png",
+    "method": "coin-angle",
+    "sha256": "376b636a09689ffe2e798a0a8f081d298c04993a9ace848be1f2274d68132960",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.41,
+      "semi_percent": 15.43,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/13.png",
+    "original_sha256": "31dc6f179bf1f61a46b35e30458fda101a8c6ecc9c682551439068c8535d4981",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/13.png",
+    "method": "coin-angle",
+    "sha256": "61b7258153240a741b068d09d4d2535135cb1846114af7a6c1dfd644ace58f9c",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.52,
+      "semi_percent": 13.51,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/14.png",
+    "original_sha256": "11360c96357946ee68bc29575bbf24cdca7946934258a9733ea8134c0fe61a9c",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/14.png",
+    "method": "coin-angle",
+    "sha256": "8b4c6d3288414c9b45352790b1e6ffd45a11699e04bdf37713be2486c0079462",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.46,
+      "semi_percent": 6.47,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/15.png",
+    "original_sha256": "4a0ff961c4bf784c608fd5e4539d3018842d984a2653ae6c4818790cbbeeda9a",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/15.png",
+    "method": "coin-angle",
+    "sha256": "cd11372980c06803339faf0357b70dc53d7b7961e224963b7ac33b2983d01142",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.41,
+      "semi_percent": 15.89,
+      "magenta_pixels": 5602
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/16.png",
+    "original_sha256": "b55498f9856ec9fc6bf7f5a82d0e2851c7a15ec830695dde32af9481625fc34c",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/16.png",
+    "method": "coin-angle",
+    "sha256": "a2ac6961abb7d61f1346a95de5aef811920d495737a6225569f991c2b41fe96b",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.38,
+      "semi_percent": 21.52,
+      "magenta_pixels": 1
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/2.png",
+    "original_sha256": "6838181d6e634266bdc7e8bda3cb45f000f661d07fe432d8150e6a7dc9e82e63",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/2.png",
+    "method": "coin-angle",
+    "sha256": "5505f88cd9ef98da942f1751c326b843bbc9a9b3ac9499f062311ca0177650cf",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.52,
+      "semi_percent": 6.77,
+      "magenta_pixels": 40
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/3.png",
+    "original_sha256": "f8a8e241575d4564ca8dd5c75c0e869315eef70d66eddec3a84b03c0171f38b9",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/3.png",
+    "method": "coin-angle",
+    "sha256": "3e3771214a6ff3851348dbf6fa2caeab9779207b4041558e39013acf6428ff5c",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.53,
+      "semi_percent": 4.03,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/4.png",
+    "original_sha256": "13175f15160f0250ad68082fade605c1a39c53ba27fdc8458f1ece5fb9969d41",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/4.png",
+    "method": "coin-angle",
+    "sha256": "a3f4d624993c7919f9bbc4ecf75a822f598fd7d24b706307930530974eca450e",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.44,
+      "semi_percent": 6.3,
+      "magenta_pixels": 5203
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/5.png",
+    "original_sha256": "b2164d3eb235513371ea7319db19a8ac032fc70bb03e59eb90dca219f225890e",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/5.png",
+    "method": "coin-angle",
+    "sha256": "4b4fbddaafc30a09c72a3b20e3036deb0838c06ddea5273afd5d621d5cd2e168",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.56,
+      "semi_percent": 18.38,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/6.png",
+    "original_sha256": "90fdd294f94f287976f84df8d641d1072da918cda77aac81f60dfa56bd839c9a",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/6.png",
+    "method": "coin-angle",
+    "sha256": "a89da713034e26fc69fa86210c155e4ce1ecbd847a14d441ca8e8e38faf1d45c",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.4,
+      "semi_percent": 14.67,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/7.png",
+    "original_sha256": "5ec1a61e3b71288717c5b88a218c22287b19d1777e2cd456a2ccf8d37d2fd7e4",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/7.png",
+    "method": "coin-angle",
+    "sha256": "ae1c9badec10cdf7c926a97dd0ff0acfc0cb854e4a9d7519fcb208f154749196",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.49,
+      "semi_percent": 17.11,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/8.png",
+    "original_sha256": "66f1bac93763ec16df1b1a7a96d52dc20266fbfa1ad0a11d84e8ad51243b467b",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/8.png",
+    "method": "coin-angle",
+    "sha256": "07b00211adaa5980a514f9bd59342c58b904ef085f1c78f17972e5e4dfafd0b4",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.47,
+      "semi_percent": 4.55,
+      "magenta_pixels": 24
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/normal/9.png",
+    "original_sha256": "6311aa50df1567d379d8fd13ced168495900b4d98fc344e1b7b50229583650b9",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/normal/9.png",
+    "method": "coin-angle",
+    "sha256": "02b4d800ed38d0cf45479bc3b8a6e98193ada136dd5a6bdd05c467a01aad30d2",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "普通硬币 / 隐藏币；动态 1–16，等级按 15 色循环；数字由代码叠加",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.53,
+      "semi_percent": 6.95,
+      "magenta_pixels": 5601
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 49,
+        "kind": "dynamic",
+        "expression": "Texture/skin/normal/%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War1.png",
+    "original_sha256": "abbb0fc709c181311ba3cab3dcd17497d2b2c649f42d1a42ee1dc0de765e179b",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War1.png",
+    "method": "coin-angle",
+    "sha256": "955100f43bfc051b9dc9db5ca89cf296360ea329d6c7cf2ffe80404dcffd0615",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.4,
+      "semi_percent": 8.44,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War10.png",
+    "original_sha256": "7bef1b3dc3c6ca3d1587213766ec4d6d7bff85081510364bdac8076c56ca496c",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War10.png",
+    "method": "coin-angle",
+    "sha256": "bfcb9cb51c43bfc2073fe753c09444812d3848962273be68175f2d9b67bb6e89",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.41,
+      "semi_percent": 15.44,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War11.png",
+    "original_sha256": "f655b462bce2231142d21aea71260a694112eebab6b73ee62c7243e7aaca8173",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War11.png",
+    "method": "coin-angle",
+    "sha256": "421ffcc537a6ca57869c9b1ba5100e342da0bb8e622379afe8b3acb07bd92a67",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.47,
+      "semi_percent": 6.47,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War2.png",
+    "original_sha256": "44cd1b27e01b32d3ce137f6c2fc79be8884687b04d25098984273dc25cc6582f",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War2.png",
+    "method": "coin-angle",
+    "sha256": "5505f88cd9ef98da942f1751c326b843bbc9a9b3ac9499f062311ca0177650cf",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.49,
+      "semi_percent": 6.8,
+      "magenta_pixels": 42
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War3.png",
+    "original_sha256": "9373e1919f28942e193aae1964f52e5ffc3f3aab1303bdc02f452941bab0dd63",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War3.png",
+    "method": "coin-angle",
+    "sha256": "3e3771214a6ff3851348dbf6fa2caeab9779207b4041558e39013acf6428ff5c",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.4,
+      "semi_percent": 12.15,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War4.png",
+    "original_sha256": "1ef7d2a4b8fd4d69ec12979ff69bb43c32ad174f775db77373f56580f2edc8a5",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War4.png",
+    "method": "coin-angle",
+    "sha256": "a3f4d624993c7919f9bbc4ecf75a822f598fd7d24b706307930530974eca450e",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.47,
+      "semi_percent": 17.32,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War5.png",
+    "original_sha256": "9b19bb10df0235a399e7e9f7b1686f561bf61c739de56c421ed579a3d17c7d9c",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War5.png",
+    "method": "coin-angle",
+    "sha256": "4b4fbddaafc30a09c72a3b20e3036deb0838c06ddea5273afd5d621d5cd2e168",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.53,
+      "semi_percent": 4.02,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War6.png",
+    "original_sha256": "bd1fd967675324d9178686c733278b4e90becbe7bd2b0e4a203e26f227f0aada",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War6.png",
+    "method": "coin-angle",
+    "sha256": "a89da713034e26fc69fa86210c155e4ce1ecbd847a14d441ca8e8e38faf1d45c",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.52,
+      "semi_percent": 6.96,
+      "magenta_pixels": 5598
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War7.png",
+    "original_sha256": "670779345305e30a806c4aea1662f521e62e4a7585beffc899fc96497d98bfb0",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War7.png",
+    "method": "coin-angle",
+    "sha256": "ae1c9badec10cdf7c926a97dd0ff0acfc0cb854e4a9d7519fcb208f154749196",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.55,
+      "semi_percent": 18.65,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War8.png",
+    "original_sha256": "93c5b49e67b0586b7cbd0114a5f817811a2d0df917dad01b4ad2d34c945aff67",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War8.png",
+    "method": "coin-angle",
+    "sha256": "07b00211adaa5980a514f9bd59342c58b904ef085f1c78f17972e5e4dfafd0b4",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.52,
+      "semi_percent": 4.55,
+      "magenta_pixels": 23
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/Texture/skin/war/War9.png",
+    "original_sha256": "31dc6f179bf1f61a46b35e30458fda101a8c6ecc9c682551439068c8535d4981",
+    "replacement": "assets/reskin/ceramic/sprites/Texture/skin/war/War9.png",
+    "method": "coin-angle",
+    "sha256": "02b4d800ed38d0cf45479bc3b8a6e98193ada136dd5a6bdd05c467a01aad30d2",
+    "size": [
+      101,
+      67
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "status": "replaced",
+    "purpose": "挑战硬币；动态 War1–War11，与目标箭头共用配色",
+    "old_size": [
+      101,
+      67
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      101,
+      67
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.52,
+      "semi_percent": 13.51,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 14.35,
+      "semi_percent": 10.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_visual.gd",
+        "line": 51,
+        "kind": "dynamic",
+        "expression": "Texture/skin/war/War%d.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/spine_cloud/could1.png",
+    "original_sha256": "3e48f2bff309243d258c804510ede28e70959026e7041ac3b2af6f576e7d15d5",
+    "replacement": "assets/reskin/ceramic/sprites/spine_cloud/could1.png",
+    "method": "cloud",
+    "sha256": "18614a91e7e3ed85404e8c9b90cc7bf282f9bf4f40ee015b511d9b0fd12b2ba2",
+    "size": [
+      489,
+      347
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      488,
+      346
+    ],
+    "status": "replaced",
+    "purpose": "主菜单云朵；保留当前 Tween 动画",
+    "old_size": [
+      489,
+      347
+    ],
+    "old_alpha_bbox": [
+      0,
+      1,
+      488,
+      347
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 33.01,
+      "semi_percent": 1.66,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 28.04,
+      "semi_percent": 2.41,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 8,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/spine_cloud/could1.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/spine_cloud/could2.png",
+    "original_sha256": "0dfd9440de9fef47812e8bc311d611bc9d360d6cfa57703e5c1ecbe12a7e64f5",
+    "replacement": "assets/reskin/ceramic/sprites/spine_cloud/could2.png",
+    "method": "cloud",
+    "sha256": "28894f070bc7948ad2048e49373dacee8d9f391bc56d3449cafa2cb31bdd830b",
+    "size": [
+      449,
+      419
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      448,
+      418
+    ],
+    "status": "replaced",
+    "purpose": "主菜单云朵；保留当前 Tween 动画",
+    "old_size": [
+      449,
+      419
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      449,
+      419
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 39.14,
+      "semi_percent": 2.14,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 28.01,
+      "semi_percent": 2.33,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 7,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/spine_cloud/could2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/spine_cloud/could3.png",
+    "original_sha256": "1e6b4c7719ca8227bb60bffba8dbbb785cb894ab0c61230233a167a16bdd00f6",
+    "replacement": "assets/reskin/ceramic/sprites/spine_cloud/could3.png",
+    "method": "cloud",
+    "sha256": "ed0c9790a7e291f5966dac0d03f159cae107590d19ae70f7fbbf5262f9c3ec4a",
+    "size": [
+      750,
+      533
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      749,
+      532
+    ],
+    "status": "replaced",
+    "purpose": "主菜单云朵；保留当前 Tween 动画",
+    "old_size": [
+      750,
+      533
+    ],
+    "old_alpha_bbox": [
+      0,
+      1,
+      750,
+      533
+    ],
+    "old_alpha_range": [
+      0,
+      105
+    ],
+    "old_alpha": {
+      "transparent_percent": 25.87,
+      "semi_percent": 74.13,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 28.09,
+      "semi_percent": 1.68,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 6,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/spine_cloud/could3.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/BG.png",
+    "original_sha256": "21d4cdda786685beb0ad5a6a83adce3c286d5bb8c1d307345eef63aaefdeb223",
+    "replacement": "assets/reskin/ceramic/sprites/ui/BG.png",
+    "method": "background",
+    "sha256": "452c9de9fd6bb7cb16db4433b134b0f82c8089886b078d1107d671223af7e0a6",
+    "size": [
+      23,
+      1623
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      23,
+      1623
+    ],
+    "status": "replaced",
+    "purpose": "普通/主菜单/挑战选关背景",
+    "old_size": [
+      23,
+      1623
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      23,
+      1623
+    ],
+    "old_alpha_range": [
+      240,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 0.0,
+      "semi_percent": 8.81,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 0.0,
+      "semi_percent": 0.0,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 5,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/BG.png"
+      },
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 4,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/ui/BG.png"
+      },
+      {
+        "source": "scripts/challenge_screen.gd",
+        "line": 21,
+        "kind": "direct",
+        "expression": "ui/BG.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Box2.png",
+    "original_sha256": "d7bf524268601d178d32547368d63f0729574e7b2660f38be82863bc3c117652",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Box2.png",
+    "method": "tray",
+    "sha256": "d4338dddfabdba89e8af910056740eefca77e5e3cb634cdf0c5bc998b980543a",
+    "size": [
+      321,
+      330
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      320,
+      329
+    ],
+    "status": "replaced",
+    "purpose": "普通棋盘托盘",
+    "old_size": [
+      321,
+      330
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      320,
+      329
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 16.26,
+      "semi_percent": 1.92,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 1.59,
+      "semi_percent": 2.12,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 9,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Box2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_Ad_broad.png",
+    "original_sha256": "8675ec633a278a22a2d99b65f0793f37650ed205acc6348cdafed6e5fd15c7b2",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_Ad_broad.png",
+    "method": "button",
+    "sha256": "845ce4ef10a7bcee2ab9de22d38479dfc6ba4a42318f9a8320fd3611d07b95ff",
+    "size": [
+      225,
+      96
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      224,
+      95
+    ],
+    "status": "replaced",
+    "purpose": "救援奖励按钮底板",
+    "old_size": [
+      225,
+      96
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      224,
+      95
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 10.38,
+      "semi_percent": 8.93,
+      "magenta_pixels": 14078
+    },
+    "new_alpha": {
+      "transparent_percent": 8.98,
+      "semi_percent": 6.03,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/dialog_style.gd",
+        "line": 10,
+        "kind": "direct",
+        "expression": "Btn_Ad_broad.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_Begin_38px.png",
+    "original_sha256": "e0b6077c4765163be9dbd2cfbf8badca3cd05376a7cd95f218c28544fbbf48e0",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_Begin_38px.png",
+    "method": "button",
+    "sha256": "9f10a20417737e3255f5825d61f5db7b026fc6d201887a3e51f9287ec23056e9",
+    "size": [
+      162,
+      171
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      161,
+      170
+    ],
+    "status": "replaced",
+    "purpose": "主菜单开始按钮底板",
+    "old_size": [
+      162,
+      171
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      161,
+      170
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 8.99,
+      "semi_percent": 6.2,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 8.3,
+      "semi_percent": 5.27,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 9,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/ui/Btn_Begin_38px.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_Deal.png",
+    "original_sha256": "57b8222715189caf936ea5c8030458ea4a86b46f203b151160cb25f03cc59f03",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_Deal.png",
+    "method": "button",
+    "sha256": "264c07fc8b243e3c6d5f40dd358497766351c3963b65bf41e5b70d9656227495",
+    "size": [
+      294,
+      147
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      293,
+      146
+    ],
+    "status": "replaced",
+    "purpose": "发牌按钮底板；文字改用可翻译 Label",
+    "old_size": [
+      294,
+      147
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      293,
+      147
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 3.86,
+      "semi_percent": 4.3,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 8.46,
+      "semi_percent": 4.33,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 22,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Btn_Deal.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_Quit.png",
+    "original_sha256": "fe15379d3be0453911222e0bab6b2664b2dad68f94c4c4bdd24aa2e29414a376",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_Quit.png",
+    "method": "geometry",
+    "sha256": "0fb28d270e2bddd495021599d13f59382002e6b321725648f2dd7ddb6372a228",
+    "size": [
+      81,
+      81
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      81,
+      81
+    ],
+    "status": "replaced",
+    "purpose": "关闭按钮",
+    "old_size": [
+      81,
+      81
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      80,
+      80
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.54,
+      "semi_percent": 8.09,
+      "magenta_pixels": 1
+    },
+    "new_alpha": {
+      "transparent_percent": 19.45,
+      "semi_percent": 11.16,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/settings_dialog.tscn",
+        "line": 5,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Btn_Quit.png"
+      },
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 61,
+        "kind": "direct",
+        "expression": "ui/Btn_Quit.png"
+      },
+      {
+        "source": "scripts/dialog_style.gd",
+        "line": 87,
+        "kind": "direct",
+        "expression": "Btn_Quit.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png",
+    "original_sha256": "5bca8a1bae51ecf725041fb3b142d6b55befdcbbcfc5f9317c00ad6a053e0690",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_Setting_2acdf23c.png",
+    "method": "geometry",
+    "sha256": "e08ca168a1b18423ee835e992309614b220fa4e6d5f27291d75df9f973eb45ba",
+    "size": [
+      91,
+      101
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      91,
+      101
+    ],
+    "status": "replaced",
+    "purpose": "设置按钮",
+    "old_size": [
+      91,
+      101
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      90,
+      100
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 22.4,
+      "semi_percent": 9.14,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 17.45,
+      "semi_percent": 9.84,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 8,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png"
+      },
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 11,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png"
+      },
+      {
+        "source": "scripts/challenge_screen.gd",
+        "line": 92,
+        "kind": "direct",
+        "expression": "ui/Btn_Setting_2acdf23c.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_War_24px.png",
+    "original_sha256": "40f981d1c7c9f90e478a3a20311e383da265d7576b8e263203da8363874fef64",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_War_24px.png",
+    "method": "button",
+    "sha256": "5107f3a3f399837204fec53f15e48d254e4e9f4a721690603fb54447723217af",
+    "size": [
+      158,
+      130
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      157,
+      129
+    ],
+    "status": "replaced",
+    "purpose": "主菜单挑战按钮底板",
+    "old_size": [
+      158,
+      130
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      157,
+      129
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 7.19,
+      "semi_percent": 7.7,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 8.64,
+      "semi_percent": 5.9,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 10,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/ui/Btn_War_24px.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_blue_25px.png",
+    "original_sha256": "65e527bdac4f6bfeaf0fe0554cd1622b130847f21c540401010661b5bffde453",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_blue_25px.png",
+    "method": "button",
+    "sha256": "5e5c31da5baf11ed80a88d87546848faced101f2524245198ba24f318ace98f4",
+    "size": [
+      117,
+      100
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      116,
+      99
+    ],
+    "status": "replaced",
+    "purpose": "通用薄荷色按钮",
+    "old_size": [
+      117,
+      100
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      117,
+      100
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 8.2,
+      "semi_percent": 9.74,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 9.01,
+      "semi_percent": 7.6,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/settings_dialog.tscn",
+        "line": 9,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Btn_blue_25px.png"
+      },
+      {
+        "source": "scripts/dialog_style.gd",
+        "line": 7,
+        "kind": "direct",
+        "expression": "Btn_blue_25px.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_green_25px.png",
+    "original_sha256": "85d1b27bbc97c6596839525b6a416a059fa5f812cc709f0f3459551cdca964d9",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_green_25px.png",
+    "method": "button",
+    "sha256": "2dd40b977ffca37dcf74b17a5749530da41e4edaa74a9e33bc24375b46273572",
+    "size": [
+      113,
+      107
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      112,
+      106
+    ],
+    "status": "replaced",
+    "purpose": "通用鼠尾草色按钮",
+    "old_size": [
+      113,
+      107
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      113,
+      107
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 7.93,
+      "semi_percent": 9.39,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 8.89,
+      "semi_percent": 7.6,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/dialog_style.gd",
+        "line": 9,
+        "kind": "direct",
+        "expression": "Btn_green_25px.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Btn_yellow_25px.png",
+    "original_sha256": "bd49d0d749d17df0a939dd3402ad47894e326c3b4e8dd8994f92f2926b88c69a",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Btn_yellow_25px.png",
+    "method": "button",
+    "sha256": "6c0b8f2994f30bdf93057bcf33251e84ecd19f93188a394a9de19419e2d68a39",
+    "size": [
+      107,
+      100
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      106,
+      99
+    ],
+    "status": "replaced",
+    "purpose": "通用暖沙色按钮",
+    "old_size": [
+      107,
+      100
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      106,
+      99
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 12.79,
+      "semi_percent": 9.66,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 9.02,
+      "semi_percent": 7.92,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/settings_dialog.tscn",
+        "line": 10,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Btn_yellow_25px.png"
+      },
+      {
+        "source": "scripts/dialog_style.gd",
+        "line": 8,
+        "kind": "direct",
+        "expression": "Btn_yellow_25px.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/CoinBg.png",
+    "original_sha256": "dadba7c8148c7c2c6589dbe63c8313facb2d92623bdcba7029347357fefc8d8d",
+    "replacement": "assets/reskin/ceramic/sprites/ui/CoinBg.png",
+    "method": "geometry",
+    "sha256": "b2db9caa5eb00cfd696f766c70d31b7ae146effe3b8703365e1256c24245f5d8",
+    "size": [
+      172,
+      83
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      172,
+      83
+    ],
+    "status": "replaced",
+    "purpose": "挑战关卡与计时底板",
+    "old_size": [
+      172,
+      83
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      172,
+      83
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 9.29,
+      "semi_percent": 2.62,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 9.41,
+      "semi_percent": 9.06,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge.gd",
+        "line": 81,
+        "kind": "direct",
+        "expression": "ui/CoinBg.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Gold_Small.png",
+    "original_sha256": "635ce6d4c0cc7da31f38f3c9b2811ad6fde9c7bf5438281b4783d3d399a1af6c",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Gold_Small.png",
+    "method": "coin-front",
+    "sha256": "6d741d7348ad162d8b71f846842d8a308e734f76cfd3a5df244b1725cc6394b8",
+    "size": [
+      55,
+      55
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      54,
+      54
+    ],
+    "status": "replaced",
+    "purpose": "首次通关金币奖励图标",
+    "old_size": [
+      55,
+      55
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      55,
+      55
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 19.01,
+      "semi_percent": 6.81,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 21.16,
+      "semi_percent": 14.12,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/gameplay_dialog.gd",
+        "line": 104,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Gold_Small.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Guide_Hand.png",
+    "original_sha256": "aa01b33f3e8e3e9e972cd4a2112799ea14f0691732ad56adcc266021bf84e290",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Guide_Hand.png",
+    "method": "hand",
+    "sha256": "c8b133287f0e9481b1d0222faca8944c9692309663821612eb12cf3654613184",
+    "size": [
+      146,
+      144
+    ],
+    "alpha_bbox": [
+      14,
+      1,
+      131,
+      143
+    ],
+    "status": "replaced",
+    "purpose": "教程点击手势",
+    "old_size": [
+      146,
+      144
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      146,
+      144
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 37.08,
+      "semi_percent": 2.07,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 53.01,
+      "semi_percent": 6.55,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/normal_tutorial.gd",
+        "line": 42,
+        "kind": "direct",
+        "expression": "Guide_Hand.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Guide_Mask1.png",
+    "original_sha256": "188453a6b514c9591b77d0a30520c769d4bae705f484bdad0166296126380ed3",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Guide_Mask1.png",
+    "method": "geometry",
+    "sha256": "aeb0591e054fd04b45711b61f520aa6f09549e6f57c4530b7d197b39003c5825",
+    "size": [
+      146,
+      252
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      146,
+      252
+    ],
+    "status": "replaced",
+    "purpose": "教程单槽 alpha 镂空形状",
+    "old_size": [
+      146,
+      252
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      146,
+      252
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 0.86,
+      "semi_percent": 0.24,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 0.33,
+      "semi_percent": 6.22,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/normal_tutorial.gd",
+        "line": 58,
+        "kind": "direct",
+        "expression": "Guide_Mask1.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Guide_Mask2.png",
+    "original_sha256": "7afe6de5f71951a297474fdf4cb7a95f46aa8dbcf5bf5e9311d51b292114b750",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Guide_Mask2.png",
+    "method": "geometry",
+    "sha256": "81c442635752942bbf3c004774c6bcfdff35d14752ef6d31e18cdbf5b2486c20",
+    "size": [
+      124,
+      164
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      124,
+      164
+    ],
+    "status": "replaced",
+    "purpose": "教程目标 alpha 镂空形状",
+    "old_size": [
+      124,
+      164
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      124,
+      164
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 1.53,
+      "semi_percent": 0.51,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 0.45,
+      "semi_percent": 8.06,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/normal_tutorial.gd",
+        "line": 58,
+        "kind": "direct",
+        "expression": "Guide_Mask2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Guide_Mask3.png",
+    "original_sha256": "4bd4ee1d9cd78a4a00e663b37721202c0653637bcde920177a05ed0f6fdb8243",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Guide_Mask3.png",
+    "method": "geometry",
+    "sha256": "4f5ba04ff1313ab0358fbbaf8f379e37be83e15d6b19d69238869f232f4c80ed",
+    "size": [
+      317,
+      158
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      317,
+      158
+    ],
+    "status": "replaced",
+    "purpose": "教程横向按钮 alpha 镂空形状",
+    "old_size": [
+      317,
+      158
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      317,
+      158
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 2.18,
+      "semi_percent": 97.81,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 0.29,
+      "semi_percent": 5.47,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/normal_tutorial.gd",
+        "line": 58,
+        "kind": "direct",
+        "expression": "Guide_Mask3.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Icon_Lock.png",
+    "original_sha256": "062b0ce7bc9fbae5ba9bf4c9555a3f6b84e1eb44299a27410daefa497ede5b0a",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Icon_Lock.png",
+    "method": "geometry",
+    "sha256": "7d686c8f4df1262dfe7bbdc064005a2254abe2920bfd4cecb6786d7d63894e1a",
+    "size": [
+      43,
+      57
+    ],
+    "alpha_bbox": [
+      6,
+      2,
+      37,
+      55
+    ],
+    "status": "replaced",
+    "purpose": "锁定图标",
+    "old_size": [
+      43,
+      57
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      43,
+      57
+    ],
+    "old_alpha_range": [
+      0,
+      157
+    ],
+    "old_alpha": {
+      "transparent_percent": 12.89,
+      "semi_percent": 87.11,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 54.59,
+      "semi_percent": 20.97,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 11,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/ui/Icon_Lock.png"
+      },
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 143,
+        "kind": "direct",
+        "expression": "ui/Icon_Lock.png"
+      },
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 17,
+        "kind": "direct",
+        "expression": "ui/Icon_Lock.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Icon_Unlock.png",
+    "original_sha256": "3838626672fedf107ba53577500c9bf4106e40b30af53dbe0f3b20522265f77d",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Icon_Unlock.png",
+    "method": "geometry",
+    "sha256": "386bf8a49c97ad50c309c98fd454da67b2dc33fc0547a6c5fa1fdf573bb1cae8",
+    "size": [
+      49,
+      57
+    ],
+    "alpha_bbox": [
+      7,
+      0,
+      46,
+      55
+    ],
+    "status": "replaced",
+    "purpose": "可解锁图标",
+    "old_size": [
+      49,
+      57
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      49,
+      57
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 17.15,
+      "semi_percent": 8.49,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 54.24,
+      "semi_percent": 20.52,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 18,
+        "kind": "direct",
+        "expression": "ui/Icon_Unlock.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Icon_ad_2.png",
+    "original_sha256": "45afd57c89b3baf0158af79cd8b6cb06d7dbdd994199b015c7dafd3d39f713a2",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Icon_ad_2.png",
+    "method": "geometry",
+    "sha256": "d75fb9b5c1b7fd82503b044af4237f9b04c1cf3a5bfb284767bdb61228f3b854",
+    "size": [
+      72,
+      46
+    ],
+    "alpha_bbox": [
+      3,
+      4,
+      69,
+      42
+    ],
+    "status": "replaced",
+    "purpose": "奖励视频播放图标",
+    "old_size": [
+      72,
+      46
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      71,
+      45
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 9.78,
+      "semi_percent": 10.24,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 58.79,
+      "semi_percent": 29.83,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 19,
+        "kind": "direct",
+        "expression": "ui/Icon_ad_2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Icon_spot_1.png",
+    "original_sha256": "4370e8d741be2acd08395072d584b4e79e2817cb543ca3ce8237e284a2339ef3",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Icon_spot_1.png",
+    "method": "geometry",
+    "sha256": "3c819642b297686979c308a2dcde4b9b5f210becc86429dd051434d15a2caef6",
+    "size": [
+      36,
+      36
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "status": "replaced",
+    "purpose": "选关当前页圆点",
+    "old_size": [
+      36,
+      36
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      35,
+      35
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 22.61,
+      "semi_percent": 12.81,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 25.31,
+      "semi_percent": 25.31,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 118,
+        "kind": "direct",
+        "expression": "ui/Icon_spot_1.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Icon_spot_2.png",
+    "original_sha256": "e9da662b877a99f9de7e12b0e0f7fc740e6012b559b7c1edf77a633ced1475d7",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Icon_spot_2.png",
+    "method": "geometry",
+    "sha256": "7f3fd45f6685ec8fc72437a76d4662fff2f99763ea5908b24cdf20de51e6e463",
+    "size": [
+      36,
+      36
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "status": "replaced",
+    "purpose": "选关其他页圆点",
+    "old_size": [
+      36,
+      36
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      35,
+      35
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 22.38,
+      "semi_percent": 13.43,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 25.31,
+      "semi_percent": 25.31,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 83,
+        "kind": "direct",
+        "expression": "ui/Icon_spot_2.png"
+      },
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 118,
+        "kind": "direct",
+        "expression": "ui/Icon_spot_2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/LaserLight.png",
+    "original_sha256": "6443207be6b243a0b6e9661141874d24b349d263c71c1e3010a7b75bdd8d83fd",
+    "replacement": "assets/reskin/ceramic/sprites/ui/LaserLight.png",
+    "method": "geometry gradient",
+    "sha256": "542c97a19670c7979a3f57d0cd7cef434276b9ea1b949231cf558e73e311943e",
+    "size": [
+      122,
+      180
+    ],
+    "alpha_bbox": [
+      24,
+      0,
+      98,
+      180
+    ],
+    "status": "replaced",
+    "purpose": "解锁 / 硬币扫光纹理",
+    "old_size": [
+      122,
+      180
+    ],
+    "old_alpha_bbox": [
+      11,
+      0,
+      112,
+      180
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 20.86,
+      "semi_percent": 57.72,
+      "magenta_pixels": 437
+    },
+    "new_alpha": {
+      "transparent_percent": 65.88,
+      "semi_percent": 34.12,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_slot.gd",
+        "line": 186,
+        "kind": "direct",
+        "expression": "ui/LaserLight.png"
+      },
+      {
+        "source": "scripts/coin_slot.gd",
+        "line": 55,
+        "kind": "direct",
+        "expression": "ui/LaserLight.png"
+      },
+      {
+        "source": "scripts/normal_effects.gd",
+        "line": 77,
+        "kind": "direct",
+        "expression": "ui/LaserLight.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Light1.png",
+    "original_sha256": "8397f22b3c49a306f7d7b725ca1bee8a38e1e67b12427df69bf3d7c2160ce33d",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Light1.png",
+    "method": "geometry gradient",
+    "sha256": "92441641737a492ab903bbee7b466f6189bf1b08705851f7b763d5632965eab8",
+    "size": [
+      24,
+      24
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      23,
+      23
+    ],
+    "status": "replaced",
+    "purpose": "粒子柔光纹理",
+    "old_size": [
+      24,
+      24
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 8.33,
+      "semi_percent": 61.81,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 29.17,
+      "semi_percent": 70.83,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge_slot.gd",
+        "line": 14,
+        "kind": "direct",
+        "expression": "ui/Light1.png"
+      },
+      {
+        "source": "scripts/normal_particle_data.gd",
+        "line": 53,
+        "kind": "direct",
+        "expression": "ui/Light1.png"
+      },
+      {
+        "source": "scripts/normal_particle_data.gd",
+        "line": 257,
+        "kind": "direct",
+        "expression": "ui/Light1.png"
+      },
+      {
+        "source": "scripts/normal_particle_data.gd",
+        "line": 307,
+        "kind": "direct",
+        "expression": "ui/Light1.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/PanelBG.png",
+    "original_sha256": "4cb5d51c6fbe1953e25d9c2066a46da2b5475d676831910b28e02a39eb98b31a",
+    "replacement": "assets/reskin/ceramic/sprites/ui/PanelBG.png",
+    "method": "panel",
+    "sha256": "aaa60d94e052f068496cfb6b95cf6e6caaf5f48e9eed1a72cf50017421d3f232",
+    "size": [
+      316,
+      243
+    ],
+    "alpha_bbox": [
+      1,
+      1,
+      315,
+      242
+    ],
+    "status": "replaced",
+    "purpose": "设置、提示、救援、选关及结算九宫格",
+    "old_size": [
+      316,
+      243
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      315,
+      242
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.15,
+      "semi_percent": 3.81,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 2.78,
+      "semi_percent": 2.54,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/settings_dialog.tscn",
+        "line": 4,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/PanelBG.png"
+      },
+      {
+        "source": "scripts/challenge_menu.gd",
+        "line": 46,
+        "kind": "direct",
+        "expression": "ui/PanelBG.png"
+      },
+      {
+        "source": "scripts/dialog_style.gd",
+        "line": 61,
+        "kind": "direct",
+        "expression": "PanelBG.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Pieces1.png",
+    "original_sha256": "8aa1873210ceb246d56909b65fb849c4741061b600dc31d7434194cbfafa6adc",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Pieces1.png",
+    "method": "geometry",
+    "sha256": "049153e4026c8d12cdcf4d892bca7b2597786a0c4a36f7e064aa4c78b30a2754",
+    "size": [
+      20,
+      28
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      20,
+      28
+    ],
+    "status": "replaced",
+    "purpose": "粒子几何碎片 1",
+    "old_size": [
+      20,
+      28
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      20,
+      28
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.43,
+      "semi_percent": 15.71,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 51.43,
+      "semi_percent": 33.93,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/normal_particle_data.gd",
+        "line": 160,
+        "kind": "direct",
+        "expression": "ui/Pieces1.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Pieces2.png",
+    "original_sha256": "1c8b6c584befec5d6d5642fa2667ae00f395631bb1de74880cbbb690d3b8bce3",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Pieces2.png",
+    "method": "geometry",
+    "sha256": "7a4d8b1446dc8a6d8d83cb004bfa06f3a17c2a4d0b621899143f673984ee62d7",
+    "size": [
+      24,
+      24
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "status": "replaced",
+    "purpose": "粒子几何碎片 2",
+    "old_size": [
+      24,
+      24
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 21.35,
+      "semi_percent": 21.7,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 51.91,
+      "semi_percent": 33.33,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/normal_particle_data.gd",
+        "line": 212,
+        "kind": "direct",
+        "expression": "ui/Pieces2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/ProcessBG.png",
+    "original_sha256": "60cecfdc762a4ebf2efd9cf352d1ad54db4628a3c5409ca31c62aecaa169420c",
+    "replacement": "assets/reskin/ceramic/sprites/ui/ProcessBG.png",
+    "method": "geometry",
+    "sha256": "1d2b53797e6e9ee3919aa8b6facd203e50fc50283b0eaf6ae3fe2de37b01c633",
+    "size": [
+      124,
+      64
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      124,
+      64
+    ],
+    "status": "replaced",
+    "purpose": "挑战完成数量底板",
+    "old_size": [
+      124,
+      64
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      124,
+      64
+    ],
+    "old_alpha_range": [
+      0,
+      77
+    ],
+    "old_alpha": {
+      "transparent_percent": 2.38,
+      "semi_percent": 97.62,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 10.03,
+      "semi_percent": 11.9,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scripts/challenge.gd",
+        "line": 88,
+        "kind": "direct",
+        "expression": "ui/ProcessBG.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Set_broad.png",
+    "original_sha256": "89c2839b84a8c7c6b90afebe51b7b85476e6b127de0085e0f26a767886dc1144",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Set_broad.png",
+    "method": "geometry",
+    "sha256": "e90a5ab27e6aa474ea219fd49f7848363ad2137eed414d6573b16fa6c79d45c3",
+    "size": [
+      129,
+      78
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      129,
+      78
+    ],
+    "status": "replaced",
+    "purpose": "设置开关关闭轨道",
+    "old_size": [
+      129,
+      78
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      128,
+      77
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.04,
+      "semi_percent": 7.5,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 11.69,
+      "semi_percent": 10.12,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/settings_dialog.tscn",
+        "line": 6,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Set_broad.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Set_broad_2.png",
+    "original_sha256": "3155ff33c92a44a8446a00395cc74e51ef9da259773653297006c8f55bcbdbae",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Set_broad_2.png",
+    "method": "geometry",
+    "sha256": "d7098cb1773024099a4bea951afcd0797bfdeec489dd0dc6c09476cc6f3f7ced",
+    "size": [
+      128,
+      78
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      128,
+      78
+    ],
+    "status": "replaced",
+    "purpose": "设置开关开启轨道",
+    "old_size": [
+      128,
+      78
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      127,
+      77
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 15.13,
+      "semi_percent": 7.43,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 11.78,
+      "semi_percent": 10.14,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/settings_dialog.tscn",
+        "line": 7,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Set_broad_2.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/Set_btn.png",
+    "original_sha256": "b54a579ef4c13a09e229fe886f9a5401f7007d9f72da8c0339d9726de828c443",
+    "replacement": "assets/reskin/ceramic/sprites/ui/Set_btn.png",
+    "method": "geometry",
+    "sha256": "f74be510e925f3f7a53154731936e5206b0f45279a1ab520f84a28276a386b0f",
+    "size": [
+      54,
+      58
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      54,
+      58
+    ],
+    "status": "replaced",
+    "purpose": "设置开关滑块",
+    "old_size": [
+      54,
+      58
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      53,
+      57
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 20.31,
+      "semi_percent": 13.54,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 18.52,
+      "semi_percent": 15.71,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/settings_dialog.tscn",
+        "line": 8,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/Set_btn.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/TargetBG_4.png",
+    "original_sha256": "5a78b47ee9fd8a8aa6370411a4ad4bdae4407ca8af06fe53f433224b23677da4",
+    "replacement": "assets/reskin/ceramic/sprites/ui/TargetBG_4.png",
+    "method": "geometry gradient",
+    "sha256": "c96506c625859e295be090f2b74e971c633f4b0055e1ec8b90b408acc70aa93b",
+    "size": [
+      113,
+      112
+    ],
+    "alpha_bbox": [
+      3,
+      3,
+      110,
+      109
+    ],
+    "status": "replaced",
+    "purpose": "最终目标放射光",
+    "old_size": [
+      113,
+      112
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      113,
+      112
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 41.11,
+      "semi_percent": 51.11,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 31.26,
+      "semi_percent": 68.74,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 23,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/TargetBG_4.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 30,
+        "kind": "direct",
+        "expression": "ui/TargetBG_4.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/TargetBG_4_b515ca35.png",
+    "original_sha256": "d2490de75413a2bba651fac03e0f075e7f8031cf91c78748f3bf026d68408c28",
+    "replacement": "assets/reskin/ceramic/sprites/ui/TargetBG_4_b515ca35.png",
+    "method": "geometry",
+    "sha256": "7900a7ff565c7fd605667238fd42e3a4539606608a6a8d096796bea529c30447",
+    "size": [
+      77,
+      77
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      77,
+      77
+    ],
+    "status": "replaced",
+    "purpose": "最终目标圆环",
+    "old_size": [
+      77,
+      77
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      76,
+      76
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 24.52,
+      "semi_percent": 9.16,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 23.41,
+      "semi_percent": 11.87,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 19,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/TargetBG_4_b515ca35.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 31,
+        "kind": "direct",
+        "expression": "ui/TargetBG_4_b515ca35.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/TargetBG_4_d27bfba7.png",
+    "original_sha256": "1f8065d056949351194153d13a4ee05a568b081a2f549e355b9be137c92ea6eb",
+    "replacement": "assets/reskin/ceramic/sprites/ui/TargetBG_4_d27bfba7.png",
+    "method": "geometry",
+    "sha256": "3b6b598f5c01f2d2e337aae3aa63f7000f16909aa6369af9d7fe894cf5603443",
+    "size": [
+      68,
+      54
+    ],
+    "alpha_bbox": [
+      5,
+      2,
+      63,
+      48
+    ],
+    "status": "replaced",
+    "purpose": "最终目标皇冠",
+    "old_size": [
+      68,
+      54
+    ],
+    "old_alpha_bbox": [
+      1,
+      1,
+      67,
+      53
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 30.42,
+      "semi_percent": 13.97,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 57.6,
+      "semi_percent": 15.52,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 20,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/TargetBG_4_d27bfba7.png"
+      },
+      {
+        "source": "scripts/normal_progress.gd",
+        "line": 52,
+        "kind": "direct",
+        "expression": "ui/TargetBG_4_d27bfba7.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/TargetBar.png",
+    "original_sha256": "d387b0e26becf369761d52fa0af5bd4792d2e83f8c1130c3d32209f796bce74c",
+    "replacement": "assets/reskin/ceramic/sprites/ui/TargetBar.png",
+    "method": "geometry",
+    "sha256": "e9a9a4ce8be16c3a6cc72214d01eb0b36f583d593960f37da65dd0d7e5fd9a25",
+    "size": [
+      50,
+      28
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      50,
+      28
+    ],
+    "status": "replaced",
+    "purpose": "普通目标连接条",
+    "old_size": [
+      50,
+      28
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      50,
+      28
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 0.57,
+      "semi_percent": 2.29,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 10.29,
+      "semi_percent": 25.14,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/game.tscn",
+        "line": 16,
+        "kind": "direct",
+        "expression": "res://assets/rea_original/sprites/ui/TargetBar.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/logo_en.png",
+    "original_sha256": "e8d25ddf56d327d5ef7c3bef57213e5abb19fa848d9a9519d102ead7ed3d2a05",
+    "replacement": "assets/reskin/ceramic/sprites/ui/logo_en.png",
+    "method": "coin-angle + OFL font",
+    "sha256": "2a8f7dce8fa10032f0cef401a9f00ea9c117193c098c2ee3fda7635e11ccc7d5",
+    "size": [
+      1286,
+      1223
+    ],
+    "alpha_bbox": [
+      265,
+      91,
+      1028,
+      923
+    ],
+    "status": "replaced",
+    "purpose": "英文 Coin Merge 标题",
+    "old_size": [
+      1286,
+      1223
+    ],
+    "old_alpha_bbox": [
+      0,
+      0,
+      1286,
+      1223
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 33.29,
+      "semi_percent": 66.64,
+      "magenta_pixels": 177391
+    },
+    "new_alpha": {
+      "transparent_percent": 83.82,
+      "semi_percent": 0.58,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 14,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/ui/logo_en.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "assets/rea_original/sprites/ui/logo_zh.png",
+    "original_sha256": "cc290c771681625106c2351b6cd020359e6852b680d7b4cc12edeb6fd0a5b969",
+    "replacement": "assets/reskin/ceramic/sprites/ui/logo_zh.png",
+    "method": "coin-angle + OFL font",
+    "sha256": "6e18c9ef1e7b8878048d946d23b496b50786bd2f103db1116d4e3337b5a94f89",
+    "size": [
+      1402,
+      1122
+    ],
+    "alpha_bbox": [
+      149,
+      79,
+      1240,
+      790
+    ],
+    "status": "replaced",
+    "purpose": "中文合并硬币标题",
+    "old_size": [
+      1402,
+      1122
+    ],
+    "old_alpha_bbox": [
+      51,
+      9,
+      1384,
+      1122
+    ],
+    "old_alpha_range": [
+      0,
+      255
+    ],
+    "old_alpha": {
+      "transparent_percent": 36.6,
+      "semi_percent": 63.3,
+      "magenta_pixels": 149119
+    },
+    "new_alpha": {
+      "transparent_percent": 82.7,
+      "semi_percent": 0.78,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "scenes/main_menu.tscn",
+        "line": 5,
+        "kind": "scene-declaration-only",
+        "expression": "res://assets/rea_original/sprites/ui/logo_zh.png"
+      }
+    ],
+    "replacement_reachable": true
+  },
+  {
+    "original": "icon.svg",
+    "original_sha256": "6c80384360a5b269d1054bfb27241258154e2cc8167c522016fdc1820e84e0f8",
+    "replacement": "assets/reskin/ceramic/app-icon.png",
+    "method": "coin-angle + geometry",
+    "sha256": "1155b18efdbe7af533ca5b06fb260b4a6d2f529a7903177039f1c4515200368e",
+    "size": [
+      256,
+      256
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "status": "replaced",
+    "purpose": "默认项目图标",
+    "old_size": [
+      128,
+      128
+    ],
+    "old_alpha_bbox": null,
+    "old_alpha_range": null,
+    "old_alpha": {
+      "transparent_percent": null,
+      "semi_percent": null,
+      "magenta_pixels": 0
+    },
+    "new_alpha": {
+      "transparent_percent": 4.14,
+      "semi_percent": 4.22,
+      "magenta_pixels": 0
+    },
+    "references": [
+      {
+        "source": "project.godot",
+        "line": 16,
+        "kind": "direct",
+        "expression": "res://icon.svg"
+      }
+    ],
+    "replacement_reachable": true
+  }
+]

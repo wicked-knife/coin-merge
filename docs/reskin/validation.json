@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-20T07:23:54.206448+00:00",
+  "before_images": 104,
+  "after_images": 103,
+  "all_original_bytes_preserved": true,
+  "all_replacements_reachable": true,
+  "retired_font_page_images": 1,
+  "original_image_dependencies": 0,
+  "system_font_sources": [],
+  "unresolved": [],
+  "magenta_spill_pixels": 0,
+  "retained_audio_count": 14,
+  "declaration_only_references_removed": [
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/BG_Lock.png",
+      "source": "scenes/game.tscn",
+      "line": 10,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/Texture/skin/BG_Lock.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/BG_Trench.png",
+      "source": "scenes/game.tscn",
+      "line": 12,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/Texture/skin/BG_Trench.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/1.png",
+      "source": "scenes/game.tscn",
+      "line": 13,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/Texture/skin/normal/1.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/spine_cloud/could1.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 8,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/spine_cloud/could1.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/spine_cloud/could2.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 7,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/spine_cloud/could2.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/spine_cloud/could3.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 6,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/spine_cloud/could3.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/BG.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 4,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/ui/BG.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_Begin_38px.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 9,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/ui/Btn_Begin_38px.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 11,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_War_24px.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 10,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/ui/Btn_War_24px.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Icon_Lock.png",
+      "source": "scenes/game.tscn",
+      "line": 11,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/ui/Icon_Lock.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/logo_en.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 14,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/ui/logo_en.png"
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/logo_zh.png",
+      "source": "scenes/main_menu.tscn",
+      "line": 5,
+      "kind": "scene-declaration-only",
+      "expression": "res://assets/rea_original/sprites/ui/logo_zh.png"
+    }
+  ],
+  "historical_unreferenced_images": 139,
+  "baseline_challenge": {
+    "checks": 77,
+    "failures": 1,
+    "mode": "headless",
+    "source": "pre-change captured console result"
+  },
+  "tests": {
+    "normal_rules": {
+      "checks": 3487,
+      "failures": 0
+    },
+    "challenge_rules": {
+      "checks": 2802,
+      "failures": 0
+    },
+    "normal_flow_rendered": {
+      "checks": 189,
+      "failures": 0
+    },
+    "challenge_flow_rendered": {
+      "checks": 87,
+      "failures": 1,
+      "capture_assertions": 10
+    },
+    "settings_narrow_rendered": {
+      "checks": 57,
+      "failures": 0
+    },
+    "asset_validation_rendered": {
+      "checks": 113,
+      "failures": 0
+    },
+    "platform_bridge": {
+      "checks": 8,
+      "failures": 0
+    }
+  }
+}

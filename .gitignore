@@ -7,3 +7,7 @@
 
 # Generated preview captures; existing reference overviews remain tracked.
 /previews/
+
+# Download cache; the renamed OFL subset, license and source digest are retained.
+/art-source/ceramic/fonts/*.ttf
+**/__pycache__/

@@ -1,4 +1,5 @@
 extends Control
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 
 # 平台接入点。当前原型直接放行奖励，不依赖广告服务。
 signal reward_requested(placement: String, completion: Callable)
@@ -11,7 +12,8 @@ const ProgressView = preload("res://scripts/normal_progress.gd")
 const TutorialView = preload("res://scripts/normal_tutorial.gd")
 const CongratsView = preload("res://scripts/normal_congrats.gd")
 const GameplayDialog = preload("res://scripts/gameplay_dialog.gd")
-const ROOT := "res://assets/rea_original/"
+const ROOT := Ceramic.ROOT
+const AUDIO_ROOT := "res://assets/rea_original/audio/"
 const SLOT_NAMES := ["Slot31", "Slot32", "Slot33", "Slot34", "Slot21", "Slot22", "Slot23", "Slot24", "Slot11", "Slot12", "Slot13", "Slot14"]
 const GUIDE_SLOTS := {0: 0, 1: 2, 4: 0, 5: 1, 6: 2, 7: 1}
 
@@ -578,7 +580,7 @@ func _restore_hint(generation: int) -> void:
 func _sound(sound_name: String) -> void:
 	if not _settings.sound_enabled:
 		return
-	var path := ROOT + "audio/%s.mp3" % sound_name
+	var path := AUDIO_ROOT + "%s.mp3" % sound_name
 	if not ResourceLoader.exists(path):
 		return
 	if not _sound_cache.has(sound_name):

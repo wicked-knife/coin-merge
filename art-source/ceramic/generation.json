@@ -1,0 +1,146 @@
+{
+  "requested_model": "gpt-image-2.5",
+  "tool": "imagegen bundled CLI via image_gen_codex.py",
+  "mode": "generate-batch",
+  "quality": "medium",
+  "input_images": [],
+  "max_concurrency": 2,
+  "credential_handling": "runtime launcher reads selected Codex provider and auth; no credentials stored in project",
+  "batches": [
+    {
+      "name": "pilot",
+      "input": "pilot.jsonl",
+      "jobs": 2,
+      "outcome": "success; coin and panel visually inspected before next batch"
+    },
+    {
+      "name": "remaining",
+      "input": "remaining.jsonl",
+      "jobs": 8,
+      "outcome": "success"
+    }
+  ],
+  "outputs": [
+    {
+      "master": "coin-angle",
+      "batch": "pilot",
+      "completed_utc": "2026-10-20T06:59:47.831396+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1560,
+        1008
+      ],
+      "sha256": "030b9898903ab8b3b236396fc5ae1f3761dfe5ea8f18545f59cd61c500036cd0",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "panel",
+      "batch": "pilot",
+      "completed_utc": "2026-10-20T06:59:43.152606+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1430,
+        1100
+      ],
+      "sha256": "bbe96c76a5adab7821e3b5c2129b4af98dcaf36817fa02c1abbb485034a674af",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "coin-front",
+      "batch": "remaining",
+      "completed_utc": "2026-10-20T07:04:08.818916+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "975b5d0e2fcc54ec107dff67ea0b7d4e58a3c2ff0017bbfcfb98d447372d8832",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "background",
+      "batch": "remaining",
+      "completed_utc": "2026-10-20T07:04:07.299088+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "49f57d2bc7274b99e71b46c4b0849e34866619010420a19a071ea819f6e9f438",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "tray",
+      "batch": "remaining",
+      "completed_utc": "2026-10-20T07:04:29.398642+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "6b805dda8a0335e3be01eeef1613fbb2cbd8310f20a6506e80030912d76639d5",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "slot",
+      "batch": "remaining",
+      "completed_utc": "2026-10-20T07:04:28.940811+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        948,
+        1659
+      ],
+      "sha256": "fd6db542d6e82169a150d0074fa9d043ca40bfcdabdf9b5c3e135704e605c9a2",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "button",
+      "batch": "remaining",
+      "completed_utc": "2026-10-20T07:04:49.469316+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1902,
+        827
+      ],
+      "sha256": "a1732090506dd2077382b553ace73786ad507c0dbeb9836c1c8db5735a560e27",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "card",
+      "batch": "remaining",
+      "completed_utc": "2026-10-20T07:04:59.738422+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1049,
+        1499
+      ],
+      "sha256": "1abb39b816985b437ee2dfe364a984c0b2d516592f916645dfb7cea96faea0f3",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "cloud",
+      "batch": "remaining",
+      "completed_utc": "2026-10-20T07:05:10.357497+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1536,
+        1024
+      ],
+      "sha256": "1533fdee04ac3216a75c94cd24f2a6f3203a09dcec19546f26b38787ff43c97c",
+      "status": "generated and visually inspected"
+    },
+    {
+      "master": "hand",
+      "batch": "remaining",
+      "completed_utc": "2026-10-20T07:05:27.596083+00:00",
+      "requested_size": "1024x1024",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "98182ac89d1462f3a83efa392d69950fffafef39367514c089ee819ca0537044",
+      "status": "generated and visually inspected"
+    }
+  ],
+  "processing": "tools/build_ceramic_skin.py; magenta unmixing, crop, tint, local resize; independent geometric icons and gradients"
+}

@@ -1,0 +1,16 @@
+✔ missing window or SDK safely reports unavailable (2.9243ms)
+✔ outside Playables or without the actual SDK method reports unavailable (3.7076ms)
+✔ success calls the SDK with no placement argument and preserves its receiver (3.1153ms)
+✔ synchronous SDK errors are logged and do not block future requests (1.9659ms)
+✔ rejected SDK promises are logged and do not block future requests (1.1925ms)
+✔ overlapping requests share one in-flight operation and unlock after settlement (1.6414ms)
+✔ a successful request permits a later request (1.0567ms)
+✔ throwing health logger is swallowed and placement remains data (1.2205ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21.8014

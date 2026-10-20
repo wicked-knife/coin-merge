@@ -1,0 +1,697 @@
+[
+  {
+    "path": "assets/rea_original/atlases/0275e94c-56a7-410f-bd1a-fc7483f7d14a.png",
+    "sha256": "83c9b8ce1937570a40bcedde29457a4ab7865ca1db23a46d2d68e6b1949f3c28",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/0c65e892-53bd-4fa1-9f16-4a0d2dd6a76a.png",
+    "sha256": "1a7c69eb8c5bf346595a77a0f2cdfe241a41b6bb30b50aaa2f3a3b70ac0070e5",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/115970bf0.png",
+    "sha256": "3e6b1050315aa4551a78a93b9941724587b5ee703945e40d55ea3c8796a234dd",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/126fed440.png",
+    "sha256": "ef5cd3f8ed8f250ab7824f7342912ccdf39d4feae8a6c8527c0223fe329e7b11",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/144861edf.png",
+    "sha256": "68d748cd6254009dbc8ceea9a095ff910a819c37209646615f71d75357cbdcd3",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/14d977656.png",
+    "sha256": "730bcf0122db30eadd9928e5f492a06acb6217b4dca6f7f5b0292d7875f4f006",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/14facfbc3.png",
+    "sha256": "c3e10fefd20ab886cab040abc9fa9abc5465ac8078de8bfa6298c3ba6c1fd08b",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/153cf6e21.png",
+    "sha256": "8e48fcd5632d667556c4b589b649301f1b08cf25e230836341354ce4092d9b91",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/160752c8f.png",
+    "sha256": "a9c701acd932aa7ed28f049b61f8818cb03c98dfa3e1fca45d992c93f4e9f606",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/19dc6463b.png",
+    "sha256": "2549e63a913405c48ee5bc0cfb41771630140e39bd649f1b54fd15b476ed8ceb",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/1df2a7b88.png",
+    "sha256": "4daa1e10067c5fec4d61995fb910eb4ed954bca6564847bdd5d325b85285ca15",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/27a1b4c1-3428-4a52-b912-1be981ccd16a.png",
+    "sha256": "20a4856435bad8df790fbf1712fdbd331953646b5332eba785d9b83ad3107fb2",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/2a12fadf-2857-4a56-9edc-62d6acb5b34f.png",
+    "sha256": "3332ca542fc5a2b88273f8c276338c63f3f2ed2d73b29a42fef4937c700e1572",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/300cff9e-c5ff-4371-b5be-6b76becb6b85.png",
+    "sha256": "47333e91d6c0bdc62da4ff102713a3dab12e0712665b8d6bed4a630579bb0f53",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/417ff6d0-c8c0-406c-a6a6-02eb06db0fbe.png",
+    "sha256": "8867b465dc7f62ac614faf98a99ff387ba3ee0f864dd160760bddfa2bc5e4291",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/5a9527b9-11f9-4895-8d5d-bdec497960ed.png",
+    "sha256": "fcd79b539a8f138a2bfede6c2ecabcf0f03c0b81eb5b311d75f6a461d8e9739a",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/5d35ebc5-8cbe-427e-946c-22200fd3fb3a.png",
+    "sha256": "543d634e5d9a8d30bd52ff6b2d54f6aab6c5043f9860b3ecb5716424bad580d5",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/71561142-4c83-4933-afca-cb7a17f67053.png",
+    "sha256": "22c46404b2c7f586431ac035dbd83c53683eb372648abb990ce60916cf5f7c27",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/7ae8697c-bdc7-4612-8d1c-564aca07604c.jpg",
+    "sha256": "2b4844e197cc40cc754656d6d59cacd35051ce8a5a4eea2afab6f9ccdc0dea25",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/8207c8dd-15e9-4f7e-91b9-23ba88822e93.png",
+    "sha256": "f269fe550d8e5f73da29de16ba89e9992741b831938907ba42eaf1b365016e49",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/85cd8576-a9ee-42dd-878b-d74650de6abb.png",
+    "sha256": "b88f05729376b1c2302ddee7e19b2ed523e64eb3d31e5ccf1f495b7f052b804e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/880cb503-c1a8-4101-b459-5df2a67646c2.png",
+    "sha256": "38a5016a244cc55c211c2f0c9b72006ea3f4e0bf21b15e252778c1b124253b01",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/93265272-7e14-40cf-a8a2-c43048a12f86.png",
+    "sha256": "17ac681801f0f445155242f805c96acada057e0ea5c28c4295170be1caec6a88",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/a2088308-34d9-49b3-b831-84e068d99156.png",
+    "sha256": "677b3bf5ff6234d0576700382a66bf220bb0d2b42783c174dea1b20ffef6870e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/a83ea9a3-5799-449d-b173-0da6407bb3f6.png",
+    "sha256": "eeaa4924d50b2718c46aee6901cced26a15ed99df33aad351c26e0e797041aee",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/b43ff3c2-02bb-4874-81f7-f2dea6970f18.png",
+    "sha256": "eaea20a3c781898239dad8588a30b6762437076c64fe465c99f4d2b677801a28",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/b500c549-e361-4e4e-b5a6-29d2f6486ce5.png",
+    "sha256": "6d785f28791ae60369fdce1a31eb846076b5194f827fd465312567efa2ead41a",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/b924942c-aa9e-4f4c-bd37-12e2f75e16a1.png",
+    "sha256": "6a1704e685db40e6ba39f5af2d9a06e4a9b52901cb8ec402222df4b14fbbb0d0",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/c1d490cd-820b-49d9-8b68-c4c155df7559.png",
+    "sha256": "93332310fa3b6fcd6117c982694384fa565d7a1efe916f9a37b4296a93a5d490",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/d0a82d39-bede-46c4-b698-c81ff0dedfff.png",
+    "sha256": "9b67846689c3746a4788f4cd4b1941f94d5db397c6f09effc4d3869b95fd16d3",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/e851e89b-faa2-4484-bea6-5c01dd9f06e2.png",
+    "sha256": "0f7a1e15600dc4a254dfc535cb05dff98579de9239cb803043f774099bdbde6a",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/atlases/ef58b8bb-e34c-4c36-8bad-205e7d24651b.png",
+    "sha256": "665eb28b0aef7f361e036cf30d808dce1d774673aaf282b6dd238f3561bb7832",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/internal/native/02/0275e94c-56a7-410f-bd1a-fc7483f7d14a.png",
+    "sha256": "83c9b8ce1937570a40bcedde29457a4ab7865ca1db23a46d2d68e6b1949f3c28",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/main/native/7a/7ae8697c-bdc7-4612-8d1c-564aca07604c.jpg",
+    "sha256": "2b4844e197cc40cc754656d6d59cacd35051ce8a5a4eea2afab6f9ccdc0dea25",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/main/native/ef/ef58b8bb-e34c-4c36-8bad-205e7d24651b.png",
+    "sha256": "665eb28b0aef7f361e036cf30d808dce1d774673aaf282b6dd238f3561bb7832",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/0c/0c65e892-53bd-4fa1-9f16-4a0d2dd6a76a.png",
+    "sha256": "1a7c69eb8c5bf346595a77a0f2cdfe241a41b6bb30b50aaa2f3a3b70ac0070e5",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/11/115970bf0.png",
+    "sha256": "3e6b1050315aa4551a78a93b9941724587b5ee703945e40d55ea3c8796a234dd",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/12/126fed440.png",
+    "sha256": "ef5cd3f8ed8f250ab7824f7342912ccdf39d4feae8a6c8527c0223fe329e7b11",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/14/144861edf.png",
+    "sha256": "68d748cd6254009dbc8ceea9a095ff910a819c37209646615f71d75357cbdcd3",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/14/14d977656.png",
+    "sha256": "730bcf0122db30eadd9928e5f492a06acb6217b4dca6f7f5b0292d7875f4f006",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/14/14facfbc3.png",
+    "sha256": "c3e10fefd20ab886cab040abc9fa9abc5465ac8078de8bfa6298c3ba6c1fd08b",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/15/153cf6e21.png",
+    "sha256": "8e48fcd5632d667556c4b589b649301f1b08cf25e230836341354ce4092d9b91",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/16/160752c8f.png",
+    "sha256": "a9c701acd932aa7ed28f049b61f8818cb03c98dfa3e1fca45d992c93f4e9f606",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/19/19dc6463b.png",
+    "sha256": "2549e63a913405c48ee5bc0cfb41771630140e39bd649f1b54fd15b476ed8ceb",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/1d/1df2a7b88.png",
+    "sha256": "4daa1e10067c5fec4d61995fb910eb4ed954bca6564847bdd5d325b85285ca15",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/27/27a1b4c1-3428-4a52-b912-1be981ccd16a.png",
+    "sha256": "20a4856435bad8df790fbf1712fdbd331953646b5332eba785d9b83ad3107fb2",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/2a/2a12fadf-2857-4a56-9edc-62d6acb5b34f.png",
+    "sha256": "3332ca542fc5a2b88273f8c276338c63f3f2ed2d73b29a42fef4937c700e1572",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/30/300cff9e-c5ff-4371-b5be-6b76becb6b85.png",
+    "sha256": "47333e91d6c0bdc62da4ff102713a3dab12e0712665b8d6bed4a630579bb0f53",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/41/417ff6d0-c8c0-406c-a6a6-02eb06db0fbe.png",
+    "sha256": "8867b465dc7f62ac614faf98a99ff387ba3ee0f864dd160760bddfa2bc5e4291",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/5a/5a9527b9-11f9-4895-8d5d-bdec497960ed.png",
+    "sha256": "fcd79b539a8f138a2bfede6c2ecabcf0f03c0b81eb5b311d75f6a461d8e9739a",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/5d/5d35ebc5-8cbe-427e-946c-22200fd3fb3a.png",
+    "sha256": "543d634e5d9a8d30bd52ff6b2d54f6aab6c5043f9860b3ecb5716424bad580d5",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/71/71561142-4c83-4933-afca-cb7a17f67053.png",
+    "sha256": "22c46404b2c7f586431ac035dbd83c53683eb372648abb990ce60916cf5f7c27",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/82/8207c8dd-15e9-4f7e-91b9-23ba88822e93.png",
+    "sha256": "f269fe550d8e5f73da29de16ba89e9992741b831938907ba42eaf1b365016e49",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/85/85cd8576-a9ee-42dd-878b-d74650de6abb.png",
+    "sha256": "b88f05729376b1c2302ddee7e19b2ed523e64eb3d31e5ccf1f495b7f052b804e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/88/880cb503-c1a8-4101-b459-5df2a67646c2.png",
+    "sha256": "38a5016a244cc55c211c2f0c9b72006ea3f4e0bf21b15e252778c1b124253b01",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/93/93265272-7e14-40cf-a8a2-c43048a12f86.png",
+    "sha256": "17ac681801f0f445155242f805c96acada057e0ea5c28c4295170be1caec6a88",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/a2/a2088308-34d9-49b3-b831-84e068d99156.png",
+    "sha256": "677b3bf5ff6234d0576700382a66bf220bb0d2b42783c174dea1b20ffef6870e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/a8/a83ea9a3-5799-449d-b173-0da6407bb3f6.png",
+    "sha256": "eeaa4924d50b2718c46aee6901cced26a15ed99df33aad351c26e0e797041aee",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/b4/b43ff3c2-02bb-4874-81f7-f2dea6970f18.png",
+    "sha256": "eaea20a3c781898239dad8588a30b6762437076c64fe465c99f4d2b677801a28",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/b5/b500c549-e361-4e4e-b5a6-29d2f6486ce5.png",
+    "sha256": "6d785f28791ae60369fdce1a31eb846076b5194f827fd465312567efa2ead41a",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/b9/b924942c-aa9e-4f4c-bd37-12e2f75e16a1.png",
+    "sha256": "6a1704e685db40e6ba39f5af2d9a06e4a9b52901cb8ec402222df4b14fbbb0d0",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/c1/c1d490cd-820b-49d9-8b68-c4c155df7559.png",
+    "sha256": "93332310fa3b6fcd6117c982694384fa565d7a1efe916f9a37b4296a93a5d490",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/d0/d0a82d39-bede-46c4-b698-c81ff0dedfff.png",
+    "sha256": "9b67846689c3746a4788f4cd4b1941f94d5db397c6f09effc4d3869b95fd16d3",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/e2/e204b5c5-b738-48d7-8e0d-1e7ec0c5438f.png",
+    "sha256": "cb81855a14280c7ca57497a03dbdc341ced8be5fd9787b40520bcf809695b614",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/reference/cocos-published/assets/resources/native/e8/e851e89b-faa2-4484-bea6-5c01dd9f06e2.png",
+    "sha256": "0f7a1e15600dc4a254dfc535cb05dff98579de9239cb803043f774099bdbde6a",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/spine/sk_cloud/sk_cloud.png",
+    "sha256": "eeaa4924d50b2718c46aee6901cced26a15ed99df33aad351c26e0e797041aee",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/customRes/bgTips.png",
+    "sha256": "33a041d3eddda8e18acd0990b4ca9c4b850930eae605b0e052c3fa5d57950dae",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/customRes/icon_arrowWhite.png",
+    "sha256": "f78573cbdf87ad0d3e0adf3d4b049a66e5138836b8cf4077e0fcb2f2f8b10931",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/customRes/icon_point.png",
+    "sha256": "aebbdf646050628d551b50a9f9835249b9f7c9fa7d40ccfe54b13f70f828365e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/customRes/panel_bg_1.png",
+    "sha256": "b087798e79c8568eb68f2b1149d4529197800930cb2525fbaca019e4c80d1385",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/customRes/panel_bg_2.png",
+    "sha256": "50e9ae810261a426104e4e48d8674913f7b7a2babf16ac9f7c27923c27f00275",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/customRes/tips.png",
+    "sha256": "a1f558816633993ee953188e9087eb5709ad2b1354ea49eed844df8bd960ec1d",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/customRes/ui_collect.png",
+    "sha256": "8b58fe4772ab55d2e54539b7b3a2968731aea98f8e9d17bf8b85685fd8d86ed3",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin10-(2).png",
+    "sha256": "d94a6aeacc5efe7ca4d69a0c9d154bafcce33b735e73b11246748bd895bc2dff",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin16.png",
+    "sha256": "9f20268ad8cbe05a90700328580680a1c9e689f8956d48d20d3ef3e922fe379e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/BigNum10.png",
+    "sha256": "a6f4fd6c1924aabfe0240c58db078eeb3e07d16055f1ef475d6d6e4280dec002",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/number01.png",
+    "sha256": "c78c7fb8b0351176217cbcd3fff4645f0ebe5ed233b6b68c9d52b62ead068208",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/TargetArrow.png",
+    "sha256": "fc56de29bb644a58a436863e59d961946818aeb46ccad797a023509194e5ec19",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/TargetArrow2.png",
+    "sha256": "ac5c405daeea75d8320df4146507d7cfc1a5276c8d7918dcb6ea81cc8045aa30",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/TargetBG_4.1.png",
+    "sha256": "684d7b05b69a932733833d4c4fa75505949ed46019059b01a0f7ab0aef9618ad",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/TargetBG_4.2.png",
+    "sha256": "eca3ff9370e39ab114d9914f3586ea80445ed954f3c15b11f094f40e703ac36c",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/TargetBG_4.4.png",
+    "sha256": "82c71d7297ecfe420b6917d46b93d5092d8b0eb53862bd3c6e7cfae9088694e5",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/TargetBG_4.png",
+    "sha256": "ab3d9ab1bae32e5bbfbbecf5868a76510ddf3089af761715a048b426b0942daf",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/TargetBG_5_FinishIcon.png",
+    "sha256": "55763d5e32e8d34fe26ed401bd849d1e00adaba37095f893db75ce4801e7c405",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/Texture/skin/TargetBG_6.png",
+    "sha256": "139c6ae3a66c0e968b5d42476ba76c994dc09f3c8e37d6d5e3cf3a5e7340aa28",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/atom.png",
+    "sha256": "439648466918f220deb47dddc124f5c4c066b2b52b83a8bd9808ec7cb44d7046",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Bg_Common1.png",
+    "sha256": "56e7f13e5663f0d347ababb521ee88d7e88ea289b9cfb7511cde4d68ddc11c40",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/BG_Lock.png",
+    "sha256": "ccc4d3a41862988aa6f0060eab6dc781c9e51a96b0a14222254706eebf06e9ec",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/BG_Lock2Text.png",
+    "sha256": "93bf6f37a3856067ee9164df0075f9b35070900aee6673dec2072de1dd095918",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Btn_AddtoDesk.png",
+    "sha256": "a43c9a35fb3cb8e9c8e47f9106c5385c42a94a8905fe809783dbc0e878a78efc",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Btn_Begin.png",
+    "sha256": "519a17973185cf4e1b4fce9662f5064ff87c782ff6214756db3667eadfed978a",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Btn_Begin_24px.png",
+    "sha256": "c6357044d119fc3db6b765bb0d49b473b6b0885268791dc01921dde9b807b9e9",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Btn_CapsuleToys.png",
+    "sha256": "af4587c13b954ea162122a281d39ebedc227a62f85178a2af13e40b521e3601c",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Btn_Home.png",
+    "sha256": "a2bad598fadaced5c5a2d7835a294fef852a5dd331142f41fbdd192e74b7175d",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/btn_score.png",
+    "sha256": "404b12068beb08b1d857a5d3f4fe66ff8950133999f9475a1f6373a0c8a4611a",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Btn_Setting.png",
+    "sha256": "8518b28e272922d20ec8b2b76ab45728b3e8a7891b734b339d792ac15d4a4dde",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Choose_FriendCircle.png",
+    "sha256": "4d2a1ec43b0a53d99a53fc7c2ef279335205c5c9b4524f7fcce105a42b767b3c",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Choose_FriendCircle_2.png",
+    "sha256": "9d8ccc8cff29f4cb0971ef10d9829a11e9fdf5a65a038e925f19655e49290dae",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Combo1.png",
+    "sha256": "b9960ca3e01a36f581c16bece47247653443495dd7656927c1f7892f2aa0495e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Combo2.png",
+    "sha256": "a634378bced5703b42976e6f383e178e7011d25cad5d59cb3d3dcb0af71660c6",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Combo3.png",
+    "sha256": "82b8c5c24f98d0160a97d05059671a737e61c11a9c7448b1ea0f77b338e99e79",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Combo4.png",
+    "sha256": "ca11264771ee15f48e743a54391552abd3dd3553cfb98f49a856ca845a444a14",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Combo5.png",
+    "sha256": "f042a0d1f49cf9eb77445c9e1283cc148336796e83c999541bc0be5dcf49ae88",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Combo6.png",
+    "sha256": "30eec032fd1512b00a22fd9612584bb783bbbb9fedd1299d7518a2c2af582911",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Combo7.png",
+    "sha256": "550c7508d6e651300df87d9437ee391153f510ef14fbb0ff4496d452f1152989",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Combo8.png",
+    "sha256": "8bd8bbca2400c226fe2c47e8fa41fabf632b6ddf52596246b0f12aa49529f2e2",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/default_btn_disabled.png",
+    "sha256": "31a8267a956c7eb37fd48cc7311d9f692d86b860b82db663727c83987ede5829",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/default_btn_normal.png",
+    "sha256": "973834229f2b2173ab07cf2b399a26a9952333b4297f856ef2d5781e9dfa5d02",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/default_btn_pressed.png",
+    "sha256": "60324e5b1e333fda8589527ed4232e6821eba6eab9f8b64d8bfd0e8f540593c5",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/default_sprite_splash.png",
+    "sha256": "803f3b73e9e4960c1b25d25b1dcb493de6cb51a001fbcc7f604e4dfe62c8c26e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/fail_banner.png",
+    "sha256": "83dd93db75200cc5d8ca49459d67667d951959cdb69e5f6de94138c356fd832b",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Gold_Big.png",
+    "sha256": "1ba8a944f0db74129ef2654f60dc74cf95becc6ac515e6229b4e2d6b8cfc0283",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Guide_Mask4.png",
+    "sha256": "53d8a59adb87bcecb274adfdc6039e65a33a561d5f4441591ad7a901a34ff93b",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Guide_Text1.png",
+    "sha256": "69e55cdc724814a34f4a2894a61b76b588ca3d326c4bf7bfa4af23ce45dfbd83",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Guide_Text2.png",
+    "sha256": "45d2ef635a7508aacb9d609f8dabd6349dcb018ebcc68c5b8cabf36d7bd5af3e",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Guide_Text3.png",
+    "sha256": "dae0078744bdf00ed0d5a61c3cb7bb2c57ac6afc69c0e70b16af23e6da996381",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Guide_Text4.png",
+    "sha256": "1856bf9d9eb7fe5c642edf7667b5271f99aa3764fbb25df6cd4cab4d92411b38",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Guide_Text5.png",
+    "sha256": "5159af40e03bef0c34d35cbf69bcadefac74bed2b9cb68bb162f3f8f79761db3",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Guide_Text6.png",
+    "sha256": "5d2825fc1c98d6eaca3bc73595c851a2c6fd2bb245591ce6665dcb50b8568986",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Icon_ad_1.png",
+    "sha256": "76dec8367e7bec06a3925a8e1616c5a0bb199c4bff2eea4cf23d0a0481b4ccf4",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Icon_crown.png",
+    "sha256": "9098ab98dcdef4919e0250cca9274ea34b40736c3e62a607337e8fba2f58e19b",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Icon_crown_2.png",
+    "sha256": "d5ebc8bf03da80092e23d901136df06a302e5325f1dd88e5c90e92dab8da32ff",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/icon_lang.png",
+    "sha256": "0acb425db0174e1d40ef81bf172941af691b05a751b4b8ddcfb8d092b69abaef",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Icon_Time.png",
+    "sha256": "7272c84c468412669cc39394f2f38509e039ab00228eb4a8bf1d294eef881fd2",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/infoTip.png",
+    "sha256": "236d6ea3ec265b5f4e5dfc08cf03ad45bb12c33adb26a71019c63a908714015c",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Light3.png",
+    "sha256": "34e8e07057c4b0b62cdac87de5be23ba96e1f372e99d64ad76f52922a18e3f6f",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Light_Aperture.png",
+    "sha256": "cc2579c1e7cc86aa0b27f9327a5c0fb42090294ed5c4421e2f2653532067daaa",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/line.png",
+    "sha256": "c42b1596050badabc9b4283bab11d51a82e2ebe2ad7774afd0a8d161df525b62",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/logo_pupu.png",
+    "sha256": "7a789ab03ce1e2df349c519793c2606efa196acd6246c1347b1d009f29237a6c",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/my_collect.png",
+    "sha256": "665469f3f9b77deeca454d8e8512adb07f47a4d0871828cc5d508589ccf61308",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/NewEgg.png",
+    "sha256": "94c2938c1af345ec8291bcce314d9ba8111d06e52a8bccd40639dde8b2476c91",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/PanelBG_2.png",
+    "sha256": "b9689ed40bfbfe74eea1d497f708aff50b977866aea5cdceda97b8a8dab388e5",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/pupu_bg.png",
+    "sha256": "1f9db1ee91f42183e9e2ce251f97445a91268624b177f4fc37fc3ed3cc202994",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/score_bg.png",
+    "sha256": "bcd889bc4dec1c3f82b01a3aff0afb008e21dba7e411a8af95876727660e68a8",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/score_bg_2.png",
+    "sha256": "fc84c7dcebd56d145431f06b2931c40f3ba137257b997b4f5d4862d03c5dde06",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/TargetArrow1_1.png",
+    "sha256": "5ba138aeda56892febab86bdebe65de5f3d4174863a4ae2e9222e45d38bc3a02",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Win_aperture.png",
+    "sha256": "3c471b24d46e1a1be4ce94440a8c5ac8f7437100303246165f1639e08a9950f7",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/Win_victor.png",
+    "sha256": "62a34316d96b135b09e7749e5792a4d9a97c14c343cc85176ae5cc1192adb57c",
+    "reason": "not reachable from runtime entries"
+  },
+  {
+    "path": "assets/rea_original/sprites/ui/wx_collect.png",
+    "sha256": "be91902794259c9da25074b152f5fe4f0928286636d47405488b0aeb4878a51d",
+    "reason": "not reachable from runtime entries"
+  }
+]

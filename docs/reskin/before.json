@@ -1,0 +1,3708 @@
+{
+  "generated_at": "2026-10-20T06:58:47.543947+00:00",
+  "image_count": 104,
+  "source_files": [
+    "addons/godot_ai/runtime/game_helper.gd",
+    "addons/godot_ai/runtime/game_logger.gd",
+    "addons/godot_ai/utils/error_codes.gd",
+    "addons/godot_ai/utils/log_backtrace.gd",
+    "addons/godot_ai/utils/screenshot_encode.gd",
+    "assets/rea_original/fonts/number01/number01.fnt",
+    "project.godot",
+    "scenes/challenge.tscn",
+    "scenes/challenge_menu.tscn",
+    "scenes/coin_slot.tscn",
+    "scenes/game.tscn",
+    "scenes/main_menu.tscn",
+    "scenes/settings_dialog.tscn",
+    "scripts/challenge.gd",
+    "scripts/challenge_data.gd",
+    "scripts/challenge_game.gd",
+    "scripts/challenge_menu.gd",
+    "scripts/challenge_platform.gd",
+    "scripts/challenge_screen.gd",
+    "scripts/challenge_slot.gd",
+    "scripts/coin_slot.gd",
+    "scripts/coin_visual.gd",
+    "scripts/dialog_style.gd",
+    "scripts/game.gd",
+    "scripts/game_settings.gd",
+    "scripts/gameplay_dialog.gd",
+    "scripts/main_menu.gd",
+    "scripts/modal_shade.gd",
+    "scripts/normal_congrats.gd",
+    "scripts/normal_effects.gd",
+    "scripts/normal_game.gd",
+    "scripts/normal_motion.gd",
+    "scripts/normal_motion_data.gd",
+    "scripts/normal_particle_data.gd",
+    "scripts/normal_particles.gd",
+    "scripts/normal_progress.gd",
+    "scripts/normal_tutorial.gd",
+    "scripts/settings_dialog.gd",
+    "shaders/challenge_coin_light.gdshader",
+    "shaders/tutorial_mask.gdshader",
+    "shaders/unlock_shimmer.gdshader"
+  ],
+  "images": [
+    {
+      "path": "assets/rea_original/fonts/number01/number01.png",
+      "sha256": "c78c7fb8b0351176217cbcd3fff4645f0ebe5ed233b6b68c9d52b62ead068208",
+      "bytes": 5383,
+      "size": [
+        238,
+        92
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        2,
+        2,
+        234,
+        89
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "assets/rea_original/fonts/number01/number01.fnt",
+          "line": 3,
+          "kind": "font-page",
+          "expression": "number01.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/particles/atom.texture.png",
+      "sha256": "439648466918f220deb47dddc124f5c4c066b2b52b83a8bd9808ec7cb44d7046",
+      "bytes": 752,
+      "size": [
+        31,
+        31
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        31,
+        31
+      ],
+      "alpha_range": [
+        0,
+        250
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 106,
+          "kind": "direct",
+          "expression": "../particles/atom.texture.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/Challenge/BG_Choose.png",
+      "sha256": "1878fc6f71ddde5040483f88007587838f60bf2821dfb096a15474b331db951b",
+      "bytes": 2888,
+      "size": [
+        122,
+        160
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        122,
+        160
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 150,
+          "kind": "direct",
+          "expression": "BG_Choose.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/Challenge/Flag.png",
+      "sha256": "4adeb8995176f4d444ffe4707bb7972db28f676070eea2f1f28433e20f8ec9e5",
+      "bytes": 819,
+      "size": [
+        48,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        48,
+        60
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 151,
+          "kind": "direct",
+          "expression": "Flag.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/Challenge/LevelBG.png",
+      "sha256": "6f7884133d4230dc72aa450883ceebcbec8eafcc79c8f8bd0aa0900b8250d6b2",
+      "bytes": 768,
+      "size": [
+        90,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        90,
+        128
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 140,
+          "kind": "direct",
+          "expression": "LevelBG.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/Challenge/Partten.png",
+      "sha256": "eb667b769af7a9176d2227456901ce74a483f027815f7cfe41f33f5d2d9a902d",
+      "bytes": 7610,
+      "size": [
+        90,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        90,
+        128
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 154,
+          "kind": "direct",
+          "expression": "Partten.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/Challenge/Unlock.png",
+      "sha256": "9248bb7b4d80d31039180e92a4da2b2b7158c9dc081b4c4ca43c7402cadf5788",
+      "bytes": 1606,
+      "size": [
+        49,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        49,
+        64
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 145,
+          "kind": "direct",
+          "expression": "Unlock.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/BG_Lock.png",
+      "sha256": "c476ba2aef258b75f1ab57ab9198ec0534d5637b74d977d51f521b054732204b",
+      "bytes": 1303,
+      "size": [
+        114,
+        205
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        113,
+        204
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 10,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/BG_Lock.png"
+        },
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 13,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Lock.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/BG_Lock2.png",
+      "sha256": "e10e54255d86856ae754faffa8bd3b9cb9f5213bb075c9890663b0b5e2411f03",
+      "bytes": 1077,
+      "size": [
+        110,
+        200
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        110,
+        200
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 14,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Lock2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/BG_Lock_AD.png",
+      "sha256": "474f4011ba867c534ff2ec536e6cd3456fcab40c0e225447a9011c544f57391a",
+      "bytes": 4035,
+      "size": [
+        112,
+        203
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        112,
+        203
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 16,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Lock_AD.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/BG_Trench.png",
+      "sha256": "16d3f22833b1f0454e22470b8679ed8321af198f308ac26712c43aad1ae9707a",
+      "bytes": 10854,
+      "size": [
+        122,
+        213
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        121,
+        212
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 12,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/BG_Trench.png"
+        },
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 39,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Trench.png"
+        },
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 11,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Trench.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/BG_Trench_Merge.png",
+      "sha256": "0db84d5c04ccd468ed087e841a992416f9a8b1b473e94002334805762b7e8e8e",
+      "bytes": 2765,
+      "size": [
+        132,
+        222
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        132,
+        222
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 12,
+          "kind": "direct",
+          "expression": "Texture/skin/BG_Trench_Merge.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/Bg_Mask.png",
+      "sha256": "3d7f11992d7ba9f3d41efb6508cc0c0a79aee97beec90f8e677b733d8ec58e00",
+      "bytes": 112,
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "alpha_range": [
+        248,
+        248
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge.gd",
+          "line": 76,
+          "kind": "direct",
+          "expression": "Texture/skin/Bg_Mask.png"
+        },
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 45,
+          "kind": "direct",
+          "expression": "Texture/skin/Bg_Mask.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/CoinMask.png",
+      "sha256": "160f5960018beb9632c31374fec82aa857cde51405b910fa04b1aaa0851c4761",
+      "bytes": 1661,
+      "size": [
+        100,
+        229
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        100,
+        229
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 183,
+          "kind": "direct",
+          "expression": "Texture/skin/CoinMask.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/ColorArrow.png",
+      "sha256": "ff973489e5a0bc21315cabd04e80f1e4797c607b8520c825c6604f59a1860e3d",
+      "bytes": 390,
+      "size": [
+        32,
+        21
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        21
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 49,
+          "kind": "direct",
+          "expression": "Texture/skin/ColorArrow.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/Icon_QuestionMark.png",
+      "sha256": "e805ed1fb902ab0e49c456cb929e9b997fca9171bf4513a19b959d92a286ddc5",
+      "bytes": 622,
+      "size": [
+        40,
+        53
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        40,
+        53
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 43,
+          "kind": "direct",
+          "expression": "Texture/skin/Icon_QuestionMark.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/TargetArrow1.png",
+      "sha256": "b9422c1447c49819c1e9af2c340cf9ed2401c3bb13684a0b7a17d72b20798020",
+      "bytes": 526,
+      "size": [
+        20,
+        17
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        20,
+        17
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 21,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/TargetArrow1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/TargetBG_1.png",
+      "sha256": "7dfe1f5c02965196cf0babd6cf2d60435b78d9c961d9918e139538f147ad80f0",
+      "bytes": 1232,
+      "size": [
+        56,
+        56
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        56,
+        56
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 17,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/TargetBG_1.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 31,
+          "kind": "direct",
+          "expression": "Texture/skin/TargetBG_1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/TargetBG_2.png",
+      "sha256": "d298489420f0e1b18db9c08fdae08e5b0efa6368365b0207700f200f99c3ff00",
+      "bytes": 1712,
+      "size": [
+        72,
+        74
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        72,
+        74
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 18,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/TargetBG_2.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 38,
+          "kind": "direct",
+          "expression": "Texture/skin/TargetBG_2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/TargetBG_5.png",
+      "sha256": "052221064f28e94d0ee792fd6a5db906779d8d9f34afd6742a8f1f66c8b0031d",
+      "bytes": 1355,
+      "size": [
+        56,
+        56
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        56,
+        56
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 40,
+          "kind": "direct",
+          "expression": "Texture/skin/TargetBG_5.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/Tick.png",
+      "sha256": "b824f26c5cf9a0bf57637ec72c493acdf08f3f13ec54a4cd9dcf9e1992a4b6dd",
+      "bytes": 1124,
+      "size": [
+        73,
+        57
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        73,
+        57
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 51,
+          "kind": "direct",
+          "expression": "Texture/skin/Tick.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin1.png",
+      "sha256": "f60ac7f1ec272feb1074257804b9c94551362ef9aed4cc14e85d2fd12998937a",
+      "bytes": 11368,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        169
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 237,
+          "kind": "direct",
+          "expression": "Texture/skin/big/BigCoin1.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin10.png",
+      "sha256": "97f1c051f6db689a86ab8e7dffcee80836ea73ee98aa8003950b049e1b4aa0b6",
+      "bytes": 9525,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin11.png",
+      "sha256": "a5de64fae431e76398f53ae50ce377b7fd943bd34f3dfc72e207b67df1a7ff3d",
+      "bytes": 11623,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin12.png",
+      "sha256": "031e365a95fabcb896c4e39d8a0edcb2be412fea08b29582fe167fb30e23ac49",
+      "bytes": 10621,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin13.png",
+      "sha256": "aa1d9566557cc88a037701ba0b540dc90d0606cdf81ad546818fbc3b63686efb",
+      "bytes": 10795,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin14.png",
+      "sha256": "2afc5222cd42fa4bf811f57ea0e90e8fbc06641833847970f3de57ee146dd6f9",
+      "bytes": 9925,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin15.png",
+      "sha256": "513798ada25791685d30e3b60ce9c00a6d6de49ae90f7f23a4ea4a3783a207ce",
+      "bytes": 9922,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin2.png",
+      "sha256": "1c3bf129e22bbb488f4a96e9e893853666a0d203255b722e2f0ea578fa3bb761",
+      "bytes": 10271,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        169
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin3.png",
+      "sha256": "0e164d101e03e7a8401ca9cb8f595ee8c64ef6bb65b31679d7bd027c6c5f00f5",
+      "bytes": 9648,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        1,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin4.png",
+      "sha256": "38f0ba54bf833cf0faef4ed8d31cfb0910c6a86292fbd6e6bbc6c19dad787921",
+      "bytes": 9623,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        169
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin5.png",
+      "sha256": "f9ce7039871fa4ad8adff323aae2d1a1d7725b16e0d543a45f5abe2c9e5a0076",
+      "bytes": 10997,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 14,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin5.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 39,
+          "kind": "direct",
+          "expression": "Texture/skin/big/BigCoin5.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin6.png",
+      "sha256": "18340a7722e826619da9e2bb18db3791b74b78e6e3870a254875d5f30c30d50f",
+      "bytes": 8778,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin7.png",
+      "sha256": "81610c865e484483695374f4ecd8fd4b1cb19ae4d42a3c1ba88316c295d52be6",
+      "bytes": 9905,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        1,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin8.png",
+      "sha256": "6250964b864eaa427f722807ee9d410467f8d9cddc936baa1f8e3e3232b82395",
+      "bytes": 11215,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/big/BigCoin9.png",
+      "sha256": "be45c351efdafd559893d923d39c5ca353a06cbf177a7baa2b7f78f40d7c4a13",
+      "bytes": 9689,
+      "size": [
+        164,
+        172
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        164,
+        168
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 282,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/game.gd",
+          "line": 136,
+          "kind": "dynamic",
+          "expression": "sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 152,
+          "kind": "dynamic",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 46,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 75,
+          "kind": "dynamic",
+          "expression": "Texture/skin/big/BigCoin%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/1.png",
+      "sha256": "87fd39aa8c4cf5ba6b77132013b5bb2701b725d90ccd67c0182c9a2c5cbd2401",
+      "bytes": 3944,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 13,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/Texture/skin/normal/1.png"
+        },
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/10.png",
+      "sha256": "2201c0da7c7ac6ab846a6ed325de3a6be443c1fd60f3a4361f14d8aa0750c74a",
+      "bytes": 3683,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/11.png",
+      "sha256": "518e3be7f5797c12ef94ede6330d225b1b4a7a151720cded54b8f8d6f2c09dca",
+      "bytes": 3928,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/12.png",
+      "sha256": "743808e5a9165ca8bab0e852c03846d6f11ceca87d713aa3e0e13f560e6b6ce5",
+      "bytes": 4208,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/13.png",
+      "sha256": "31dc6f179bf1f61a46b35e30458fda101a8c6ecc9c682551439068c8535d4981",
+      "bytes": 3961,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/14.png",
+      "sha256": "11360c96357946ee68bc29575bbf24cdca7946934258a9733ea8134c0fe61a9c",
+      "bytes": 3204,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/15.png",
+      "sha256": "4a0ff961c4bf784c608fd5e4539d3018842d984a2653ae6c4818790cbbeeda9a",
+      "bytes": 3057,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/16.png",
+      "sha256": "b55498f9856ec9fc6bf7f5a82d0e2851c7a15ec830695dde32af9481625fc34c",
+      "bytes": 3665,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/2.png",
+      "sha256": "6838181d6e634266bdc7e8bda3cb45f000f661d07fe432d8150e6a7dc9e82e63",
+      "bytes": 3317,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/3.png",
+      "sha256": "f8a8e241575d4564ca8dd5c75c0e869315eef70d66eddec3a84b03c0171f38b9",
+      "bytes": 3507,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/4.png",
+      "sha256": "13175f15160f0250ad68082fade605c1a39c53ba27fdc8458f1ece5fb9969d41",
+      "bytes": 3260,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/5.png",
+      "sha256": "b2164d3eb235513371ea7319db19a8ac032fc70bb03e59eb90dca219f225890e",
+      "bytes": 3650,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/6.png",
+      "sha256": "90fdd294f94f287976f84df8d641d1072da918cda77aac81f60dfa56bd839c9a",
+      "bytes": 3936,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/7.png",
+      "sha256": "5ec1a61e3b71288717c5b88a218c22287b19d1777e2cd456a2ccf8d37d2fd7e4",
+      "bytes": 3754,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/8.png",
+      "sha256": "66f1bac93763ec16df1b1a7a96d52dc20266fbfa1ad0a11d84e8ad51243b467b",
+      "bytes": 3383,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/normal/9.png",
+      "sha256": "6311aa50df1567d379d8fd13ced168495900b4d98fc344e1b7b50229583650b9",
+      "bytes": 2920,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 49,
+          "kind": "dynamic",
+          "expression": "Texture/skin/normal/%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War1.png",
+      "sha256": "abbb0fc709c181311ba3cab3dcd17497d2b2c649f42d1a42ee1dc0de765e179b",
+      "bytes": 3945,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War10.png",
+      "sha256": "7bef1b3dc3c6ca3d1587213766ec4d6d7bff85081510364bdac8076c56ca496c",
+      "bytes": 4174,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War11.png",
+      "sha256": "f655b462bce2231142d21aea71260a694112eebab6b73ee62c7243e7aaca8173",
+      "bytes": 3348,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War2.png",
+      "sha256": "44cd1b27e01b32d3ce137f6c2fc79be8884687b04d25098984273dc25cc6582f",
+      "bytes": 3315,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War3.png",
+      "sha256": "9373e1919f28942e193aae1964f52e5ffc3f3aab1303bdc02f452941bab0dd63",
+      "bytes": 3920,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War4.png",
+      "sha256": "1ef7d2a4b8fd4d69ec12979ff69bb43c32ad174f775db77373f56580f2edc8a5",
+      "bytes": 3645,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War5.png",
+      "sha256": "9b19bb10df0235a399e7e9f7b1686f561bf61c739de56c421ed579a3d17c7d9c",
+      "bytes": 3582,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War6.png",
+      "sha256": "bd1fd967675324d9178686c733278b4e90becbe7bd2b0e4a203e26f227f0aada",
+      "bytes": 2931,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War7.png",
+      "sha256": "670779345305e30a806c4aea1662f521e62e4a7585beffc899fc96497d98bfb0",
+      "bytes": 3753,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War8.png",
+      "sha256": "93c5b49e67b0586b7cbd0114a5f817811a2d0df917dad01b4ad2d34c945aff67",
+      "bytes": 3426,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/Texture/skin/war/War9.png",
+      "sha256": "31dc6f179bf1f61a46b35e30458fda101a8c6ecc9c682551439068c8535d4981",
+      "bytes": 3961,
+      "size": [
+        101,
+        67
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        101,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_visual.gd",
+          "line": 51,
+          "kind": "dynamic",
+          "expression": "Texture/skin/war/War%d.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/spine_cloud/could1.png",
+      "sha256": "3e48f2bff309243d258c804510ede28e70959026e7041ac3b2af6f576e7d15d5",
+      "bytes": 11633,
+      "size": [
+        489,
+        347
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        1,
+        488,
+        347
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 8,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/spine_cloud/could1.png"
+        }
+      ],
+      "runtime_used": false
+    },
+    {
+      "path": "assets/rea_original/sprites/spine_cloud/could2.png",
+      "sha256": "0dfd9440de9fef47812e8bc311d611bc9d360d6cfa57703e5c1ecbe12a7e64f5",
+      "bytes": 7537,
+      "size": [
+        449,
+        419
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        449,
+        419
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 7,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/spine_cloud/could2.png"
+        }
+      ],
+      "runtime_used": false
+    },
+    {
+      "path": "assets/rea_original/sprites/spine_cloud/could3.png",
+      "sha256": "1e6b4c7719ca8227bb60bffba8dbbb785cb894ab0c61230233a167a16bdd00f6",
+      "bytes": 14538,
+      "size": [
+        750,
+        533
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        1,
+        750,
+        533
+      ],
+      "alpha_range": [
+        0,
+        105
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 6,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/spine_cloud/could3.png"
+        }
+      ],
+      "runtime_used": false
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/BG.png",
+      "sha256": "21d4cdda786685beb0ad5a6a83adce3c286d5bb8c1d307345eef63aaefdeb223",
+      "bytes": 1601,
+      "size": [
+        23,
+        1623
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        23,
+        1623
+      ],
+      "alpha_range": [
+        240,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 5,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/BG.png"
+        },
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 4,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/ui/BG.png"
+        },
+        {
+          "source": "scripts/challenge_screen.gd",
+          "line": 21,
+          "kind": "direct",
+          "expression": "ui/BG.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Box2.png",
+      "sha256": "d7bf524268601d178d32547368d63f0729574e7b2660f38be82863bc3c117652",
+      "bytes": 17496,
+      "size": [
+        321,
+        330
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        320,
+        329
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 9,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Box2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_Ad_broad.png",
+      "sha256": "8675ec633a278a22a2d99b65f0793f37650ed205acc6348cdafed6e5fd15c7b2",
+      "bytes": 10641,
+      "size": [
+        225,
+        96
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        224,
+        95
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 10,
+          "kind": "direct",
+          "expression": "Btn_Ad_broad.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_Begin_38px.png",
+      "sha256": "e0b6077c4765163be9dbd2cfbf8badca3cd05376a7cd95f218c28544fbbf48e0",
+      "bytes": 5011,
+      "size": [
+        162,
+        171
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        161,
+        170
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 9,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/ui/Btn_Begin_38px.png"
+        }
+      ],
+      "runtime_used": false
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_Deal.png",
+      "sha256": "57b8222715189caf936ea5c8030458ea4a86b46f203b151160cb25f03cc59f03",
+      "bytes": 5493,
+      "size": [
+        294,
+        147
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        293,
+        147
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 22,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Btn_Deal.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_Quit.png",
+      "sha256": "fe15379d3be0453911222e0bab6b2664b2dad68f94c4c4bdd24aa2e29414a376",
+      "bytes": 3539,
+      "size": [
+        81,
+        81
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        80,
+        80
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 5,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Btn_Quit.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 61,
+          "kind": "direct",
+          "expression": "ui/Btn_Quit.png"
+        },
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 87,
+          "kind": "direct",
+          "expression": "Btn_Quit.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png",
+      "sha256": "5bca8a1bae51ecf725041fb3b142d6b55befdcbbcfc5f9317c00ad6a053e0690",
+      "bytes": 6215,
+      "size": [
+        91,
+        101
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        90,
+        100
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 8,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png"
+        },
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 11,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/ui/Btn_Setting_2acdf23c.png"
+        },
+        {
+          "source": "scripts/challenge_screen.gd",
+          "line": 92,
+          "kind": "direct",
+          "expression": "ui/Btn_Setting_2acdf23c.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_War_24px.png",
+      "sha256": "40f981d1c7c9f90e478a3a20311e383da265d7576b8e263203da8363874fef64",
+      "bytes": 5619,
+      "size": [
+        158,
+        130
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        157,
+        129
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 10,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/ui/Btn_War_24px.png"
+        }
+      ],
+      "runtime_used": false
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_blue_25px.png",
+      "sha256": "65e527bdac4f6bfeaf0fe0554cd1622b130847f21c540401010661b5bffde453",
+      "bytes": 3446,
+      "size": [
+        117,
+        100
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        117,
+        100
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 9,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Btn_blue_25px.png"
+        },
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 7,
+          "kind": "direct",
+          "expression": "Btn_blue_25px.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_green_25px.png",
+      "sha256": "85d1b27bbc97c6596839525b6a416a059fa5f812cc709f0f3459551cdca964d9",
+      "bytes": 3483,
+      "size": [
+        113,
+        107
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        113,
+        107
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 9,
+          "kind": "direct",
+          "expression": "Btn_green_25px.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Btn_yellow_25px.png",
+      "sha256": "bd49d0d749d17df0a939dd3402ad47894e326c3b4e8dd8994f92f2926b88c69a",
+      "bytes": 4123,
+      "size": [
+        107,
+        100
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        106,
+        99
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 10,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Btn_yellow_25px.png"
+        },
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 8,
+          "kind": "direct",
+          "expression": "Btn_yellow_25px.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/CoinBg.png",
+      "sha256": "dadba7c8148c7c2c6589dbe63c8313facb2d92623bdcba7029347357fefc8d8d",
+      "bytes": 2538,
+      "size": [
+        172,
+        83
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        172,
+        83
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge.gd",
+          "line": 81,
+          "kind": "direct",
+          "expression": "ui/CoinBg.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Gold_Small.png",
+      "sha256": "635ce6d4c0cc7da31f38f3c9b2811ad6fde9c7bf5438281b4783d3d399a1af6c",
+      "bytes": 3987,
+      "size": [
+        55,
+        55
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        55,
+        55
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/gameplay_dialog.gd",
+          "line": 104,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Gold_Small.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Guide_Hand.png",
+      "sha256": "aa01b33f3e8e3e9e972cd4a2112799ea14f0691732ad56adcc266021bf84e290",
+      "bytes": 4885,
+      "size": [
+        146,
+        144
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        146,
+        144
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_tutorial.gd",
+          "line": 42,
+          "kind": "direct",
+          "expression": "Guide_Hand.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Guide_Mask1.png",
+      "sha256": "188453a6b514c9591b77d0a30520c769d4bae705f484bdad0166296126380ed3",
+      "bytes": 1135,
+      "size": [
+        146,
+        252
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        146,
+        252
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_tutorial.gd",
+          "line": 58,
+          "kind": "direct",
+          "expression": "Guide_Mask1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Guide_Mask2.png",
+      "sha256": "7afe6de5f71951a297474fdf4cb7a95f46aa8dbcf5bf5e9311d51b292114b750",
+      "bytes": 881,
+      "size": [
+        124,
+        164
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        124,
+        164
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_tutorial.gd",
+          "line": 58,
+          "kind": "direct",
+          "expression": "Guide_Mask2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Guide_Mask3.png",
+      "sha256": "4bd4ee1d9cd78a4a00e663b37721202c0653637bcde920177a05ed0f6fdb8243",
+      "bytes": 1245,
+      "size": [
+        317,
+        158
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        317,
+        158
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_tutorial.gd",
+          "line": 58,
+          "kind": "direct",
+          "expression": "Guide_Mask3.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Icon_Lock.png",
+      "sha256": "062b0ce7bc9fbae5ba9bf4c9555a3f6b84e1eb44299a27410daefa497ede5b0a",
+      "bytes": 1914,
+      "size": [
+        43,
+        57
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        43,
+        57
+      ],
+      "alpha_range": [
+        0,
+        157
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 11,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/ui/Icon_Lock.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 143,
+          "kind": "direct",
+          "expression": "ui/Icon_Lock.png"
+        },
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 17,
+          "kind": "direct",
+          "expression": "ui/Icon_Lock.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Icon_Unlock.png",
+      "sha256": "3838626672fedf107ba53577500c9bf4106e40b30af53dbe0f3b20522265f77d",
+      "bytes": 1614,
+      "size": [
+        49,
+        57
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        49,
+        57
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 18,
+          "kind": "direct",
+          "expression": "ui/Icon_Unlock.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Icon_ad_2.png",
+      "sha256": "45afd57c89b3baf0158af79cd8b6cb06d7dbdd994199b015c7dafd3d39f713a2",
+      "bytes": 1274,
+      "size": [
+        72,
+        46
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        71,
+        45
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 19,
+          "kind": "direct",
+          "expression": "ui/Icon_ad_2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Icon_spot_1.png",
+      "sha256": "4370e8d741be2acd08395072d584b4e79e2817cb543ca3ce8237e284a2339ef3",
+      "bytes": 830,
+      "size": [
+        36,
+        36
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        35,
+        35
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 118,
+          "kind": "direct",
+          "expression": "ui/Icon_spot_1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Icon_spot_2.png",
+      "sha256": "e9da662b877a99f9de7e12b0e0f7fc740e6012b559b7c1edf77a633ced1475d7",
+      "bytes": 816,
+      "size": [
+        36,
+        36
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        35,
+        35
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 83,
+          "kind": "direct",
+          "expression": "ui/Icon_spot_2.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 118,
+          "kind": "direct",
+          "expression": "ui/Icon_spot_2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/LaserLight.png",
+      "sha256": "6443207be6b243a0b6e9661141874d24b349d263c71c1e3010a7b75bdd8d83fd",
+      "bytes": 14795,
+      "size": [
+        122,
+        180
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        11,
+        0,
+        112,
+        180
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 186,
+          "kind": "direct",
+          "expression": "ui/LaserLight.png"
+        },
+        {
+          "source": "scripts/coin_slot.gd",
+          "line": 55,
+          "kind": "direct",
+          "expression": "ui/LaserLight.png"
+        },
+        {
+          "source": "scripts/normal_effects.gd",
+          "line": 77,
+          "kind": "direct",
+          "expression": "ui/LaserLight.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Light1.png",
+      "sha256": "8397f22b3c49a306f7d7b725ca1bee8a38e1e67b12427df69bf3d7c2160ce33d",
+      "bytes": 704,
+      "size": [
+        24,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge_slot.gd",
+          "line": 14,
+          "kind": "direct",
+          "expression": "ui/Light1.png"
+        },
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 53,
+          "kind": "direct",
+          "expression": "ui/Light1.png"
+        },
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 257,
+          "kind": "direct",
+          "expression": "ui/Light1.png"
+        },
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 307,
+          "kind": "direct",
+          "expression": "ui/Light1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/PanelBG.png",
+      "sha256": "4cb5d51c6fbe1953e25d9c2066a46da2b5475d676831910b28e02a39eb98b31a",
+      "bytes": 8063,
+      "size": [
+        316,
+        243
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        315,
+        242
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 4,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/PanelBG.png"
+        },
+        {
+          "source": "scripts/challenge_menu.gd",
+          "line": 46,
+          "kind": "direct",
+          "expression": "ui/PanelBG.png"
+        },
+        {
+          "source": "scripts/dialog_style.gd",
+          "line": 61,
+          "kind": "direct",
+          "expression": "PanelBG.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Pieces1.png",
+      "sha256": "8aa1873210ceb246d56909b65fb849c4741061b600dc31d7434194cbfafa6adc",
+      "bytes": 326,
+      "size": [
+        20,
+        28
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        20,
+        28
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 160,
+          "kind": "direct",
+          "expression": "ui/Pieces1.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Pieces2.png",
+      "sha256": "1c8b6c584befec5d6d5642fa2667ae00f395631bb1de74880cbbb690d3b8bce3",
+      "bytes": 424,
+      "size": [
+        24,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scripts/normal_particle_data.gd",
+          "line": 212,
+          "kind": "direct",
+          "expression": "ui/Pieces2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/ProcessBG.png",
+      "sha256": "60cecfdc762a4ebf2efd9cf352d1ad54db4628a3c5409ca31c62aecaa169420c",
+      "bytes": 564,
+      "size": [
+        124,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        124,
+        64
+      ],
+      "alpha_range": [
+        0,
+        77
+      ],
+      "references": [
+        {
+          "source": "scripts/challenge.gd",
+          "line": 88,
+          "kind": "direct",
+          "expression": "ui/ProcessBG.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Set_broad.png",
+      "sha256": "89c2839b84a8c7c6b90afebe51b7b85476e6b127de0085e0f26a767886dc1144",
+      "bytes": 3344,
+      "size": [
+        129,
+        78
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        128,
+        77
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 6,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Set_broad.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Set_broad_2.png",
+      "sha256": "3155ff33c92a44a8446a00395cc74e51ef9da259773653297006c8f55bcbdbae",
+      "bytes": 3434,
+      "size": [
+        128,
+        78
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        127,
+        77
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 7,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Set_broad_2.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/Set_btn.png",
+      "sha256": "b54a579ef4c13a09e229fe886f9a5401f7007d9f72da8c0339d9726de828c443",
+      "bytes": 1683,
+      "size": [
+        54,
+        58
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        53,
+        57
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/settings_dialog.tscn",
+          "line": 8,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/Set_btn.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/TargetBG_4.png",
+      "sha256": "5a78b47ee9fd8a8aa6370411a4ad4bdae4407ca8af06fe53f433224b23677da4",
+      "bytes": 10707,
+      "size": [
+        113,
+        112
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        113,
+        112
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 23,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/TargetBG_4.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 30,
+          "kind": "direct",
+          "expression": "ui/TargetBG_4.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/TargetBG_4_b515ca35.png",
+      "sha256": "d2490de75413a2bba651fac03e0f075e7f8031cf91c78748f3bf026d68408c28",
+      "bytes": 4524,
+      "size": [
+        77,
+        77
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        76,
+        76
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 19,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/TargetBG_4_b515ca35.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 31,
+          "kind": "direct",
+          "expression": "ui/TargetBG_4_b515ca35.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/TargetBG_4_d27bfba7.png",
+      "sha256": "1f8065d056949351194153d13a4ee05a568b081a2f549e355b9be137c92ea6eb",
+      "bytes": 5593,
+      "size": [
+        68,
+        54
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        1,
+        1,
+        67,
+        53
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 20,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/TargetBG_4_d27bfba7.png"
+        },
+        {
+          "source": "scripts/normal_progress.gd",
+          "line": 52,
+          "kind": "direct",
+          "expression": "ui/TargetBG_4_d27bfba7.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/TargetBar.png",
+      "sha256": "d387b0e26becf369761d52fa0af5bd4792d2e83f8c1130c3d32209f796bce74c",
+      "bytes": 279,
+      "size": [
+        50,
+        28
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        50,
+        28
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/game.tscn",
+          "line": 16,
+          "kind": "direct",
+          "expression": "res://assets/rea_original/sprites/ui/TargetBar.png"
+        }
+      ],
+      "runtime_used": true
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/logo_en.png",
+      "sha256": "e8d25ddf56d327d5ef7c3bef57213e5abb19fa848d9a9519d102ead7ed3d2a05",
+      "bytes": 1595640,
+      "size": [
+        1286,
+        1223
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        0,
+        1286,
+        1223
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 14,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/ui/logo_en.png"
+        }
+      ],
+      "runtime_used": false
+    },
+    {
+      "path": "assets/rea_original/sprites/ui/logo_zh.png",
+      "sha256": "cc290c771681625106c2351b6cd020359e6852b680d7b4cc12edeb6fd0a5b969",
+      "bytes": 1481924,
+      "size": [
+        1402,
+        1122
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        51,
+        9,
+        1384,
+        1122
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "references": [
+        {
+          "source": "scenes/main_menu.tscn",
+          "line": 5,
+          "kind": "scene-declaration-only",
+          "expression": "res://assets/rea_original/sprites/ui/logo_zh.png"
+        }
+      ],
+      "runtime_used": false
+    },
+    {
+      "path": "icon.svg",
+      "sha256": "6c80384360a5b269d1054bfb27241258154e2cc8167c522016fdc1820e84e0f8",
+      "bytes": 995,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "SVG",
+      "alpha_bbox": null,
+      "references": [
+        {
+          "source": "project.godot",
+          "line": 16,
+          "kind": "direct",
+          "expression": "res://icon.svg"
+        }
+      ],
+      "runtime_used": true
+    }
+  ],
+  "unresolved": [],
+  "retained_original_audio": [
+    {
+      "name": "chooseCoin",
+      "path": "assets/rea_original/audio/chooseCoin.mp3",
+      "references": [
+        "scripts/challenge.gd:213",
+        "scripts/challenge.gd:220",
+        "scripts/game.gd:169",
+        "scripts/game.gd:179"
+      ]
+    },
+    {
+      "name": "click",
+      "path": "assets/rea_original/audio/click.mp3",
+      "references": [
+        "scripts/challenge.gd:353",
+        "scripts/challenge.gd:365",
+        "scripts/challenge.gd:422",
+        "scripts/challenge_menu.gd:181",
+        "scripts/challenge_menu.gd:197",
+        "scripts/challenge_menu.gd:287",
+        "scripts/challenge_menu.gd:297",
+        "scripts/challenge_screen.gd:130",
+        "scripts/game.gd:645"
+      ]
+    },
+    {
+      "name": "combo",
+      "path": "assets/rea_original/audio/combo.mp3",
+      "references": [
+        "scripts/game.gd:361"
+      ]
+    },
+    {
+      "name": "getArea",
+      "path": "assets/rea_original/audio/getArea.mp3",
+      "references": [
+        "scripts/game.gd:398"
+      ]
+    },
+    {
+      "name": "get_coin",
+      "path": "assets/rea_original/audio/get_coin.mp3",
+      "references": [
+        "scripts/challenge.gd:310"
+      ]
+    },
+    {
+      "name": "giveCoin",
+      "path": "assets/rea_original/audio/giveCoin.mp3",
+      "references": [
+        "scripts/game.gd:251"
+      ]
+    },
+    {
+      "name": "giveCoin2",
+      "path": "assets/rea_original/audio/giveCoin2.mp3",
+      "references": [
+        "scripts/challenge.gd:174"
+      ]
+    },
+    {
+      "name": "merge",
+      "path": "assets/rea_original/audio/merge.mp3",
+      "references": [
+        "scripts/game.gd:332"
+      ]
+    },
+    {
+      "name": "resetStart",
+      "path": "assets/rea_original/audio/resetStart.mp3",
+      "references": [
+        "scripts/game.gd:456"
+      ]
+    },
+    {
+      "name": "tz_full",
+      "path": "assets/rea_original/audio/tz_full.mp3",
+      "references": [
+        "scripts/challenge.gd:274"
+      ]
+    },
+    {
+      "name": "unlockArea",
+      "path": "assets/rea_original/audio/unlockArea.mp3",
+      "references": [
+        "scripts/game.gd:349"
+      ]
+    },
+    {
+      "name": "warn",
+      "path": "assets/rea_original/audio/warn.mp3",
+      "references": [
+        "scripts/challenge.gd:241",
+        "scripts/game.gd:202"
+      ]
+    },
+    {
+      "name": "win",
+      "path": "assets/rea_original/audio/win.mp3",
+      "references": [
+        "scripts/game.gd:346"
+      ]
+    }
+  ]
+}

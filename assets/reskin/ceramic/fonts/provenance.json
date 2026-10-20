@@ -1,0 +1,14 @@
+{
+  "source_urls": {
+    "font": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt"
+  },
+  "license": "SIL Open Font License 1.1",
+  "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "subset_sha256": "a37f25c3600369b5be7eeba8922e73cd711d23fa5d042746380ec1eb04ab1fdb",
+  "font_weight": 650,
+  "family": "Coin Merge UI",
+  "unicode_count": 457,
+  "requested_missing_symbols": [],
+  "bytes": 110080
+}

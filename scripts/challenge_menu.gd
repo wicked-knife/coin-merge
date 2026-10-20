@@ -46,10 +46,10 @@ func _ready() -> void:
 	panel.texture = preload(UI_ROOT + "ui/PanelBG.png")
 	panel.position = Vector2(42.5, 101)
 	panel.size = Vector2(665, 1178)
-	panel.patch_margin_left = 148
-	panel.patch_margin_top = 119
-	panel.patch_margin_right = 143
-	panel.patch_margin_bottom = 119
+	panel.patch_margin_left = Ceramic.PANEL_MARGIN
+	panel.patch_margin_top = Ceramic.PANEL_MARGIN
+	panel.patch_margin_right = Ceramic.PANEL_MARGIN
+	panel.patch_margin_bottom = Ceramic.PANEL_MARGIN
 	panel.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	layout.add_child(panel)
 	var heading := label("挑战一下", Vector2(150, 135), Vector2(450, 70), 45)
@@ -239,8 +239,8 @@ func _build_unlock_dialog() -> void:
 	_unlock_coin.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	row.add_child(_unlock_coin)
 	_unlock_number = label("", Vector2.ZERO, Vector2(52, 55), 20)
-	_unlock_number.add_theme_font_override("font", preload("res://assets/rea_original/fonts/number01/number01.fnt"))
-	_unlock_number.add_theme_color_override("font_color", Color.WHITE)
+	_unlock_number.add_theme_font_override("font", Ceramic.FONT)
+	_unlock_number.add_theme_color_override("font_color", Ceramic.INK)
 	_unlock_coin.add_child(_unlock_number)
 	_unlock_suffix = label("challenge.unlock_suffix", Vector2.ZERO, Vector2.ZERO, 40)
 	_unlock_suffix.add_theme_color_override("font_color", DialogStyle.BODY_COLOR)

@@ -1,7 +1,8 @@
 extends Control
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 signal activated(step: int)
 const Motion = preload("res://scripts/normal_motion.gd")
-const ROOT := "res://assets/rea_original/sprites/ui/"
+const ROOT := Ceramic.UI
 var hand: TextureRect
 var bubble: PanelContainer
 var label: Label

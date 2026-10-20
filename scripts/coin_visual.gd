@@ -1,7 +1,8 @@
 extends TextureRect
+const Ceramic = preload("res://scripts/ceramic_skin.gd")
 
-const ROOT := "res://assets/rea_original/sprites/"
-const NUMBERS = preload("res://assets/rea_original/fonts/number01/number01.fnt")
+const ROOT := Ceramic.SPRITES
+const NUMBERS = Ceramic.FONT
 const Motion = preload("res://scripts/normal_motion.gd")
 var item := {"level": 1, "hidden": false}
 var content: Control
@@ -28,20 +29,21 @@ func configure(data: Dictionary, show_question: bool = false, war: bool = false)
 		icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		content.add_child(icon)
 		number = Label.new()
-		number.position = Vector2(0.5, 24.5)
+		# Center type on the ceramic face; the coin canvas/animation origin stays fixed.
+		number.position = Vector2(0.5, 14)
 		number.size = Vector2(100, 60)
 		number.scale.y = 0.6
 		number.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		number.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 		number.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
 		number.add_theme_font_override("font", NUMBERS)
-		number.add_theme_color_override("font_shadow_color", Color(0.42, 0.22, 0.03, 0.4))
-		number.add_theme_constant_override("shadow_offset_y", 2)
+		number.add_theme_color_override("font_color", Ceramic.INK)
+		number.add_theme_color_override("font_shadow_color", Color.TRANSPARENT)
 		number.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		content.add_child(number)
 		question = TextureRect.new()
 		question.texture = preload(ROOT + "Texture/skin/Icon_QuestionMark.png")
-		question.position = Vector2(35, 21)
+		question.position = Vector2(35, 8)
 		question.size = Vector2(31, 32)
 		question.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		question.mouse_filter = Control.MOUSE_FILTER_IGNORE
