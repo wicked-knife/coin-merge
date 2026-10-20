@@ -11,3 +11,8 @@
 # Download cache; the renamed OFL subset, license and source digest are retained.
 /art-source/ceramic/fonts/*.ttf
 **/__pycache__/
+
+# Reproducible Web exports and local Cloudflare state.
+/build/
+/.wrangler/
+/node_modules/

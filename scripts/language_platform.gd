@@ -29,7 +29,7 @@ static func get_language(tree: SceneTree, timeout: float = 2.0) -> String:
 	if not OS.has_feature("web"):
 		return ""
 	return await wait_for_language(tree,
-		func(): return JavaScriptBridge.eval(LANGUAGE_SCRIPT),
+		func(): return bool(JavaScriptBridge.eval(LANGUAGE_SCRIPT)),
 		func(): return JavaScriptBridge.eval(RESULT_SCRIPT), timeout)
 
 

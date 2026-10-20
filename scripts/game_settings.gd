@@ -47,7 +47,8 @@ func initialize_language(tree: SceneTree) -> void:
 	var detected := await _detect_language(tree)
 	# A user may choose even the current English language while the SDK is pending.
 	if not _has_language_preference:
-		language = Localization.available(detected)
+		# Missing or invalid platform results keep the standalone default.
+		language = Localization.available(detected) if detected is String else Localization.DEFAULT
 		TranslationServer.set_locale(language)
 
 
@@ -94,7 +95,7 @@ func _save() -> void:
 
 func _supports_vibration() -> bool:
 	if OS.has_feature("web"):
-		return JavaScriptBridge.eval("typeof navigator.vibrate === 'function' && navigator.maxTouchPoints > 0") == true
+		return bool(JavaScriptBridge.eval("typeof navigator.vibrate === 'function' && navigator.maxTouchPoints > 0"))
 	if OS.has_feature("android") and Engine.has_singleton("AndroidRuntime"):
 		var context = Engine.get_singleton("AndroidRuntime").getApplicationContext()
 		var vibrator = context.getSystemService("vibrator")

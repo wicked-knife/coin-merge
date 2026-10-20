@@ -1,0 +1,6 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "coin-merge-play",
+  "pages_build_output_dir": "./build/web",
+  "compatibility_date": "2026-10-13"
+}

@@ -36,6 +36,8 @@ static func normalize(value: String) -> String:
 
 static func available(value: String) -> String:
 	var locale := normalize(value)
+	if locale.is_empty():
+		return DEFAULT
 	return locale if locale in TranslationServer.get_loaded_locales() else DEFAULT
 
 

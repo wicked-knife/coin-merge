@@ -37,4 +37,4 @@ const INTERSTITIAL_SCRIPT := """
 static func request_interstitial(placement: String) -> bool:
 	if not OS.has_feature("web"):
 		return false
-	return JavaScriptBridge.eval(INTERSTITIAL_SCRIPT % JSON.stringify(placement)) == true
+	return bool(JavaScriptBridge.eval(INTERSTITIAL_SCRIPT % JSON.stringify(placement)))
