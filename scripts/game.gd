@@ -425,8 +425,8 @@ func _show_failure() -> void:
 	_cancel_selection()
 	var actions: Array = []
 	if game.shuffle_left > 0:
-		actions.append({"id": "rescue", "label": tr("整理（剩余 %d 次）") % game.shuffle_left, "primary": true})
-	actions.append({"id": "retry", "label": "重新挑战"})
+		actions.append({"id": "rescue", "label": "洗牌", "note": tr("本局剩余%d次") % game.shuffle_left, "primary": true})
+	actions.append({"id": "retry", "label": "重新开始"})
 	_dialog.open("槽位已满", "整理同级硬币释放空间，或重新挑战当前关卡。", actions, game.targets()[game.stage()])
 	_refresh_actions()
 

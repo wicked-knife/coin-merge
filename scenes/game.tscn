@@ -489,8 +489,11 @@ visible = false
 in_game_layout = true
 
 [node name="Panel" parent="SettingsDialog" index="1"]
-offset_top = -370.0
-offset_bottom = 370.0
+offset_top = -390.0
+offset_bottom = 390.0
+
+[node name="Options" parent="SettingsDialog/Panel" index="2"]
+theme_override_constants/separation = 20
 
 [node name="GameActions" parent="SettingsDialog/Panel" index="4"]
 visible = true

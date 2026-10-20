@@ -98,8 +98,10 @@ func _on_start_button_pressed() -> void:
 func _on_challenge_button_pressed() -> void:
 	if not _can_interact():
 		return
-	_prepare_dialog()
-	settings_dialog.open_notice("挑战模式暂未实现")
+	_leaving = true
+	_play_click()
+	await get_tree().create_timer(0.15).timeout
+	get_tree().change_scene_to_file("res://scenes/challenge_menu.tscn")
 
 
 func _on_settings_button_pressed() -> void:

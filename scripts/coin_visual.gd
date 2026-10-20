@@ -9,10 +9,12 @@ var icon: TextureRect
 var number: Label
 var question: TextureRect
 var _float: Tween
+var challenge := false
 
 
-func configure(data: Dictionary, show_question: bool = false) -> void:
+func configure(data: Dictionary, show_question: bool = false, war: bool = false) -> void:
 	item = data.duplicate()
+	challenge = war
 	if content == null:
 		size = Vector2(101, 67)
 		pivot_offset = size / 2.0
@@ -45,9 +47,11 @@ func configure(data: Dictionary, show_question: bool = false) -> void:
 		question.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		content.add_child(question)
 	icon.texture = load(ROOT + "Texture/skin/normal/%d.png" % (16 if item.hidden else posmod(item.level - 1, 15) + 1))
+	if challenge and not item.hidden:
+		icon.texture = load(ROOT + "Texture/skin/war/War%d.png" % item.level)
 	number.text = str(item.level)
 	number.add_theme_font_size_override("font_size", 32 if item.level < 100 else 26)
-	number.visible = not item.hidden
+	number.visible = not item.hidden and not challenge
 	question.visible = item.hidden and show_question
 
 
@@ -63,7 +67,7 @@ func set_floating(enabled: bool) -> void:
 func reveal(tween: Tween, data: Dictionary, delay: float = 0.0) -> void:
 	question.hide()
 	tween.tween_property(self, "scale", Vector2.ZERO, 0.15).set_delay(delay)
-	tween.tween_callback(configure.bind(data, false)).set_delay(delay + 0.15)
+	tween.tween_callback(configure.bind(data, false, challenge)).set_delay(delay + 0.15)
 	tween.tween_property(self, "scale", Vector2.ONE, 0.15).from(Vector2.ZERO).set_delay(delay + 0.15)
 
 

@@ -1,0 +1,72 @@
+[
+  {
+    "status": "rejected",
+    "input": {
+      "name": "Excelarea_color1",
+      "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/19/1982f49c-2aa7-48fa-a903-cfbcf3f91f29.json",
+      "reference": "D:/projects/coin-merge/docs/rea-reference/raw-configs/request-45-1982f49c-2aa7-48fa-a903-cfbcf3f91f29.json"
+    },
+    "reason": "TypeError: fetch failed",
+    "cause": "UND_ERR_CONNECT_TIMEOUT"
+  },
+  {
+    "status": "rejected",
+    "input": {
+      "name": "Excelchallenge_area1",
+      "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/e6/e60dc87a-a41f-46fe-a446-d22bac8ae93e.json",
+      "reference": "D:/projects/coin-merge/docs/rea-reference/raw-configs/request-51-e60dc87a-a41f-46fe-a446-d22bac8ae93e.json"
+    },
+    "reason": "TypeError: fetch failed",
+    "cause": "UND_ERR_CONNECT_TIMEOUT"
+  },
+  {
+    "status": "rejected",
+    "input": {
+      "name": "Excelchallenge_deal1",
+      "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/1f/1f276066-acc9-40fe-afc4-273590a1f78f.json",
+      "reference": "D:/projects/coin-merge/docs/rea-reference/raw-configs/request-46-1f276066-acc9-40fe-afc4-273590a1f78f.json"
+    },
+    "reason": "TypeError: fetch failed",
+    "cause": "UND_ERR_CONNECT_TIMEOUT"
+  },
+  {
+    "status": "rejected",
+    "input": {
+      "name": "Excelchallenge_guide",
+      "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/4d/4d386163-9e49-47de-ac47-f68c500285ea.json",
+      "reference": "D:/projects/coin-merge/docs/rea-reference/raw-configs/request-61-4d386163-9e49-47de-ac47-f68c500285ea.json"
+    },
+    "reason": "TypeError: fetch failed",
+    "cause": "UND_ERR_CONNECT_TIMEOUT"
+  },
+  {
+    "status": "rejected",
+    "input": {
+      "name": "Excelkeyvalue",
+      "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/3b/3b6ac34c-37eb-4bfd-b0e9-9dd24c999107.json",
+      "reference": "D:/projects/coin-merge/docs/rea-reference/raw-configs/request-49-3b6ac34c-37eb-4bfd-b0e9-9dd24c999107.json"
+    },
+    "reason": "TypeError: fetch failed",
+    "cause": "UND_ERR_CONNECT_TIMEOUT"
+  },
+  {
+    "status": "rejected",
+    "input": {
+      "name": "09c2bb4cf",
+      "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/09/09c2bb4cf.json",
+      "reference": "D:/projects/coin-merge/assets/rea_original/reference/cocos-published/assets/resources/import/09/09c2bb4cf.json"
+    },
+    "reason": "TypeError: fetch failed",
+    "cause": "UND_ERR_CONNECT_TIMEOUT"
+  },
+  {
+    "status": "rejected",
+    "input": {
+      "name": "0f06036bd",
+      "url": "https://8388451114541855247.playables.usercontent.goog/v/assets/assets/resources/import/0f/0f06036bd.json",
+      "reference": "D:/projects/coin-merge/assets/rea_original/reference/cocos-published/assets/resources/import/0f/0f06036bd.json"
+    },
+    "reason": "TypeError: fetch failed",
+    "cause": "UND_ERR_CONNECT_TIMEOUT"
+  }
+]

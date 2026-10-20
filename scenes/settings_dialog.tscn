@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3]
+[gd_scene load_steps=27 format=3]
 
 [ext_resource type="Script" path="res://scripts/settings_dialog.gd" id="1_script"]
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/PanelBG.png" id="2_panel"]
@@ -7,8 +7,57 @@
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Set_broad_2.png" id="5_on"]
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Set_btn.png" id="6_knob"]
 [ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_blue_25px.png" id="7_action"]
+[ext_resource type="Texture2D" path="res://assets/rea_original/sprites/ui/Btn_yellow_25px.png" id="8_home"]
+[ext_resource type="Script" path="res://scripts/modal_shade.gd" id="9_shade"]
 
 [sub_resource type="StyleBoxTexture" id="Style_home"]
+content_margin_left = 12.0
+content_margin_top = 8.0
+content_margin_right = 12.0
+content_margin_bottom = 14.0
+texture = ExtResource("8_home")
+texture_margin_left = 49.0
+texture_margin_top = 47.0
+texture_margin_right = 49.0
+texture_margin_bottom = 47.0
+
+[sub_resource type="StyleBoxTexture" id="Style_home_hover"]
+content_margin_left = 12.0
+content_margin_top = 8.0
+content_margin_right = 12.0
+content_margin_bottom = 14.0
+texture = ExtResource("8_home")
+texture_margin_left = 49.0
+texture_margin_top = 47.0
+texture_margin_right = 49.0
+texture_margin_bottom = 47.0
+modulate_color = Color(1.1, 1.1, 1.1, 1)
+
+[sub_resource type="StyleBoxTexture" id="Style_home_pressed"]
+content_margin_left = 12.0
+content_margin_top = 11.0
+content_margin_right = 12.0
+content_margin_bottom = 11.0
+texture = ExtResource("8_home")
+texture_margin_left = 49.0
+texture_margin_top = 47.0
+texture_margin_right = 49.0
+texture_margin_bottom = 47.0
+modulate_color = Color(0.85, 0.85, 0.85, 1)
+
+[sub_resource type="StyleBoxTexture" id="Style_home_disabled"]
+content_margin_left = 12.0
+content_margin_top = 8.0
+content_margin_right = 12.0
+content_margin_bottom = 14.0
+texture = ExtResource("8_home")
+texture_margin_left = 49.0
+texture_margin_top = 47.0
+texture_margin_right = 49.0
+texture_margin_bottom = 47.0
+modulate_color = Color(0.7, 0.7, 0.7, 1)
+
+[sub_resource type="StyleBoxTexture" id="Style_retry"]
 content_margin_left = 12.0
 content_margin_top = 8.0
 content_margin_right = 12.0
@@ -19,7 +68,7 @@ texture_margin_top = 49.0
 texture_margin_right = 57.0
 texture_margin_bottom = 49.0
 
-[sub_resource type="StyleBoxTexture" id="Style_home_hover"]
+[sub_resource type="StyleBoxTexture" id="Style_retry_hover"]
 content_margin_left = 12.0
 content_margin_top = 8.0
 content_margin_right = 12.0
@@ -31,7 +80,7 @@ texture_margin_right = 57.0
 texture_margin_bottom = 49.0
 modulate_color = Color(1.1, 1.1, 1.1, 1)
 
-[sub_resource type="StyleBoxTexture" id="Style_home_pressed"]
+[sub_resource type="StyleBoxTexture" id="Style_retry_pressed"]
 content_margin_left = 12.0
 content_margin_top = 11.0
 content_margin_right = 12.0
@@ -43,18 +92,17 @@ texture_margin_right = 57.0
 texture_margin_bottom = 49.0
 modulate_color = Color(0.85, 0.85, 0.85, 1)
 
-[sub_resource type="StyleBoxFlat" id="Style_retry_disabled"]
+[sub_resource type="StyleBoxTexture" id="Style_retry_disabled"]
 content_margin_left = 12.0
 content_margin_top = 8.0
 content_margin_right = 12.0
 content_margin_bottom = 14.0
-bg_color = Color(0.7, 0.73, 0.79, 1)
-border_width_bottom = 6
-border_color = Color(0.55, 0.59, 0.66, 1)
-corner_radius_top_left = 26
-corner_radius_top_right = 26
-corner_radius_bottom_left = 26
-corner_radius_bottom_right = 26
+texture = ExtResource("7_action")
+texture_margin_left = 57.0
+texture_margin_top = 49.0
+texture_margin_right = 57.0
+texture_margin_bottom = 49.0
+modulate_color = Color(0.7, 0.7, 0.7, 1)
 
 [sub_resource type="StyleBoxFlat" id="Style_home_focus"]
 bg_color = Color(0, 0, 0, 0)
@@ -74,7 +122,7 @@ font_names = PackedStringArray("Microsoft YaHei")
 [sub_resource type="Theme" id="Theme_dialog"]
 default_font = SubResource("SystemFont_chinese")
 default_font_size = 42
-Label/colors/font_color = Color(0.32, 0.31, 0.45, 1)
+Label/colors/font_color = Color(0.388, 0.561, 0.765, 1)
 
 [sub_resource type="StyleBoxEmpty" id="Style_toggle"]
 
@@ -146,6 +194,7 @@ theme = SubResource("Theme_dialog")
 script = ExtResource("1_script")
 
 [node name="Shade" type="ColorRect" parent="."]
+script = ExtResource("9_shade")
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -162,9 +211,9 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -266.4
+offset_left = -293.0
 offset_top = -297.5
-offset_right = 266.4
+offset_right = 293.0
 offset_bottom = 297.5
 grow_horizontal = 2
 grow_vertical = 2
@@ -176,10 +225,11 @@ patch_margin_bottom = 119
 
 [node name="Title" type="Label" parent="Panel"]
 layout_mode = 0
-offset_left = 106.4
-offset_top = 28.0
-offset_right = 426.4
-offset_bottom = 98.0
+offset_left = 56.0
+offset_top = 26.0
+offset_right = 530.0
+offset_bottom = 96.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 45
 text = "设置"
 horizontal_alignment = 1
@@ -190,9 +240,9 @@ layout_mode = 1
 anchor_left = 1.0
 anchor_right = 1.0
 offset_left = -56.0
-offset_top = -12.0
+offset_top = 28.0
 offset_right = 25.0
-offset_bottom = 69.0
+offset_bottom = 109.0
 focus_mode = 2
 mouse_default_cursor_shape = 2
 texture_normal = ExtResource("3_close")
@@ -201,9 +251,9 @@ tooltip_text = "关闭"
 [node name="Options" type="VBoxContainer" parent="Panel"]
 layout_mode = 0
 offset_left = 54.0
-offset_top = 110.0
-offset_right = 478.8
-offset_bottom = 360.0
+offset_top = 145.0
+offset_right = 532.0
+offset_bottom = 420.0
 theme_override_constants/separation = 48
 
 [node name="SoundRow" type="HBoxContainer" parent="Panel/Options"]
@@ -405,47 +455,57 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="GameActions" type="HBoxContainer" parent="Panel"]
+[node name="GameActions" type="VBoxContainer" parent="Panel"]
 visible = false
 layout_mode = 1
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 45.0
-offset_top = -164.0
+offset_top = -324.0
 offset_right = -45.0
-offset_bottom = -64.0
+offset_bottom = -54.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_constants/separation = 18
+theme_override_constants/separation = 14
 
 [node name="HomeButton" type="Button" parent="Panel/GameActions"]
-custom_minimum_size = Vector2(0, 100)
+custom_minimum_size = Vector2(320, 128)
 layout_mode = 2
-size_flags_horizontal = 3
+size_flags_horizontal = 4
 mouse_default_cursor_shape = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
 theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 32
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_disabled_color = Color(0.9, 0.91, 0.94, 1)
+theme_override_font_sizes/font_size = 42
 theme_override_styles/normal = SubResource("Style_home")
 theme_override_styles/hover = SubResource("Style_home_hover")
 theme_override_styles/pressed = SubResource("Style_home_pressed")
+theme_override_styles/hover_pressed = SubResource("Style_home_pressed")
+theme_override_styles/disabled = SubResource("Style_home_disabled")
 theme_override_styles/focus = SubResource("Style_home_focus")
 text = "返回主页"
 
 [node name="RetryButton" type="Button" parent="Panel/GameActions"]
-custom_minimum_size = Vector2(0, 100)
+custom_minimum_size = Vector2(320, 128)
 layout_mode = 2
-size_flags_horizontal = 3
+size_flags_horizontal = 4
 focus_mode = 2
 theme_override_colors/font_disabled_color = Color(0.9, 0.91, 0.94, 1)
-theme_override_font_sizes/font_size = 32
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 42
 theme_override_styles/disabled = SubResource("Style_retry_disabled")
-theme_override_styles/normal = SubResource("Style_home")
-theme_override_styles/hover = SubResource("Style_home_hover")
-theme_override_styles/pressed = SubResource("Style_home_pressed")
+theme_override_styles/normal = SubResource("Style_retry")
+theme_override_styles/hover = SubResource("Style_retry_hover")
+theme_override_styles/pressed = SubResource("Style_retry_pressed")
+theme_override_styles/hover_pressed = SubResource("Style_retry_pressed")
 theme_override_styles/focus = SubResource("Style_home_focus")
 disabled = false
 text = "重新挑战"

@@ -1,0 +1,170 @@
+{
+  "recorded_at": "2026-10-19T14:47:28.695395+00:00",
+  "purpose": "Approved challenge audit implementation verification. Original audit evidence remains unchanged.",
+  "runtime": {
+    "godot": "4.7.2.stable.official.ed1daf0bf",
+    "node": "26.11.1",
+    "platform": "Windows / OpenGL compatibility"
+  },
+  "checks": {
+    "challenge_rules": {
+      "checks": 2802,
+      "failures": 0
+    },
+    "challenge_flow_visual": {
+      "checks": 65,
+      "failures": 0,
+      "captures": 9
+    },
+    "platform_bridge_mock": {
+      "tests": 8,
+      "failures": 0
+    },
+    "normal_rules_regression": {
+      "checks": 3483,
+      "failures": 0
+    },
+    "normal_flow_regression": {
+      "checks": 59,
+      "failures": 0
+    },
+    "godot_parse_import": "passed",
+    "git_diff_check": "passed",
+    "normal_sources_unchanged_from_audit_baseline": true
+  },
+  "limits": [
+    "No live YouTube host or real ad playback validation.",
+    "No 100-level manual solve or solvability proof.",
+    "No pixel/frame comparison with original runtime.",
+    "Production RNG differs from Math.random."
+  ],
+  "files": [
+    {
+      "path": "scripts/challenge.gd",
+      "bytes": 16303,
+      "sha256": "e4fd17904e36b293f8a5a024af55b28e50179f690563fb01dc5ce643fbb64b64"
+    },
+    {
+      "path": "scripts/challenge_data.gd",
+      "bytes": 42580,
+      "sha256": "3aba4f828c550258056e1f023696d3a8a6c053fb54052ef93b2b0d1daedc92bc"
+    },
+    {
+      "path": "scripts/challenge_game.gd",
+      "bytes": 14189,
+      "sha256": "c95b0d3280e9ae7942a60bf97cf44227bad477011369f05a170eb6a82e6fbd08"
+    },
+    {
+      "path": "scripts/challenge_menu.gd",
+      "bytes": 11339,
+      "sha256": "920ea4aa7c24d95abbedfc22d2a8bebc8752bfba6efccf9bc8228d523d9151ab"
+    },
+    {
+      "path": "scripts/challenge_platform.gd",
+      "bytes": 1442,
+      "sha256": "d3142b054aec07756141012adaf9eb50707a28f12a13e5f639bf5431b263748a"
+    },
+    {
+      "path": "scripts/challenge_screen.gd",
+      "bytes": 4966,
+      "sha256": "9946c7001df8d96e7b203240f6870ee8a540401fec9bb5aec600d97f5c1ceb2a"
+    },
+    {
+      "path": "scripts/challenge_slot.gd",
+      "bytes": 8787,
+      "sha256": "54ab27f770b8e57fee590c5e55020c26df98ca6cd4e6a411d5f6ba61001de465"
+    },
+    {
+      "path": "shaders/challenge_coin_light.gdshader",
+      "bytes": 758,
+      "sha256": "651704de526c1187e31ea96d8caffec6f8a9388504c6d69429bc14df3885cb83"
+    },
+    {
+      "path": "tests/challenge_flow_test.gd",
+      "bytes": 17516,
+      "sha256": "816b3888054b3a36189162339c443bed061d1868a36c7161fa27a457385d2a1d"
+    },
+    {
+      "path": "tests/challenge_flow_test.gd.uid",
+      "bytes": 20,
+      "sha256": "7c8cea550372724b4a4745a680103eb4eeb64176d5dea1138e5f46d9713f00c3"
+    },
+    {
+      "path": "tests/challenge_game_test.gd",
+      "bytes": 16268,
+      "sha256": "2abe421521f9da43a145c798aaa4fbf1b308a5982956cecf101340942cec0362"
+    },
+    {
+      "path": "tests/challenge_game_test.gd.uid",
+      "bytes": 19,
+      "sha256": "ad76100e2c420a6244d1e36325d67575f954f757155029d372c7e5cf52b7b508"
+    },
+    {
+      "path": "tests/challenge_platform_test.cjs",
+      "bytes": 4954,
+      "sha256": "7be0ce0a5a7f1c6b9b68000824b080e44caa6a7b01c5119194f01d6d6ddeb1dc"
+    },
+    {
+      "path": "translations/menu.csv",
+      "bytes": 6511,
+      "sha256": "93b1febdb80a57f8fc369ba05c3ec6a311e8852de2d155c43412742e9ec28254"
+    },
+    {
+      "path": "translations/menu.en.translation",
+      "bytes": 5000,
+      "sha256": "06ff0613509fab10ba30722e9adb550b3dbd5de6c8f29b24be0fb1d44c4be045"
+    },
+    {
+      "path": "translations/menu.zh.translation",
+      "bytes": 5739,
+      "sha256": "1dd12501696ee8d77001da760181fc94aea8244d6eeaf9663f0bde6a39e1015c"
+    }
+  ],
+  "local_previews_ignored_by_git": [
+    {
+      "path": "previews/challenge-dense-board.png",
+      "bytes": 372029,
+      "sha256": "7e4b8fca31eb3bb9e66e541648e4447e4c806dd6633701dd212b0e8a357307d8"
+    },
+    {
+      "path": "previews/challenge-english.png",
+      "bytes": 286808,
+      "sha256": "bff1b2904049998b83f2cb7f66a1196e982f29986f18f64a71308843596d7aad"
+    },
+    {
+      "path": "previews/challenge-level-1.png",
+      "bytes": 286720,
+      "sha256": "fbf89424660e30f203fa4f5aa991e36c85a7eae4002346397ecb2fecc91c7151"
+    },
+    {
+      "path": "previews/challenge-record-board.png",
+      "bytes": 278403,
+      "sha256": "1ec35bcf56f8871bd4b8baa0cfe8687595a3e7594b7bb5aefbd55cf02201feea"
+    },
+    {
+      "path": "previews/challenge-record.png",
+      "bytes": 131388,
+      "sha256": "b92c0dacef1452fada416233c7bc66d9bfe3a28f5e35bef82c451f38a3e9d240"
+    },
+    {
+      "path": "previews/challenge-selection.png",
+      "bytes": 46787,
+      "sha256": "09b2355f73241524a269d4375f5fa2a6465f47c7a79b68b05db015fdd35398f8"
+    },
+    {
+      "path": "previews/challenge-success.png",
+      "bytes": 139592,
+      "sha256": "a65e4cd8103e32b621b1d2c84d5d9758106cb2c46f3700cc2f15fb40ef44d50d"
+    },
+    {
+      "path": "previews/challenge-tutorial.png",
+      "bytes": 75908,
+      "sha256": "2cc464ca17d7080e03bfc83afe52af138f02c025ab87a31dbd5b652f2abe6bd1"
+    },
+    {
+      "path": "previews/challenge-unlock.png",
+      "bytes": 54448,
+      "sha256": "aaf120e0466c66ac824a2b41f88f60e590ecb5d7d4b42f2c7230845607dece54"
+    }
+  ]
+}

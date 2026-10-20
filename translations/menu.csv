@@ -3,7 +3,6 @@ keys,zh,en
 挑战一下,挑战一下,Challenge
 设置,设置,Settings
 提示,提示,Notice
-挑战模式暂未实现,挑战模式暂未实现,Challenge mode is not available yet.
 音效,音效,Sound
 音效开关,音效开关,Toggle sound
 振动,振动,Vibration
@@ -40,6 +39,9 @@ keys,zh,en
 槽位已满,槽位已满,Board full
 整理同级硬币释放空间，或重新挑战当前关卡。,整理同级硬币释放空间，或重新挑战当前关卡。,Sort matching coins to free space or retry this level.
 整理（剩余 %d 次）,整理（剩余 %d 次）,Sort (%d left)
+洗牌,洗牌,Shuffle
+重新开始,重新开始,Restart
+本局剩余%d次,本局剩余%d次,%d shuffles left
 奖励未完成，请稍后再试,奖励未完成，请稍后再试,Reward incomplete. Please try again.
 继续合并相同等级的硬币,继续合并相同等级的硬币,Keep merging coins of the same level
 合成上方的最终目标硬币，进入下一关。,合成上方的最终目标硬币，进入下一关。,Merge the final goal coin above to reach the next level.
@@ -60,3 +62,50 @@ normal.guide.same_type,同类型放一起噢。,Place same types together.
 normal.guide.get_more,获取更多的硬币。,Get more coins.
 normal.guide.keep_merge,继续合成~,Keep merging~
 normal.guide.merge_target,这是本关的合成目标！,This is the merge target!
+challenge.title,挑战模式,Challenge
+challenge.summary,最高硬币 %d 级 · 已完成 %d/100 · 金币 %d,Highest coin %d · Completed %d/100 · Gold %d
+challenge.level,挑战 %d,Challenge %d
+challenge.play,开始挑战,Play
+challenge.doing,继续挑战,Continue
+challenge.complete,挑战完成！,Challenge complete!
+challenge.locked,尚未解锁,Locked
+challenge.unlock,合成 %d 级硬币解锁,Reach coin level %d to unlock
+challenge.best_short,最佳 %s,Best %s
+challenge.best,最佳耗时：%s,Best time: %s
+challenge.record,通关纪录,Your record
+challenge.replay,重新挑战,Replay
+challenge.next,下一关,Next level
+challenge.levels,挑战选关,Levels
+challenge.result,本次耗时：%s\n最佳耗时：%s,Time: %s\nBest: %s
+challenge.first_reward,首次完成 · 金币 +1,First completion · Gold +1
+challenge.new_record,刷新最佳纪录！,New best time!
+challenge.tutorial,挑战教学,Challenge tutorial
+challenge.tutorial_hint,*10个相同颜色硬币为一组，摆放到对应颜色的凹槽上；\n*颜色不同且槽位已满时硬币不能放一起；\n*两凹槽上都只有同一种硬币，可彼此摆放。,"*Fill each target with 10 coins of its color.\n*Different colors cannot mix, and full slots cannot receive more coins.\n*Two stacks each containing one color can swap."
+challenge.hint,按箭头颜色放满 10 枚 · 整摞不同颜色可交换,Fill targets with 10 matching coins. Entire stacks of different colors can swap.
+challenge.progress,目标完成 %d / %d,Targets %d / %d
+challenge.finished_board,全部目标已完成,All targets complete
+challenge.slot,槽位 %d · %d/10,Slot %d · %d/10
+challenge.target,目标颜色 %d,Target color %d
+challenge.wait,敬请\n期待,Coming\nsoon
+challenge.available,可挑战,Ready
+challenge.unlock_title,提示信息!,Notice!
+challenge.unlock_action,去合成,Merge coins
+challenge.unlock_body,主玩法合成 %d 级硬币解锁,Merge a level %d coin in the main game to unlock
+challenge.unlock_dismiss,好的,OK
+challenge.unlock_prefix,主玩法合成,Main game: merge
+challenge.unlock_suffix,解锁,to unlock
+challenge.your_time,本次耗时,Your time
+challenge.best_label,最佳耗时,Best time
+challenge.record_hint,再试一次，刷新最佳纪录,Replay to beat your best time
+challenge.swipe_hint,左右滑动选关,Swipe to choose a level
+challenge.menu_level,第%d关,Level %d
+challenge.tap_retry,点击屏幕 重新挑战,Tap to retry
+challenge.dismiss,关闭,Close
+challenge.back,返回,Back
+challenge.share,分享,Share
+challenge.video_share,视频分享,Share video
+time.day,天,d
+time.hour,时,h
+time.min,分,m
+time.sec,秒,s
+challenge.hud_level,关卡%d,Level%d

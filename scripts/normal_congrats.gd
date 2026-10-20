@@ -17,11 +17,10 @@ func open(value: int, final: bool) -> void:
 	_closing = false
 	modulate.a = 1
 	show()
-	var shade := ColorRect.new()
-	shade.size = size
-	shade.color = Color(0, 0, 0, 150.0 / 255.0)
-	shade.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var shade := preload("res://scripts/modal_shade.gd").new()
 	add_child(shade)
+	# This celebration dismisses on any tap, so its shade passes input to the parent.
+	shade.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	_text("normal.congrats", 507, 48, Color.WHITE)
 	var coin := FX.big_coin(self, value, Vector2(120, 120))
 	coin.get_child(0).add_theme_font_size_override("font_size", 40)

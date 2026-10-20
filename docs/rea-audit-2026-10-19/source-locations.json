@@ -1,0 +1,142 @@
+{
+  "bundle_sha256": "36dbde0e3c574aa866b28a0724fd6858b4aba84ddcd62504855bbfeabe6b7599",
+  "offsets": "zero-based UTF-8 byte offsets, exclusive end",
+  "modules": [
+    {
+      "module": "WarUI",
+      "path": "docs/rea-reference/source/modules/WarUI.js",
+      "sha256": "64171d716fbe9f91c7eb6598291d2b258203a18d185098a10023a09eb3339d89",
+      "bundle_start_byte": 229264,
+      "bundle_end_byte_exclusive": 234295,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "WarTipsUI",
+      "path": "docs/rea-reference/source/modules/WarTipsUI.js",
+      "sha256": "56a3f1a95604a0d6d914a9b674380e9bb96b880b40662238be8bb1caf1cd03c7",
+      "bundle_start_byte": 226564,
+      "bundle_end_byte_exclusive": 229264,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "WarLevelItem",
+      "path": "docs/rea-reference/source/modules/WarLevelItem.js",
+      "sha256": "e03069eedf48d9191bf791b67e035da2ecbea550bd005e5115bf31bd6714bc25",
+      "bundle_start_byte": 220260,
+      "bundle_end_byte_exclusive": 223204,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "WarGameUI",
+      "path": "docs/rea-reference/source/modules/WarGameUI.js",
+      "sha256": "7956fb697ee97da4d6df5c02853df367f5f5ee22d159b0106bbba16ea33e7aca",
+      "bundle_start_byte": 208859,
+      "bundle_end_byte_exclusive": 220260,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "WarCellLayer",
+      "path": "docs/rea-reference/source/modules/WarCellLayer.js",
+      "sha256": "d44cdd8a8be357ba1bce23f861c55da18ae2c9f045c03d7935f41fd587409693",
+      "bundle_start_byte": 203123,
+      "bundle_end_byte_exclusive": 208859,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "WarCellItem",
+      "path": "docs/rea-reference/source/modules/WarCellItem.js",
+      "sha256": "83609b81f5b338f0c534140899ce77c9874cb78f31aee51bb5fd2d82ce017d17",
+      "bundle_start_byte": 194742,
+      "bundle_end_byte_exclusive": 203123,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "WarSucUI",
+      "path": "docs/rea-reference/source/modules/WarSucUI.js",
+      "sha256": "57c578be54f090741c11ac6165b397d0020c0b50d32cb9a3f4476109b540e248",
+      "bundle_start_byte": 224504,
+      "bundle_end_byte_exclusive": 226564,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "WarRecordUI",
+      "path": "docs/rea-reference/source/modules/WarRecordUI.js",
+      "sha256": "e948114f8aa83692ac9db104ef4b0f0963065bce9e34c365610a0b74553a449b",
+      "bundle_start_byte": 223204,
+      "bundle_end_byte_exclusive": 224504,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "Create",
+      "path": "docs/rea-reference/source/modules/Create.js",
+      "sha256": "140a646f21c93403147314aeaaeb504c7f28b0cfcccfe9fb6a7e7d5d56241c59",
+      "bundle_start_byte": 39522,
+      "bundle_end_byte_exclusive": 42961,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "MathTools",
+      "path": "docs/rea-reference/source/modules/MathTools.js",
+      "sha256": "041ae85bc0433902f2d2dd5863eccc87889ca72183005ecb16f6c647d36895df",
+      "bundle_start_byte": 165780,
+      "bundle_end_byte_exclusive": 169267,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "GameConst",
+      "path": "docs/rea-reference/source/modules/GameConst.js",
+      "sha256": "618b95d3535ecdc878a91689ec0b0fe0e01ba7e53c162b05654935627dbb4a27",
+      "bundle_start_byte": 60340,
+      "bundle_end_byte_exclusive": 61407,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "Coin",
+      "path": "docs/rea-reference/source/modules/Coin.js",
+      "sha256": "6ac7a905afdbe55edfd77272b381633261edf752a81594bd06e30c94260b7434",
+      "bundle_start_byte": 33552,
+      "bundle_end_byte_exclusive": 37365,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "SettingUI",
+      "path": "docs/rea-reference/source/modules/SettingUI.js",
+      "sha256": "470f12a2ede6e352bbaf276449c5808e9e070a62716bfb9f28fb2feebb9bb9e6",
+      "bundle_start_byte": 176966,
+      "bundle_end_byte_exclusive": 182688,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "ADCollect",
+      "path": "docs/rea-reference/source/modules/ADCollect.js",
+      "sha256": "9e6a04d929216a42a02200c6cba032beec46e19201438c70241dde324950cfb0",
+      "bundle_start_byte": 608,
+      "bundle_end_byte_exclusive": 2484,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "shareTools",
+      "path": "docs/rea-reference/source/modules/shareTools.js",
+      "sha256": "ba1d8d7ab430e1aa803a7728c82f343b5eb73d638b2d2c952ea8fb5b2275a90c",
+      "bundle_start_byte": 239188,
+      "bundle_end_byte_exclusive": 239588,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "YouTubeAdapter",
+      "path": "docs/rea-reference/source/modules/YouTubeAdapter.js",
+      "sha256": "c5a5dd7c651ca3522ce6acb01849d8937617c7d6f54b2e6ce819208e1e31edb2",
+      "bundle_start_byte": 236924,
+      "bundle_end_byte_exclusive": 239188,
+      "exact_bundle_substring": true
+    },
+    {
+      "module": "UIHelper",
+      "path": "docs/rea-reference/source/modules/UIHelper.js",
+      "sha256": "5b5bcdbc613f5e161bdeb9d2f143e48d02deb65880669b522d8767b65b82d593",
+      "bundle_start_byte": 189077,
+      "bundle_end_byte_exclusive": 189891,
+      "exact_bundle_substring": true
+    }
+  ]
+}

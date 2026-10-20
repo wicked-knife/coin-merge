@@ -1,0 +1,171 @@
+{
+  "kind": "offline-controlled-replay",
+  "environment": {
+    "node": "v26.11.1",
+    "platform": "win32",
+    "architecture": "x64",
+    "osRelease": "10.0.26300"
+  },
+  "randomStream": {
+    "algorithm": "xorshift32 (13,17,5)",
+    "unsignedNormalization": "uint32 / 4294967296",
+    "seedFormula": "level * 100 + sample",
+    "levelRange": [
+      1,
+      100
+    ],
+    "sampleRange": [
+      1,
+      50
+    ]
+  },
+  "scope": "Complete per-cell coin order and hidden flags; aligned mode additionally requires equal random draw count. Manual JS translation of local generator; GDScript itself is not executed.",
+  "limits": [
+    "No browser or production game runtime executed.",
+    "Production Godot/Cocos RNG engines are replaced by the controlled stream.",
+    "No claim about puzzle solvability or live UI behavior."
+  ],
+  "identities": [
+    {
+      "path": "docs/rea-reference/source/main.index.js",
+      "sha256": "36dbde0e3c574aa866b28a0724fd6858b4aba84ddcd62504855bbfeabe6b7599"
+    },
+    {
+      "path": "docs/rea-reference/source/modules/Create.js",
+      "sha256": "140a646f21c93403147314aeaaeb504c7f28b0cfcccfe9fb6a7e7d5d56241c59"
+    },
+    {
+      "path": "scripts/challenge_game.gd",
+      "sha256": "ab0eacac5f301c8ea825140490bf23ef125c4454281011eb918e352c5b7f1cf0"
+    },
+    {
+      "path": "scripts/challenge_data.gd",
+      "sha256": "3aba4f828c550258056e1f023696d3a8a6c053fb54052ef93b2b0d1daedc92bc"
+    },
+    {
+      "path": "docs/rea-reference/configs/Excelchallenge_area1.json",
+      "sha256": "bc3bcb49da43e56e7fa0fdd2eaf7b742705f697fc3e09a94706149ba286d3016"
+    },
+    {
+      "path": "docs/rea-reference/configs/Excelchallenge_deal1.json",
+      "sha256": "015f826ad0b724c3fab67c38fb648ed9d5a5e667e2c3ea36091680fd44f584f1"
+    },
+    {
+      "path": "docs/rea-reference/configs/Excelarea_color1.json",
+      "sha256": "6ab37de908ecaa7036c6a5c9dd59cc7a14f6e1784e8f2ea3f6d841704e8854ce"
+    },
+    {
+      "path": "docs/rea-reference/configs/Excelkeyvalue.json",
+      "sha256": "957e2b541aac1367c367fd0a9760512b5d4f1fdf92536042b4ee9cb5612fbc15"
+    }
+  ],
+  "embeddedTableCheck": {
+    "localLevelCount": 100,
+    "originalLevelCount": 100,
+    "mismatchedLevelTables": [],
+    "groupWeightsEqual": true
+  },
+  "results": {
+    "tests": 5000,
+    "equalAligned": 5000,
+    "equalCurrent": 0,
+    "originalHiddenFallback": 0,
+    "originalConsoleLogs": 3168,
+    "originalConsoleErrors": 0,
+    "pureRepairShortages": 3,
+    "localDefensiveFillFallback": 0,
+    "invalidOriginal": 0,
+    "minimumFallbackInventoryMargin": 57,
+    "maximumOriginalRandomDraws": 1652
+  },
+  "firstCurrentOrderDifference": {
+    "level": 1,
+    "sample": 1,
+    "seed": 101,
+    "firstDifferentCell": 0,
+    "original": [
+      [
+        4,
+        false
+      ],
+      [
+        4,
+        false
+      ],
+      [
+        4,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        8,
+        false
+      ],
+      [
+        8,
+        false
+      ],
+      [
+        8,
+        false
+      ],
+      [
+        8,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        3,
+        false
+      ]
+    ],
+    "currentOrderPort": [
+      [
+        8,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        4,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        3,
+        false
+      ],
+      [
+        3,
+        false
+      ]
+    ]
+  }
+}

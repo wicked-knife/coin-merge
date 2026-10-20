@@ -38,6 +38,7 @@ var _feedback: Tween
 var _cover: Control
 var _cover_clip: Control
 var opening := false
+var challenge := false
 
 
 func _ready() -> void:
@@ -115,9 +116,9 @@ static func skin_level(value: int) -> int:
 	return posmod(value - 1, 15) + 1
 
 
-static func make_coin(item: Dictionary, show_question: bool = false) -> TextureRect:
+static func make_coin(item: Dictionary, show_question: bool = false, war: bool = false) -> TextureRect:
 	var visual := CoinVisual.new()
-	visual.configure(item, show_question)
+	visual.configure(item, show_question, war)
 	return visual
 
 
@@ -152,7 +153,7 @@ func render(cell: Dictionary, selected: int = 0, guided: bool = false, merge_rea
 	tooltip_text = "槽位 %d · %d/10" % [index + 1, cell.coins.size()] if open else (tr("奖励槽位") if state == Rules.CellState.REWARD else _caption.text)
 	for offset in range(cell.coins.size()):
 		var boundary: bool = cell.coins[offset].hidden and offset + 1 < cell.coins.size() and not cell.coins[offset + 1].hidden
-		var view := make_coin(cell.coins[offset], boundary)
+		var view := make_coin(cell.coins[offset], boundary, challenge)
 		view.position = coin_position(offset)
 		add_child(view)
 		coin_views.append(view)

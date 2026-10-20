@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-19",
+  "scope": "Documentation-only comparison audit; no implementation changes authorized before user review",
+  "target_url": "https://www.youtube.com/playables/UgkxP0bGugMKLTPTbHIMdt6iuUI4QgKUDmek",
+  "game_version": "1.0.0.260719_1811_50b68c2",
+  "bundle": {
+    "sha256": "36dbde0e3c574aa866b28a0724fd6858b4aba84ddcd62504855bbfeabe6b7599",
+    "bytes": 241317,
+    "equal_previous_snapshot": true
+  },
+  "rea_evidence_ids": {
+    "youtube": "ev_a7f88eb0c874dd4e3ec4fa3a92907b92111002e5f9a5f009ff626935e81e2ffd",
+    "game": "ev_0eb7220550ea4cfa3ff7aef997d308809ae27b0f9b4e7d8b116c6cbe43d92f84",
+    "static": "ev_f30ce2cb947c1134e06efcb04ebf921a04f908455f5c3e51cf0af9b45bd38187",
+    "static_summary": "ev_dcda4f9d41ca7171da043ee6509c4618780b35a8ab7583cacf70c8ee3c88dbcf"
+  },
+  "complete_evidence_export": {
+    "records": 4,
+    "uncompressed_bytes": 77684923,
+    "uncompressed_sha256": "df325aa1c6c62f06ee11fb9124e16853c402160443eace905407cb4f9835a92c",
+    "compression_roundtrip_verified": true
+  },
+  "static_limits": {
+    "visited_ast_nodes": 69550,
+    "parse_failures": 0,
+    "automatic_application_modules": 0,
+    "semantic_unknowns": 16389,
+    "application_coverage": "partial",
+    "semantic_coverage": "unknown",
+    "truncated": false
+  },
+  "validation": {
+    "report_file_links_checked": 89,
+    "broken_links": [],
+    "local_game_files_rechecked": 41,
+    "changed_files_since_fingerprint": [],
+    "probe_input_hash_mismatches": [],
+    "original_modules_exact_bundle_substrings": true
+  },
+  "probe": {
+    "tests": 5000,
+    "equal_aligned": 5000,
+    "equal_current_order": 0,
+    "local_side": "manual JavaScript translation; not execution of GDScript"
+  },
+  "unknowns": [
+    "No new live challenge-level interaction or all-level solvability proof.",
+    "Two browser captures are incomplete; retained API response bytes are not authenticated original transaction or wire bodies.",
+    "Five external configurations and two prefabs could not be refreshed through direct Node fetch (connection timeout); historical resource snapshots retained.",
+    "YouTube-host ad, cloud-save, and lifecycle behavior not exercised."
+  ],
+  "files": [
+    {
+      "path": "docs/rea-audit-2026-10-19/rea-complete-evidence.json.gz",
+      "bytes": 13374285,
+      "sha256": "8edb3d93b6ffe69f87b9836df3079bd5de6c7fb43a0a8cfc4aef5937714427a1"
+    },
+    {
+      "path": "docs/rea-audit-2026-10-19/rea-fresh-browser-evidence.json",
+      "bytes": 3939576,
+      "sha256": "d889e481941fe221229c7dbc2bbd5442fb4510646db214fc0d88db072a75b596"
+    },
+    {
+      "path": "docs/rea-audit-2026-10-19/rea-static-summary.json",
+      "bytes": 13653,
+      "sha256": "a896edfd92a9c6d6f649945e5ccf6fffbc0dc0fcf8495f409e4903b6532986cf"
+    },
+    {
+      "path": "docs/rea-audit-2026-10-19/source/main.index.js",
+      "bytes": 241317,
+      "sha256": "36dbde0e3c574aa866b28a0724fd6858b4aba84ddcd62504855bbfeabe6b7599"
+    },
+    {
+      "path": "docs/rea-audit-2026-10-19/source-locations.json",
+      "bytes": 5347,
+      "sha256": "1f20704d7cf545a2f1c2e52837211eef2790a55eeff8f1ebd9f9145e8cf5a796"
+    },
+    {
+      "path": "docs/rea-audit-2026-10-19/challenge-generator-controlled-replay.cjs",
+      "bytes": 13238,
+      "sha256": "a7344213529a9cf35bfcf8d98ae7773935479c90ddbedcaf291c14903960bbb7"
+    },
+    {
+      "path": "docs/rea-audit-2026-10-19/challenge-generator-controlled-replay-result.json",
+      "bytes": 3797,
+      "sha256": "cc57f8e486fd192c801bc5baa3b6a9ee8a16c07305b4a5b81ee673171b7b69b0"
+    },
+    {
+      "path": "docs/rea-audit-2026-10-19/fresh-resources.json",
+      "bytes": 3087,
+      "sha256": "a5571610b2cedf517823db28e1c51cecb903116efb507ff4bda3c1c276d081a2"
+    },
+    {
+      "path": "docs/rea-audit-2026-10-19/local-source-fingerprints.json",
+      "bytes": 6747,
+      "sha256": "220c5447e9961e1d29d65fd994d1f0f19d5734c92db1d57698cf9b94957208eb"
+    },
+    {
+      "path": "docs/挑战模式_REA差异核对_2026-10-19.md",
+      "bytes": 32316,
+      "sha256": "0ce9890b8634e0f5c196a86a7100ee3f2852f530dd18521e734b662494b89d17"
+    }
+  ]
+}

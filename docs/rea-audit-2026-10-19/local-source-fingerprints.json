@@ -1,0 +1,211 @@
+{
+  "captured_at": "2026-10-19T14:16:04.131Z",
+  "purpose": "Read-only comparison baseline. Existing uncommitted implementation and user edits are included, without changing them.",
+  "files": [
+    {
+      "path": "project.godot",
+      "bytes": 1207,
+      "sha256": "9e3e374d292c0c57b7c9c3f88fd79b7e087dcb1e1b91251722d3efd730d0feef"
+    },
+    {
+      "path": "scenes/challenge.tscn",
+      "bytes": 283,
+      "sha256": "aaf641609b9b127eafad66d49ee3c19a339c5805868b4c0b1e83205bd4ee828f"
+    },
+    {
+      "path": "scenes/challenge_menu.tscn",
+      "bytes": 292,
+      "sha256": "96b8c6eeec7de1af77fca27f917e86f6ff6826a9af05b2167aa455cfa585a3bd"
+    },
+    {
+      "path": "scenes/coin_slot.tscn",
+      "bytes": 242,
+      "sha256": "051727c7a039a7adf1d27531f2df8aaf0b75d3a0cbee287dd0a6304eb79caa97"
+    },
+    {
+      "path": "scenes/game.tscn",
+      "bytes": 15622,
+      "sha256": "6a3fb23cf18800a3cd3fef2a2fc1c33e979737391247e9e5faf46d844b80def0"
+    },
+    {
+      "path": "scenes/main_menu.tscn",
+      "bytes": 7635,
+      "sha256": "a9d4f38e7578d1bc284402be36820db9fface25a5fc2666fd6aeb276f93f1204"
+    },
+    {
+      "path": "scenes/settings_dialog.tscn",
+      "bytes": 16559,
+      "sha256": "23b73eb70ae1e55e5a0925fe2d67b07db76a24197b5fac6f834f538e24bb562c"
+    },
+    {
+      "path": "scripts/challenge.gd",
+      "bytes": 14530,
+      "sha256": "bbfe3b36441ee0c7faa38714b4e56fb743a1dc017aad0cdecc2f5f496bfa162b"
+    },
+    {
+      "path": "scripts/challenge_data.gd",
+      "bytes": 42580,
+      "sha256": "3aba4f828c550258056e1f023696d3a8a6c053fb54052ef93b2b0d1daedc92bc"
+    },
+    {
+      "path": "scripts/challenge_game.gd",
+      "bytes": 13012,
+      "sha256": "ab0eacac5f301c8ea825140490bf23ef125c4454281011eb918e352c5b7f1cf0"
+    },
+    {
+      "path": "scripts/challenge_menu.gd",
+      "bytes": 4022,
+      "sha256": "1bf6a7430530d2f2561f10954335672f84778976556f5cf7dfb5f7eb2e955be2"
+    },
+    {
+      "path": "scripts/challenge_screen.gd",
+      "bytes": 4966,
+      "sha256": "0b731c1b2bfaa7b149b1ae1d50bbe4cfec2347f01afffc0ef67ff96380fd8a0f"
+    },
+    {
+      "path": "scripts/challenge_slot.gd",
+      "bytes": 1325,
+      "sha256": "4bbefa6c644373f250ad3079c0a2daea8052495b1e17c41754d3abbc65280352"
+    },
+    {
+      "path": "scripts/coin_slot.gd",
+      "bytes": 13293,
+      "sha256": "a0f7471d29dd98913891dafd2514d2270acd913dee03bdb8325d0f432eb120f0"
+    },
+    {
+      "path": "scripts/coin_visual.gd",
+      "bytes": 2899,
+      "sha256": "c96452341f50131a0e23be9390e0073adef0c02f9db7665db884ad8cbaa21725"
+    },
+    {
+      "path": "scripts/game.gd",
+      "bytes": 22250,
+      "sha256": "631c29142cfd3fe6a24b57e947c05c14cb21ccef355e409f25379d94b9d888d0"
+    },
+    {
+      "path": "scripts/game_settings.gd",
+      "bytes": 2390,
+      "sha256": "1d7bf823ca615dc76368bee6e3343925e99f156eb9c4aeb27bc6aeb60e2013cd"
+    },
+    {
+      "path": "scripts/gameplay_dialog.gd",
+      "bytes": 5835,
+      "sha256": "3345be46fb1e90452b8e05f05260605eef780110975e1f9820d0ba679cd9f874"
+    },
+    {
+      "path": "scripts/main_menu.gd",
+      "bytes": 5125,
+      "sha256": "8de21cd3196acb77f0483a71946ce219ef40cafd9b200da0742d15bc93feeecb"
+    },
+    {
+      "path": "scripts/normal_congrats.gd",
+      "bytes": 2334,
+      "sha256": "819168a0a79db6a2949acc62320971faa408274fcc5d41b3610fd1d52e1fb780"
+    },
+    {
+      "path": "scripts/normal_effects.gd",
+      "bytes": 5117,
+      "sha256": "fe177333271d5ce9cd029c477ac62c9d50f824713ab8402a994149843602ed44"
+    },
+    {
+      "path": "scripts/normal_game.gd",
+      "bytes": 14595,
+      "sha256": "a9ba3a5a022948931923d8d34170520e54703a50e7a12d8617a336e9b28f3af9"
+    },
+    {
+      "path": "scripts/normal_motion.gd",
+      "bytes": 3184,
+      "sha256": "f7fa53071a12974af26718f580c3f880b54508301b1e2063c58b03159a4070c3"
+    },
+    {
+      "path": "scripts/normal_motion_data.gd",
+      "bytes": 39762,
+      "sha256": "9199419d72fa00f49fff5a15022ad30fc6994582c2533c42e757979634b6ad4a"
+    },
+    {
+      "path": "scripts/normal_particle_data.gd",
+      "bytes": 5304,
+      "sha256": "fde5b37469929d484a7664d400f3adabca246a0882790f623dd9ed6b7d40c0a6"
+    },
+    {
+      "path": "scripts/normal_particles.gd",
+      "bytes": 3627,
+      "sha256": "4f67824ae64f662217f2ac93209e0c32fdc1e7716d8eca42b652cd2fb93b2ff4"
+    },
+    {
+      "path": "scripts/normal_progress.gd",
+      "bytes": 4733,
+      "sha256": "61b42b87fc32a14b7d37a838e90dff0f9c0bc6749df5eeca57ae25c71b544e7c"
+    },
+    {
+      "path": "scripts/normal_tutorial.gd",
+      "bytes": 3357,
+      "sha256": "10e572965e81517d78b3fd3b0828bb93ce885a0dcafadc6c3191621b6129124b"
+    },
+    {
+      "path": "scripts/settings_dialog.gd",
+      "bytes": 6419,
+      "sha256": "2269198941e542983e2b77c978b38fd3128ccc1f7034dc54b651c42626d194f3"
+    },
+    {
+      "path": "tests/README.md",
+      "bytes": 4614,
+      "sha256": "66fb9c0893ba922373d88a5a6d75f4bfd768e99813b338a2b9cbddeef41ecd6a"
+    },
+    {
+      "path": "tests/challenge_flow_test.gd",
+      "bytes": 12514,
+      "sha256": "ad6cdec8e28d550f44cb12010a7c31f5ca9307cb9c878e9987e6028a1c43cbd7"
+    },
+    {
+      "path": "tests/challenge_game_test.gd",
+      "bytes": 10049,
+      "sha256": "f21d5331942c10aa77744b3fdc15c93b0101c0dd159bf11859a9f700dbeaaad7"
+    },
+    {
+      "path": "tests/game_flow_test.gd",
+      "bytes": 16454,
+      "sha256": "08406e3342607d4bd2a29df45a489bcdab67b30b5e7d754848452b1b83e5cd63"
+    },
+    {
+      "path": "tests/normal_game_test.gd",
+      "bytes": 10033,
+      "sha256": "a37e7a41375a83c371c61fb9a5bb647dbd33f2a58c2ed42596472af2b6e91354"
+    },
+    {
+      "path": "tools/build_challenge_data.py",
+      "bytes": 1397,
+      "sha256": "a3107afe36cd3dceb77294966de043c7d0c7f60307b20c6af4fa45d0c6331dec"
+    },
+    {
+      "path": "tools/build_motion_previews.py",
+      "bytes": 1397,
+      "sha256": "3eceff8a6e99b35780851dd8933fd90774cc9dc4b584895b92c06c004deed2f6"
+    },
+    {
+      "path": "tools/build_normal_motion.py",
+      "bytes": 2040,
+      "sha256": "83baba927ad5f67ff6e3668b9543cfeecfdde0e13c2b73b3c60c9aca45fea2d5"
+    },
+    {
+      "path": "tools/build_normal_particles.py",
+      "bytes": 1803,
+      "sha256": "6cb26d1148c9619786ffad8d9ea73ccba87e7fe6b5019fd1f9083f6af0502b0e"
+    },
+    {
+      "path": "translations/menu.csv",
+      "bytes": 5597,
+      "sha256": "2cad617266df20b936150faed7c846ddbfbc582df7d28be6dbe447cd186b1842"
+    },
+    {
+      "path": "translations/menu.en.translation",
+      "bytes": 3924,
+      "sha256": "0bbb445f04365d3da3b383888dbe374ee3a39208639657971d063d93efec7c6f"
+    },
+    {
+      "path": "translations/menu.zh.translation",
+      "bytes": 4567,
+      "sha256": "a869e45cd9ceff47bbc4c6163d7717d4aa69f69a051c09ca7d8063cb527c468b"
+    }
+  ]
+}

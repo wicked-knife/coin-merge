@@ -1,5 +1,7 @@
 extends Control
 
+const DialogStyle = preload("res://scripts/dialog_style.gd")
+
 signal closed
 signal sound_toggled(enabled: bool)
 signal vibration_toggled(enabled: bool)
@@ -18,11 +20,11 @@ signal retry_requested
 @onready var chinese_button: Button = $Panel/Options/LanguageRow/Languages/Chinese
 @onready var english_button: Button = $Panel/Options/LanguageRow/Languages/English
 @onready var message: Label = $Panel/Message
-@onready var game_actions: HBoxContainer = $Panel/GameActions
+@onready var game_actions: VBoxContainer = $Panel/GameActions
 @onready var home_button: Button = $Panel/GameActions/HomeButton
 @onready var retry_button: Button = $Panel/GameActions/RetryButton
 
-# 游戏实例在编辑器中也显示 740 高的面板；菜单实例保持默认布局。
+# 游戏实例使用更高的面板，为选项和两枚操作按钮留出间距。
 @export var in_game_layout := false
 
 var _open_tween: Tween
@@ -32,6 +34,9 @@ var _home_pending := false
 
 
 func _ready() -> void:
+	DialogStyle.title(title)
+	DialogStyle.apply_button(home_button, "yellow")
+	DialogStyle.apply_button(retry_button)
 	panel.pivot_offset = panel.size / 2.0
 	close_button.pivot_offset = close_button.size / 2.0
 	close_button.button_down.connect(_animate_close.bind(true))
@@ -46,6 +51,8 @@ func _ready() -> void:
 func set_language(locale: String) -> void:
 	chinese_button.set_pressed_no_signal(locale == "zh")
 	english_button.set_pressed_no_signal(locale == "en")
+	DialogStyle.fit_button_text(home_button)
+	DialogStyle.fit_button_text(retry_button)
 
 
 func _on_language_pressed(locale: String) -> void:
@@ -78,6 +85,9 @@ func open_notice(text: String) -> void:
 
 func _show_panel() -> void:
 	_stop_tweens()
+	# Control hit testing follows sibling order, regardless of visual z_index.
+	# Challenge boards are created after this dialog and would intercept its clicks.
+	get_parent().move_child(self, get_parent().get_child_count() - 1)
 	show()
 	modulate.a = 0.0
 	panel.scale = Vector2(0.9, 0.9)
@@ -90,10 +100,11 @@ func _show_panel() -> void:
 
 
 func _set_game_layout(in_game: bool) -> void:
-	var half_height := 370.0 if in_game else 297.5
+	var half_height := 390.0 if in_game else 297.5
 	panel.offset_top = -half_height
 	panel.offset_bottom = half_height
 	panel.pivot_offset = panel.size / 2.0
+	options.add_theme_constant_override("separation", 20 if in_game else 42)
 	game_actions.visible = in_game
 
 
